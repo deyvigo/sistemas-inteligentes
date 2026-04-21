@@ -1,0 +1,402 @@
+[
+    {
+        "id": 0,
+        "oracion": "Cerrar los ojos y dormir",
+        "traduccion": "pict_10146 pict_6479",
+        "conceptos": "cerrar los ojos, dormir",
+        "concept_output": "cerrar, ojos, y, dormir",
+        "output": "pict_7056 pict_2876 pict_3047 pict_28623"
+    },
+    {
+        "id": 1,
+        "oracion": "Mi voto es secreto",
+        "traduccion": "pict_6631 pict_6071",
+        "conceptos": "votar, silencio",
+        "concept_output": "mi, voto, ser, secreto",
+        "output": "pict_12264 pict_24603 pict_36480 pict_39204"
+    },
+    {
+        "id": 2,
+        "oracion": "Yo quiero usar la polea para mover los objetos",
+        "traduccion": "pict_5441 pict_15485 pict_26334 pict_7167 pict_32582",
+        "conceptos": "yo quiero, usar, polea, mover, objetos",
+        "concept_output": "yo, querer, usar, la, polea, mover, objetos",
+        "output": "pict_7310 pict_11536 pict_15485 pict_7029 pict_26334 pict_39425 pict_11318"
+    },
+    {
+        "id": 3,
+        "oracion": "Pues inventa algo para poder volar",
+        "traduccion": "pict_6019 pict_11318 pict_6246",
+        "conceptos": "inventar, objeto, volar",
+        "concept_output": "pues, inventar, algo, poder, volar",
+        "output": "pict_6514 pict_6019 pict_5374 pict_11750 pict_6246"
+    },
+    {
+        "id": 4,
+        "oracion": "Tallo",
+        "traduccion": "pict_37009",
+        "conceptos": "tallo",
+        "concept_output": "tallo",
+        "output": "pict_37009"
+    },
+    {
+        "id": 5,
+        "oracion": "Estoy tranquilo mientras la enfermera me mide la temperatura",
+        "traduccion": "pict_5465 pict_31310 pict_7081 pict_2375 pict_29830",
+        "conceptos": "estar, tranquilo, mientras, enfermera, tomar la fiebre",
+        "concept_output": "estar, tranquilo, mientras, la, enfermera, me, medir, la, temperatura",
+        "output": "pict_36392 pict_37828 pict_24737 pict_7029 pict_35307 pict_7310 pict_38712 pict_7029 pict_34898"
+    },
+    {
+        "id": 6,
+        "oracion": "Levanta la mano y pregunta sobre lo que no entendiste",
+        "traduccion": "pict_9034 pict_36051 pict_27363",
+        "conceptos": "levantar la mano, preguntar, no entiendo",
+        "concept_output": "levantar, la, mano, y, pregunta, lo, que, no, entender",
+        "output": "pict_6549 pict_7029 pict_2928 pict_3047 pict_7217 pict_6481 pict_11351 pict_39149 pict_11697"
+    },
+    {
+        "id": 7,
+        "oracion": "Esperar en fila tu turno",
+        "traduccion": "pict_35187 pict_7289 pict_7158",
+        "conceptos": "esperar en fila, tú, turno",
+        "concept_output": "esperar, fila, tu, turno",
+        "output": "pict_27547 pict_39148 pict_12281 pict_22190"
+    },
+    {
+        "id": 8,
+        "oracion": "Esa fábrica producía cosas sin parar",
+        "traduccion": "pict_7091 pict_8581 pict_11698 pict_11318 pict_17322",
+        "conceptos": "esa, fábrica, producir, objetos, siempre",
+        "concept_output": "esa, fábrica, producir, cosas, parar",
+        "output": "pict_7091 pict_24507 pict_11698 pict_35968 pict_7196"
+    },
+    {
+        "id": 9,
+        "oracion": "Mamá y papá pasarán mucho tiempo con él porque es pequeño",
+        "traduccion": "pict_35060 pict_6581 pict_22631 pict_2275 pict_11348 pict_4716",
+        "conceptos": "padres, pasar, tiempo, bebé, porque, pequeño",
+        "concept_output": "mamá, y, papá, pasar, mucho, tiempo, él, porque, ser, pequeño",
+        "output": "pict_2458 pict_3047 pict_31146 pict_6829 pict_7168 pict_22631 pict_6480 pict_11348 pict_36480 pict_4716"
+    },
+    {
+        "id": 10,
+        "oracion": "Siempre iba en silla de ruedas, la paseaban sus abuelos",
+        "traduccion": "pict_17322 pict_35093 pict_25467 pict_26300 pict_12276 pict_6876",
+        "conceptos": "siempre, ir, silla de ruedas, pasear al bebé, sus, abuelos",
+        "concept_output": "siempre, ir, silla, rueda, la, pasear, sus, abuelos",
+        "output": "pict_17322 pict_8142 pict_25459 pict_6209 pict_7029 pict_37345 pict_12276 pict_30482"
+    },
+    {
+        "id": 11,
+        "oracion": "La doctora me mira los oídos con el otoscopio",
+        "traduccion": "pict_8263 pict_28673 pict_2871 pict_27001",
+        "conceptos": "doctora, mirar, oreja, otoscopio",
+        "concept_output": "la, doctora, me, mirar, oídos, otoscopio",
+        "output": "pict_7029 pict_38857 pict_7310 pict_6564 pict_39498 pict_27001"
+    },
+    {
+        "id": 12,
+        "oracion": "Observa la nutria",
+        "traduccion": "pict_2474 pict_8476 pict_6158",
+        "conceptos": "observar, la, nutria",
+        "concept_output": "observar, la, nutria",
+        "output": "pict_39155 pict_7029 pict_6158"
+    },
+    {
+        "id": 13,
+        "oracion": "Comer para crecer",
+        "traduccion": "pict_2349 pict_7194 pict_11683",
+        "conceptos": "comer, para, crecer",
+        "concept_output": "comer, crecer",
+        "output": "pict_2349 pict_23991"
+    },
+    {
+        "id": 14,
+        "oracion": "Dar abrazos",
+        "traduccion": "pict_4550",
+        "conceptos": "abrazo",
+        "concept_output": "dar, abrazo",
+        "output": "pict_28431 pict_4550"
+    },
+    {
+        "id": 15,
+        "oracion": "inflamación",
+        "traduccion": "pict_31833",
+        "conceptos": "inflamación",
+        "concept_output": "inflamación",
+        "output": "pict_31833"
+    },
+    {
+        "id": 16,
+        "oracion": "Escribimos una noticia",
+        "traduccion": "pict_8107 pict_8474 pict_7784",
+        "conceptos": "escribir, una, noticia",
+        "concept_output": "escribir, una, noticia",
+        "output": "pict_21851 pict_8474 pict_7784"
+    },
+    {
+        "id": 17,
+        "oracion": "La paleontóloga descubre los huesos de dinosaurio",
+        "traduccion": "pict_34256 pict_6019 pict_2972 pict_2738",
+        "conceptos": "paleontóloga, descubrir, hueso, dinosaurio",
+        "concept_output": "la, paleontóloga, descubrir, hueso, dinosaurio",
+        "output": "pict_7029 pict_34256 pict_35479 pict_6528 pict_2738"
+    },
+    {
+        "id": 18,
+        "oracion": "A ellos les gustaba jugar y cantar",
+        "traduccion": "pict_31805 pict_21917 pict_2439 pict_2315",
+        "conceptos": "ellos, gustar, jugar, cantar",
+        "concept_output": "ellos, les, gustar, jugar, y, cantar",
+        "output": "pict_7033 pict_7031 pict_32816 pict_37952 pict_3047 pict_37413"
+    },
+    {
+        "id": 19,
+        "oracion": "Voz digitalizada",
+        "traduccion": "pict_11685",
+        "conceptos": "voz digitalizada",
+        "concept_output": "Voz, digitalizada",
+        "output": "pict_8712 pict_2969"
+    },
+    {
+        "id": 20,
+        "oracion": "Té de hierbas",
+        "traduccion": "pict_29802 pict_3113",
+        "conceptos": "té, hierba",
+        "concept_output": "té, hierba",
+        "output": "pict_29802 pict_3113"
+    },
+    {
+        "id": 21,
+        "oracion": "Buenas porque dan agua a los embalses",
+        "traduccion": "pict_32432 pict_11348 pict_7167 pict_6889 pict_26049",
+        "conceptos": "buena, porque, mover, agua, embalse",
+        "concept_output": "buena, porque, dar, agua, embalse",
+        "output": "pict_13630 pict_11348 pict_28431 pict_2248 pict_26049"
+    },
+    {
+        "id": 22,
+        "oracion": "Esto uno con el pegamento",
+        "traduccion": "pict_7095 pict_8243 pict_7064 pict_2510",
+        "conceptos": "esto, unir, con, pegamento",
+        "concept_output": "esto, uno, pegamento",
+        "output": "pict_7095 pict_7291 pict_2510"
+    },
+    {
+        "id": 23,
+        "oracion": "energía química",
+        "traduccion": "pict_26059 pict_36374",
+        "conceptos": "energía, química",
+        "concept_output": "energía, química",
+        "output": "pict_26059 pict_36374"
+    },
+    {
+        "id": 24,
+        "oracion": "El corazón mueve la sangre por el cuerpo",
+        "traduccion": "pict_2715 pict_7167 pict_10269 pict_6473",
+        "conceptos": "corazón, mover, arteria, cuerpo",
+        "concept_output": "corazón, mover, la, sangre, cuerpo",
+        "output": "pict_2715 pict_39425 pict_7029 pict_2803 pict_2728"
+    },
+    {
+        "id": 948,
+        "oracion": "Cosquillas a mamá",
+        "traduccion": "pict_5480 pict_2458",
+        "conceptos": "cosquillas, mamá",
+        "concept_output": "cosquillas, mamá",
+        "output": "pict_27833 pict_2458"
+    },
+    {
+        "id": 949,
+        "oracion": "Igual que a mí cuando era un bebé",
+        "traduccion": "pict_3423 pict_2617 pict_24053 pict_5581 pict_2275",
+        "conceptos": "igual, yo, cuando, ser, bebé",
+        "concept_output": "igual, que, mí, cuando, ser, un, bebé",
+        "output": "pict_3423 pict_11351 pict_7310 pict_24053 pict_36480 pict_8474 pict_6060"
+    },
+    {
+        "id": 950,
+        "oracion": "Si la persona está viva siente hambre",
+        "traduccion": "pict_34560 pict_30196 pict_35559",
+        "conceptos": "persona, sentir, hambre",
+        "concept_output": "si, la, persona, estar, vivo, sentir, hambre",
+        "output": "pict_28359 pict_7029 pict_34560 pict_36392 pict_11397 pict_30196 pict_35559"
+    },
+    {
+        "id": 951,
+        "oracion": "Cuando crezca, jugaremos juntos",
+        "traduccion": "pict_24053 pict_11683 pict_2439",
+        "conceptos": "cuando, crecer, jugar",
+        "concept_output": "cuando, crecer, jugar, junto",
+        "output": "pict_24053 pict_23991 pict_37952 pict_5367"
+    },
+    {
+        "id": 952,
+        "oracion": "Compartir con amigos",
+        "traduccion": "pict_38900 pict_25792",
+        "conceptos": "compartir, amigos",
+        "concept_output": "compartir, amigos",
+        "output": "pict_15361 pict_2255"
+    },
+    {
+        "id": 953,
+        "oracion": "Mis fortalezas",
+        "traduccion": "pict_12266 pict_36539",
+        "conceptos": "mis, fortaleza",
+        "concept_output": "mis, fortaleza",
+        "output": "pict_12266 pict_37621"
+    },
+    {
+        "id": 954,
+        "oracion": "Huevos",
+        "traduccion": "pict_2427",
+        "conceptos": "huevo",
+        "concept_output": "huevos",
+        "output": "pict_34039"
+    },
+    {
+        "id": 955,
+        "oracion": "Juguemos en el bosque",
+        "traduccion": "pict_35371 pict_2666",
+        "conceptos": "jugar a la pelota, bosque",
+        "concept_output": "Juguemos, bosque",
+        "output": "pict_9813 pict_2666"
+    },
+    {
+        "id": 956,
+        "oracion": "Primero, vieron monos y gorilas",
+        "traduccion": "pict_37753 pict_6564 pict_2477 pict_2410",
+        "conceptos": "primero, ver, mono, gorila",
+        "concept_output": "primero, ver, mono, y, gorila",
+        "output": "pict_37753 pict_6564 pict_2477 pict_3047 pict_2410"
+    },
+    {
+        "id": 957,
+        "oracion": "Mi Proyecto de vida",
+        "traduccion": "pict_12264 pict_25721",
+        "conceptos": "mi, Proyecto de vida",
+        "concept_output": "mi, Proyecto, vida",
+        "output": "pict_12264 pict_8202 pict_8717"
+    },
+    {
+        "id": 958,
+        "oracion": "¿Seguir estudiando?",
+        "traduccion": "pict_27331 pict_6495",
+        "conceptos": "seguir, estudiar",
+        "concept_output": "seguir, estudiar",
+        "output": "pict_7037 pict_35979"
+    },
+    {
+        "id": 959,
+        "oracion": "Las personas mayores cortan la calabaza",
+        "traduccion": "pict_6886 pict_28201 pict_25020 pict_2679",
+        "conceptos": "adulto, adulta, cortar, calabaza",
+        "concept_output": "personas, mayor, cortar, la, calabaza",
+        "output": "pict_38444 pict_25796 pict_39428 pict_7029 pict_2679"
+    },
+    {
+        "id": 960,
+        "oracion": "Subimos al autobús",
+        "traduccion": "pict_36594",
+        "conceptos": "subir al autobús",
+        "concept_output": "subir, autobús",
+        "output": "pict_6617 pict_2262"
+    },
+    {
+        "id": 961,
+        "oracion": "Preocupado",
+        "traduccion": "pict_26985",
+        "conceptos": "preocupado",
+        "concept_output": "preocupado",
+        "output": "pict_26986"
+    },
+    {
+        "id": 962,
+        "oracion": "Partes del cartel",
+        "traduccion": "pict_9877 pict_11712 pict_8064",
+        "conceptos": "partes, del, cartel",
+        "concept_output": "partes, cartel",
+        "output": "pict_9877 pict_8064"
+    },
+    {
+        "id": 963,
+        "oracion": "Es una piedra corazón",
+        "traduccion": "pict_5581 pict_6594 pict_4613",
+        "conceptos": "ser, piedra, corazón",
+        "concept_output": "ser, una, piedra, corazón",
+        "output": "pict_36480 pict_8474 pict_6594 pict_2715"
+    },
+    {
+        "id": 964,
+        "oracion": "El cazador ayudó a Caperucita",
+        "traduccion": "pict_3010 pict_4570 pict_5942",
+        "conceptos": "cazador, ayudar, Caperucita",
+        "concept_output": "cazador, ayudar, Caperucita",
+        "output": "pict_3010 pict_32648 pict_5942"
+    },
+    {
+        "id": 965,
+        "oracion": "El oso marrón salió a dar un paseo por el bosque",
+        "traduccion": "pict_2488 pict_2923 pict_8142 pict_2666",
+        "conceptos": "oso, marrón, ir, bosque",
+        "concept_output": "oso, marrón, salir, dar, un, paseo, bosque",
+        "output": "pict_2868 pict_2923 pict_2806 pict_28431 pict_8474 pict_35111 pict_2666"
+    },
+    {
+        "id": 966,
+        "oracion": "Enviamos un mensaje fácil y corto",
+        "traduccion": "pict_21828 pict_37340 pict_32302 pict_11399 pict_26002",
+        "conceptos": "enviar, mensaje escrito, fácil, y, corto",
+        "concept_output": "enviar, un, mensaje, fácil, y, corto",
+        "output": "pict_27359 pict_8474 pict_37340 pict_32302 pict_3047 pict_4615"
+    },
+    {
+        "id": 967,
+        "oracion": "Explicar el orden",
+        "traduccion": "pict_16705 pict_2872",
+        "conceptos": "explicar, ordenar",
+        "concept_output": "explicar, orden",
+        "output": "pict_16705 pict_2872"
+    },
+    {
+        "id": 968,
+        "oracion": "Trabajos manuales",
+        "traduccion": "pict_24769",
+        "conceptos": "trabajos manuales",
+        "concept_output": "trabajo, manuales",
+        "output": "pict_16087 pict_32661"
+    },
+    {
+        "id": 969,
+        "oracion": "Hablar de mi",
+        "traduccion": "pict_3345 pict_7074 pict_7309",
+        "conceptos": "hablar, de, yo",
+        "concept_output": "hablar, mi",
+        "output": "pict_6517 pict_12264"
+    },
+    {
+        "id": 970,
+        "oracion": "En la granja, les dieron comida a las gallinas",
+        "traduccion": "pict_3337 pict_28431 pict_34749 pict_2403",
+        "conceptos": "granja, dar, cereal, gallina",
+        "concept_output": "la, granja, les, dar, comida, gallina",
+        "output": "pict_7029 pict_32482 pict_7031 pict_28431 pict_4611 pict_2403"
+    },
+    {
+        "id": 971,
+        "oracion": "Dani desayunó un bocadillo y una mandarina",
+        "traduccion": "pict_7176 pict_28667 pict_2281 pict_11298",
+        "conceptos": "niño, desayunar, bocadillo, mandarina",
+        "concept_output": "Dani, desayunar, un, bocadillo, y, una, mandarina",
+        "output": "pict_3284 pict_4625 pict_8474 pict_16581 pict_3047 pict_8474 pict_11298"
+    },
+    {
+        "id": 972,
+        "oracion": "¿Cuál es tu comida favorita?",
+        "traduccion": "pict_22620 pict_5581 pict_6625 pict_4610 pict_30012",
+        "conceptos": "qué, ser, tú, comida, favorita",
+        "concept_output": "cuál, ser, tu, comida, favorita",
+        "output": "pict_26022 pict_36480 pict_12281 pict_4611 pict_30012"
+    }
+]

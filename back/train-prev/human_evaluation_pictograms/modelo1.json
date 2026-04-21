@@ -1,0 +1,253 @@
+[
+    {
+        "id": 0,
+        "oracion": "Cerrar los ojos y dormir",
+        "output": "pict_2697 pict_2876 pict_3047 pict_2369"
+      },
+      {
+        "id": 1,
+        "oracion": "Mi voto es secreto",
+        "output": "pict_12264 pict_24603 pict_5581 secreto"
+      },
+      {
+        "id": 2,
+        "oracion": "Yo quiero usar la polea para mover los objetos",
+        "output": "pict_2617 pict_5441 pict_15485 pict_7029 pict_26334 pict_7167 pict_11318"
+      },
+      {
+        "id": 3,
+        "oracion": "Pues inventa algo para poder volar",
+        "output": "Pues pict_6019 algo pict_11750 pict_6246"
+      },
+      {
+        "id": 4,
+        "oracion": "Tallo",
+        "output": "pict_3159"
+      },
+      {
+        "id": 5,
+        "oracion": "Estoy tranquilo mientras la enfermera me mide la temperatura",
+        "output": "pict_5466 pict_31310 pict_7081 pict_7029 pict_2375 pict_2617 pict_7029 pict_8230"
+      },
+      {
+        "id": 6,
+        "oracion": "Levanta la mano y pregunta sobre lo que no entendiste",
+        "output": "pict_6549 pict_7029 pict_2928 pict_3047 pict_7217 pict_6481 pict_11351 pict_5526 pict_11697"
+      },
+      {
+        "id": 7,
+        "oracion": "Esperar en fila tu turno",
+        "output": "pict_8109 pict_7102 pict_12281 pict_7158"
+      },
+      {
+        "id": 8,
+        "oracion": "Esa fábrica producía cosas sin parar",
+        "output": "pict_7091 pict_8581 pict_11698 cosas pict_7195"
+      },
+      {
+        "id": 9,
+        "oracion": "Mamá y papá pasarán mucho tiempo con él porque es pequeño",
+        "output": "pict_2458 pict_3047 pict_31146 pict_6581 pict_37678 pict_6480 pict_11348 pict_5581 pict_4716"
+      },
+      {
+        "id": 10,
+        "oracion": "Siempre iba en silla de ruedas, la paseaban sus abuelos",
+        "output": "pict_17322 pict_2432 pict_3155 pict_5566 pict_7029 pict_8649 pict_12276 pict_6876"
+      },
+      {
+        "id": 11,
+        "oracion": "La doctora me mira los oídos con el otoscopio",
+        "output": "pict_7029 pict_6561 pict_2617 pict_2474 pict_39498 pict_27001"
+      },
+      {
+        "id": 12,
+        "oracion": "Observa la nutria",
+        "output": "pict_2474 pict_7029 pict_6158"
+      },
+      {
+        "id": 13,
+        "oracion": "Comer para crecer",
+        "output": "pict_2349 pict_7002"
+      },
+      {
+        "id": 14,
+        "oracion": "Dar abrazos",
+        "output": "pict_17038 pict_4550"
+      },
+      {
+        "id": 15,
+        "oracion": "inflamación",
+        "output": "pict_31833"
+      },
+      {
+        "id": 16,
+        "oracion": "Escribimos una noticia",
+        "output": "pict_2380 pict_2627 pict_7784"
+      },
+      {
+        "id": 17,
+        "oracion": "La paleontóloga descubre los huesos de dinosaurio",
+        "output": "pict_7029 pict_34256 pict_6019 pict_2972 pict_2738"
+      },
+      {
+        "id": 18,
+        "oracion": "A ellos les gustaba jugar y cantar",
+        "output": "pict_7032 pict_7031 pict_2418 pict_2439 pict_3047 pict_2315"
+      },
+      {
+        "id": 19,
+        "oracion": "Voz digitalizada",
+        "output": "Voz digitalizada"
+      },
+      {
+        "id": 20,
+        "oracion": "Té de hierbas",
+        "output": "pict_29802 pict_3113"
+      },
+      {
+        "id": 21,
+        "oracion": "Buenas porque dan agua a los embalses",
+        "output": "pict_10197 pict_11348 pict_17038 pict_2248 pict_26049"
+      },
+      {
+        "id": 22,
+        "oracion": "Esto uno con el pegamento",
+        "output": "pict_7095 pict_2627 pict_2510"
+      },
+      {
+        "id": 23,
+        "oracion": "energía química",
+        "output": "pict_26059 pict_36374"
+      },
+      {
+        "id": 24,
+        "oracion": "El corazón mueve la sangre por el cuerpo",
+        "output": "pict_2715 pict_7167 pict_7029 pict_2803 pict_2728"
+      }
+      ,
+      {
+        "id": 948,
+        "oracion": "Cosquillas a mamá",
+        "output": "pict_5480 pict_2458"
+      },
+      {
+        "id": 949,
+        "oracion": "Igual que a mí cuando era un bebé",
+        "output": "pict_3423 pict_11351 pict_2617 pict_24053 pict_5581 pict_2627 pict_2275"
+      },
+      {
+        "id": 950,
+        "oracion": "Si la persona está viva siente hambre",
+        "output": "pict_28359 pict_7029 pict_34559 pict_5466 pict_11397 pict_30196 pict_35559"
+      },
+      {
+        "id": 951,
+        "oracion": "Cuando crezca, jugaremos juntos",
+        "output": "pict_24053 pict_7002 pict_2439 pict_5367"
+      },
+      {
+        "id": 952,
+        "oracion": "Compartir con amigos",
+        "output": "pict_15361 pict_2255"
+      },
+      {
+        "id": 953,
+        "oracion": "Mis fortalezas",
+        "output": "pict_12266 pict_36539"
+      },
+      {
+        "id": 954,
+        "oracion": "Huevos",
+        "output": "pict_34039"
+      },
+      {
+        "id": 955,
+        "oracion": "Juguemos en el bosque",
+        "output": "Juguemos pict_2666"
+      },
+      {
+        "id": 956,
+        "oracion": "Primero, vieron monos y gorilas",
+        "output": "pict_4726 pict_2474 pict_2477 pict_3047 pict_2410"
+      },
+      {
+        "id": 957,
+        "oracion": "Mi Proyecto de vida",
+        "output": "pict_12264 Proyecto pict_8717"
+      },
+      {
+        "id": 958,
+        "oracion": "¿Seguir estudiando?",
+        "output": "pict_7038 pict_2387"
+      },
+      {
+        "id": 959,
+        "oracion": "Las personas mayores cortan la calabaza",
+        "output": "pict_7117 pict_4557 pict_2547 pict_7029 pict_2679"
+      },
+      {
+        "id": 960,
+        "oracion": "Subimos al autobús",
+        "output": "pict_6617 pict_2262"
+      },
+      {
+        "id": 961,
+        "oracion": "Preocupado",
+        "output": "pict_26985"
+      },
+      {
+        "id": 962,
+        "oracion": "Partes del cartel",
+        "output": "pict_9877 pict_8064"
+      },
+      {
+        "id": 963,
+        "oracion": "Es una piedra corazón",
+        "output": "pict_5581 pict_2627 pict_6594 pict_2715"
+      },
+      {
+        "id": 964,
+        "oracion": "El cazador ayudó a Caperucita",
+        "output": "pict_3010 pict_4570 pict_5942"
+      },
+      {
+        "id": 965,
+        "oracion": "El oso marrón salió a dar un paseo por el bosque",
+        "output": "pict_2488 pict_2923 pict_2806 pict_17038 pict_2627 pict_35111 pict_2666"
+      },
+      {
+        "id": 966,
+        "oracion": "Enviamos un mensaje fácil y corto",
+        "output": "pict_21828 pict_2627 mensaje pict_4645 pict_3047 pict_4615"
+      },
+      {
+        "id": 967,
+        "oracion": "Explicar el orden",
+        "output": "pict_8579 orden"
+      },
+      {
+        "id": 968,
+        "oracion": "Trabajos manuales",
+        "output": "pict_16087 pict_32661"
+      },
+      {
+        "id": 969,
+        "oracion": "Hablar de mi",
+        "output": "pict_3345 pict_12264"
+      },
+      {
+        "id": 970,
+        "oracion": "En la granja, les dieron comida a las gallinas",
+        "output": "pict_7029 pict_3337 pict_7031 pict_17038 pict_4611 pict_2403"
+      },
+      {
+        "id": 971,
+        "oracion": "Dani desayunó un bocadillo y una mandarina",
+        "output": "Dani pict_4625 pict_2627 pict_2281 pict_3047 pict_2627 pict_11298"
+      },
+      {
+        "id": 972,
+        "oracion": "¿Cuál es tu comida favorita?",
+        "output": "pict_26022 pict_5581 pict_12281 pict_4611pict_30012"
+      }
+]
