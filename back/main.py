@@ -126,10 +126,10 @@ def translate_categories(all_categories, batch_size=10):
     with open(outh_path, "r", encoding="utf-8") as f:
       results = [CategoryItem(**item) for item in json.load(f)]
 
-  processed = {r.original for r in results}
-
   results = []
   total = len(all_categories)
+
+  processed = {r.original for r in results}
 
   for i, batch in enumerate(chunk_list(all_categories, batch_size)):
     batch = [b for b in batch if b not in processed]
@@ -160,22 +160,20 @@ def translate_categories(all_categories, batch_size=10):
     except Exception as e:
       print(f"Error al traducir: {batch}")
       
-    print("Esperando 60 segundos... (para evitar sobrecarga de la API)")
-    time.sleep(60)
+    print("Esperando 30 segundos... (para evitar sobrecarga de la API)")
+    time.sleep(30)
 
 
   with open(outh_path, "w") as f:
     json.dump([item.model_dump() for item in results], f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
-  all_tags = list(get_unique_tags())
+  # all_tags = list(get_unique_tags())
   all_categories = list(get_unique_categories())
 
-  print(f"Total de tags: {len(all_tags)}")
-  print("Empezando traducción de tags...")
-  translate_tags(all_tags, 10)
+  # print(f"Total de tags: {len(all_tags)}")
+  # print("Empezando traducción de tags...")
+  # translate_tags(all_tags, 10)
   print(f"Total de categories: {len(all_categories)}")
   print("Empezando traducción de categories...")
   translate_categories(all_categories, 10)
-  # response = ask_ai(" - ".join(all_tags))
-  # print(f"original: {all_tags}, translated: {response.translation_text}")

@@ -1,0 +1,2270 @@
+[
+  {
+    "original": "apiculture",
+    "translated": "apicultura"
+  },
+  {
+    "original": "cinema",
+    "translated": "cine"
+  },
+  {
+    "original": "traffic accident",
+    "translated": "accidente de tráfico"
+  },
+  {
+    "original": "culture",
+    "translated": "cultura"
+  },
+  {
+    "original": "adverb of denial",
+    "translated": "adverbio de la negación"
+  },
+  {
+    "original": "cereal",
+    "translated": "cereal"
+  },
+  {
+    "original": "educational_building",
+    "translated": "educational_building"
+  },
+  {
+    "original": "work organization",
+    "translated": "organización del trabajo"
+  },
+  {
+    "original": "object",
+    "translated": "objeto"
+  },
+  {
+    "original": "commercial building",
+    "translated": "edificio comercial"
+  },
+  {
+    "original": "mythological character",
+    "translated": "carácter mitológico"
+  },
+  {
+    "original": "number",
+    "translated": "número"
+  },
+  {
+    "original": "financial services",
+    "translated": "servicios financieros"
+  },
+  {
+    "original": "educational organization",
+    "translated": "organización educativa"
+  },
+  {
+    "original": "karate",
+    "translated": "karate"
+  },
+  {
+    "original": "animal material",
+    "translated": "material animal"
+  },
+  {
+    "original": "professional services",
+    "translated": "servicios profesionales"
+  },
+  {
+    "original": "facility",
+    "translated": "instalaciones"
+  },
+  {
+    "original": "sculpture",
+    "translated": "escultura"
+  },
+  {
+    "original": "mass media",
+    "translated": "medios de comunicación"
+  },
+  {
+    "original": "reptile",
+    "translated": "reptil"
+  },
+  {
+    "original": "demonstrative pronoun",
+    "translated": "pronombre demostrativo"
+  },
+  {
+    "original": "tv show",
+    "translated": "show de tv"
+  },
+  {
+    "original": "interrogative pronoun",
+    "translated": "pronombre interrogativo"
+  },
+  {
+    "original": "gambling",
+    "translated": "juego"
+  },
+  {
+    "original": "speech therapy",
+    "translated": "terapia del habla"
+  },
+  {
+    "original": "vegetal origin material",
+    "translated": "material de origen vegetal"
+  },
+  {
+    "original": "aerial transport",
+    "translated": "transporte aéreo"
+  },
+  {
+    "original": "costume",
+    "translated": "disfraz"
+  },
+  {
+    "original": "echinoderm",
+    "translated": "equinodermo"
+  },
+  {
+    "original": "work accident",
+    "translated": "accidente laboral"
+  },
+  {
+    "original": "senses",
+    "translated": "sentidos"
+  },
+  {
+    "original": "visual artist",
+    "translated": "artista visual"
+  },
+  {
+    "original": "football",
+    "translated": "fútbol"
+  },
+  {
+    "original": "recycling",
+    "translated": "reciclaje"
+  },
+  {
+    "original": "gender violence",
+    "translated": "violencia de género"
+  },
+  {
+    "original": "core vocabulary-knowledge",
+    "translated": "vocabulario"
+  },
+  {
+    "original": "dairy product",
+    "translated": "conocimiento básico"
+  },
+  {
+    "original": "material",
+    "translated": "productos lácteos"
+  },
+  {
+    "original": "death",
+    "translated": "material"
+  },
+  {
+    "original": "playground",
+    "translated": "parque infantil"
+  },
+  {
+    "original": "home",
+    "translated": "casa"
+  },
+  {
+    "original": "tourism",
+    "translated": "turismo"
+  },
+  {
+    "original": "disease",
+    "translated": "enfermedad"
+  },
+  {
+    "original": "furniture",
+    "translated": "mobiliario"
+  },
+  {
+    "original": "trade",
+    "translated": "comercio"
+  },
+  {
+    "original": "pronoun",
+    "translated": "pronombre"
+  },
+  {
+    "original": "core vocabulary-time",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "physiotherapy equipment",
+    "translated": "tiempo"
+  },
+  {
+    "original": "cycling",
+    "translated": "equipo de fisioterapia"
+  },
+  {
+    "original": "ordinal adjective",
+    "translated": "adjetivo ordinal"
+  },
+  {
+    "original": "pet",
+    "translated": "mascota"
+  },
+  {
+    "original": "annelid",
+    "translated": "annélido"
+  },
+  {
+    "original": "religious act",
+    "translated": "acto religioso"
+  },
+  {
+    "original": "work machine",
+    "translated": "máquina de trabajo"
+  },
+  {
+    "original": "building facility",
+    "translated": "edificio"
+  },
+  {
+    "original": "crustacean",
+    "translated": "crustáceo"
+  },
+  {
+    "original": "vehicle component",
+    "translated": "componente del vehículo"
+  },
+  {
+    "original": "medical procedure",
+    "translated": "procedimiento médico"
+  },
+  {
+    "original": "carnivorous",
+    "translated": "carnívoro"
+  },
+  {
+    "original": "human anatomy",
+    "translated": "anatomía humana"
+  },
+  {
+    "original": "popular event",
+    "translated": "evento popular"
+  },
+  {
+    "original": "religious person",
+    "translated": "persona religiosa"
+  },
+  {
+    "original": "herbivorous",
+    "translated": "herbívoro"
+  },
+  {
+    "original": "book character",
+    "translated": "carácter del libro"
+  },
+  {
+    "original": "terrestrial animal",
+    "translated": "animal terrestre"
+  },
+  {
+    "original": "street furniture",
+    "translated": "mobiliario de calle"
+  },
+  {
+    "original": "visual system",
+    "translated": "sistema visual"
+  },
+  {
+    "original": "river animal",
+    "translated": "animal del río"
+  },
+  {
+    "original": "spring",
+    "translated": "primavera"
+  },
+  {
+    "original": "fossil",
+    "translated": "fósil"
+  },
+  {
+    "original": "joint system",
+    "translated": "sistema de articulación"
+  },
+  {
+    "original": "psychology",
+    "translated": "psicología"
+  },
+  {
+    "original": "container",
+    "translated": "contenedor"
+  },
+  {
+    "original": "alphabet",
+    "translated": "alfabeto"
+  },
+  {
+    "original": "subject",
+    "translated": "materia"
+  },
+  {
+    "original": "personal services",
+    "translated": "servicios personales"
+  },
+  {
+    "original": "summer",
+    "translated": "verano"
+  },
+  {
+    "original": "ovoviviparous",
+    "translated": "ovovivíparo"
+  },
+  {
+    "original": "recycling center",
+    "translated": "centro de reciclaje"
+  },
+  {
+    "original": "healthy habit",
+    "translated": "hábito saludable"
+  },
+  {
+    "original": "clothing industry",
+    "translated": "industria de la ropa"
+  },
+  {
+    "original": "teenager",
+    "translated": "adolescente"
+  },
+  {
+    "original": "dog-assisted therapy",
+    "translated": "terapia asistida por perros"
+  },
+  {
+    "original": "educational space",
+    "translated": "espacio educativo"
+  },
+  {
+    "original": "seller",
+    "translated": "vendedor"
+  },
+  {
+    "original": "religious object",
+    "translated": "objeto religioso"
+  },
+  {
+    "original": "prehistory",
+    "translated": "prehistoria"
+  },
+  {
+    "original": "herbaceous plant",
+    "translated": "planta herbácea"
+  },
+  {
+    "original": "intimate hygiene",
+    "translated": "higiene íntima"
+  },
+  {
+    "original": "musical notation",
+    "translated": "notación musical"
+  },
+  {
+    "original": "polite set expression",
+    "translated": "expresión cortés"
+  },
+  {
+    "original": "publication",
+    "translated": "publicación"
+  },
+  {
+    "original": "medicament",
+    "translated": "medicamentos"
+  },
+  {
+    "original": "fishing",
+    "translated": "pesca"
+  },
+  {
+    "original": "reproductive system",
+    "translated": "sistema reproductivo"
+  },
+  {
+    "original": "core vocabulary-movement",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "musical instrument",
+    "translated": "movimiento"
+  },
+  {
+    "original": "drawing",
+    "translated": "instrumento musical"
+  },
+  {
+    "original": "endocrine system",
+    "translated": "dibujo"
+  },
+  {
+    "original": "animal-assisted therapy",
+    "translated": "terapia asistida por animales"
+  },
+  {
+    "original": "coin",
+    "translated": "moneda"
+  },
+  {
+    "original": "adverb of degree",
+    "translated": "adverbio de grado"
+  },
+  {
+    "original": "waste disposal",
+    "translated": "eliminación de residuos"
+  },
+  {
+    "original": "animal housing",
+    "translated": "alojamiento de animales"
+  },
+  {
+    "original": "sport material",
+    "translated": "material deportivo"
+  },
+  {
+    "original": "locomotor system",
+    "translated": "sistema locomotor"
+  },
+  {
+    "original": "communication aid",
+    "translated": "ayuda a la comunicación"
+  },
+  {
+    "original": "raw material",
+    "translated": "materia prima"
+  },
+  {
+    "original": "animal anatomy",
+    "translated": "anatomía animal"
+  },
+  {
+    "original": "cutlery",
+    "translated": "Cubertería"
+  },
+  {
+    "original": "possessive adjective",
+    "translated": "adjetivo posesivo"
+  },
+  {
+    "original": "comparative conjunction",
+    "translated": "conjunción comparativa"
+  },
+  {
+    "original": "gardening",
+    "translated": "jardinería"
+  },
+  {
+    "original": "possessive pronoun",
+    "translated": "pronombre posesivo"
+  },
+  {
+    "original": "set phrase",
+    "translated": "frase de conjunto"
+  },
+  {
+    "original": "core vocabulary-communication",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "building",
+    "translated": "comunicación"
+  },
+  {
+    "original": "unhealthy habit",
+    "translated": "construcción"
+  },
+  {
+    "original": "architecture",
+    "translated": "hábito malsano"
+  },
+  {
+    "original": "core vocabulary-work",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "meteorology",
+    "translated": "trabajo"
+  },
+  {
+    "original": "ophthalmology",
+    "translated": "meteorología"
+  },
+  {
+    "original": "physical features",
+    "translated": "oftalmología"
+  },
+  {
+    "original": "baby",
+    "translated": "características físicas"
+  },
+  {
+    "original": "aac implementation",
+    "translated": "bebé"
+  },
+  {
+    "original": "river",
+    "translated": "aplicación aac"
+  },
+  {
+    "original": "signaling system",
+    "translated": "río"
+  },
+  {
+    "original": "sexual practice",
+    "translated": "sistema de señalización"
+  },
+  {
+    "original": "library science",
+    "translated": "práctica sexual"
+  },
+  {
+    "original": "teaching activity",
+    "translated": "actividades docentes"
+  },
+  {
+    "original": "indigenouos people",
+    "translated": "indigenouos personas"
+  },
+  {
+    "original": "cleaning product",
+    "translated": "producto de limpieza"
+  },
+  {
+    "original": "vertebrate",
+    "translated": "vertebrados"
+  },
+  {
+    "original": "mammal",
+    "translated": "mamíferos"
+  },
+  {
+    "original": "country",
+    "translated": "país"
+  },
+  {
+    "original": "greece",
+    "translated": "Grecia"
+  },
+  {
+    "original": "worksite",
+    "translated": "lugar de trabajo"
+  },
+  {
+    "original": "weapon",
+    "translated": "arma"
+  },
+  {
+    "original": "telecommunication",
+    "translated": "telecomunicaciones"
+  },
+  {
+    "original": "religious character",
+    "translated": "carácter religioso"
+  },
+  {
+    "original": "adapted sport",
+    "translated": "deporte adaptado"
+  },
+  {
+    "original": "judaism",
+    "translated": "judaísmo"
+  },
+  {
+    "original": "fish",
+    "translated": "pescado"
+  },
+  {
+    "original": "money",
+    "translated": "dinero"
+  },
+  {
+    "original": "political geography",
+    "translated": "geografía política"
+  },
+  {
+    "original": "arachnid",
+    "translated": "arácnido"
+  },
+  {
+    "original": "regional dance",
+    "translated": "danza regional"
+  },
+  {
+    "original": "occupational therapy",
+    "translated": "terapia ocupacional"
+  },
+  {
+    "original": "fossil origin material",
+    "translated": "material de origen fósil"
+  },
+  {
+    "original": "educational task",
+    "translated": "tarea educativa"
+  },
+  {
+    "original": "condiment",
+    "translated": "condimento"
+  },
+  {
+    "original": "cultural building",
+    "translated": "construcción cultural"
+  },
+  {
+    "original": "continent",
+    "translated": "continente"
+  },
+  {
+    "original": "pattern",
+    "translated": "modelo"
+  },
+  {
+    "original": "shape",
+    "translated": "forma"
+  },
+  {
+    "original": "industry",
+    "translated": "industria"
+  },
+  {
+    "original": "contraceptive method",
+    "translated": "método anticonceptivo"
+  },
+  {
+    "original": "nursing equipment",
+    "translated": "equipo de enfermería"
+  },
+  {
+    "original": "sensory stimulation material",
+    "translated": "material de estimulación sensorial"
+  },
+  {
+    "original": "mass media device",
+    "translated": "dispositivo de medios de comunicación"
+  },
+  {
+    "original": "multimedia buttons",
+    "translated": "botones multimedia"
+  },
+  {
+    "original": "mountain",
+    "translated": "montaña"
+  },
+  {
+    "original": "basic concepts",
+    "translated": "conceptos básicos"
+  },
+  {
+    "original": "indefinite pronoun",
+    "translated": "pronombre indefinido"
+  },
+  {
+    "original": "social movement",
+    "translated": "movimiento social"
+  },
+  {
+    "original": "unit of time",
+    "translated": "unidad de tiempo"
+  },
+  {
+    "original": "usual verbs",
+    "translated": "verbos habituales"
+  },
+  {
+    "original": "new year",
+    "translated": "año nuevo"
+  },
+  {
+    "original": "basketball",
+    "translated": "baloncesto"
+  },
+  {
+    "original": "animal group",
+    "translated": "grupo animal"
+  },
+  {
+    "original": "day",
+    "translated": "día"
+  },
+  {
+    "original": "hospitality industry",
+    "translated": "industria de la hospitalidad"
+  },
+  {
+    "original": "demonstrative adjective",
+    "translated": "adjetivo demostrativo"
+  },
+  {
+    "original": "middle ages",
+    "translated": "edad media"
+  },
+  {
+    "original": "conjunction",
+    "translated": "conjunción"
+  },
+  {
+    "original": "adverb of manner",
+    "translated": "adverbio de la manera"
+  },
+  {
+    "original": "election",
+    "translated": "elección"
+  },
+  {
+    "original": "therapy",
+    "translated": "terapia"
+  },
+  {
+    "original": "adversative conjunction",
+    "translated": "conjunción contradictoria"
+  },
+  {
+    "original": "physical exercise",
+    "translated": "ejercicio físico"
+  },
+  {
+    "original": "political representation",
+    "translated": "representación política"
+  },
+  {
+    "original": "household",
+    "translated": "hogar"
+  },
+  {
+    "original": "copulative conjunction",
+    "translated": "conjunción copulativa"
+  },
+  {
+    "original": "invertebrate animal",
+    "translated": "animales invertebrados"
+  },
+  {
+    "original": "light fixture",
+    "translated": "accesorios ligeros"
+  },
+  {
+    "original": "vegetable",
+    "translated": "vegetales"
+  },
+  {
+    "original": "gastronomy",
+    "translated": "gastronomía"
+  },
+  {
+    "original": "court document",
+    "translated": "documento de la corte"
+  },
+  {
+    "original": "popular festival",
+    "translated": "festival popular"
+  },
+  {
+    "original": "wind instrument",
+    "translated": "Instrumento eólico"
+  },
+  {
+    "original": "public administration",
+    "translated": "Administración pública"
+  },
+  {
+    "original": "autumn",
+    "translated": "otoño"
+  },
+  {
+    "original": "child",
+    "translated": "niños"
+  },
+  {
+    "original": "routine",
+    "translated": "rutina"
+  },
+  {
+    "original": "pollution",
+    "translated": "contaminación"
+  },
+  {
+    "original": "education",
+    "translated": "educación"
+  },
+  {
+    "original": "animal-based food",
+    "translated": "alimentos de origen animal"
+  },
+  {
+    "original": "circulatory system",
+    "translated": "sistema circulatorio"
+  },
+  {
+    "original": "coelenterata",
+    "translated": "coelenterata"
+  },
+  {
+    "original": "bullying",
+    "translated": "bullying"
+  },
+  {
+    "original": "archaeology",
+    "translated": "arqueología"
+  },
+  {
+    "original": "religious place",
+    "translated": "lugar religioso"
+  },
+  {
+    "original": "literacy genre",
+    "translated": "género de alfabetización"
+  },
+  {
+    "original": "history",
+    "translated": "historia"
+  },
+  {
+    "original": "recreational facility",
+    "translated": "instalaciones recreativas"
+  },
+  {
+    "original": "miscellaneous",
+    "translated": "varios"
+  },
+  {
+    "original": "month",
+    "translated": "mes"
+  },
+  {
+    "original": "adjective",
+    "translated": "adjetivo"
+  },
+  {
+    "original": "religion",
+    "translated": "religión"
+  },
+  {
+    "original": "interjection",
+    "translated": "interjección"
+  },
+  {
+    "original": "christmas",
+    "translated": "Navidad"
+  },
+  {
+    "original": "bullfighting",
+    "translated": "corridas de toros"
+  },
+  {
+    "original": "article",
+    "translated": "artículo"
+  },
+  {
+    "original": "medical device",
+    "translated": "dispositivo médico"
+  },
+  {
+    "original": "medical center",
+    "translated": "centro médico"
+  },
+  {
+    "original": "catering establishment",
+    "translated": "establecimiento de restauración"
+  },
+  {
+    "original": "winter",
+    "translated": "invierno"
+  },
+  {
+    "original": "energy",
+    "translated": "energía"
+  },
+  {
+    "original": "flower",
+    "translated": "flor"
+  },
+  {
+    "original": "educational staff",
+    "translated": "personal docente"
+  },
+  {
+    "original": "craftsmanship",
+    "translated": "artesanía"
+  },
+  {
+    "original": "law",
+    "translated": "derecho"
+  },
+  {
+    "original": "viviparous",
+    "translated": "vivíparo"
+  },
+  {
+    "original": "road safety",
+    "translated": "seguridad vial"
+  },
+  {
+    "original": "birthday",
+    "translated": "cumpleaños"
+  },
+  {
+    "original": "official document",
+    "translated": "documento oficial"
+  },
+  {
+    "original": "province",
+    "translated": "provincia"
+  },
+  {
+    "original": "physiotherapy",
+    "translated": "fisioterapia"
+  },
+  {
+    "original": "educational document",
+    "translated": "documento educativo"
+  },
+  {
+    "original": "late modern period",
+    "translated": "período moderno tardío"
+  },
+  {
+    "original": "gender identity",
+    "translated": "identidad de género"
+  },
+  {
+    "original": "day hours",
+    "translated": "horas del día"
+  },
+  {
+    "original": "educational equipment",
+    "translated": "equipo educativo"
+  },
+  {
+    "original": "expression",
+    "translated": "expresión"
+  },
+  {
+    "original": "service building",
+    "translated": "construcción de servicios"
+  },
+  {
+    "original": "skating",
+    "translated": "patinaje"
+  },
+  {
+    "original": "educational methodology",
+    "translated": "metodología educativa"
+  },
+  {
+    "original": "core vocabulary-living being",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "engineering",
+    "translated": "ser vivo"
+  },
+  {
+    "original": "drug addiction",
+    "translated": "drogodependencia"
+  },
+  {
+    "original": "architectural element",
+    "translated": "elemento arquitectónico"
+  },
+  {
+    "original": "human reproduction",
+    "translated": "reproducción humana"
+  },
+  {
+    "original": "students",
+    "translated": "estudiantes"
+  },
+  {
+    "original": "cold meat",
+    "translated": "carne fría"
+  },
+  {
+    "original": "physics",
+    "translated": "física"
+  },
+  {
+    "original": "adverb of place",
+    "translated": "adverbio del lugar"
+  },
+  {
+    "original": "water transport",
+    "translated": "transporte de agua"
+  },
+  {
+    "original": "early modern period",
+    "translated": "período temprano moderno"
+  },
+  {
+    "original": "psychomotor equipment",
+    "translated": "equipo psicomotor"
+  },
+  {
+    "original": "toy",
+    "translated": "juguete"
+  },
+  {
+    "original": "augmentative communication",
+    "translated": "comunicación aumentativa"
+  },
+  {
+    "original": "horse riding",
+    "translated": "equitación"
+  },
+  {
+    "original": "religious event",
+    "translated": "evento religioso"
+  },
+  {
+    "original": "athlete",
+    "translated": "atleta"
+  },
+  {
+    "original": "auditory system",
+    "translated": "sistema auditivo"
+  },
+  {
+    "original": "sexuality",
+    "translated": "sexualidad"
+  },
+  {
+    "original": "core vocabulary-education",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "traditional dish",
+    "translated": "educación"
+  },
+  {
+    "original": "flag",
+    "translated": "plato tradicional"
+  },
+  {
+    "original": "verb",
+    "translated": "verbo"
+  },
+  {
+    "original": "mollusc",
+    "translated": "molusco"
+  },
+  {
+    "original": "dinosaur",
+    "translated": "dinosaurio"
+  },
+  {
+    "original": "animal nutrition",
+    "translated": "nutrición animal"
+  },
+  {
+    "original": "astronomy",
+    "translated": "astronomía"
+  },
+  {
+    "original": "disjunctive conjunction",
+    "translated": "conjunción disyuntiva"
+  },
+  {
+    "original": "childcare",
+    "translated": "cuidado de niños"
+  },
+  {
+    "original": "qualifying adjective",
+    "translated": "adjetivo calificativo"
+  },
+  {
+    "original": "health sciences",
+    "translated": "ciencias de la salud"
+  },
+  {
+    "original": "utensil",
+    "translated": "utensilio"
+  },
+  {
+    "original": "musical art",
+    "translated": "arte musical"
+  },
+  {
+    "original": "oceanography",
+    "translated": "oceanografía"
+  },
+  {
+    "original": "planet",
+    "translated": "planeta"
+  },
+  {
+    "original": "artist",
+    "translated": "artista"
+  },
+  {
+    "original": "traditional game",
+    "translated": "juego tradicional"
+  },
+  {
+    "original": "educational building",
+    "translated": "construcción educativa"
+  },
+  {
+    "original": "dietetics",
+    "translated": "dietética"
+  },
+  {
+    "original": "comic character",
+    "translated": "personaje cómico"
+  },
+  {
+    "original": "group",
+    "translated": "grupo"
+  },
+  {
+    "original": "fiestas del pilar",
+    "translated": "fiestas del pilar"
+  },
+  {
+    "original": "extinct being",
+    "translated": "extinto"
+  },
+  {
+    "original": "processed food",
+    "translated": "alimentos procesados"
+  },
+  {
+    "original": "painting",
+    "translated": "pintura"
+  },
+  {
+    "original": "secondary sector",
+    "translated": "sector secundario"
+  },
+  {
+    "original": "taste",
+    "translated": "gusto"
+  },
+  {
+    "original": "physiology",
+    "translated": "fisiología"
+  },
+  {
+    "original": "event",
+    "translated": "evento"
+  },
+  {
+    "original": "health personnel",
+    "translated": "personal sanitario"
+  },
+  {
+    "original": "scenic art",
+    "translated": "arte escénico"
+  },
+  {
+    "original": "footwear",
+    "translated": "calzado"
+  },
+  {
+    "original": "elderly",
+    "translated": "ancianos"
+  },
+  {
+    "original": "symptom",
+    "translated": "síntomas"
+  },
+  {
+    "original": "adverb",
+    "translated": "adverbios"
+  },
+  {
+    "original": "photography",
+    "translated": "fotografía"
+  },
+  {
+    "original": "human response",
+    "translated": "respuesta humana"
+  },
+  {
+    "original": "digestive system",
+    "translated": "sistema digestivo"
+  },
+  {
+    "original": "orofacial praxis",
+    "translated": "praxis orofacial"
+  },
+  {
+    "original": "orthographic sign",
+    "translated": "signo ortográfico"
+  },
+  {
+    "original": "equine-assisted therapy",
+    "translated": "terapia asistida por equinos"
+  },
+  {
+    "original": "medical equipment",
+    "translated": "equipo médico"
+  },
+  {
+    "original": "fruit",
+    "translated": "fruta"
+  },
+  {
+    "original": "movie character",
+    "translated": "personaje de la película"
+  },
+  {
+    "original": "iberians",
+    "translated": "iberianos"
+  },
+  {
+    "original": "basic needs",
+    "translated": "necesidades básicas"
+  },
+  {
+    "original": "sea and oceans",
+    "translated": "mar y océanos"
+  },
+  {
+    "original": "environmental science",
+    "translated": "ciencias ambientales"
+  },
+  {
+    "original": "natural disaster",
+    "translated": "desastres naturales"
+  },
+  {
+    "original": "cookery",
+    "translated": "cocina"
+  },
+  {
+    "original": "swimming",
+    "translated": "natación"
+  },
+  {
+    "original": "ultra-processed food",
+    "translated": "alimentos ultra"
+  },
+  {
+    "original": "trousseau",
+    "translated": "ajuar"
+  },
+  {
+    "original": "feeding",
+    "translated": "alimentación"
+  },
+  {
+    "original": "texture",
+    "translated": "textura"
+  },
+  {
+    "original": "land transport",
+    "translated": "transporte terrestre"
+  },
+  {
+    "original": "place",
+    "translated": "lugar"
+  },
+  {
+    "original": "legal institution",
+    "translated": "institución jurídica"
+  },
+  {
+    "original": "construction",
+    "translated": "construcción"
+  },
+  {
+    "original": "cactus",
+    "translated": "cactus"
+  },
+  {
+    "original": "information document",
+    "translated": "documento de información"
+  },
+  {
+    "original": "medicine",
+    "translated": "medicina"
+  },
+  {
+    "original": "mode of transport",
+    "translated": "modo de transporte"
+  },
+  {
+    "original": "immune system",
+    "translated": "sistema inmunológico"
+  },
+  {
+    "original": "core vocabulary-document",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "clothes",
+    "translated": "documento"
+  },
+  {
+    "original": "atmospheric phenomena",
+    "translated": "ropa"
+  },
+  {
+    "original": "dried fruit",
+    "translated": "fenómenos atmosféricos"
+  },
+  {
+    "original": "body position",
+    "translated": "fruta seca"
+  },
+  {
+    "original": "onomatopoeia",
+    "translated": "posición del cuerpo"
+  },
+  {
+    "original": "landform",
+    "translated": "onomatopeya"
+  },
+  {
+    "original": "performing artist",
+    "translated": "forma de tierra"
+  },
+  {
+    "original": "adverb of affirmation",
+    "translated": "adverbio de afirmación"
+  },
+  {
+    "original": "geology",
+    "translated": "geología"
+  },
+  {
+    "original": "respiratory system",
+    "translated": "sistema respiratorio"
+  },
+  {
+    "original": "route",
+    "translated": "ruta"
+  },
+  {
+    "original": "consultancy",
+    "translated": "consultoría"
+  },
+  {
+    "original": "hospital room",
+    "translated": "sala de hospital"
+  },
+  {
+    "original": "size",
+    "translated": "tamaño"
+  },
+  {
+    "original": "circus",
+    "translated": "circo"
+  },
+  {
+    "original": "education professionals",
+    "translated": "profesionales de la educación"
+  },
+  {
+    "original": "industrial building",
+    "translated": "construcción industrial"
+  },
+  {
+    "original": "electrical appliance",
+    "translated": "aparatos eléctricos"
+  },
+  {
+    "original": "atmospheric device",
+    "translated": "aparatos atmosféricos"
+  },
+  {
+    "original": "public building",
+    "translated": "edificios públicos"
+  },
+  {
+    "original": "decorative item",
+    "translated": "artículos decorativos"
+  },
+  {
+    "original": "transport services",
+    "translated": "servicios de transporte"
+  },
+  {
+    "original": "mining industry",
+    "translated": "industria minera"
+  },
+  {
+    "original": "regional costume",
+    "translated": "trajes regionales"
+  },
+  {
+    "original": "obstetrics",
+    "translated": "obstetricia"
+  },
+  {
+    "original": "forestry",
+    "translated": "silvicultura"
+  },
+  {
+    "original": "entertainment facility",
+    "translated": "instalaciones de entretenimiento"
+  },
+  {
+    "original": "conditional conjunction",
+    "translated": "Conjunción condicional"
+  },
+  {
+    "original": "agriculture",
+    "translated": "agricultura"
+  },
+  {
+    "original": "indefinite adjective",
+    "translated": "adjetivo indefinido"
+  },
+  {
+    "original": "measurement unit",
+    "translated": "unidad de medida"
+  },
+  {
+    "original": "spices",
+    "translated": "especias"
+  },
+  {
+    "original": "legume",
+    "translated": "leguminosas"
+  },
+  {
+    "original": "calendar",
+    "translated": "calendario"
+  },
+  {
+    "original": "food",
+    "translated": "alimentos"
+  },
+  {
+    "original": "nervous system",
+    "translated": "sistema nervioso"
+  },
+  {
+    "original": "document",
+    "translated": "documento"
+  },
+  {
+    "original": "visual art",
+    "translated": "arte visual"
+  },
+  {
+    "original": "natural habitat",
+    "translated": "hábitat natural"
+  },
+  {
+    "original": "medical document",
+    "translated": "documento médico"
+  },
+  {
+    "original": "plant",
+    "translated": "planta"
+  },
+  {
+    "original": "biology",
+    "translated": "biología"
+  },
+  {
+    "original": "urban area",
+    "translated": "zona urbana"
+  },
+  {
+    "original": "seafood",
+    "translated": "marisco"
+  },
+  {
+    "original": "traffic",
+    "translated": "tráfico"
+  },
+  {
+    "original": "work tool",
+    "translated": "herramienta de trabajo"
+  },
+  {
+    "original": "comparative adjective",
+    "translated": "adjetivo comparativo"
+  },
+  {
+    "original": "language",
+    "translated": "lenguaje"
+  },
+  {
+    "original": "sweets",
+    "translated": "dulces"
+  },
+  {
+    "original": "human value",
+    "translated": "valor humano"
+  },
+  {
+    "original": "protective equipment",
+    "translated": "equipo de protección"
+  },
+  {
+    "original": "accessories",
+    "translated": "accesorios"
+  },
+  {
+    "original": "theater",
+    "translated": "teatro"
+  },
+  {
+    "original": "buddhism",
+    "translated": "buddhism"
+  },
+  {
+    "original": "flying animal",
+    "translated": "animal volador"
+  },
+  {
+    "original": "bill",
+    "translated": "factura"
+  },
+  {
+    "original": "residential building",
+    "translated": "edificio residencial"
+  },
+  {
+    "original": "opera",
+    "translated": "ópera"
+  },
+  {
+    "original": "lexicon",
+    "translated": "léxico"
+  },
+  {
+    "original": "mineral rich food",
+    "translated": "comida rica en minerales"
+  },
+  {
+    "original": "numeral adjective",
+    "translated": "adjetivo numeral"
+  },
+  {
+    "original": "law and justice",
+    "translated": "ley y justicia"
+  },
+  {
+    "original": "physical geography",
+    "translated": "geografía física"
+  },
+  {
+    "original": "security and defense",
+    "translated": "seguridad y defensa"
+  },
+  {
+    "original": "sport rules",
+    "translated": "reglas deportivas"
+  },
+  {
+    "original": "communication system",
+    "translated": "sistema de comunicación"
+  },
+  {
+    "original": "preposition",
+    "translated": "preposición"
+  },
+  {
+    "original": "rhythmic gymnastics",
+    "translated": "gimnasia rítmica"
+  },
+  {
+    "original": "core vocabulary-object",
+    "translated": "vocabulario central"
+  },
+  {
+    "original": "appliance",
+    "translated": "objeto"
+  },
+  {
+    "original": "body sensation",
+    "translated": "aparato"
+  },
+  {
+    "original": "feeling",
+    "translated": "sensación corporal"
+  },
+  {
+    "original": "aragon",
+    "translated": "sentimiento"
+  },
+  {
+    "original": "marital status",
+    "translated": "aragón"
+  },
+  {
+    "original": "ancient history",
+    "translated": "estado civil"
+  },
+  {
+    "original": "chemistry",
+    "translated": "historia antigua"
+  },
+  {
+    "original": "historical character",
+    "translated": "química"
+  },
+  {
+    "original": "keyboard instrument",
+    "translated": "instrumento de teclado"
+  },
+  {
+    "original": "osseous system",
+    "translated": "sistema óseo"
+  },
+  {
+    "original": "aromatic herb",
+    "translated": "hierba aromática"
+  },
+  {
+    "original": "universal decimal classification",
+    "translated": "clasificación decimal universal"
+  },
+  {
+    "original": "mineral origin material",
+    "translated": "material de origen mineral"
+  },
+  {
+    "original": "baking",
+    "translated": "horno"
+  },
+  {
+    "original": "rural area",
+    "translated": "zona rural"
+  },
+  {
+    "original": "hardware",
+    "translated": "hardware"
+  },
+  {
+    "original": "plant physiology",
+    "translated": "fisiología vegetal"
+  },
+  {
+    "original": "domestic animal",
+    "translated": "animal doméstico"
+  },
+  {
+    "original": "meat",
+    "translated": "carne"
+  },
+  {
+    "original": "geography",
+    "translated": "geografía"
+  },
+  {
+    "original": "infrastructure",
+    "translated": "infraestructura"
+  },
+  {
+    "original": "smoking",
+    "translated": "tabaquismo"
+  },
+  {
+    "original": "fashion",
+    "translated": "moda"
+  },
+  {
+    "original": "professional",
+    "translated": "profesional"
+  },
+  {
+    "original": "diving",
+    "translated": "buceo"
+  },
+  {
+    "original": "aquatic animal",
+    "translated": "animales acuáticos"
+  },
+  {
+    "original": "gynecology",
+    "translated": "ginecología"
+  },
+  {
+    "original": "cattle farming",
+    "translated": "ganadería"
+  },
+  {
+    "original": "workplace",
+    "translated": "lugar de trabajo"
+  },
+  {
+    "original": "veterinary medicine",
+    "translated": "medicina veterinaria"
+  },
+  {
+    "original": "fish-animal",
+    "translated": "pescado"
+  },
+  {
+    "original": "muscular system",
+    "translated": "animal"
+  },
+  {
+    "original": "saragossa",
+    "translated": "sistema muscular"
+  },
+  {
+    "original": "dinosaur anatomy",
+    "translated": "saragossa"
+  },
+  {
+    "original": "swimming pool",
+    "translated": "anatomía dinosaurio"
+  },
+  {
+    "original": "sportswear",
+    "translated": "piscina"
+  },
+  {
+    "original": "adult",
+    "translated": "ropa deportiva"
+  },
+  {
+    "original": "hobby",
+    "translated": "adulto"
+  },
+  {
+    "original": "crime",
+    "translated": "criminalidad"
+  },
+  {
+    "original": "plant anatomy",
+    "translated": "anatomía vegetal"
+  },
+  {
+    "original": "animal reproduction",
+    "translated": "reproducción animal"
+  },
+  {
+    "original": "animal physiology",
+    "translated": "fisiología animal"
+  },
+  {
+    "original": "educational material",
+    "translated": "material educativo"
+  },
+  {
+    "original": "tale character",
+    "translated": "carácter de cuento"
+  },
+  {
+    "original": "medical test",
+    "translated": "prueba médica"
+  },
+  {
+    "original": "integumentary system",
+    "translated": "sistema integumentario"
+  },
+  {
+    "original": "economy",
+    "translated": "economía"
+  },
+  {
+    "original": "aromatic plant",
+    "translated": "planta aromática"
+  },
+  {
+    "original": "core vocabulary-miscellaneous",
+    "translated": "core vocabulario"
+  },
+  {
+    "original": "fungus",
+    "translated": "misceláneo"
+  },
+  {
+    "original": "character",
+    "translated": "hongo"
+  },
+  {
+    "original": "christianity",
+    "translated": "carácter"
+  },
+  {
+    "original": "animal behaviour",
+    "translated": "cristianismo"
+  },
+  {
+    "original": "adverb of addition",
+    "translated": "comportamiento animal"
+  },
+  {
+    "original": "sanitary professional",
+    "translated": "adverbio de adición"
+  },
+  {
+    "original": "region",
+    "translated": "profesional sanitario"
+  },
+  {
+    "original": "dance",
+    "translated": "región"
+  },
+  {
+    "original": "corporal hygiene",
+    "translated": "danza"
+  },
+  {
+    "original": "music device",
+    "translated": "dispositivo de música"
+  },
+  {
+    "original": "hygiene product",
+    "translated": "productos de higiene"
+  },
+  {
+    "original": "spain province",
+    "translated": "provincia de España"
+  },
+  {
+    "original": "animal",
+    "translated": "animales"
+  },
+  {
+    "original": "core vocabulary-feeding",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "covid-19",
+    "translated": "covid"
+  },
+  {
+    "original": "medical centre",
+    "translated": "19"
+  },
+  {
+    "original": "crockery",
+    "translated": "centro médico"
+  },
+  {
+    "original": "ecology",
+    "translated": "vajilla"
+  },
+  {
+    "original": "hunting",
+    "translated": "ecología"
+  },
+  {
+    "original": "board game",
+    "translated": "juego de mesa"
+  },
+  {
+    "original": "alcoholism",
+    "translated": "alcoholismo"
+  },
+  {
+    "original": "wild animal",
+    "translated": "animal salvaje"
+  },
+  {
+    "original": "foreign currency",
+    "translated": "moneda extranjera"
+  },
+  {
+    "original": "causal conjunction",
+    "translated": "conjunción causal"
+  },
+  {
+    "original": "disruptive behavior",
+    "translated": "comportamiento disruptivo"
+  },
+  {
+    "original": "oviparous",
+    "translated": "ovíparo"
+  },
+  {
+    "original": "personal pronoun",
+    "translated": "pronombre personal"
+  },
+  {
+    "original": "medical documentation",
+    "translated": "documentación médica"
+  },
+  {
+    "original": "medical treatment",
+    "translated": "tratamiento médico"
+  },
+  {
+    "original": "mathematics",
+    "translated": "matemáticas"
+  },
+  {
+    "original": "acrobatic gymnastics",
+    "translated": "gimnasia acrobática"
+  },
+  {
+    "original": "periods",
+    "translated": "periodos"
+  },
+  {
+    "original": "paleontology",
+    "translated": "paleontología"
+  },
+  {
+    "original": "art",
+    "translated": "arte"
+  },
+  {
+    "original": "computing",
+    "translated": "informática"
+  },
+  {
+    "original": "leader",
+    "translated": "líder"
+  },
+  {
+    "original": "surf",
+    "translated": "surf"
+  },
+  {
+    "original": "core vocabulary-leisure",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "sports facility",
+    "translated": "ocio"
+  },
+  {
+    "original": "sexual orientation",
+    "translated": "orientación sexual"
+  },
+  {
+    "original": "leisure",
+    "translated": "ocio"
+  },
+  {
+    "original": "literature",
+    "translated": "literatura"
+  },
+  {
+    "original": "sport",
+    "translated": "deporte"
+  },
+  {
+    "original": "odontology",
+    "translated": "odontología"
+  },
+  {
+    "original": "professional artist",
+    "translated": "artista profesional"
+  },
+  {
+    "original": "rome",
+    "translated": "roma"
+  },
+  {
+    "original": "core vocabulary-religion",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "categorization",
+    "translated": "religión"
+  },
+  {
+    "original": "room",
+    "translated": "categorización"
+  },
+  {
+    "original": "living being",
+    "translated": "ser vivo"
+  },
+  {
+    "original": "derived material",
+    "translated": "material derivado"
+  },
+  {
+    "original": "arthropod",
+    "translated": "artrópodo"
+  },
+  {
+    "original": "educational institution",
+    "translated": "institución educativa"
+  },
+  {
+    "original": "halloween",
+    "translated": "halloween"
+  },
+  {
+    "original": "core vocabulary-place",
+    "translated": "vocabulario básico"
+  },
+  {
+    "original": "dessert",
+    "translated": "lugar"
+  },
+  {
+    "original": "wedding",
+    "translated": "postre"
+  },
+  {
+    "original": "gymnastics",
+    "translated": "boda"
+  },
+  {
+    "original": "beach",
+    "translated": "gimnasia"
+  },
+  {
+    "original": "sport event",
+    "translated": "sport event"
+  },
+  {
+    "original": "hinduism",
+    "translated": "hinduismo"
+  },
+  {
+    "original": "omnivorous",
+    "translated": "omnívoro"
+  },
+  {
+    "original": "video game",
+    "translated": "videojuego"
+  },
+  {
+    "original": "war",
+    "translated": "guerra"
+  },
+  {
+    "original": "spain region",
+    "translated": "región españa"
+  },
+  {
+    "original": "plant-based food",
+    "translated": "alimentos a base de plantas"
+  },
+  {
+    "original": "building room",
+    "translated": "sala de construcción"
+  },
+  {
+    "original": "athletics",
+    "translated": "atletismo"
+  },
+  {
+    "original": "addiction",
+    "translated": "adicción"
+  },
+  {
+    "original": "supporting document",
+    "translated": "documento de apoyo"
+  },
+  {
+    "original": "natural science",
+    "translated": "ciencias naturales"
+  },
+  {
+    "original": "patient",
+    "translated": "paciente"
+  },
+  {
+    "original": "percussion instrument",
+    "translated": "instrumento de percusión"
+  },
+  {
+    "original": "workwear",
+    "translated": "ropa de trabajo"
+  },
+  {
+    "original": "egg product",
+    "translated": "producto del huevo"
+  },
+  {
+    "original": "geometry",
+    "translated": "geometría"
+  },
+  {
+    "original": "amphibian",
+    "translated": "anfibio"
+  },
+  {
+    "original": "show",
+    "translated": "espectáculo"
+  },
+  {
+    "original": "teruel",
+    "translated": "teruel"
+  },
+  {
+    "original": "bush",
+    "translated": "arbusto"
+  },
+  {
+    "original": "insect",
+    "translated": "insecto"
+  },
+  {
+    "original": "chronological instrument",
+    "translated": "instrumento cronológico"
+  },
+  {
+    "original": "huesca",
+    "translated": "huesca"
+  },
+  {
+    "original": "game",
+    "translated": "juego"
+  },
+  {
+    "original": "adverb of time",
+    "translated": "adverbio del tiempo"
+  },
+  {
+    "original": "hairdresser",
+    "translated": "peluquero"
+  },
+  {
+    "original": "color",
+    "translated": "color"
+  },
+  {
+    "original": "beverage",
+    "translated": "bebida"
+  },
+  {
+    "original": "tree",
+    "translated": "árbol"
+  },
+  {
+    "original": "information technology",
+    "translated": "tecnología de la información"
+  },
+  {
+    "original": "religious building",
+    "translated": "construcción religiosa"
+  },
+  {
+    "original": "sexual crime",
+    "translated": "crimen sexual"
+  },
+  {
+    "original": "marine animal",
+    "translated": "animales marinos"
+  },
+  {
+    "original": "olympic games",
+    "translated": "juegos olímpicos"
+  },
+  {
+    "original": "family",
+    "translated": "familia"
+  },
+  {
+    "original": "string instrument",
+    "translated": "instrumento de cuerda"
+  },
+  {
+    "original": "special education",
+    "translated": "educación especial"
+  },
+  {
+    "original": "easter week",
+    "translated": "semana de Pascua"
+  },
+  {
+    "original": "international organziation",
+    "translated": "organización internacional"
+  },
+  {
+    "original": "orthopedic product",
+    "translated": "producto ortopédico"
+  },
+  {
+    "original": "egypt",
+    "translated": "egipto"
+  },
+  {
+    "original": "letter",
+    "translated": "carta"
+  },
+  {
+    "original": "chess",
+    "translated": "ajedrez"
+  },
+  {
+    "original": "bird",
+    "translated": "pájaro"
+  },
+  {
+    "original": "movement",
+    "translated": "movimiento"
+  },
+  {
+    "original": "person according to their age",
+    "translated": "persona según su edad"
+  },
+  {
+    "original": "carnival",
+    "translated": "carnaval"
+  },
+  {
+    "original": "season",
+    "translated": "estación"
+  },
+  {
+    "original": "prevention measure",
+    "translated": "medida de prevención"
+  },
+  {
+    "original": "card game",
+    "translated": "juego de cartas"
+  },
+  {
+    "original": "trade document",
+    "translated": "documento comercial"
+  },
+  {
+    "original": "city",
+    "translated": "ciudad"
+  },
+  {
+    "original": "carpentry",
+    "translated": "carpintería"
+  },
+  {
+    "original": "excretory system",
+    "translated": "sistema excretor"
+  },
+  {
+    "original": "monument",
+    "translated": "monumento"
+  },
+  {
+    "original": "social event",
+    "translated": "evento social"
+  },
+  {
+    "original": "traffic signal",
+    "translated": "señal de tráfico"
+  },
+  {
+    "original": "sport modality",
+    "translated": "modalidad deportiva"
+  },
+  {
+    "original": "human body",
+    "translated": "cuerpo humano"
+  },
+  {
+    "original": "jewelry",
+    "translated": "joyería"
+  },
+  {
+    "original": "day time",
+    "translated": "día"
+  },
+  {
+    "original": "outdoor activity",
+    "translated": "actividad al aire libre"
+  },
+  {
+    "original": "musical artist",
+    "translated": "artista musical"
+  },
+  {
+    "original": "cosmetic",
+    "translated": "cosmético"
+  },
+  {
+    "original": "islamism",
+    "translated": "islamismo"
+  },
+  {
+    "original": "chronological device",
+    "translated": "dispositivo cronológico"
+  }
+]
