@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 from three_use_embedded import search, search_sequence
 from four_extract_concepts import process_text
 from five_llm_judge import judge as llm_judge
+import json
+from datetime import datetime
+from pathlib import Path
 
 load_dotenv()
 
@@ -13,6 +16,10 @@ app = Flask(__name__)
 CORS(app)
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+
+# Feedback storage
+FEEDBACK_DIR = Path("./feedback_logs")
+FEEDBACK_DIR.mkdir(exist_ok=True)
 
 @app.route("/helloworld")
 def home():
@@ -117,15 +124,16 @@ def simple_query():
 def search_pictograms():
     body = request.json
     query_text = body["query"]
-    top_k = body.get("top_k", 5)
+    top_k = body.get("top_k", 8)  # Increased default for better UX
+    offset = body.get("offset", 0)
 
     # For search we want to find pictograms for the query text itself
-    results = search(query_text, top_k)
+    results = search(query_text, top_k, offset)
 
     pictograms = []
     for i, result in enumerate(results):
         pictograms.append({
-            "order": i + 1,
+            "order": offset + i + 1,  # Adjust order based on offset
             "concept": query_text,  # Use the original query as concept
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
@@ -135,8 +143,44 @@ def search_pictograms():
 
     return jsonify({
         "query": query_text,
-        "results": pictograms
+        "results": pictograms,
+        "offset": offset,
+        "limit": top_k
     })
+
+@app.route("/feedback", methods=["POST"])
+def receive_feedback():
+    """Endpoint para recibir feedback completo del ciclo human-in-the-loop"""
+    try:
+        feedback_data = request.json
+        
+        # Añadir timestamp si no viene incluido
+        if "timestamp" not in feedback_data:
+            feedback_data["timestamp"] = datetime.now().isoformat()
+            
+        # Generar ID de sesión si no viene
+        if "session_id" not in feedback_data:
+            feedback_data["session_id"] = f"session_{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}"
+        
+        # Guardar feedback en archivo
+        timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        filename = FEEDBACK_DIR / f"feedback_{timestamp_str}.json"
+        
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(feedback_data, f, indent=2, ensure_ascii=False)
+        
+        return jsonify({
+            "status": "success",
+            "message": "Feedback received and stored",
+            "session_id": feedback_data["session_id"],
+            "timestamp": feedback_data["timestamp"]
+        }), 200
+        
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": f"Failed to process feedback: {str(e)}"
+        }), 400
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
