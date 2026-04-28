@@ -1,0 +1,56 @@
+{
+  "timestamp": "20260428_134145",
+  "text": "Yo quiero usar la polea para mover los objetos",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "quiero",
+      "id": 11538,
+      "url": "https://static.arasaac.org/pictograms/11538/11538_500.png",
+      "score": 0.8875734806060791
+    },
+    {
+      "order": 2,
+      "concept": "usar",
+      "id": 17036,
+      "url": "https://static.arasaac.org/pictograms/17036/17036_500.png",
+      "score": 0.8766813278198242
+    },
+    {
+      "order": 3,
+      "concept": "polea",
+      "id": 26334,
+      "url": "https://static.arasaac.org/pictograms/26334/26334_500.png",
+      "score": 0.8740081191062927
+    },
+    {
+      "order": 4,
+      "concept": "mover",
+      "id": 27371,
+      "url": "https://static.arasaac.org/pictograms/27371/27371_500.png",
+      "score": 0.8848767280578613
+    },
+    {
+      "order": 5,
+      "concept": "objetos",
+      "id": 32582,
+      "url": "https://static.arasaac.org/pictograms/32582/32582_500.png",
+      "score": 0.8900429010391235
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "Yo",
+      "para"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [
+      "La ausencia del pictograma 'para' (propósito) rompe la conexión semántica entre 'usar la polea' y 'mover los objetos', haciendo que la secuencia no represente claramente la intención causal de la frase original. El orden actual sugiere una enumeración de acciones más que un propósito."
+    ],
+    "suggestions": [
+      "Incluir un pictograma para 'para' (propósito) entre 'polea' y 'mover' para clarificar la relación entre las acciones.",
+      "Considerar añadir un pictograma para 'Yo' al inicio de la secuencia para una representación más explícita del sujeto."
+    ]
+  }
+}

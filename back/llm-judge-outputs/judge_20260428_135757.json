@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260428_135757",
+  "text": "El niño come una manzana",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "niño",
+      "id": 32841,
+      "url": "https://static.arasaac.org/pictograms/32841/32841_500.png",
+      "score": 0.9084820747375488,
+      "description": "query: Concepto: niño\n  Descripción:  Que se halla en la niñez.\n  Sinónimos: chico, crío\n  Categorías: niño\n  Contexto: persona, niño"
+    },
+    {
+      "order": 2,
+      "concept": "come",
+      "id": 11597,
+      "url": "https://static.arasaac.org/pictograms/11597/11597_500.png",
+      "score": 0.8299004435539246,
+      "description": "query: Concepto: ¿cómo te va?\n  Descripción: Se usa para averiguar que tal le está yendo a alguien.\n  Sinónimos: ¿qué tal?\n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico"
+    },
+    {
+      "order": 3,
+      "concept": "manzana",
+      "id": 11403,
+      "url": "https://static.arasaac.org/pictograms/11403/11403_500.png",
+      "score": 0.8751258254051208,
+      "description": "query: Concepto: zumo de manzana\n  Descripción: Líquido que se extrae de la manzana.\n  Sinónimos: \n  Categorías: bebidas\n  Contexto: alimentación, alimentos, bebidas"
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "come",
+        "reason": "El pictograma y su descripción (11597, '¿cómo te va?') corresponden a la pregunta '¿cómo te va?' (How are you?), no al verbo 'comer' (to eat). Esto es un error crítico para la comprensión de la frase."
+      },
+      {
+        "concept": "manzana",
+        "reason": "El pictograma y su descripción (11403, 'zumo de manzana') corresponden a 'zumo de manzana' (apple juice), no a 'manzana' (apple) como fruta entera. Esto altera significativamente el significado."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Para 'come' (verbo 'comer'), seleccionar un pictograma que represente la acción de comer, como el ARASAAC 10058 ('comer') o 33592 ('comer').",
+      "Para 'manzana' (fruta), seleccionar un pictograma que represente la fruta entera, como el ARASAAC 11402 ('manzana').",
+      "Verificar que la descripción del pictograma seleccionado coincida con el concepto deseado en cada caso."
+    ]
+  }
+}
