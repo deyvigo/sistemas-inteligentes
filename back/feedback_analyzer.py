@@ -1,19 +1,10 @@
-import numpy as np
-import re
-from sentence_transformers import SentenceTransformer
 import json
+import re
 from pathlib import Path
 from collections import defaultdict, Counter
+import numpy as np
 
-model = SentenceTransformer("intfloat/multilingual-e5-small")
-
-embeddings = np.load("./embeddings/embeddings.npy")
-ids = np.load("./embeddings/ids.npy")
-texts = np.load("./embeddings/texts.npy")
-
-# Feedback storage
 FEEDBACK_DIR = Path("./feedback_logs")
-FEEDBACK_DIR.mkdir(exist_ok=True)
 
 def load_feedback_history():
     """Load all feedback entries from feedback_logs directory"""
@@ -101,45 +92,50 @@ def analyze_concept_corrections(feedback_history):
     
     return result
 
-def apply_rule_improvements(concept, concept_stats, base_scores, id_list):
+def apply_rule_improvements(concept, concept_stats):
     """
-    Apply learned rules to adjust search scores for a concept
+    Apply learned rules to adjust pictogram selection for a concept
     
     Args:
         concept (str): The concept we're processing
         concept_stats (dict): The analyzed statistics from feedback
-        base_scores (np.array): Original similarity scores
-        id_list (np.array): Corresponding pictogram IDs
         
     Returns:
-        np.array: Modified scores
+        dict: Modifiers to apply to search results (boost/suppress certain IDs)
     """
     if concept not in concept_stats:
-        return base_scores  # No learned rules for this concept
+        return {}  # No learned rules for this concept
     
     stats = concept_stats[concept]
-    modified_scores = base_scores.copy()
-    
-    # Create ID to index mapping for fast lookup
-    id_to_index = {id_val: idx for idx, id_val in enumerate(id_list)}
+    modifiers = {
+        'boost': {},
+        'suppress': {}
+    }
     
     # Boost preferred pictograms
     for pictogram_id in stats['preferred_pictogram_ids']:
-        if pictogram_id in id_to_index:
-            idx = id_to_index[pictogram_id]
-            # Higher confidence = stronger boost
-            boost_value = min(stats['confidence'] * 0.1, 2.0)  # Cap at 2.0
-            modified_scores[idx] += boost_value
+        # Higher confidence = stronger boost
+        boost_value = min(stats['confidence'] * 0.1, 2.0)  # Cap at 2.0
+        modifiers['boost'][pictogram_id] = boost_value
     
     # Suppress rejected pictograms
     for pictogram_id in stats['rejected_pictogram_ids']:
-        if pictogram_id in id_to_index:
-            idx = id_to_index[pictogram_id]
-            # Higher confidence = stronger suppression (negative boost)
-            suppress_value = max(-stats['confidence'] * 0.1, -2.0)  # Cap at -2.0
-            modified_scores[idx] += suppress_value
+        # Higher confidence = stronger suppression (negative boost)
+        suppress_value = max(-stats['confidence'] * 0.1, -2.0)  # Cap at -2.0
+        modifiers['suppress'][pictogram_id] = suppress_value
     
-    return modified_scores
+    return modifiers
+
+def get_pictogram_search_modifier(concept):
+    """
+    Convenience function to get search modifiers for a concept
+    Loads feedback history and applies rules
+    """
+    # In a production system, we'd cache this to avoid reloading every time
+    # For now, we'll load on demand
+    history = load_feedback_history()
+    concept_stats = analyze_concept_corrections(history)
+    return apply_rule_improvements(concept, concept_stats)
 
 def analyze_llm_suggestions(feedback_history):
     """
@@ -178,44 +174,40 @@ def analyze_llm_suggestions(feedback_history):
     
     return dict(suggestion_patterns)
 
-def apply_llm_suggestions_as_postprocessing(concept, llm_suggestions, concept_results):
+def apply_llm_suggestions_as_postprocessing(concept, llm_suggestions, original_sequence):
     """
-    Apply learned LLM suggestions as post-processing rules to refine search results
+    Apply learned LLM suggestions as post-processing rules to refine output
     
     Args:
         concept (str): The concept we're processing
         llm_suggestions (dict): Analyzed LLM suggestions from feedback
-        concept_results (list): List of pictogram results for the concept
+        original_sequence (list): Original sequence of pictograms from system
         
     Returns:
-        list: Refined results after applying LLM suggestion rules
+        list: Refined sequence after applying LLM suggestion rules
     """
     # Create a copy to avoid modifying original
-    refined_results = [item.copy() for item in concept_results]
+    refined_sequence = [item.copy() for item in original_sequence]
     
     # Look for replacement patterns that match our concept
     for pattern, frequency in llm_suggestions.items():
-        if pattern.startswith('replace_') and 'with_' in pattern:
-            # Extract what concept we should be looking to replace and what action
-            match = re.search(r'replace_(.+)_with_(.+)', pattern)
+        if pattern.startswith('replace_') and f'with_{concept}' in pattern:
+            # Extract what concept we should be looking to replace
+            match = re.search(r'replace_(.+)_with_.+', pattern)
             if match:
                 target_concept = match.group(1)
-                suggested_action = match.group(2)
                 
-                # If this concept matches what the LLM suggests replacing
-                if concept == target_concept:
-                    # Boost scores for pictograms whose text contains the suggested action
-                    for item in refined_results:
-                        if suggested_action.lower() in item['text'].lower():
-                            # Boost based on frequency of suggestion
-                            boost_value = min(frequency * 0.15, 1.5)  # Cap at 1.5
-                            item['score'] += boost_value
-                            item['llm_suggestion_applied'] = True
-                            item['suggestion_source'] = pattern
-    
-    # Re-sort by score after applying boosts
-    refined_results.sort(key=lambda x: x['score'], reverse=True)
-    return refined_results
+                # Find items in sequence matching target_concept
+                for item in refined_sequence:
+                    if item['concept'] == target_concept:
+                        # Apply the LLM suggestion: boost scores for pictograms that represent the action
+                        # In a real implementation, we would look up pictograms that match the suggested action
+                        # For now, we'll just mark that this item should be reviewed
+                        item['llm_suggestion_applied'] = True
+                        item['suggestion_source'] = pattern
+                        item['suggestion_frequency'] = frequency
+                        
+    return refined_sequence
 
 def get_llm_suggestion_modifier(concept):
     """
@@ -223,69 +215,27 @@ def get_llm_suggestion_modifier(concept):
     """
     history = load_feedback_history()
     llm_suggestions = analyze_llm_suggestions(history)
+    # Return suggestions for this concept (would need original sequence to apply fully)
     return llm_suggestions
 
-def search(query, top_k=5, offset=0):
-    query_emb = model.encode([query], normalize_embeddings=True)[0]
-
-    scores = np.dot(embeddings, query_emb)
-
-    # Apply feedback-based rule improvements if we have history
-    try:
-        # Load feedback history and analyze for this query concept
-        history = load_feedback_history()
-        if history:
-            concept_stats = analyze_concept_corrections(history)
-            scores = apply_rule_improvements(query, concept_stats, scores, ids)
-    except Exception as e:
-        # If feedback processing fails, continue with original scores
-        print(f"Warning: Could not apply feedback improvements: {e}")
-
-    # Get more results than needed to handle offset properly
-    # We need at least offset + top_k results to slice correctly
-    num_results_needed = offset + top_k
-    # But don't exceed total available results
-    num_results_needed = min(num_results_needed, len(scores))
+if __name__ == "__main__":
+    # Test the analyzer
+    history = load_feedback_history()
+    print(f"Loaded {len(history)} feedback entries")
     
-    # Get indices of top scores, sorted descending
-    top_indices = np.argsort(scores)[-num_results_needed:][::-1]
-
-    results = []
-    for i in top_indices:
-        results.append({
-            "id": ids[i],
-            "text": texts[i],
-            "score": scores[i]
-        })
-    
-    # Apply LLM suggestion post-processing if we have history
-    try:
-        history = load_feedback_history()
-        if history:
-            llm_suggestions = analyze_llm_suggestions(history)
-            results = apply_llm_suggestions_as_postprocessing(query, llm_suggestions, results)
-    except Exception as e:
-        # If LLM suggestion processing fails, continue with current results
-        print(f"Warning: Could not apply LLM suggestion improvements: {e}")
-    
-    # Apply offset (skip first 'offset' results)
-    return results[offset:offset+top_k]
-
-def search_sequence(concepts, top_k=3):
-    sequence_results = []
-    seen_ids = set()
-
-    for concept in concepts:
-        concept_results = search(concept, top_k)
-        for result in concept_results:
-            if result["id"] not in seen_ids:
-                seen_ids.add(result["id"])
-                sequence_results.append({
-                    "concept": concept,
-                    "id": result["id"],
-                    "text": result["text"],
-                    "score": result["score"]
-                })
-                break
-
-    return sequence_results
+    if history:
+        stats = analyze_concept_corrections(history)
+        print(f"Learned rules for {len(stats)} concepts:")
+        for concept, rule in list(stats.items())[:3]:  # Show first 3
+            print(f"  {concept}:")
+            print(f"    Preferred: {rule['preferred_pictogram_ids']}")
+            print(f"    Rejected: {rule['rejected_pictogram_ids']}")
+            print(f"    Confidence: {rule['confidence']}")
+        
+        # Test LLM suggestion analysis
+        llm_suggestions = analyze_llm_suggestions(history)
+        print(f"\nLLM suggestion patterns:")
+        for pattern, count in list(llm_suggestions.items())[:5]:  # Show top 5
+            print(f"  {pattern}: {count}")
+    else:
+        print("No feedback history found")

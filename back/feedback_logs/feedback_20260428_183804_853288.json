@@ -1,0 +1,146 @@
+{
+  "session_id": "session_1777419484776",
+  "timestamp": "2026-04-28T23:38:04.776Z",
+  "input": {
+    "original_text": "La paleontóloga descubre los huesos de dinosaurio",
+    "concepts_extracted": [
+      "paleontóloga",
+      "descubre",
+      "huesos",
+      "dinosaurio"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "paleontóloga",
+        "description": "query: Concepto: paleontóloga\n  Descripción: f. Persona que profesa la paleontología o tiene en ella especiales conocimientos.\n  Sinónimos: \n  Categorías: paleontología, profesional\n  Contexto: paleontología, trabajo, profesional",
+        "id": 34256,
+        "order": 1,
+        "score": 0.9078496694564819,
+        "url": "https://static.arasaac.org/pictograms/34256/34256_500.png"
+      },
+      {
+        "concept": "descubre",
+        "description": "query: Concepto: desenchufar\n  Descripción: tr. Hacer que algo que estaba enchufado deje de estarlo.\n  Sinónimos: \n  Categorías: verbo, instalaciones de construcción, aparato\n  Contexto: comunicación, idioma, verbo, lugar, edificio, instalaciones de construcción, objeto, aparato",
+        "id": 8086,
+        "order": 2,
+        "score": 0.871368944644928,
+        "url": "https://static.arasaac.org/pictograms/8086/8086_500.png"
+      },
+      {
+        "concept": "huesos",
+        "description": "query: Concepto: hueso\n  Descripción: m. Cada una de las piezas duras que forman el esqueleto de los vertebrados.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+        "id": 6528,
+        "order": 3,
+        "score": 0.8966901302337646,
+        "url": "https://static.arasaac.org/pictograms/6528/6528_500.png"
+      },
+      {
+        "concept": "dinosaurio",
+        "description": "query: Concepto: cuello de dinosaurio\n  Descripción: m. Parte del cuerpo del dinosaurio que une la cabeza con el tronco.\n  Sinónimos: \n  Categorías: anatomía dinosaurio\n  Contexto: animal, extinguido, dinosaurio, anatomía, anatomía dinosaurio",
+        "id": 34957,
+        "order": 4,
+        "score": 0.8866573572158813,
+        "url": "https://static.arasaac.org/pictograms/34957/34957_500.png"
+      }
+    ],
+    "analysis": {
+      "action": null,
+      "concepts": [
+        {
+          "role": "concept",
+          "text": "paleontóloga",
+          "type": "noun"
+        },
+        {
+          "role": "concept",
+          "text": "descubre",
+          "type": "noun"
+        },
+        {
+          "role": "concept",
+          "text": "huesos",
+          "type": "noun"
+        },
+        {
+          "role": "concept",
+          "text": "dinosaurio",
+          "type": "noun"
+        }
+      ],
+      "negation": false,
+      "objects": [],
+      "subject": null,
+      "temporal_markers": []
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [
+      {
+        "concept": "descubre",
+        "reason": "El pictograma seleccionado corresponde al concepto 'cubrir' (ocultar/tapar), que es el antónimo semántico de 'descubrir' (encontrar/hallar). El error es crítico y altera totalmente el significado de la frase."
+      }
+    ],
+    "missing_concepts": [
+      "artículo 'La'",
+      "artículo 'los'",
+      "de"
+    ],
+    "ordering_issues": [],
+    "score": 2,
+    "suggestions": [
+      "Reemplazar el pictograma de 'cubrir' por uno que represente 'encontrar', 'hallar' o 'descubrir' (ej. persona observando algo bajo tierra).",
+      "Incluir los artículos 'La' y 'los' para mantener la estructura gramatical correcta en español.",
+      "Añadir el pictograma de la preposición 'de' para establecer la relación de pertenencia entre los huesos y el dinosaurio."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "paleontóloga",
+        "description": "query: Concepto: paleontóloga\n  Descripción: f. Persona que profesa la paleontología o tiene en ella especiales conocimientos.\n  Sinónimos: \n  Categorías: paleontología, profesional\n  Contexto: paleontología, trabajo, profesional",
+        "id": 34256,
+        "order": 1,
+        "score": 0.9078496694564819,
+        "url": "https://static.arasaac.org/pictograms/34256/34256_500.png"
+      },
+      {
+        "concept": "encontrar",
+        "description": "query: Concepto: buscar\n  Descripción:  tr. Hacer algo para hallar a alguien o algo.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+        "id": 27391,
+        "order": 2,
+        "score": 0.8813269138336182,
+        "url": "https://static.arasaac.org/pictograms/27391/27391_500.png"
+      },
+      {
+        "concept": "huesos",
+        "description": "query: Concepto: hueso\n  Descripción: m. Cada una de las piezas duras que forman el esqueleto de los vertebrados.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+        "id": 6528,
+        "order": 3,
+        "score": 0.8966901302337646,
+        "url": "https://static.arasaac.org/pictograms/6528/6528_500.png"
+      },
+      {
+        "concept": "dinosaurio",
+        "description": "query: Concepto: dinosaurio\n  Descripción: m. Reptil que vivió durante la era mesozoica, de cabeza pequeña, cuello largo, cola robusta y larga y las patas anteriores más cortas que las posteriores.\n  Sinónimos: \n  Categorías: dinosaurio, núcleo vocabulario-viviendo ser, extinguido\n  Contexto: animal, extinguido, dinosaurio, paleontología, vocabulario básico",
+        "id": 2738,
+        "order": 4,
+        "score": 0.9849367141723633,
+        "url": "https://static.arasaac.org/pictograms/2738/2738_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [
+        8086,
+        34957
+      ],
+      "addedPictogramIds": [
+        27391,
+        2738
+      ],
+      "reorder_details": []
+    }
+  }
+}

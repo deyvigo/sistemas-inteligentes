@@ -45,6 +45,7 @@ function App() {
   const [hasMore, setHasMore] = useState(false)
   const [feedbackSent, setFeedbackSent] = useState(false)
   const [feedbackSending, setFeedbackSending] = useState(false)
+  const [feedbackHistory, setFeedbackHistory] = useState<Array<any>>([])
 
    const handleReorder = (newSequence: SequenceItem[]) => {
      if (!data) return;
@@ -156,102 +157,125 @@ function App() {
     setSearchResults([])
   }
 
-    const handleSendFeedback = async () => {
-    if (!data || !originalData) return;
+     const handleSendFeedback = async () => {
+     if (!data || !originalData) return;
 
-    setFeedbackSending(true);
-    try {
-      // Compute user modifications
-      const originalIds = new Set(originalData.sequence.map(item => item.id));
-      const currentIds = new Set(data.sequence.map(item => item.id));
+     setFeedbackSending(true);
+     try {
+       // Compute user modifications
+       const originalIds = new Set(originalData.sequence.map(item => item.id));
+       const currentIds = new Set(data.sequence.map(item => item.id));
 
-      const deletedPictogramIds = originalData.sequence
-        .filter(item => !currentIds.has(item.id))
-        .map(item => item.id);
+       const deletedPictogramIds = originalData.sequence
+         .filter(item => !currentIds.has(item.id))
+         .map(item => item.id);
 
-      const addedPictogramIds = data.sequence
-        .filter(item => !originalIds.has(item.id))
-        .map(item => item.id);
+       const addedPictogramIds = data.sequence
+         .filter(item => !originalIds.has(item.id))
+         .map(item => item.id);
 
-      // For reorder details, we compare the order of items that exist in both
-      const originalOrderMap = new Map();
-      originalData.sequence.forEach(item => {
-        originalOrderMap.set(item.id, item.order);
-      });
+       // For reorder details, we compare the order of items that exist in both
+       const originalOrderMap = new Map();
+       originalData.sequence.forEach(item => {
+         originalOrderMap.set(item.id, item.order);
+       });
 
-      const reorderDetails: {
-        pictogram_id: number;
-        from_order: number;
-        to_order: number;
-      }[] = [];
+       const reorderDetails: {
+         pictogram_id: number;
+         from_order: number;
+         to_order: number;
+       }[] = [];
 
-      data.sequence.forEach(item => {
-        const originalOrder = originalOrderMap.get(item.id);
-        if (originalOrder !== undefined && originalOrder !== item.order) {
-          reorderDetails.push({
-            pictogram_id: item.id,
-            from_order: originalOrder,
-            to_order: item.order
-          });
-        }
-      });
+       data.sequence.forEach(item => {
+         const originalOrder = originalOrderMap.get(item.id);
+         if (originalOrder !== undefined && originalOrder !== item.order) {
+           reorderDetails.push({
+             pictogram_id: item.id,
+             from_order: originalOrder,
+             to_order: item.order
+           });
+         }
+       });
 
-      const reordered = reorderDetails.length > 0;
+       const reordered = reorderDetails.length > 0;
 
-      const feedbackPayload = {
-        session_id: `session_${Date.now()}`,
-        timestamp: new Date().toISOString(),
-        input: {
-          original_text: data.original_text,
-          concepts_extracted: data.concepts_extracted
-        },
-        system_generation: {
-          sequence: originalData?.sequence || [],
-          analysis: originalData?.analysis || { negation: false, temporal_markers: [] }
-        },
-        llm_evaluation: data.judge || {
-          score: 0,
-          missing_concepts: [],
-          incorrect_pictograms: [],
-          ordering_issues: [],
-          suggestions: []
-        },
-        user_modifications: {
-          final_sequence: data.sequence,
-          actions_taken: {
-            reordered,
-            deletedPictogramIds,
-            addedPictogramIds,
-            reorder_details: reorderDetails
-          }
-        }
-      };
+       // Prepare feedback for local storage (following README format)
+       const feedbackEntry = {
+         texto: data.original_text,
+         prediccion: originalData?.sequence || [],
+         judge_output: data.judge || {
+           score: 0,
+           missing_concepts: [],
+           incorrect_pictograms: [],
+           ordering_issues: [],
+           suggestions: []
+         },
+         correccion_humana: data.sequence,
+         acciones: {
+           reordered,
+           deletedPictogramIds,
+           addedPictogramIds,
+           reorder_details: reorderDetails
+         }
+       };
 
-      const response = await fetch("http://localhost:5000/feedback", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(feedbackPayload)
-      });
+       // Add to local history
+       setFeedbackHistory(prev => [...prev, feedbackEntry]);
 
-      if (!response.ok) {
-        throw new Error(`Error: ${response.status}`);
-      }
+       const feedbackPayload = {
+         session_id: `session_${Date.now()}`,
+         timestamp: new Date().toISOString(),
+         input: {
+           original_text: data.original_text,
+           concepts_extracted: data.concepts_extracted
+         },
+         system_generation: {
+           sequence: originalData?.sequence || [],
+           analysis: originalData?.analysis || { negation: false, temporal_markers: [] }
+         },
+         llm_evaluation: data.judge || {
+           score: 0,
+           missing_concepts: [],
+           incorrect_pictograms: [],
+           ordering_issues: [],
+           suggestions: []
+         },
+         user_modifications: {
+           final_sequence: data.sequence,
+           actions_taken: {
+             reordered,
+             deletedPictogramIds,
+             addedPictogramIds,
+             reorder_details: reorderDetails
+           }
+         }
+       };
 
-      const result = await response.json();
-      setFeedbackSent(true);
-      // Optionally, we can reset feedback state after a delay
-      setTimeout(() => {
-        setFeedbackSent(false);
-      }, 3000);
-    } catch (error) {
-      console.error("Feedback error:", error);
-      // We could set an error state, but for simplicity we'll just log and maybe show a message
-      // For now, we'll set feedbackSent to false and let the UI show an error if we had a state for it.
-      // We'll add an error state if needed, but let's keep it simple for now.
-    } finally {
-      setFeedbackSending(false);
-    }
-  };
+       const response = await fetch("http://localhost:5000/feedback", {
+         method: "POST",
+         headers: { "Content-Type": "application/json" },
+         body: JSON.stringify(feedbackPayload)
+       });
+
+       if (!response.ok) {
+         throw new Error(`Error: ${response.status}`);
+       }
+
+       const result = await response.json();
+       setFeedbackSent(true);
+       // Optionally, we can reset feedback state after a delay
+       setTimeout(() => {
+         setFeedbackSent(false);
+       }, 3000);
+     } catch (error) {
+       console.error("Feedback error:", error);
+       // We could set an error state, but for simplicity we'll just log and maybe show a message
+       // For now, we'll set feedbackSent to false and let the UI show an error if we had a state for it.
+       // We'll add an error state if needed, but let's keep it simple for now.
+     } finally {
+       setFeedbackSending(false);
+     }
+   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 p-8">
