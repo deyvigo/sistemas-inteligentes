@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260428_123308",
+  "text": "c",
+  "sequence": [],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "c"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "No se generó ningún pictograma para la frase original.",
+      "Asegurarse de que la frase original sea una frase completa y con significado para poder generar pictogramas relevantes."
+    ]
+  }
+}
