@@ -1,0 +1,32 @@
+services:
+  backend:
+    build: ./back
+    image: my-backend
+    ports:
+      - "5000:5000" # Cambia el primero si tu app usa otro puerto
+    volumes:
+      - ./back:/app
+      - /app/.env
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - app-network
+
+  frontend:
+    build: ./front
+    image: my-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./front:/app
+      - /app/node_modules # Evita que los módulos locales sobrescriban los del contenedor
+    environment:
+      - VITE_API_URL=http://localhost:5000
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,25 @@
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer("intfloat/multilingual-e5-small")
+
+embeddings = np.load("./embeddings/embeddings.npy")
+ids = np.load("./embeddings/ids.npy")
+texts = np.load("./embeddings/texts.npy")
+
+def search(query, top_k=5):
+  query_emb = model.encode([query], normalize_embeddings=True)[0]
+
+  scores = np.dot(embeddings, query_emb)
+
+  top_indices = np.argsort(scores)[-top_k:][::-1]
+
+  results = []
+  for i in top_indices:
+    results.append({
+      "id": ids[i],
+      "text": texts[i],
+      "score": scores[i]
+    })
+
+  return results
