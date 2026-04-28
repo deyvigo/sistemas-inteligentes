@@ -63,7 +63,8 @@ torch==2.11.0
 tqdm==4.67.3
 transformers==5.6.2
 triton==3.6.0
-typer==0.25.0
+spacy==3.7.2
+es-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.7.0/es_core_news_sm-3.7.0-py3-none-any.whl
 typing-inspection==0.4.2
 typing_extensions==4.15.0
 Werkzeug==3.1.8
