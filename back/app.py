@@ -113,5 +113,30 @@ def simple_query():
 
     return jsonify({"paths": urls})
 
+@app.route("/search-pictograms", methods=["POST"])
+def search_pictograms():
+    body = request.json
+    query_text = body["query"]
+    top_k = body.get("top_k", 5)
+
+    # For search we want to find pictograms for the query text itself
+    results = search(query_text, top_k)
+
+    pictograms = []
+    for i, result in enumerate(results):
+        pictograms.append({
+            "order": i + 1,
+            "concept": query_text,  # Use the original query as concept
+            "id": int(result["id"]),
+            "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
+            "score": float(result["score"]),
+            "description": result["text"]  # Keep description for potential use
+        })
+
+    return jsonify({
+        "query": query_text,
+        "results": pictograms
+    })
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
