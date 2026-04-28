@@ -59,8 +59,6 @@ Escala de score (SE ESTRICTO):
 
 Recuerda: Tu trabajo es proteger al usuario de pictogramas incorrectos que podrían llevar a malentendidos comunicativos graves."""
 
-print(os.getenv("GEMINI_API_KEY"))
-
 def build_prompt(text: str, sequence: list) -> str:
     # Construir descripción detallada de cada pictograma
     pictograms_details = []

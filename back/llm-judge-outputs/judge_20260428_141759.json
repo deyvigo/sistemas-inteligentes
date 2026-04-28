@@ -1,0 +1,31 @@
+{
+  "timestamp": "20260428_141759",
+  "text": "Mi voto es secreto",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "voto",
+      "id": 24603,
+      "url": "https://static.arasaac.org/pictograms/24603/24603_500.png",
+      "score": 0.8911133408546448,
+      "description": "query: Concepto: voto\n  Descripción: m. Papeleta en la que se da a conocer un parecer o dictamen en una elección.\n  Sinónimos: papeleta, papeleta electoral\n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones"
+    },
+    {
+      "order": 2,
+      "concept": "secreto",
+      "id": 27691,
+      "url": "https://static.arasaac.org/pictograms/27691/27691_500.png",
+      "score": 0.8728821277618408,
+      "description": "query: Concepto: contraseña\n  Descripción: f. Seña secreta que permite el acceso a algo, a alguien o a un grupo de personas antes inaccesible.\n  Sinónimos: clave\n  Categorías: informática\n  Contexto: informática"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [
+      "Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    ],
+    "suggestions": []
+  }
+}

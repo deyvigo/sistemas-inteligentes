@@ -10,6 +10,7 @@ interface SequenceItem {
   id: number
   url: string
   score: number
+  description?: string
 }
 
 interface JudgeResult {
@@ -34,6 +35,24 @@ interface QueryResponse {
 function App() {
   const [query, setQuery] = useState("")
   const [data, setData] = useState<QueryResponse | null>(null)
+
+  const handleReorder = (newSequence: SequenceItem[]) => {
+    setData(prev => prev ? { ...prev, sequence: newSequence } : null)
+  }
+
+  const handleDelete = (id: number) => {
+    setData(prev => {
+      if (!prev) return null
+      
+      const newSequence = prev.sequence.filter(item => item.id !== id)
+      // Update order values
+      newSequence.forEach((item, index) => {
+        item.order = index + 1
+      })
+      
+      return { ...prev, sequence: newSequence }
+    })
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 p-8">
@@ -66,7 +85,11 @@ function App() {
 
             <div className="bg-white rounded-2xl p-6 shadow-xl">
               <h2 className="text-lg font-semibold text-gray-700 mb-3">Pictogramas</h2>
-              <ImageList sequence={data.sequence} />
+              <ImageList 
+                sequence={data.sequence} 
+                onReorder={handleReorder}
+                onDelete={handleDelete}
+              />
               {data.judge ? (
                 <>
                   <div className="mb-2">Judge data exists: score = {data.judge.score}</div>

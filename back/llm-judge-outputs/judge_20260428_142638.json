@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260428_142638",
+  "text": "Mi voto es secreto",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "voto",
+      "id": 24603,
+      "url": "https://static.arasaac.org/pictograms/24603/24603_500.png",
+      "score": 0.8911133408546448,
+      "description": "query: Concepto: voto\n  Descripción: m. Papeleta en la que se da a conocer un parecer o dictamen en una elección.\n  Sinónimos: papeleta, papeleta electoral\n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones"
+    },
+    {
+      "order": 2,
+      "concept": "secreto",
+      "id": 27691,
+      "url": "https://static.arasaac.org/pictograms/27691/27691_500.png",
+      "score": 0.8728821277618408,
+      "description": "query: Concepto: contraseña\n  Descripción: f. Seña secreta que permite el acceso a algo, a alguien o a un grupo de personas antes inaccesible.\n  Sinónimos: clave\n  Categorías: informática\n  Contexto: informática"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "mi",
+      "es"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "secreto",
+        "reason": "El pictograma seleccionado representa el concepto 'contraseña' (informática). Existe una discrepancia crítica entre el significado requerido (adjetivo que denota algo oculto o reservado) y la representación seleccionada, que es un sustantivo técnico ligado a accesos digitales."
+      }
+    ],
+    "ordering_issues": [
+      "La secuencia omite los artículos/posesivos ('mi') y el verbo ('es'), lo que impide la construcción de una frase gramaticalmente correcta y altera el sentido de propiedad y afirmación de la oración original."
+    ],
+    "suggestions": [
+      "Añadir el pictograma para 'mi' (posesivo) al inicio de la secuencia.",
+      "Añadir el pictograma para 'es' (verbo ser) para dar estructura gramatical.",
+      "Sustituir el pictograma de 'contraseña' por uno que represente el concepto de 'secreto' como cualidad oculta (por ejemplo, el pictograma de 'secreto' que muestra una mano sobre la boca o un candado genérico que represente confidencialidad)."
+    ]
+  }
+}
