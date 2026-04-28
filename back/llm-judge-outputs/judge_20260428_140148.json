@@ -1,0 +1,62 @@
+{
+  "timestamp": "20260428_140148",
+  "text": "Yo quiero usar la polea para mover los objetos",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "quiero",
+      "id": 11538,
+      "url": "https://static.arasaac.org/pictograms/11538/11538_500.png",
+      "score": 0.8875734806060791,
+      "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona"
+    },
+    {
+      "order": 2,
+      "concept": "usar",
+      "id": 17036,
+      "url": "https://static.arasaac.org/pictograms/17036/17036_500.png",
+      "score": 0.8766813278198242,
+      "description": "query: Concepto: uso\n  Descripción: m. Acción y resultado de usar: lo he comprado para vuestro uso y disfrute. \n  Sinónimos: utilización, utilidad\n  Categorías: varios\n  Contexto:"
+    },
+    {
+      "order": 3,
+      "concept": "polea",
+      "id": 26334,
+      "url": "https://static.arasaac.org/pictograms/26334/26334_500.png",
+      "score": 0.8740081191062927,
+      "description": "query: Concepto: polea\n  Descripción: f. Rueda acanalada en su circunferencia y móvil alrededor de un eje. Por la canal o garganta pasa una cuerda o cadena en cuyos dos extremos actúan, respectivamente, la potencia y la resistencia.\n  Sinónimos: \n  Categorías: física\n  Contexto: física"
+    },
+    {
+      "order": 4,
+      "concept": "mover",
+      "id": 27371,
+      "url": "https://static.arasaac.org/pictograms/27371/27371_500.png",
+      "score": 0.8848767280578613,
+      "description": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales"
+    },
+    {
+      "order": 5,
+      "concept": "objetos",
+      "id": 32582,
+      "url": "https://static.arasaac.org/pictograms/32582/32582_500.png",
+      "score": 0.8900429010391235,
+      "description": "query: Concepto: objetos\n  Descripción: m. pl. Lo que posee carácter material e inanimado;cosa:me gusta rodearme de objetos bellos.\n  Sinónimos: objetos cotidianos, objeto, objeto cotidiano\n  Categorías: objeto, categorización\n  Contexto: objeto, categorización"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "Yo",
+      "para"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [
+      "La ausencia del pictograma para 'Yo' al inicio de la frase omite el sujeto, lo cual puede generar ambigüedad sobre quién realiza la acción, aunque el español permite sujeto tácito, en AAC se suele preferir la explicitud.",
+      "La ausencia del pictograma para 'para' (conjunción de propósito) altera la relación lógica entre 'usar la polea' y 'mover los objetos'. La secuencia actual sugiere una lista de acciones/objetos en lugar de la intención específica de usar la polea CON EL FIN DE mover los objetos."
+    ],
+    "suggestions": [
+      "Incluir un pictograma para el pronombre 'Yo' al inicio de la secuencia para especificar el sujeto.",
+      "Añadir un pictograma que represente la función de 'para' (propósito o finalidad) entre 'polea' y 'mover' para clarificar la intención de la acción."
+    ]
+  }
+}

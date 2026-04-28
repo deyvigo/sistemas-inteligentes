@@ -80,7 +80,8 @@ def query_and_judge():
             "concept": result["concept"],
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
-            "score": float(result["score"])
+            "score": float(result["score"]),
+            "description": result["text"]
         })
 
     judge_result = None

@@ -20,44 +20,67 @@ except ImportError:
     from google import genai
     from google.genai import types
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.1-flash-lite-preview"
 
-SYSTEM_PROMPT = """Eres un evaluador experto de pictogramas AAC (Comunicación Aumentativa y Alternativa).
+SYSTEM_PROMPT = """Eres un evaluador experto y estricto de pictogramas AAC (Comunicación Aumentativa y Alternativa).
 
-Tu tarea es evaluar qué tan bien una secuencia de pictogramas representa el significado de una frase en español.
+Tu tarea es evaluar qué tan bien una secuencia de pictogramas representa el significado EXACTO de una frase en español.
 
-evalúa según estos criterios:
-1. COBERTURA SEMÁNTICA: ¿Todos los conceptos importantes están representados?
-2. ERRORES DE SELECCIÓN: ¿Los pictogramas elegido representan correctamente los conceptos?
-3. ORDEN SINTÁCTICO: ¿Los pictogramas siguen un orden gramatical coherente?
+Debes ser meticuloso y penalizar fuertemente cualquier discrepancia, incluso menor, entre:
+1. El concepto solicitado y lo que realmente representa el pictograma
+2. La descripción asociada al pictograma y el concepto esperado
+
+Evalúa rigurosamente según estos criterios:
+1. COBERTURA SEMÁNTICA: ¿Todos los conceptos importantes de la frase están representados? Penaliza fuertemente los conceptos faltantes.
+2. PRECISIÓN DE SELECCIÓN: ¿Cada pictograma representa EXACTAMENTE el concepto correspondiente? Cualquier mismatch entre el concepto solicitado y lo que representa el pictograma (basándose en su descripción) debe marcarse como incorrecto.
+3. ORDEN SINTÁCTICO: ¿Los pictogramas siguen un orden gramatical y lógico coherente para la frase?
+
+INSTRUCCIONES CRÍTICAS:
+- Si la descripción de un pictograma no coincide con el concepto solicitado, DEBES marcarlo como incorrecto en "incorrect_pictograms"
+- Sé especialmente crítico con verbos, adjetivos y sustantivos específicos - no aceptes aproximaciones genéricas
+- La descripción proporcionada es la verdad definitiva sobre qué representa cada pictograma
+- Si hay dudas, es mejor marcar como incorrecto que pasar por alto un error
 
 Responde SOLO con JSON válido, sin texto adicional:
 {
   "score": 1-5,
   "missing_concepts": ["concepto1", "concepto2"] | [],
-  "incorrect_pictograms": [{"concept": "X", "reason": "explicación"}] | [],
+  "incorrect_pictograms": [{"concept": "X", "reason": "explicación detallada del por qué es incorrecto"}] | [],
   "ordering_issues": ["explicación del problema de orden"] | [],
-  "suggestions": ["sugerencia1", "sugerencia2"] | []
+  "suggestions": ["sugerencia1 concreta", "sugerencia2 concreta"] | []
 }
 
-Escala de score:
-- 1: Muy malo, no representa el significado
-- 2: Malo, faltan conceptos importantes
-- 3: Regular, algunos errores
-- 4: Bueno, pequeño detalles a mejorar
-- 5: Excelente, representa perfectamente"""
+Escala de score (SE ESTRICTO):
+- 1: Muy malo - Errores graves que impiden la comprensión básica
+- 2: Malo - Múltiples errores significativos o conceptos faltantes importantes
+- 3: Regular - Algunos errores notables que afectan la claridad
+- 4: Bueno - Pocos errores menores, generalmente comprensible
+- 5: Excelente - Representación perfecta y precisa sin errores detectables
+
+Recuerda: Tu trabajo es proteger al usuario de pictogramas incorrectos que podrían llevar a malentendidos comunicativos graves."""
 
 print(os.getenv("GEMINI_API_KEY"))
 
 def build_prompt(text: str, sequence: list) -> str:
-    concepts = [item["concept"] for item in sequence]
-    concepts_str = ", ".join(concepts)
+    # Construir descripción detallada de cada pictograma
+    pictograms_details = []
+    for item in sequence:
+        detail = f"- Concepto: '{item['concept']}'"
+        if 'description' in item:
+            detail += f", Descripción: '{item['description']}'"
+        detail += f", URL: {item['url']}"
+        pictograms_details.append(detail)
+    
+    pictograms_str = "\n    ".join(pictograms_details)
 
     return f"""Frase original: "{text}"
-    Pictogramas generados: [{concepts_str}]
-    URLs: {[item["url"] for item in sequence]}
+    Pictogramas generados:
+    {pictograms_str}
 
-    Evalúa la calidad de esta secuencia de pictogramas."""
+    Evalúa la calidad de esta secuencia de pictogramas considerando:
+    1. Si el concepto representado por cada pictograma corresponde al concepto esperado
+    2. Si la descripción asociada al pictograma coincide con el concepto
+    3. La adecuación general de la secuencia para representar la frase original"""
 
 def parse_response(text: str) -> dict:
     text = text.strip()
