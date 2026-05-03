@@ -7,6 +7,30 @@ from collections import defaultdict, Counter
 
 model = SentenceTransformer("intfloat/multilingual-e5-small")
 
+def extract_concept(text):
+    """Extract the main concept (keyword) from the text field"""
+    # The text format is:
+    #    query: Concepto: {keyword}
+    #    Descripción: {description}
+    #    ...
+    # We want to extract just the keyword after "Concepto:"
+    
+    lines = text.strip().split('\n')
+    for line in lines:
+        if 'Concepto:' in line:
+            # Extract everything after "Concepto: "
+            parts = line.split('Concepto:')
+            if len(parts) > 1:
+                keyword = parts[1].strip()
+                return keyword
+    
+    # Fallback: return first non-empty line
+    for line in lines:
+        if line.strip():
+            return line.strip()[:50]
+    
+    return "unknown"
+
 embeddings = np.load("./embeddings/embeddings.npy")
 ids = np.load("./embeddings/ids.npy")
 texts = np.load("./embeddings/texts.npy")
@@ -252,9 +276,12 @@ def search(query, top_k=5, offset=0):
 
     results = []
     for i in top_indices:
+        full_text = texts[i]
+        concept = extract_concept(full_text)
         results.append({
             "id": ids[i],
-            "text": texts[i],
+            "text": full_text,
+            "concept": concept,
             "score": scores[i]
         })
     
@@ -281,7 +308,7 @@ def search_sequence(concepts, top_k=3):
             if result["id"] not in seen_ids:
                 seen_ids.add(result["id"])
                 sequence_results.append({
-                    "concept": concept,
+                    "concept": result.get("concept", concept),
                     "id": result["id"],
                     "text": result["text"],
                     "score": result["score"]

@@ -1,4 +1,5 @@
 import os
+import re
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from dotenv import load_dotenv
@@ -8,6 +9,15 @@ from five_llm_judge import judge as llm_judge
 import json
 from datetime import datetime
 from pathlib import Path
+
+def extract_concept(text):
+    """Extract only the main keyword from the text field"""
+    # Format: "query: Concepto: {keyword}\nDescripción: ..."
+    match = re.search(r'Concepto:\s*(.+?)(\n|$)', text, re.IGNORECASE)
+    if match:
+        return match.group(1).strip()
+    # Fallback: return first 50 chars
+    return text.strip()[:50]
 
 load_dotenv()
 
@@ -132,9 +142,11 @@ def search_pictograms():
 
     pictograms = []
     for i, result in enumerate(results):
+        # Extract only the main concept (keyword) from the full text
+        concept = extract_concept(result["text"])
         pictograms.append({
             "order": offset + i + 1,  # Adjust order based on offset
-            "concept": query_text,  # Use the original query as concept
+            "concept": concept,  # Only the concept
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
             "score": float(result["score"]),
@@ -183,4 +195,4 @@ def receive_feedback():
         }), 400
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)

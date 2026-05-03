@@ -6,7 +6,6 @@ services:
       - "5000:5000" # Cambia el primero si tu app usa otro puerto
     volumes:
       - ./back:/app
-      - /app/.env
     environment:
       - PYTHONUNBUFFERED=1
     networks:
