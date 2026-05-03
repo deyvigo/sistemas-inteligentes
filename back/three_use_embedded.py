@@ -316,3 +316,39 @@ def search_sequence(concepts, top_k=3):
                 break
 
     return sequence_results
+
+
+def search_sequence_candidates(concepts, candidate_k=5):
+    """
+    For each concept, return TOP candidate_k pictograms from embedding search.
+    Used by LLM Generator to select the best pictogram considering full text context.
+    
+    Returns:
+        list: [{"concept": "correr", "candidates": [{id, concept, text, score}, ...]}, ...]
+    """
+    candidates_per_concept = []
+    
+    for concept in concepts:
+        # Get top-k candidates for this concept
+        candidate_results = search(concept, top_k=candidate_k)
+        
+        candidates_list = []
+        for result in candidate_results:
+            candidates_list.append({
+                "id": int(result["id"]),
+                "concept": result.get("concept", concept),
+                "text": result["text"],
+                "score": float(result["score"])
+            })
+        
+        candidates_per_concept.append({
+            "concept": concept,
+            "candidates": candidates_list
+        })
+        
+        # Print top candidates for debugging
+        print(f"\n=== Top {candidate_k} candidates for concept: '{concept}' ===")
+        for i, cand in enumerate(candidates_list, 1):
+            print(f"  {i}. ID: {cand['id']}, Concept: '{cand['concept']}', Score: {cand['score']:.4f}")
+    
+    return candidates_per_concept

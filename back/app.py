@@ -3,7 +3,7 @@ import re
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from dotenv import load_dotenv
-from three_use_embedded import search, search_sequence
+from three_use_embedded import search, search_sequence, search_sequence_candidates
 from four_extract_concepts import process_text
 from five_llm_judge import judge as llm_judge
 import json
@@ -21,11 +21,23 @@ def extract_concept(text):
 
 load_dotenv()
 
+# Debug: Print loaded environment variables
+print("=== Loaded Environment Variables ===")
+print(f"GEMINI_API_KEY set: {(os.environ.get('GEMINI_API_KEY'))}")
+print(f"GEMINI_API_KEY_GENERATOR set: {(os.environ.get('GEMINI_API_KEY_GENERATOR'))}")
+print(f"GEMINI_API_KEY_JUDGE set: {(os.environ.get('GEMINI_API_KEY_JUDGE'))}")
+print(f"USE_LLM_GENERATOR: {os.environ.get('USE_LLM_GENERATOR', 'not set')}")
+print("===================================")
+
 app = Flask(__name__)
 
 CORS(app)
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY_GENERATOR = os.environ.get("GEMINI_API_KEY_GENERATOR", GEMINI_API_KEY)  # Fallback to general key
+GEMINI_API_KEY_JUDGE = os.environ.get("GEMINI_API_KEY_JUDGE", GEMINI_API_KEY)      # Fallback to general key
+
+USE_LLM_GENERATOR = os.environ.get("USE_LLM_GENERATOR", "true").lower() == "true"
 
 # Feedback storage
 FEEDBACK_DIR = Path("./feedback_logs")
@@ -45,7 +57,7 @@ def config():
 def query():
     body = request.json
     query_text = body["query"]
-    top_k = body.get("top_k", 5)
+    top_k = body.get("top_k", 5 )
 
     processed = process_text(query_text)
     sequence_results = search_sequence(processed["concepts"], top_k)
@@ -86,10 +98,51 @@ def query_and_judge():
     body = request.json
     query_text = body["query"]
     top_k = body.get("top_k", 5)
+    # Request body has priority; fallback to env var
+    if "use_llm_generator" in body:
+        use_llm_generator = body["use_llm_generator"]
+    else:
+        use_llm_generator = USE_LLM_GENERATOR
 
     processed = process_text(query_text)
-    sequence_results = search_sequence(processed["concepts"], top_k)
 
+    # Use LLM Generator if enabled and API key is available
+    print(f"[DEBUG] use_llm_generator: {use_llm_generator}")
+    print(f"[DEBUG] GEMINI_API_KEY_GENERATOR set: {bool(GEMINI_API_KEY_GENERATOR)}")
+    print(f"[DEBUG] GEMINI_API_KEY_JUDGE set: {bool(GEMINI_API_KEY_JUDGE)}")
+    
+    if use_llm_generator and GEMINI_API_KEY_GENERATOR:
+        try:
+            from six_llm_generator import generate_sequence as llm_generate
+
+            # Get multiple candidates per concept (top 5)
+            print(f"[DEBUG] Getting candidates for concepts: {processed['concepts']}")
+            candidates = search_sequence_candidates(processed["concepts"], candidate_k=5)
+            print(f"[DEBUG] Candidates obtained: {len(candidates)} concepts")
+
+            # LLM selects best pictogram per concept
+            print(f"[DEBUG] Calling LLM Generator with separate key...")
+            generation_result = llm_generate(query_text, processed["concepts"], candidates, GEMINI_API_KEY_GENERATOR)
+            print(f"[DEBUG] LLM Generator result: {generation_result.keys()}")
+
+            sequence_results = generation_result["sequence"]
+            llm_selections = generation_result.get("selections", [])
+            llm_generator_used = True
+            print(f"[DEBUG] LLM Generator used successfully")
+
+        except Exception as e:
+            print(f"[ERROR] LLM Generator failed: {e}, falling back to embedding-only")
+            sequence_results = search_sequence(processed["concepts"], top_k)
+            llm_selections = []
+            llm_generator_used = False
+    else:
+        # Fallback: Original embedding-only selection
+        print(f"[DEBUG] LLM Generator NOT used. use_llm_generator={use_llm_generator}, API_KEY_GENERATOR={bool(GEMINI_API_KEY_GENERATOR)}")
+        sequence_results = search_sequence(processed["concepts"], top_k)
+        llm_selections = []
+        llm_generator_used = False
+
+    # Build pictograms list
     pictograms = []
     for i, result in enumerate(sequence_results):
         pictograms.append({
@@ -97,12 +150,15 @@ def query_and_judge():
             "concept": result["concept"],
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
-            "score": float(result["score"]),
-            "description": result["text"]
+            "score": float(result.get("score", 0.0))
         })
 
+    # ALWAYS call Judge after Generator (if API key available)
     judge_result = None
-    if GEMINI_API_KEY:
+    if GEMINI_API_KEY_JUDGE:
+        judge_result = llm_judge(query_text, pictograms, GEMINI_API_KEY_JUDGE)
+    elif GEMINI_API_KEY:
+        # Fallback to general key if Judge-specific key not set
         judge_result = llm_judge(query_text, pictograms, GEMINI_API_KEY)
 
     response = {
@@ -110,7 +166,9 @@ def query_and_judge():
         "concepts_extracted": processed["concepts"],
         "sequence": pictograms,
         "analysis": processed["analysis"],
-        "gemini_configured": bool(GEMINI_API_KEY)
+        "gemini_configured": bool(GEMINI_API_KEY),
+        "llm_generator_used": llm_generator_used,
+        "llm_selections": llm_selections if use_llm_generator else []
     }
 
     if judge_result:
@@ -122,7 +180,7 @@ def query_and_judge():
 def simple_query():
     body = request.json
     query_text = body["query"]
-    top_k = body.get("top_k", 5)
+    top_k = body.get("top_k", 3)
 
     results = search(query_text, top_k)
     ids = [int(r["id"]) for r in results]

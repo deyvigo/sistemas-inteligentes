@@ -8,6 +8,10 @@ services:
       - ./back:/app
     environment:
       - PYTHONUNBUFFERED=1
+      - USE_LLM_GENERATOR
+      - GEMINI_API_KEY
+      - GEMINI_API_KEY_GENERATOR
+      - GEMINI_API_KEY_JUDGE
     networks:
       - app-network
 
