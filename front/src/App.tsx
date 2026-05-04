@@ -384,21 +384,35 @@ function App() {
                   }}
                 >
                   <h3 className="text-lg font-semibold text-gray-700 mb-2">Resultados:</h3>
-                  <div className="space-y-1">
+                  <div className="space-y-1 overflow-visible">
                     {searchResults.map((item) => (
                       <div
                         key={item.id}
                         onClick={() => handleAddPictogram(item)}
-                        className="p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer flex items-center"
+                        className="p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer flex items-center relative group/item overflow-visible"
                       >
                         <img
                           src={item.url}
                           alt={item.concept}
                           className="w-16 h-16 object-contain rounded-lg mr-3"
                         />
-                        <div>
+                        <div className="flex-1">
                           <p className="font-medium text-gray-800">{item.concept}</p>
                         </div>
+                        {/* Info button with tooltip */}
+                        {item.description && (
+                          <div className="ml-2 group/desc relative">
+                            <div className="w-5 h-5 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs cursor-help hover:bg-blue-600 transition-colors">
+                              ℹ
+                            </div>
+                            {/* Tooltip - positioned to not get cut off */}
+                            <div className="absolute right-0 top-full mt-2 w-64 p-2 bg-gray-800 text-white text-xs rounded-lg shadow-lg opacity-0 invisible group-hover/desc:opacity-100 group-hover/desc:visible transition-all duration-200 z-50">
+                              <p className="font-semibold mb-1">Descripción:</p>
+                              <p className="whitespace-pre-wrap">{item.description}</p>
+                              <div className="absolute right-2 -top-2 w-0 h-0 border-l-4 border-r-4 border-b-4 border-transparent border-b-gray-800"></div>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     ))}
                     {loadingMore && (
