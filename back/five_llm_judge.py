@@ -47,6 +47,7 @@ EJEMPLOS DE LO QUE SÍ PENALIZAR:
 - El pictograma no representa el concepto (ej: "corriendo" pero pictograma de "carrera" como evento deportivo)
 - Faltan sustantivos o verbos clave
 - Orden que invierte el significado (ej: "come niño" en lugar de "niño come")
+- A pesar de que las palabras sean similares como "comer" y "tomar" o cualquier otro sinonimo, verifica bien si la descripcion del pictograma realmente corresponde con lo que se quiere expresar.
 
 Responde SOLO con JSON válido:
 {
@@ -67,16 +68,18 @@ Escala de score (ENFOCADA EN SIGNIFICADO):
 def build_prompt(text: str, sequence: list) -> str:
     # Construir descripción detallada de cada pictograma
     pictograms_details = []
-    for item in sequence:
+    for i, item in enumerate(sequence):
         detail = f"- Concepto: '{item['concept']}'"
         if 'description' in item:
             detail += f", Descripción: '{item['description']}'"
+        else:
+            detail += " [NO DESCRIPTION PROVIDED]"
         detail += f", URL: {item['url']}"
         pictograms_details.append(detail)
     
     pictograms_str = "\n    ".join(pictograms_details)
 
-    return f"""Frase original: "{text}"
+    prompt = f"""Frase original: "{text}"
 Pictogramas generados:
 {pictograms_str}
 
@@ -84,6 +87,15 @@ Evalúa la secuencia enfocándote ÚNICAMENTE en el significado central:
 - Ignora artículos (el, la, un, una) y preposiciones menores
 - No penalices por falta de gramática estricta
 - Evalúa si la idea general se comunica claramente"""
+
+    # DEBUG: Print FULL prompt
+    print("\n" + "="*80)
+    print("[JUDGE DEBUG] FULL PROMPT SENT TO LLM:")
+    print("="*80)
+    print(prompt)
+    print("="*80 + "\n")
+    
+    return prompt
 
 def parse_response(text: str) -> dict:
     text = text.strip()

@@ -74,6 +74,7 @@ export const ImageList = ({ sequence, onReorder, onDelete }: ImageListProps) => 
             url={item.url}
             concept={item.concept}
             order={item.order}
+            description={item.description}
             onDelete={() => onDelete(item.id)}
           />
           

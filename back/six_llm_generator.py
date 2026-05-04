@@ -1,5 +1,6 @@
 import json
 import os
+import numpy as np
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -20,6 +21,23 @@ except ImportError:
     from google import genai
     from google.genai import types
 
+# Load embeddings to lookup full text by ID
+try:
+    _ids = np.load("./embeddings/ids.npy")
+    _texts = np.load("./embeddings/texts.npy")
+    
+    # Build a mapping from ID to text for quick lookup
+    _id_to_text = {}
+    for idx, pid in enumerate(_ids):
+        _id_to_text[int(pid)] = _texts[idx]
+except Exception as e:
+    print(f"[WARNING] Could not load embeddings for text lookup: {e}")
+    _id_to_text = {}
+
+def get_text_by_id(pictogram_id: int) -> str:
+    """Get the full ARASAAC text description for a pictogram ID"""
+    return _id_to_text.get(int(pictogram_id), "")
+
 MODEL_NAME = "gemini-3.1-flash-lite-preview"
 
 SYSTEM_PROMPT = """You are an expert in selecting ARASAAC pictograms for AAC.
@@ -32,28 +50,38 @@ INSTRUCTIONS:
 - Respond ONLY with valid JSON, no other text
 - Use this exact format:
 
-{"selections": [{"concept": "corriendo", "selected_id": 123, "selected_concept": "Correr", "reason": "best match"}], "sequence": [{"concept": "Correr", "id": 123, "url": "https://static.arasaac.org/pictograms/123/123_500.png", "score": 0.89}]}
+{"selections": [{"query_concept": "corriendo", "selected_id": 123, "selected_concept": "Correr", "reason": "best match"}], "sequence": [{"concept": "Correr", "id": 123, "url": "https://static.arasaac.org/pictograms/123/123_500.png", "score": 0.89}]}
+
+IMPORTANT: The "concept" field in "sequence" MUST be the actual ARASAAC pictogram concept (e.g., "Correr"), NOT the query word (e.g., "corriendo").
 
 No markdown, no explanation, just JSON."""
 
 def build_generator_prompt(text: str, concepts: list, candidates: list) -> str:
     desc = []
     for item in candidates:
-        concept = item["concept"]
+        query_concept = item["concept"]  # What user searched (e.g., "tomando")
         cands = item["candidates"]
-        desc.append(f"\nConcept: {concept}")
-        desc.append("Candidates:")
+        desc.append(f"\nQuery concept: {query_concept}")
+        desc.append("Candidates (with ARASAAC pictogram concepts and descriptions):")
         for i, cand in enumerate(cands, 1):
-            desc.append(f"  {i}. ID: {cand['id']}, Concept: {cand['concept']}, Score: {cand['score']:.2f}")
+            # cand["concept"] is the ARASAAC concept (e.g., "Comer")
+            # cand["description"] is the FULL text with description
+            cand_desc = cand.get("description", "")
+            desc.append(f"  {i}. ID: {cand['id']}, Pictogram concept: {cand['concept']}, Score: {cand['score']:.2f}")
+            if cand_desc:
+                # Show first 150 chars of description for context
+                desc.append(f"     Description: {cand_desc[:150]}...")
     
     candidates_str = "\n".join(desc)
     
     return f"""Original sentence: "{text}"
-Extracted concepts: {concepts}
+Extracted concepts (user words): {concepts}
 
 Pictogram candidates per concept:{candidates_str}
 
-Select the BEST pictogram for each concept considering the full sentence context."""
+Select the BEST pictogram for each concept considering the full sentence context.
+IMPORTANT: Read each candidate's Description carefully - the same concept name (e.g., "saco") can refer to different things.
+Return the ARASAAC pictogram concept (not the query word) in the "concept" field."""
 
 def parse_response(text: str) -> dict:
     text = text.strip()
@@ -121,32 +149,54 @@ def generate_sequence(text: str, concepts: list, candidates: list, api_key: Opti
         
         result = parse_response(response.text)
         
-        # Build sequence with URLs
+        # Build sequence with URLs - ensure we use pictogram concept, not query concept
         sequence = []
         if "sequence" in result and result["sequence"]:
             for item in result["sequence"]:
+                # Use "concept" from LLM (should be pictogram concept like "Correr")
+                # Fallback to "selected_concept" if present
+                pictogram_concept = item.get("concept") or item.get("selected_concept", "Unknown")
+                pictogram_id = int(item["id"])
+                
+                # Get FULL ARASAAC text description for Judge evaluation
+                pictogram_text = get_text_by_id(pictogram_id)
+                
                 sequence.append({
-                    "concept": item["concept"],
-                    "id": item["id"],
-                    "url": f"https://static.arasaac.org/pictograms/{item['id']}/{item['id']}_500.png",
-                    "score": item.get("score", 0.0)
+                    "concept": pictogram_concept,  # Actual ARASAAC pictogram concept (for display)
+                    "id": pictogram_id,
+                    "url": f"https://static.arasaac.org/pictograms/{pictogram_id}/{pictogram_id}_500.png",
+                    "score": item.get("score", 0.0),
+                    "description": pictogram_text  # FULL text for Judge to evaluate correctly
                 })
+                print(f"[DEBUG] LLM Generator sequence item: concept={pictogram_concept}, id={pictogram_id}")
+                if pictogram_text:
+                    print(f"[DEBUG] Full text for Judge: '{pictogram_text[:100]}...'")
         else:
             # Fallback: build from selections
+            # Map by query_concept (what user searched) to get the selection
             selections_map = {}
             if "selections" in result:
                 for sel in result["selections"]:
-                    selections_map[sel["concept"]] = sel
+                    # Use query_concept as key (the user's word like "corriendo")
+                    key = sel.get("query_concept") or sel.get("concept", "")
+                    selections_map[key] = sel
             
             for concept in concepts:
                 if concept in selections_map:
                     sel = selections_map[concept]
+                    pictogram_id = int(sel["selected_id"])
+                    
+                    # Get FULL ARASAAC text description
+                    pictogram_text = get_text_by_id(pictogram_id)
+                    
                     sequence.append({
-                        "concept": sel["selected_concept"],
-                        "id": sel["selected_id"],
-                        "url": f"https://static.arasaac.org/pictograms/{sel['selected_id']}/{sel['selected_id']}_500.png",
-                        "score": 0.0
+                        "concept": sel["selected_concept"],  # ARASAAC concept like "Correr"
+                        "id": pictogram_id,
+                        "url": f"https://static.arasaac.org/pictograms/{pictogram_id}/{pictogram_id}_500.png",
+                        "score": 0.0,
+                        "description": pictogram_text  # FULL text for Judge
                     })
+                    print(f"[DEBUG] LLM Generator fallback: query={concept}, selected_concept={sel['selected_concept']}, id={pictogram_id}")
         
         save_result(text, concepts, candidates, result)
         

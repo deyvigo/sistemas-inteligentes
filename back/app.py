@@ -64,12 +64,17 @@ def query():
 
     pictograms = []
     for i, result in enumerate(sequence_results):
+        # Use pictogram concept (ARASAAC concept like "Comer"), not query concept
+        pictogram_concept = result.get("concept", "Unknown")
+        # Include FULL ARASAAC text description for Judge evaluation
+        pictogram_text = result.get("text", "")
         pictograms.append({
             "order": i + 1,
-            "concept": result["concept"],
+            "concept": pictogram_concept,  # ARASAAC pictogram concept (for display)
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
-            "score": float(result["score"])
+            "score": float(result["score"]),
+            "description": pictogram_text  # FULL text for Judge to evaluate correctly
         })
 
     return jsonify({
@@ -145,12 +150,24 @@ def query_and_judge():
     # Build pictograms list
     pictograms = []
     for i, result in enumerate(sequence_results):
+        # Use the pictogram concept from search results
+        pictogram_concept = result.get("concept", "Unknown")
+        
+        # Get FULL ARASAAC text description for Judge to evaluate correctly
+        pictogram_text = result.get("description", result.get("text", ""))
+        
+        # Debug print to verify
+        print(f"[DEBUG] Pictogram {i+1}: concept='{pictogram_concept}', id={result.get('id')}, extracted_query={result.get('extracted_query', 'N/A')}")
+        if pictogram_text:
+            print(f"[DEBUG] Full text for Judge: '{pictogram_text[:100]}...'")
+        
         pictograms.append({
             "order": i + 1,
-            "concept": result["concept"],
+            "concept": pictogram_concept,  # ARASAAC pictogram concept (for display)
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
-            "score": float(result.get("score", 0.0))
+            "score": float(result.get("score", 0.0)),
+            "description": pictogram_text  # FULL ARASAAC text for Judge evaluation
         })
 
     # ALWAYS call Judge after Generator (if API key available)
@@ -200,15 +217,17 @@ def search_pictograms():
 
     pictograms = []
     for i, result in enumerate(results):
-        # Extract only the main concept (keyword) from the full text
-        concept = extract_concept(result["text"])
+        # Use the concept from search result (ARASAAC concept like "Comer")
+        # NOT the extracted query (like "tomando")
+        pictogram_concept = result.get("concept", extract_concept(result["text"]))
         pictograms.append({
             "order": offset + i + 1,  # Adjust order based on offset
-            "concept": concept,  # Only the concept
+            "concept": pictogram_concept,  # ARASAAC pictogram concept
             "id": int(result["id"]),
             "url": f"https://static.arasaac.org/pictograms/{result['id']}/{result['id']}_500.png",
             "score": float(result["score"]),
-            "description": result["text"]  # Keep description for potential use
+            "description": result["text"],  # Keep full text for reference
+            "query_concept": result.get("extracted_query", "")  # What user searched (optional)
         })
 
     return jsonify({

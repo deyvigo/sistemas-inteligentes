@@ -125,43 +125,58 @@ def analyze_concept_corrections(feedback_history):
     
     return result
 
-def apply_rule_improvements(concept, concept_stats, base_scores, id_list):
+def apply_rule_improvements(concept, concept_stats, human_stats, base_scores, id_list):
     """
-    Apply learned rules to adjust search scores for a concept
+    Apply learned rules from BOTH LLM suggestions AND human corrections
     
     Args:
         concept (str): The concept we're processing
-        concept_stats (dict): The analyzed statistics from feedback
+        concept_stats (dict): LLM suggestion statistics
+        human_stats (dict): Human correction statistics
         base_scores (np.array): Original similarity scores
         id_list (np.array): Corresponding pictogram IDs
         
     Returns:
         np.array: Modified scores
     """
-    if concept not in concept_stats:
-        return base_scores  # No learned rules for this concept
-    
-    stats = concept_stats[concept]
     modified_scores = base_scores.copy()
     
     # Create ID to index mapping for fast lookup
     id_to_index = {id_val: idx for idx, id_val in enumerate(id_list)}
     
-    # Boost preferred pictograms
-    for pictogram_id in stats['preferred_pictogram_ids']:
-        if pictogram_id in id_to_index:
-            idx = id_to_index[pictogram_id]
-            # Higher confidence = stronger boost
-            boost_value = min(stats['confidence'] * 0.1, 2.0)  # Cap at 2.0
-            modified_scores[idx] += boost_value
+    # Apply LLM suggestion rules first
+    if concept in concept_stats:
+        stats = concept_stats[concept]
+        # Boost preferred pictograms
+        for pictogram_id in stats.get('preferred_pictogram_ids', []):
+            if pictogram_id in id_to_index:
+                idx = id_to_index[pictogram_id]
+                boost_value = min(stats.get('confidence', 1) * 0.1, 2.0)
+                modified_scores[idx] += boost_value
+        
+        # Suppress rejected pictograms
+        for pictogram_id in stats.get('rejected_pictogram_ids', []):
+            if pictogram_id in id_to_index:
+                idx = id_to_index[pictogram_id]
+                suppress_value = max(-stats.get('confidence', 1) * 0.1, -2.0)
+                modified_scores[idx] += suppress_value
     
-    # Suppress rejected pictograms
-    for pictogram_id in stats['rejected_pictogram_ids']:
-        if pictogram_id in id_to_index:
-            idx = id_to_index[pictogram_id]
-            # Higher confidence = stronger suppression (negative boost)
-            suppress_value = max(-stats['confidence'] * 0.1, -2.0)  # Cap at -2.0
-            modified_scores[idx] += suppress_value
+    # NEW: Apply human correction rules
+    if concept in human_stats:
+        stats = human_stats[concept]
+        # Boost human-preferred pictograms
+        for pid, count in stats.get('preferred_ids', []):
+            if pid in id_to_index:
+                idx = id_to_index[pid]
+                boost_value = min(count * 0.1, 2.0)
+                modified_scores[idx] += boost_value
+        
+        # Suppress human-rejected pictograms
+        for pid, count in stats.get('rejected_ids', []):
+            if pid in id_to_index:
+                idx = id_to_index[pid]
+                suppress_value = max(-count * 0.1, -2.0)
+                modified_scores[idx] += suppress_value
     
     return modified_scores
 
@@ -193,6 +208,31 @@ def analyze_llm_suggestions(feedback_history):
                 else:
                     # Fallback: count general suggestion
                     suggestion_patterns[suggestion[:50]] += 1  # First 50 chars
+            
+            # NEW: Detect "Añadir preposición X" patterns
+            elif 'añadir' in normalized or 'agregar' in normalized:
+                match = re.search(r'(?:añadir|agregar)\s+(?:la\s+)?preposición\s+\'([^\']+)\'', normalized)
+                if match:
+                    preposition = match.group(1)
+                    pattern = f"add_preposition_{preposition}"
+                    suggestion_patterns[pattern] += 1
+            
+            # NEW: Detect "Eliminar concepto X" patterns
+            elif 'eliminar' in normalized or 'quitar' in normalized:
+                match = re.search(r'(?:eliminar|quitar)\s+(?:el\s+)?pictograma\s+de\s+\'([^\']+)\'', normalized)
+                if match:
+                    concept_to_remove = match.group(1)
+                    pattern = f"remove_{concept_to_remove}"
+                    suggestion_patterns[pattern] += 1
+            
+            # NEW: Detect "Cambiar orden: X → Y" patterns
+            elif 'orden' in normalized or 'reordenar' in normalized:
+                match = re.search(r'(?:cambiar|reordenar)\s+orden:?\s*(.+)', normalized)
+                if match:
+                    order_desc = match.group(1).strip()[:30]
+                    pattern = f"reorder_{order_desc}"
+                    suggestion_patterns[pattern] += 1
+            
             elif 'asegurar' in normalized or 'verificar' in normalized:
                 # Look for assurance/verification patterns
                 suggestion_patterns[f"verify_{normalized[:30]}"] += 1
@@ -210,7 +250,7 @@ def apply_llm_suggestions_as_postprocessing(concept, llm_suggestions, concept_re
         concept (str): The concept we're processing
         llm_suggestions (dict): Analyzed LLM suggestions from feedback
         concept_results (list): List of pictogram results for the concept
-        
+    
     Returns:
         list: Refined results after applying LLM suggestion rules
     """
@@ -236,6 +276,31 @@ def apply_llm_suggestions_as_postprocessing(concept, llm_suggestions, concept_re
                             item['score'] += boost_value
                             item['llm_suggestion_applied'] = True
                             item['suggestion_source'] = pattern
+        
+        # NEW: Handle "add_preposition_X" patterns
+        elif pattern.startswith('add_preposition_'):
+            preposition = pattern.replace('add_preposition_', '')
+            if 'preposición' in concept.lower() or 'preposición' in concept.lower():
+                # Boost pictograms that include this preposition
+                for item in refined_results:
+                    if preposition.lower() in item['text'].lower():
+                        boost_value = min(frequency * 0.15, 1.5)
+                        item['score'] += boost_value
+                        item['llm_suggestion_applied'] = True
+        
+        # NEW: Handle "remove_X" patterns
+        elif pattern.startswith('remove_'):
+            concept_to_remove = pattern.replace('remove_', '')
+            if concept == concept_to_remove:
+                # Suppress all results (they'll be filtered later)
+                for item in refined_results:
+                    item['score'] -= 5.0  # Strong suppression
+                    item['llm_suggestion_applied'] = True
+        
+        # NEW: Handle "reorder_X" patterns (more complex, might need sequence-level handling)
+        elif pattern.startswith('reorder_'):
+            # This would need sequence-level post-processing, skip for now
+            pass
     
     # Re-sort by score after applying boosts
     refined_results.sort(key=lambda x: x['score'], reverse=True)
@@ -249,6 +314,78 @@ def get_llm_suggestion_modifier(concept):
     llm_suggestions = analyze_llm_suggestions(history)
     return llm_suggestions
 
+
+def analyze_corrections_from_feedback(feedback_history):
+    """
+    Analyze human corrections to learn:
+    - Which pictogram IDs humans prefer for each concept
+    - Which pictogram IDs humans reject
+    - Common correction patterns
+    
+    Returns:
+        dict: {concept: {'preferred_ids': [id1, id2], 'rejected_ids': [id3, id4], 'confidence': int}}
+    """
+    concept_stats = defaultdict(lambda: {
+        'preferred': Counter(),
+        'rejected': Counter()
+    })
+    
+    for feedback in feedback_history:
+        # Get original prediction and human correction
+        original_sequence = feedback.get('system_generation', {}).get('sequence', [])
+        corrected_sequence = feedback.get('user_modifications', {}).get('final_sequence', [])
+        
+        if not corrected_sequence:
+            continue
+        
+        # Build ID → item maps
+        original_map = {item['id']: item for item in original_sequence}
+        corrected_map = {item['id']: item for item in corrected_sequence}
+        
+        # Process each concept
+        all_concepts = set(list(original_map.keys()) + list(corrected_map.keys()))
+        
+        for pid in all_concepts:
+            orig_item = original_map.get(pid)
+            corr_item = corrected_map.get(pid)
+            
+            # Determine concept for this pictogram
+            concept = None
+            if orig_item:
+                concept = orig_item['concept']
+            elif corr_item:
+                concept = corr_item['concept']
+            
+            if not concept:
+                continue
+            
+            # If human changed the pictogram for this concept
+            if orig_item and corr_item:
+                if orig_item['id'] != corr_item['id']:
+                    # Human rejected orig_id, preferred corr_id
+                    concept_stats[concept]['rejected'][orig_item['id']] += 1
+                    concept_stats[concept]['preferred'][corr_item['id']] += 1
+            
+            elif corr_item and not orig_item:
+                # Pictogram was added by human (wasn't in original)
+                concept_stats[concept]['preferred'][corr_item['id']] += 1
+            
+            elif orig_item and not corr_item:
+                # Pictogram was removed by human (was in original but not corrected)
+                concept_stats[concept]['rejected'][orig_item['id']] += 1
+    
+    # Convert to serializable format
+    result = {}
+    for concept, stats in concept_stats.items():
+        if stats['preferred'] or stats['rejected']:
+            result[concept] = {
+                'preferred_ids': [pid for pid, _ in stats['preferred'].most_common(5)],
+                'rejected_ids': [pid for pid, _ in stats['rejected'].most_common(5)],
+                'confidence': sum(stats['preferred'].values()) + sum(stats['rejected'].values())
+            }
+    
+    return result
+
 def search(query, top_k=5, offset=0):
     query_emb = model.encode([query], normalize_embeddings=True)[0]
 
@@ -256,11 +393,14 @@ def search(query, top_k=5, offset=0):
 
     # Apply feedback-based rule improvements if we have history
     try:
-        # Load feedback history and analyze for this query concept
         history = load_feedback_history()
         if history:
+            # Combine both types of feedback
             concept_stats = analyze_concept_corrections(history)
-            scores = apply_rule_improvements(query, concept_stats, scores, ids)
+            human_stats = analyze_corrections_from_feedback(history)
+            
+            # Apply both types of rules in one call
+            scores = apply_rule_improvements(query, concept_stats, human_stats, scores, ids)
     except Exception as e:
         # If feedback processing fails, continue with original scores
         print(f"Warning: Could not apply feedback improvements: {e}")
@@ -277,11 +417,12 @@ def search(query, top_k=5, offset=0):
     results = []
     for i in top_indices:
         full_text = texts[i]
-        concept = extract_concept(full_text)
+        pictogram_concept = extract_concept(full_text)  
         results.append({
             "id": ids[i],
             "text": full_text,
-            "concept": concept,
+            "concept": pictogram_concept,
+            "extracted_query": query,
             "score": scores[i]
         })
     
@@ -324,7 +465,7 @@ def search_sequence_candidates(concepts, candidate_k=5):
     Used by LLM Generator to select the best pictogram considering full text context.
     
     Returns:
-        list: [{"concept": "correr", "candidates": [{id, concept, text, score}, ...]}, ...]
+        list: [{"concept": "correr" (query concept), "candidates": [{id, concept, text, description, score}, ...]}, ...]
     """
     candidates_per_concept = []
     
@@ -336,8 +477,10 @@ def search_sequence_candidates(concepts, candidate_k=5):
         for result in candidate_results:
             candidates_list.append({
                 "id": int(result["id"]),
-                "concept": result.get("concept", concept),
-                "text": result["text"],
+                "concept": result.get("concept", "Unknown"),  # ARASAAC pictogram concept (e.g., "Comer")
+                "query_concept": concept,  # What user searched (e.g., "tomando")
+                "text": result["text"],  # Full ARASAAC text
+                "description": result["text"],  # Same as text, for clarity in prompt
                 "score": float(result["score"])
             })
         
@@ -346,9 +489,9 @@ def search_sequence_candidates(concepts, candidate_k=5):
             "candidates": candidates_list
         })
         
-        # Print top candidates for debugging
+        # Debug print
         print(f"\n=== Top {candidate_k} candidates for concept: '{concept}' ===")
         for i, cand in enumerate(candidates_list, 1):
-            print(f"  {i}. ID: {cand['id']}, Concept: '{cand['concept']}', Score: {cand['score']:.4f}")
+            print(f"  {i}. ID: {cand['id']}, Pictogram concept: '{cand['concept']}', Score: {cand['score']:.4f}")
     
     return candidates_per_concept

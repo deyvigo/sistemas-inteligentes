@@ -7,6 +7,7 @@ interface SequenceItem {
   id: number
   url: string
   score: number
+  description?: string
 }
 
 interface JudgeResult {
