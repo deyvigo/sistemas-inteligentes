@@ -1,0 +1,246 @@
+{
+  "timestamp": "20260505_163338",
+  "text": "En la granja dieron de comer a las gallinas",
+  "concepts": [
+    "granja",
+    "dieron",
+    "comer",
+    "gallinas"
+  ],
+  "candidates": [
+    {
+      "concept": "granja",
+      "candidates": [
+        {
+          "id": 3337,
+          "concept": "granja",
+          "query_concept": "granja",
+          "text": "query: Concepto: granja\n  Descripción:  f. Hacienda de campo que consta de establos, huerta y casa habitable.\n  Sinónimos: \n  Categorías: Carcasa de animales, Ganadería, hábitat natural, Zona rural\n  Contexto: animal, Carcasa de animales, trabajo, sector primario, Ganadería, geografía, geografía física, hábitat natural, lugar, Zona rural",
+          "description": "query: Concepto: granja\n  Descripción:  f. Hacienda de campo que consta de establos, huerta y casa habitable.\n  Sinónimos: \n  Categorías: Carcasa de animales, Ganadería, hábitat natural, Zona rural\n  Contexto: animal, Carcasa de animales, trabajo, sector primario, Ganadería, geografía, geografía física, hábitat natural, lugar, Zona rural",
+          "score": 0.8780970573425293
+        },
+        {
+          "id": 11276,
+          "concept": "granjera",
+          "query_concept": "granja",
+          "text": "query: Concepto: granjera\n  Descripción: f. Persona que posee una granja o trabaja en ella.\n  Sinónimos: \n  Categorías: Ganadería, profesional\n  Contexto: trabajo, sector primario, Ganadería, profesional",
+          "description": "query: Concepto: granjera\n  Descripción: f. Persona que posee una granja o trabaja en ella.\n  Sinónimos: \n  Categorías: Ganadería, profesional\n  Contexto: trabajo, sector primario, Ganadería, profesional",
+          "score": 0.8768216371536255
+        },
+        {
+          "id": 3338,
+          "concept": "granjero",
+          "query_concept": "granja",
+          "text": "query: Concepto: granjero\n  Descripción: m. y f. Persona que posee una granja o trabaja en ella.\n  Sinónimos: \n  Categorías: Ganadería, profesional\n  Contexto: trabajo, sector primario, Ganadería, profesional",
+          "description": "query: Concepto: granjero\n  Descripción: m. y f. Persona que posee una granja o trabaja en ella.\n  Sinónimos: \n  Categorías: Ganadería, profesional\n  Contexto: trabajo, sector primario, Ganadería, profesional",
+          "score": 0.8738565444946289
+        },
+        {
+          "id": 32482,
+          "concept": "granja",
+          "query_concept": "granja",
+          "text": "query: Concepto: granja\n  Descripción:  Finca para la cría de animales domésticos.\n  Sinónimos: \n  Categorías: Carcasa de animales, Ganadería, Sistema de señalización, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico, vocabulario básico-comunicación\n  Contexto: animal, Carcasa de animales, trabajo, sector primario, Ganadería, comunicación, Sistema de señalización, vocabulario básico",
+          "description": "query: Concepto: granja\n  Descripción:  Finca para la cría de animales domésticos.\n  Sinónimos: \n  Categorías: Carcasa de animales, Ganadería, Sistema de señalización, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico, vocabulario básico-comunicación\n  Contexto: animal, Carcasa de animales, trabajo, sector primario, Ganadería, comunicación, Sistema de señalización, vocabulario básico",
+          "score": 0.8727580308914185
+        },
+        {
+          "id": 6515,
+          "concept": "granjero",
+          "query_concept": "granja",
+          "text": "query: Concepto: granjero\n  Descripción: m. y f. Persona que posee una granja o trabaja en ella.\n  Sinónimos: \n  Categorías: profesional, Ganadería\n  Contexto: trabajo, profesional, sector primario, Ganadería",
+          "description": "query: Concepto: granjero\n  Descripción: m. y f. Persona que posee una granja o trabaja en ella.\n  Sinónimos: \n  Categorías: profesional, Ganadería\n  Contexto: trabajo, profesional, sector primario, Ganadería",
+          "score": 0.8725521564483643
+        }
+      ]
+    },
+    {
+      "concept": "dieron",
+      "candidates": [
+        {
+          "id": 2739,
+          "concept": "dorado",
+          "query_concept": "dieron",
+          "text": "query: Concepto: dorado\n  Descripción: adj. De color de oro o semejante a él.\n  Sinónimos: dorada\n  Categorías: color\n  Contexto: color",
+          "description": "query: Concepto: dorado\n  Descripción: adj. De color de oro o semejante a él.\n  Sinónimos: dorada\n  Categorías: color\n  Contexto: color",
+          "score": 0.8234236836433411
+        },
+        {
+          "id": 38314,
+          "concept": "diarrea",
+          "query_concept": "dieron",
+          "text": "query: Concepto: diarrea\n  Descripción: \n  Sinónimos: \n  Categorías: Síntomas\n  Contexto: Salud, medicamentos, Síntomas",
+          "description": "query: Concepto: diarrea\n  Descripción: \n  Sinónimos: \n  Categorías: Síntomas\n  Contexto: Salud, medicamentos, Síntomas",
+          "score": 0.8230427503585815
+        },
+        {
+          "id": 34991,
+          "concept": "cazador prehistórico",
+          "query_concept": "dieron",
+          "text": "query: Concepto: cazador prehistórico\n  Descripción: m. Dicho de una persona que cazaba dinosaurios para obtener alimento o vestido.\n  Sinónimos: \n  Categorías: prehistoria\n  Contexto: histórico, prehistoria",
+          "description": "query: Concepto: cazador prehistórico\n  Descripción: m. Dicho de una persona que cazaba dinosaurios para obtener alimento o vestido.\n  Sinónimos: \n  Categorías: prehistoria\n  Contexto: histórico, prehistoria",
+          "score": 0.8225310444831848
+        },
+        {
+          "id": 34310,
+          "concept": "dientes de sable",
+          "query_concept": "dieron",
+          "text": "query: Concepto: dientes de sable\n  Descripción: m.pl. Término genérico que se usa para describir a numerosas especies de mamíferos dotados de enormes caninos que vivieron durante diferentes épocas del Cenozoico. \n  Sinónimos: smilodon\n  Categorías: extinguido\n  Contexto: extinguido, paleontología",
+          "description": "query: Concepto: dientes de sable\n  Descripción: m.pl. Término genérico que se usa para describir a numerosas especies de mamíferos dotados de enormes caninos que vivieron durante diferentes épocas del Cenozoico. \n  Sinónimos: smilodon\n  Categorías: extinguido\n  Contexto: extinguido, paleontología",
+          "score": 0.8218285441398621
+        },
+        {
+          "id": 28541,
+          "concept": "jarrón",
+          "query_concept": "dieron",
+          "text": "query: Concepto: jarrón\n  Descripción: \n  Sinónimos: \n  Categorías: artículo decorativo\n  Contexto: objeto, artículo decorativo",
+          "description": "query: Concepto: jarrón\n  Descripción: \n  Sinónimos: \n  Categorías: artículo decorativo\n  Contexto: objeto, artículo decorativo",
+          "score": 0.8213236331939697
+        }
+      ]
+    },
+    {
+      "concept": "comer",
+      "candidates": [
+        {
+          "id": 6990,
+          "concept": "comer",
+          "query_concept": "comer",
+          "text": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.894812285900116
+        },
+        {
+          "id": 4609,
+          "concept": "comer",
+          "query_concept": "comer",
+          "text": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.894812285900116
+        },
+        {
+          "id": 28669,
+          "concept": "comer",
+          "query_concept": "comer",
+          "text": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.894812285900116
+        },
+        {
+          "id": 2349,
+          "concept": "comer",
+          "query_concept": "comer",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8926205635070801
+        },
+        {
+          "id": 28641,
+          "concept": "comer",
+          "query_concept": "comer",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8926205635070801
+        }
+      ]
+    },
+    {
+      "concept": "gallinas",
+      "candidates": [
+        {
+          "id": 28695,
+          "concept": "Gallinita ciega",
+          "query_concept": "gallinas",
+          "text": "query: Concepto: Gallinita ciega\n  Descripción: Juego infantil en el que se tapan los ojos, normalmente con un pañuelo o venda, a un jugador seleccionado. Entonces el resto de jugadores empiezan a darle vueltas hasta marear al que pilla. Mientras todos ríen y la gallina gira, se va cantando una canción. Entonces, la gallina intenta pillar a alguno de los que desafinan, guiándose por sus gallos. Tocando, por supuesto, pero sin pegar. Cuando alguien es atrapado sustituye a la gallina.\n  Sinónimos: gallina ciega\n  Categorías: juego tradicional\n  Contexto: ocio, deporte, juego tradicional",
+          "description": "query: Concepto: Gallinita ciega\n  Descripción: Juego infantil en el que se tapan los ojos, normalmente con un pañuelo o venda, a un jugador seleccionado. Entonces el resto de jugadores empiezan a darle vueltas hasta marear al que pilla. Mientras todos ríen y la gallina gira, se va cantando una canción. Entonces, la gallina intenta pillar a alguno de los que desafinan, guiándose por sus gallos. Tocando, por supuesto, pero sin pegar. Cuando alguien es atrapado sustituye a la gallina.\n  Sinónimos: gallina ciega\n  Categorías: juego tradicional\n  Contexto: ocio, deporte, juego tradicional",
+          "score": 0.8615982532501221
+        },
+        {
+          "id": 28693,
+          "concept": "Gallinita ciega",
+          "query_concept": "gallinas",
+          "text": "query: Concepto: Gallinita ciega\n  Descripción: Juego infantil en el que se tapan los ojos, normalmente con un pañuelo o venda, a un jugador seleccionado. Entonces el resto de jugadores empiezan a darle vueltas hasta marear al que pilla. Mientras todos ríen y la gallina gira, se va cantando una canción. Entonces, la gallina intenta pillar a alguno de los que desafinan, guiándose por sus gallos. Tocando, por supuesto, pero sin pegar. Cuando alguien es atrapado sustituye a la gallina.\n  Sinónimos: gallina ciega\n  Categorías: juego tradicional\n  Contexto: ocio, deporte, juego tradicional",
+          "description": "query: Concepto: Gallinita ciega\n  Descripción: Juego infantil en el que se tapan los ojos, normalmente con un pañuelo o venda, a un jugador seleccionado. Entonces el resto de jugadores empiezan a darle vueltas hasta marear al que pilla. Mientras todos ríen y la gallina gira, se va cantando una canción. Entonces, la gallina intenta pillar a alguno de los que desafinan, guiándose por sus gallos. Tocando, por supuesto, pero sin pegar. Cuando alguien es atrapado sustituye a la gallina.\n  Sinónimos: gallina ciega\n  Categorías: juego tradicional\n  Contexto: ocio, deporte, juego tradicional",
+          "score": 0.8615982532501221
+        },
+        {
+          "id": 2403,
+          "concept": "gallina",
+          "query_concept": "gallinas",
+          "text": "query: Concepto: gallina\n  Descripción:  f. Hembra del gallo, de menor tamaño que este, con cresta pequeña, cola sin plumas largas y patas sin espolones.\n  Sinónimos: \n  Categorías: omnívora, ave, oviparosa, animales terrestres, Ganadería, animales domésticos, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico\n  Contexto: animal, omnívora, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería, nacionales, vocabulario básico",
+          "description": "query: Concepto: gallina\n  Descripción:  f. Hembra del gallo, de menor tamaño que este, con cresta pequeña, cola sin plumas largas y patas sin espolones.\n  Sinónimos: \n  Categorías: omnívora, ave, oviparosa, animales terrestres, Ganadería, animales domésticos, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico\n  Contexto: animal, omnívora, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería, nacionales, vocabulario básico",
+          "score": 0.8611131906509399
+        },
+        {
+          "id": 21882,
+          "concept": "Gallinita ciega",
+          "query_concept": "gallinas",
+          "text": "query: Concepto: Gallinita ciega\n  Descripción: Juego infantil en el que se tapan los ojos, normalmente con un pañuelo o venda, a un jugador seleccionado. Entonces el resto de jugadores empiezan a darle vueltas hasta marear al que pilla. Mientras todos ríen y la gallina gira, se va cantando una canción. Entonces, la gallina intenta pillar a alguno de los que desafinan, guiándose por sus gallos. Tocando, por supuesto, pero sin pegar. Cuando alguien es atrapado sustituye a la gallina.\n  Sinónimos: \n  Categorías: juego tradicional\n  Contexto: ocio, deporte, juego tradicional",
+          "description": "query: Concepto: Gallinita ciega\n  Descripción: Juego infantil en el que se tapan los ojos, normalmente con un pañuelo o venda, a un jugador seleccionado. Entonces el resto de jugadores empiezan a darle vueltas hasta marear al que pilla. Mientras todos ríen y la gallina gira, se va cantando una canción. Entonces, la gallina intenta pillar a alguno de los que desafinan, guiándose por sus gallos. Tocando, por supuesto, pero sin pegar. Cuando alguien es atrapado sustituye a la gallina.\n  Sinónimos: \n  Categorías: juego tradicional\n  Contexto: ocio, deporte, juego tradicional",
+          "score": 0.859994113445282
+        },
+        {
+          "id": 34076,
+          "concept": "pollito",
+          "query_concept": "gallinas",
+          "text": "query: Concepto: pollito\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: \n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería",
+          "description": "query: Concepto: pollito\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: \n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería",
+          "score": 0.859373152256012
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "granja",
+        "selected_id": 3337,
+        "selected_concept": "granja",
+        "reason": "mejor representación del lugar"
+      },
+      {
+        "query_concept": "dieron",
+        "selected_id": 28541,
+        "selected_concept": "jarrón",
+        "reason": "ningún candidato es un verbo adecuado, se usa un marcador neutro"
+      },
+      {
+        "query_concept": "comer",
+        "selected_id": 6990,
+        "selected_concept": "comer",
+        "reason": "mejor coincidencia para la acción de alimentar"
+      },
+      {
+        "query_concept": "gallinas",
+        "selected_id": 2403,
+        "selected_concept": "gallina",
+        "reason": "coincidencia directa con el sustantivo"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "granja",
+        "id": 3337,
+        "url": "https://static.arasaac.org/pictograms/3337/3337_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "jarrón",
+        "id": 28541,
+        "url": "https://static.arasaac.org/pictograms/28541/28541_500.png",
+        "score": 0.82
+      },
+      {
+        "concept": "comer",
+        "id": 6990,
+        "url": "https://static.arasaac.org/pictograms/6990/6990_500.png",
+        "score": 0.89
+      },
+      {
+        "concept": "gallina",
+        "id": 2403,
+        "url": "https://static.arasaac.org/pictograms/2403/2403_500.png",
+        "score": 0.86
+      }
+    ]
+  }
+}

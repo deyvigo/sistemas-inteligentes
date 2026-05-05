@@ -1,0 +1,188 @@
+{
+  "timestamp": "20260505_165205",
+  "text": "Esperar en fila tu turno",
+  "concepts": [
+    "esperar",
+    "fila",
+    "turno"
+  ],
+  "candidates": [
+    {
+      "concept": "esperar",
+      "candidates": [
+        {
+          "id": 8109,
+          "concept": "esperar",
+          "query_concept": "esperar",
+          "text": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, evento\n  Contexto: comunicación, idioma, verbo, evento",
+          "description": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, evento\n  Contexto: comunicación, idioma, verbo, evento",
+          "score": 0.8968063592910767
+        },
+        {
+          "id": 28677,
+          "concept": "esperar",
+          "query_concept": "esperar",
+          "text": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, evento\n  Contexto: comunicación, idioma, verbo, evento",
+          "description": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, evento\n  Contexto: comunicación, idioma, verbo, evento",
+          "score": 0.8968063592910767
+        },
+        {
+          "id": 27547,
+          "concept": "esperar",
+          "query_concept": "esperar",
+          "text": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, vocabulario básico",
+          "description": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, vocabulario básico",
+          "score": 0.8958890438079834
+        },
+        {
+          "id": 16697,
+          "concept": "esperar",
+          "query_concept": "esperar",
+          "text": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8952921628952026
+        },
+        {
+          "id": 39049,
+          "concept": "esperar",
+          "query_concept": "esperar",
+          "text": "query: Concepto: esperar\n  Descripción: \n  Sinónimos: esperar en clase\n  Categorías: verbo, actividad docente\n  Contexto: comunicación, idioma, verbo, Educación, actividad docente",
+          "description": "query: Concepto: esperar\n  Descripción: \n  Sinónimos: esperar en clase\n  Categorías: verbo, actividad docente\n  Contexto: comunicación, idioma, verbo, Educación, actividad docente",
+          "score": 0.8849802017211914
+        }
+      ]
+    },
+    {
+      "concept": "fila",
+      "candidates": [
+        {
+          "id": 31803,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8771249055862427
+        },
+        {
+          "id": 35123,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8771249055862427
+        },
+        {
+          "id": 7102,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8771249055862427
+        },
+        {
+          "id": 38597,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8601710796356201
+        },
+        {
+          "id": 38596,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8601710796356201
+        }
+      ]
+    },
+    {
+      "concept": "turno",
+      "candidates": [
+        {
+          "id": 39544,
+          "concept": "turno",
+          "query_concept": "turno",
+          "text": "query: Concepto: turno\n  Descripción: \n  Sinónimos: coger turno, tomar turno\n  Categorías: verbo, instalaciones de construcción, centro médico\n  Contexto: comunicación, idioma, verbo, lugar, edificio, instalaciones de construcción, Salud, medicamentos, centro médico",
+          "description": "query: Concepto: turno\n  Descripción: \n  Sinónimos: coger turno, tomar turno\n  Categorías: verbo, instalaciones de construcción, centro médico\n  Contexto: comunicación, idioma, verbo, lugar, edificio, instalaciones de construcción, Salud, medicamentos, centro médico",
+          "score": 0.863555908203125
+        },
+        {
+          "id": 34713,
+          "concept": "cambio de turno",
+          "query_concept": "turno",
+          "text": "query: Concepto: cambio de turno\n  Descripción: m. Cambiar el orden según el cual se suceden varias personas en el desempeño de cualquier actividad o función.\n  Sinónimos: \n  Categorías: juego, deporte\n  Contexto: ocio, juego, deporte",
+          "description": "query: Concepto: cambio de turno\n  Descripción: m. Cambiar el orden según el cual se suceden varias personas en el desempeño de cualquier actividad o función.\n  Sinónimos: \n  Categorías: juego, deporte\n  Contexto: ocio, juego, deporte",
+          "score": 0.8607881665229797
+        },
+        {
+          "id": 22190,
+          "concept": "turno",
+          "query_concept": "turno",
+          "text": "query: Concepto: turno\n  Descripción: m. Orden según el cual se suceden varias personas en el desempeño de cualquier actividad o función.\n  Sinónimos: coger turno, tomar turno\n  Categorías: verbo, Comercio\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, Comercio",
+          "description": "query: Concepto: turno\n  Descripción: m. Orden según el cual se suceden varias personas en el desempeño de cualquier actividad o función.\n  Sinónimos: coger turno, tomar turno\n  Categorías: verbo, Comercio\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, Comercio",
+          "score": 0.8575859069824219
+        },
+        {
+          "id": 7158,
+          "concept": "mi turno",
+          "query_concept": "turno",
+          "text": "query: Concepto: mi turno\n  Descripción: Me toca a mí.\n  Sinónimos: me toca a mí, turno\n  Categorías: expresión, juego tradicional, juego de cartas, juego de mesa\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional, juego, juego de cartas, juego de mesa",
+          "description": "query: Concepto: mi turno\n  Descripción: Me toca a mí.\n  Sinónimos: me toca a mí, turno\n  Categorías: expresión, juego tradicional, juego de cartas, juego de mesa\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional, juego, juego de cartas, juego de mesa",
+          "score": 0.8546558022499084
+        },
+        {
+          "id": 27385,
+          "concept": "vez",
+          "query_concept": "turno",
+          "text": "query: Concepto: vez\n  Descripción: f. Alternación de las cosas por turno u orden sucesivo.\n  Sinónimos: una vez, alguna vez\n  Categorías: unidad de tiempo\n  Contexto: hora, unidad de tiempo",
+          "description": "query: Concepto: vez\n  Descripción: f. Alternación de las cosas por turno u orden sucesivo.\n  Sinónimos: una vez, alguna vez\n  Categorías: unidad de tiempo\n  Contexto: hora, unidad de tiempo",
+          "score": 0.8443909883499146
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "esperar",
+        "selected_id": 8109,
+        "selected_concept": "esperar",
+        "reason": "Pictograma estándar de espera adecuado para contextos sociales"
+      },
+      {
+        "query_concept": "fila",
+        "selected_id": 31803,
+        "selected_concept": "fila",
+        "reason": "Pictograma claro que representa una serie de personas en línea"
+      },
+      {
+        "query_concept": "turno",
+        "selected_id": 22190,
+        "selected_concept": "turno",
+        "reason": "Definición precisa de orden sucesivo para actividades"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "esperar",
+        "id": 8109,
+        "url": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+        "score": 0.9
+      },
+      {
+        "concept": "fila",
+        "id": 31803,
+        "url": "https://static.arasaac.org/pictograms/31803/31803_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "turno",
+        "id": 22190,
+        "url": "https://static.arasaac.org/pictograms/22190/22190_500.png",
+        "score": 0.86
+      }
+    ]
+  }
+}

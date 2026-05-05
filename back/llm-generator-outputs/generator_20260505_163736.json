@@ -1,0 +1,246 @@
+{
+  "timestamp": "20260505_163736",
+  "text": "Un perro duerme en el banco del parque",
+  "concepts": [
+    "perro",
+    "duerme",
+    "banco",
+    "parque"
+  ],
+  "candidates": [
+    {
+      "concept": "perro",
+      "candidates": [
+        {
+          "id": 38967,
+          "concept": "perro",
+          "query_concept": "perro",
+          "text": "query: Concepto: perro\n  Descripción: \n  Sinónimos: perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: perro\n  Descripción: \n  Sinónimos: perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8749443888664246
+        },
+        {
+          "id": 2517,
+          "concept": "perro",
+          "query_concept": "perro",
+          "text": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8714560270309448
+        },
+        {
+          "id": 37133,
+          "concept": "peluquero canino",
+          "query_concept": "perro",
+          "text": "query: Concepto: peluquero canino\n  Descripción: \n  Sinónimos: \n  Categorías: profesional, mascota\n  Contexto: trabajo, profesional, animal, mascota",
+          "description": "query: Concepto: peluquero canino\n  Descripción: \n  Sinónimos: \n  Categorías: profesional, mascota\n  Contexto: trabajo, profesional, animal, mascota",
+          "score": 0.8712748885154724
+        },
+        {
+          "id": 6987,
+          "concept": "collar",
+          "query_concept": "perro",
+          "text": "query: Concepto: collar\n  Descripción:  Aro, por lo común de cuero, que se ciñe al cuello de los animales domésticos para adorno, sujeción o defensa.\n\n\n\n\n  Sinónimos: \n  Categorías: mascota, animal\n  Contexto: animal, mascota",
+          "description": "query: Concepto: collar\n  Descripción:  Aro, por lo común de cuero, que se ciñe al cuello de los animales domésticos para adorno, sujeción o defensa.\n\n\n\n\n  Sinónimos: \n  Categorías: mascota, animal\n  Contexto: animal, mascota",
+          "score": 0.8703619241714478
+        },
+        {
+          "id": 7202,
+          "concept": "perro",
+          "query_concept": "perro",
+          "text": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos, núcleo vocabulario-viviendo ser\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales, vocabulario básico",
+          "description": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos, núcleo vocabulario-viviendo ser\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales, vocabulario básico",
+          "score": 0.8695904016494751
+        }
+      ]
+    },
+    {
+      "concept": "duerme",
+      "candidates": [
+        {
+          "id": 31857,
+          "concept": "despertar",
+          "query_concept": "duerme",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.8586621284484863
+        },
+        {
+          "id": 28625,
+          "concept": "despertar",
+          "query_concept": "duerme",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.857043445110321
+        },
+        {
+          "id": 8988,
+          "concept": "despertar",
+          "query_concept": "duerme",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.857043445110321
+        },
+        {
+          "id": 8989,
+          "concept": "despertar",
+          "query_concept": "duerme",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbos habituales, rutina, vocabulario básico-comunicación, núcleo vocabulario-viviendo ser\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, rutina, vocabulario básico",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbos habituales, rutina, vocabulario básico-comunicación, núcleo vocabulario-viviendo ser\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, rutina, vocabulario básico",
+          "score": 0.8552120923995972
+        },
+        {
+          "id": 5590,
+          "concept": "sueño",
+          "query_concept": "duerme",
+          "text": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.850595235824585
+        }
+      ]
+    },
+    {
+      "concept": "banco",
+      "candidates": [
+        {
+          "id": 4919,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "score": 0.8795212507247925
+        },
+        {
+          "id": 36828,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 36830,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 3255,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: \n  Categorías: mobiliario urbano, parque infantil\n  Contexto: zona urbana, mobiliario urbano, lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: \n  Categorías: mobiliario urbano, parque infantil\n  Contexto: zona urbana, mobiliario urbano, lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "score": 0.8779463768005371
+        },
+        {
+          "id": 36831,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros, Sistema de señalización\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros, comunicación, Sistema de señalización",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros, Sistema de señalización\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros, comunicación, Sistema de señalización",
+          "score": 0.8751123547554016
+        }
+      ]
+    },
+    {
+      "concept": "parque",
+      "candidates": [
+        {
+          "id": 2859,
+          "concept": "parque",
+          "query_concept": "parque",
+          "text": "query: Concepto: parque\n  Descripción: m. Terreno arbolado y ajardinado situado en el interior de una población como lugar de recreo.\n  Sinónimos: \n  Categorías: parque infantil, instalaciones de entretenimiento, léxico básico-lugar, léxico básico-leisure\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil, vocabulario básico",
+          "description": "query: Concepto: parque\n  Descripción: m. Terreno arbolado y ajardinado situado en el interior de una población como lugar de recreo.\n  Sinónimos: \n  Categorías: parque infantil, instalaciones de entretenimiento, léxico básico-lugar, léxico básico-leisure\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil, vocabulario básico",
+          "score": 0.8849353790283203
+        },
+        {
+          "id": 36145,
+          "concept": "parque infantil",
+          "query_concept": "parque",
+          "text": "query: Concepto: parque infantil\n  Descripción: Espacio público especialmente acondicionado para la realización de actividades recreativas libres, particularmente orientadas a los niños, y que incluyen juegos infantiles tales como columpios (o hamacas), toboganes, balancines (o subeybaja), tiovivos (o calesitas), etc.\n  Sinónimos: \n  Categorías: parque infantil\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "description": "query: Concepto: parque infantil\n  Descripción: Espacio público especialmente acondicionado para la realización de actividades recreativas libres, particularmente orientadas a los niños, y que incluyen juegos infantiles tales como columpios (o hamacas), toboganes, balancines (o subeybaja), tiovivos (o calesitas), etc.\n  Sinónimos: \n  Categorías: parque infantil\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "score": 0.8834401369094849
+        },
+        {
+          "id": 26296,
+          "concept": "parque temático",
+          "query_concept": "parque",
+          "text": "query: Concepto: parque temático\n  Descripción: m. Nombre genérico que se utiliza para denominar a un recinto con un conjunto de atracciones, espacios para el ocio, entretenimiento, educación y cultura, normalmente organizadas en torno a una línea argumental que les sirve de inspiración.\n  Sinónimos: \n  Categorías: instalaciones de entretenimiento, instalaciones recreativas\n  Contexto: ocio, lugar, instalación, instalaciones recreativas",
+          "description": "query: Concepto: parque temático\n  Descripción: m. Nombre genérico que se utiliza para denominar a un recinto con un conjunto de atracciones, espacios para el ocio, entretenimiento, educación y cultura, normalmente organizadas en torno a una línea argumental que les sirve de inspiración.\n  Sinónimos: \n  Categorías: instalaciones de entretenimiento, instalaciones recreativas\n  Contexto: ocio, lugar, instalación, instalaciones recreativas",
+          "score": 0.8803671002388
+        },
+        {
+          "id": 32987,
+          "concept": "parque biosaludable",
+          "query_concept": "parque",
+          "text": "query: Concepto: parque biosaludable\n  Descripción: m. Espacio verde compuesto por diferentes equipos de gimnasia, que permiten mantener la forma física y prevenir o tratar diferentes dolencias o lesiones concretas.\n  Sinónimos: \n  Categorías: instalaciones recreativas, instalaciones deportivas, ejercicio físico\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, deporte, instalaciones deportivas, ejercicio físico",
+          "description": "query: Concepto: parque biosaludable\n  Descripción: m. Espacio verde compuesto por diferentes equipos de gimnasia, que permiten mantener la forma física y prevenir o tratar diferentes dolencias o lesiones concretas.\n  Sinónimos: \n  Categorías: instalaciones recreativas, instalaciones deportivas, ejercicio físico\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, deporte, instalaciones deportivas, ejercicio físico",
+          "score": 0.878576397895813
+        },
+        {
+          "id": 38085,
+          "concept": "parque infantil",
+          "query_concept": "parque",
+          "text": "query: Concepto: parque infantil\n  Descripción: \n  Sinónimos: \n  Categorías: parque infantil, mobiliario urbano, instalaciones recreativas\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil, zona urbana, mobiliario urbano",
+          "description": "query: Concepto: parque infantil\n  Descripción: \n  Sinónimos: \n  Categorías: parque infantil, mobiliario urbano, instalaciones recreativas\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil, zona urbana, mobiliario urbano",
+          "score": 0.876642107963562
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "perro",
+        "selected_id": 38967,
+        "selected_concept": "perro",
+        "reason": "mejor representación general de un perro"
+      },
+      {
+        "query_concept": "duerme",
+        "selected_id": 5590,
+        "selected_concept": "sueño",
+        "reason": "es el concepto más cercano a la acción de dormir en la lista"
+      },
+      {
+        "query_concept": "banco",
+        "selected_id": 4919,
+        "selected_concept": "banco",
+        "reason": "representa el asiento de parque"
+      },
+      {
+        "query_concept": "parque",
+        "selected_id": 2859,
+        "selected_concept": "parque",
+        "reason": "es el concepto general de parque"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "perro",
+        "id": 38967,
+        "url": "https://static.arasaac.org/pictograms/38967/38967_500.png",
+        "score": 0.87
+      },
+      {
+        "concept": "sueño",
+        "id": 5590,
+        "url": "https://static.arasaac.org/pictograms/5590/5590_500.png",
+        "score": 0.85
+      },
+      {
+        "concept": "banco",
+        "id": 4919,
+        "url": "https://static.arasaac.org/pictograms/4919/4919_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "parque",
+        "id": 2859,
+        "url": "https://static.arasaac.org/pictograms/2859/2859_500.png",
+        "score": 0.88
+      }
+    ]
+  }
+}

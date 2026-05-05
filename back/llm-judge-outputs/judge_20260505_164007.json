@@ -1,0 +1,55 @@
+{
+  "timestamp": "20260505_164007",
+  "text": "Yo quiero usar la polea para mover los objetos",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "querer",
+      "id": 5441,
+      "url": "https://static.arasaac.org/pictograms/5441/5441_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir, yo quiero\n  Categorías: verbos habituales, vocabulario básico-comunicación, respuesta humana, alimentación, modo de transporte, material didáctico, material deportivo, Juguete\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, psicología, respuesta humana, alimentación, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Juguete"
+    },
+    {
+      "order": 2,
+      "concept": "utilizar",
+      "id": 15485,
+      "url": "https://static.arasaac.org/pictograms/15485/15485_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: utilizar\n  Descripción: tr. Aprovecharse de algo. U. t. c. prnl.\n  Sinónimos: usar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico"
+    },
+    {
+      "order": 3,
+      "concept": "polea",
+      "id": 26334,
+      "url": "https://static.arasaac.org/pictograms/26334/26334_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: polea\n  Descripción: f. Rueda acanalada en su circunferencia y móvil alrededor de un eje. Por la canal o garganta pasa una cuerda o cadena en cuyos dos extremos actúan, respectivamente, la potencia y la resistencia.\n  Sinónimos: \n  Categorías: física\n  Contexto: física"
+    },
+    {
+      "order": 4,
+      "concept": "mover",
+      "id": 27371,
+      "url": "https://static.arasaac.org/pictograms/27371/27371_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales"
+    },
+    {
+      "order": 5,
+      "concept": "objetos",
+      "id": 32582,
+      "url": "https://static.arasaac.org/pictograms/32582/32582_500.png",
+      "score": 0.89,
+      "description": "query: Concepto: objetos\n  Descripción: m. pl. Lo que posee carácter material e inanimado;cosa:me gusta rodearme de objetos bellos.\n  Sinónimos: objetos cotidianos, objeto, objeto cotidiano\n  Categorías: objeto, categorización\n  Contexto: objeto, categorización"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia es excelente y comunica perfectamente la intención funcional y los elementos clave de la acción."
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "20260505_163847",
+  "text": "Mi voto es secreto",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "voto",
+      "id": 24603,
+      "url": "https://static.arasaac.org/pictograms/24603/24603_500.png",
+      "score": 0.89,
+      "description": "query: Concepto: voto\n  Descripción: m. Papeleta en la que se da a conocer un parecer o dictamen en una elección.\n  Sinónimos: papeleta, papeleta electoral\n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones"
+    },
+    {
+      "order": 2,
+      "concept": "confidencial",
+      "id": 39204,
+      "url": "https://static.arasaac.org/pictograms/39204/39204_500.png",
+      "score": 0.86,
+      "description": "query: Concepto: confidencial\n  Descripción: \n  Sinónimos: documento confidencial\n  Categorías: Documento oficial\n  Contexto: documento, Administración pública"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia es correcta y transmite bien el significado. Se podría considerar cambiar 'confidencial' por 'secreto' si se busca mayor fidelidad a la palabra original, aunque 'confidencial' es semánticamente adecuado en el contexto de votación."
+    ]
+  }
+}

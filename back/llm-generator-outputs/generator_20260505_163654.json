@@ -1,0 +1,188 @@
+{
+  "timestamp": "20260505_163654",
+  "text": "Un policia vigila el banco",
+  "concepts": [
+    "policia",
+    "vigila",
+    "banco"
+  ],
+  "candidates": [
+    {
+      "concept": "policia",
+      "candidates": [
+        {
+          "id": 12353,
+          "concept": "policía",
+          "query_concept": "policia",
+          "text": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: funcionario de prisiones\n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad",
+          "description": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: funcionario de prisiones\n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad",
+          "score": 0.8826515674591064
+        },
+        {
+          "id": 11345,
+          "concept": "policía",
+          "query_concept": "policia",
+          "text": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: \n  Categorías: Seguridad y defensa, profesional\n  Contexto: trabajo, sector terciario, defensa, seguridad, profesional",
+          "description": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: \n  Categorías: Seguridad y defensa, profesional\n  Contexto: trabajo, sector terciario, defensa, seguridad, profesional",
+          "score": 0.8821852207183838
+        },
+        {
+          "id": 2824,
+          "concept": "policía",
+          "query_concept": "policia",
+          "text": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: \n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad",
+          "description": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: \n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad",
+          "score": 0.8821446895599365
+        },
+        {
+          "id": 5547,
+          "concept": "policía",
+          "query_concept": "policia",
+          "text": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: guardia urbano, policía local, guardia\n  Categorías: profesional, Seguridad y defensa, seguridad vial\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, Movimiento, tráfico, seguridad vial",
+          "description": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: guardia urbano, policía local, guardia\n  Categorías: profesional, Seguridad y defensa, seguridad vial\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, Movimiento, tráfico, seguridad vial",
+          "score": 0.8817893862724304
+        },
+        {
+          "id": 11280,
+          "concept": "policía",
+          "query_concept": "policia",
+          "text": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: guardia urbano, policía local, guardia\n  Categorías: profesional, Seguridad y defensa, seguridad vial\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, Movimiento, tráfico, seguridad vial",
+          "description": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: guardia urbano, policía local, guardia\n  Categorías: profesional, Seguridad y defensa, seguridad vial\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, Movimiento, tráfico, seguridad vial",
+          "score": 0.8817893862724304
+        }
+      ]
+    },
+    {
+      "concept": "vigila",
+      "candidates": [
+        {
+          "id": 8718,
+          "concept": "vigilar",
+          "query_concept": "vigila",
+          "text": "query: Concepto: vigilar\n  Descripción: intr. Velar sobre alguien o algo, o atender exacta y cuidadosamente a él o a ello. U. t. c. tr.\n  Sinónimos: otear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: vigilar\n  Descripción: intr. Velar sobre alguien o algo, o atender exacta y cuidadosamente a él o a ello. U. t. c. tr.\n  Sinónimos: otear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8694031238555908
+        },
+        {
+          "id": 16907,
+          "concept": "vigilar",
+          "query_concept": "vigila",
+          "text": "query: Concepto: vigilar\n  Descripción: intr. Velar sobre alguien o algo, o atender exacta y cuidadosamente a él o a ello. U. t. c. tr.\n  Sinónimos: otear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: vigilar\n  Descripción: intr. Velar sobre alguien o algo, o atender exacta y cuidadosamente a él o a ello. U. t. c. tr.\n  Sinónimos: otear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8694031238555908
+        },
+        {
+          "id": 38262,
+          "concept": "vigilante de seguridad",
+          "query_concept": "vigila",
+          "text": "query: Concepto: vigilante de seguridad\n  Descripción: \n  Sinónimos: vigilante\n  Categorías: profesional, Seguridad y defensa, construcción cultural\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, lugar, edificio, cultura",
+          "description": "query: Concepto: vigilante de seguridad\n  Descripción: \n  Sinónimos: vigilante\n  Categorías: profesional, Seguridad y defensa, construcción cultural\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, lugar, edificio, cultura",
+          "score": 0.8677888512611389
+        },
+        {
+          "id": 38263,
+          "concept": "vigilante de seguridad",
+          "query_concept": "vigila",
+          "text": "query: Concepto: vigilante de seguridad\n  Descripción: \n  Sinónimos: vigilante\n  Categorías: profesional, Seguridad y defensa, construcción cultural\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, lugar, edificio, cultura",
+          "description": "query: Concepto: vigilante de seguridad\n  Descripción: \n  Sinónimos: vigilante\n  Categorías: profesional, Seguridad y defensa, construcción cultural\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad, lugar, edificio, cultura",
+          "score": 0.8677888512611389
+        },
+        {
+          "id": 36479,
+          "concept": "vigilante de seguridad",
+          "query_concept": "vigila",
+          "text": "query: Concepto: vigilante de seguridad\n  Descripción: \n  Sinónimos: guarda jurado, vigilante\n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad",
+          "description": "query: Concepto: vigilante de seguridad\n  Descripción: \n  Sinónimos: guarda jurado, vigilante\n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad",
+          "score": 0.8571159839630127
+        }
+      ]
+    },
+    {
+      "concept": "banco",
+      "candidates": [
+        {
+          "id": 4919,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "score": 0.8795212507247925
+        },
+        {
+          "id": 36828,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 36830,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 3255,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: \n  Categorías: mobiliario urbano, parque infantil\n  Contexto: zona urbana, mobiliario urbano, lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: \n  Categorías: mobiliario urbano, parque infantil\n  Contexto: zona urbana, mobiliario urbano, lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "score": 0.8779463768005371
+        },
+        {
+          "id": 36831,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros, Sistema de señalización\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros, comunicación, Sistema de señalización",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros, Sistema de señalización\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros, comunicación, Sistema de señalización",
+          "score": 0.8751123547554016
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "policia",
+        "selected_id": 12353,
+        "selected_concept": "policía",
+        "reason": "mejor representacion visual estandar"
+      },
+      {
+        "query_concept": "vigila",
+        "selected_id": 8718,
+        "selected_concept": "vigilar",
+        "reason": "representa la accion de observar con atencion"
+      },
+      {
+        "query_concept": "banco",
+        "selected_id": 36828,
+        "selected_concept": "banco",
+        "reason": "representa la institucion financiera necesaria para el contexto de la oracion"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "policía",
+        "id": 12353,
+        "url": "https://static.arasaac.org/pictograms/12353/12353_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "vigilar",
+        "id": 8718,
+        "url": "https://static.arasaac.org/pictograms/8718/8718_500.png",
+        "score": 0.87
+      },
+      {
+        "concept": "banco",
+        "id": 36828,
+        "url": "https://static.arasaac.org/pictograms/36828/36828_500.png",
+        "score": 0.88
+      }
+    ]
+  }
+}

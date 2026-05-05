@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260505_163903",
+  "text": "Cerrar los ojos y dormir",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "cerrar",
+      "id": 7056,
+      "url": "https://static.arasaac.org/pictograms/7056/7056_500.png",
+      "score": 0.9,
+      "description": "query: Concepto: cerrar\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción"
+    },
+    {
+      "order": 2,
+      "concept": "ojos",
+      "id": 2876,
+      "url": "https://static.arasaac.org/pictograms/2876/2876_500.png",
+      "score": 0.9,
+      "description": "query: Concepto: ojos\n  Descripción:  m. Órganos de la vista\n  Sinónimos: \n  Categorías: anatomía humana, sentidos, sistema visual, covid-19, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos, sistema visual, covid-19, vocabulario básico"
+    },
+    {
+      "order": 3,
+      "concept": "dormir",
+      "id": 6479,
+      "url": "https://static.arasaac.org/pictograms/6479/6479_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "cerrar",
+        "reason": "El pictograma seleccionado (7056) representa la acción de cerrar una ventana o puerta física (obstrucción de paso), mientras que en el contexto de 'cerrar los ojos', el concepto adecuado es 'cerrar' en el sentido de cubrir o tapar (ocultar la vista), no de sellar una abertura arquitectónica."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Aunque el mensaje es comprensible, se recomienda buscar un pictograma de 'cerrar' que sea más genérico o que represente específicamente el cierre de los ojos para evitar la ambigüedad con una ventana."
+    ]
+  }
+}

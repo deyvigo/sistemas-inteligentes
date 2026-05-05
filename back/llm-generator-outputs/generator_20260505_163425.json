@@ -1,0 +1,188 @@
+{
+  "timestamp": "20260505_163425",
+  "text": "Cual es tu comida favorita",
+  "concepts": [
+    "cual",
+    "comida",
+    "favorita"
+  ],
+  "candidates": [
+    {
+      "concept": "cual",
+      "candidates": [
+        {
+          "id": 26022,
+          "concept": "¿cuál?",
+          "query_concept": "cual",
+          "text": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "description": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "score": 0.8974601626396179
+        },
+        {
+          "id": 3039,
+          "concept": "q",
+          "query_concept": "cual",
+          "text": "query: Concepto: q\n  Descripción: f. Vigésima letra del abecedario español, y decimoséptima del orden latino internacional, que representa el mismo fonema consonántico oclusivo, velar y sordo de la c ante a, o, u, o de la k ante cualquier vocal. Su nombre es cu.\n\n\n  Sinónimos: \n  Categorías: carta\n  Contexto: comunicación, idioma, alfabeto, carta",
+          "description": "query: Concepto: q\n  Descripción: f. Vigésima letra del abecedario español, y decimoséptima del orden latino internacional, que representa el mismo fonema consonántico oclusivo, velar y sordo de la c ante a, o, u, o de la k ante cualquier vocal. Su nombre es cu.\n\n\n  Sinónimos: \n  Categorías: carta\n  Contexto: comunicación, idioma, alfabeto, carta",
+          "score": 0.877029299736023
+        },
+        {
+          "id": 12295,
+          "concept": "causa",
+          "query_concept": "cual",
+          "text": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "score": 0.8767156004905701
+        },
+        {
+          "id": 11351,
+          "concept": "que",
+          "query_concept": "cual",
+          "text": "query: Concepto: que\n  Descripción: pron. relat. Con esta sola forma conviene a los géneros masculino, femenino y neutro y a los números singular y plural. Con el artículo forma el relativo compuesto: el que, la que, los que, las que, lo que, que a diferencia de la sola forma que, posee variación de género y número y puede construirse en concordancia con el antecedente.\n  Sinónimos: \n  Categorías: conjuntion, conjunción copulativa\n  Contexto: comunicación, idioma, conjuntion, conjunción copulativa, objeto",
+          "description": "query: Concepto: que\n  Descripción: pron. relat. Con esta sola forma conviene a los géneros masculino, femenino y neutro y a los números singular y plural. Con el artículo forma el relativo compuesto: el que, la que, los que, las que, lo que, que a diferencia de la sola forma que, posee variación de género y número y puede construirse en concordancia con el antecedente.\n  Sinónimos: \n  Categorías: conjuntion, conjunción copulativa\n  Contexto: comunicación, idioma, conjuntion, conjunción copulativa, objeto",
+          "score": 0.8755121827125549
+        },
+        {
+          "id": 35993,
+          "concept": "calidad",
+          "query_concept": "cual",
+          "text": "query: Concepto: calidad\n  Descripción: f. Propiedad o conjunto de propiedades inherentes a una persona o cosa que permiten apreciarla con respecto a las restantes de su especie:mejor, peor calidad.\n  Sinónimos: \n  Categorías: objeto\n  Contexto: objeto",
+          "description": "query: Concepto: calidad\n  Descripción: f. Propiedad o conjunto de propiedades inherentes a una persona o cosa que permiten apreciarla con respecto a las restantes de su especie:mejor, peor calidad.\n  Sinónimos: \n  Categorías: objeto\n  Contexto: objeto",
+          "score": 0.8732075095176697
+        }
+      ]
+    },
+    {
+      "concept": "comida",
+      "candidates": [
+        {
+          "id": 4611,
+          "concept": "comida",
+          "query_concept": "comida",
+          "text": "query: Concepto: comida\n  Descripción:  Alimento que se toma a mediodía o a primeras horas de la tarde.\n  Sinónimos: \n  Categorías: evento, alimentos, core vocablo-time\n  Contexto: evento, alimentación, alimentos, vocabulario básico",
+          "description": "query: Concepto: comida\n  Descripción:  Alimento que se toma a mediodía o a primeras horas de la tarde.\n  Sinónimos: \n  Categorías: evento, alimentos, core vocablo-time\n  Contexto: evento, alimentación, alimentos, vocabulario básico",
+          "score": 0.8926612138748169
+        },
+        {
+          "id": 4609,
+          "concept": "comer",
+          "query_concept": "comida",
+          "text": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.8898453712463379
+        },
+        {
+          "id": 28669,
+          "concept": "comer",
+          "query_concept": "comida",
+          "text": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.8898453712463379
+        },
+        {
+          "id": 6990,
+          "concept": "comer",
+          "query_concept": "comida",
+          "text": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.8898453712463379
+        },
+        {
+          "id": 4610,
+          "concept": "comida",
+          "query_concept": "comida",
+          "text": "query: Concepto: comida\n  Descripción:  f. Conjunto de cosas que se comen.\n  Sinónimos: alimentos, alimento, comidas\n  Categorías: alimentos, categorización, core vocabulario-lactancia, vocabulario básico varios\n  Contexto: alimentación, alimentos, categorización, vocabulario básico",
+          "description": "query: Concepto: comida\n  Descripción:  f. Conjunto de cosas que se comen.\n  Sinónimos: alimentos, alimento, comidas\n  Categorías: alimentos, categorización, core vocabulario-lactancia, vocabulario básico varios\n  Contexto: alimentación, alimentos, categorización, vocabulario básico",
+          "score": 0.8863605260848999
+        }
+      ]
+    },
+    {
+      "concept": "favorita",
+      "candidates": [
+        {
+          "id": 30012,
+          "concept": "favorito",
+          "query_concept": "favorita",
+          "text": "query: Concepto: favorito\n  Descripción:  adj. Predilecto, preferido sobre otros.\n  Sinónimos: favorita, preferido, preferida, predilecto, predilecta\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "description": "query: Concepto: favorito\n  Descripción:  adj. Predilecto, preferido sobre otros.\n  Sinónimos: favorita, preferido, preferida, predilecto, predilecta\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "score": 0.8679327964782715
+        },
+        {
+          "id": 35759,
+          "concept": "bistec de vaca",
+          "query_concept": "favorita",
+          "text": "query: Concepto: bistec de vaca\n  Descripción: m. Loncha o filete de carne asada o frita de vaca.\n  Sinónimos: bistec\n  Categorías: Gastronomía\n  Contexto: alimentación, alimentos, Gastronomía",
+          "description": "query: Concepto: bistec de vaca\n  Descripción: m. Loncha o filete de carne asada o frita de vaca.\n  Sinónimos: bistec\n  Categorías: Gastronomía\n  Contexto: alimentación, alimentos, Gastronomía",
+          "score": 0.8462456464767456
+        },
+        {
+          "id": 5400,
+          "concept": "bolsa de fritos",
+          "query_concept": "favorita",
+          "text": "query: Concepto: bolsa de fritos\n  Descripción: f. Saco o talega de diversas materias destinado a guardar fritos.\n  Sinónimos: patatas fritas, bolsa de patatas fritas\n  Categorías: alimentos ultraprocesados\n  Contexto: alimentación, alimentos, alimentos ultraprocesados",
+          "description": "query: Concepto: bolsa de fritos\n  Descripción: f. Saco o talega de diversas materias destinado a guardar fritos.\n  Sinónimos: patatas fritas, bolsa de patatas fritas\n  Categorías: alimentos ultraprocesados\n  Contexto: alimentación, alimentos, alimentos ultraprocesados",
+          "score": 0.8422813415527344
+        },
+        {
+          "id": 35147,
+          "concept": "filete",
+          "query_concept": "favorita",
+          "text": "query: Concepto: filete\n  Descripción: m. Lonja delgada de carne magra o de pescado limpio de raspas.\n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "description": "query: Concepto: filete\n  Descripción: m. Lonja delgada de carne magra o de pescado limpio de raspas.\n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "score": 0.8416077494621277
+        },
+        {
+          "id": 11298,
+          "concept": "mandarina",
+          "query_concept": "favorita",
+          "text": "query: Concepto: mandarina\n  Descripción: f. Variedad de naranja que se distingue en ser pequeña, aplastada, de cáscara muy fácil de separar y pulpa muy dulce.\n  Sinónimos: \n  Categorías: Frutas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas",
+          "description": "query: Concepto: mandarina\n  Descripción: f. Variedad de naranja que se distingue en ser pequeña, aplastada, de cáscara muy fácil de separar y pulpa muy dulce.\n  Sinónimos: \n  Categorías: Frutas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas",
+          "score": 0.8405975699424744
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "cual",
+        "selected_id": 26022,
+        "selected_concept": "¿cuál?",
+        "reason": "Es la forma interrogativa directa adecuada para la estructura de la oración."
+      },
+      {
+        "query_concept": "comida",
+        "selected_id": 4610,
+        "selected_concept": "comida",
+        "reason": "Representa mejor el sustantivo general de alimentos que la acción de comer."
+      },
+      {
+        "query_concept": "favorita",
+        "selected_id": 30012,
+        "selected_concept": "favorito",
+        "reason": "Es el término adecuado para expresar preferencia personal."
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "¿cuál?",
+        "id": 26022,
+        "url": "https://static.arasaac.org/pictograms/26022/26022_500.png",
+        "score": 0.9
+      },
+      {
+        "concept": "comida",
+        "id": 4610,
+        "url": "https://static.arasaac.org/pictograms/4610/4610_500.png",
+        "score": 0.89
+      },
+      {
+        "concept": "favorito",
+        "id": 30012,
+        "url": "https://static.arasaac.org/pictograms/30012/30012_500.png",
+        "score": 0.87
+      }
+    ]
+  }
+}

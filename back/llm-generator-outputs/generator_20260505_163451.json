@@ -1,0 +1,188 @@
+{
+  "timestamp": "20260505_163451",
+  "text": "El gato esta tomando leche",
+  "concepts": [
+    "gato",
+    "tomando",
+    "leche"
+  ],
+  "candidates": [
+    {
+      "concept": "gato",
+      "candidates": [
+        {
+          "id": 9879,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8805826902389526
+        },
+        {
+          "id": 9881,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, halloween, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, evento, evento popular, halloween, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, halloween, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, evento, evento popular, halloween, mascota, nacionales",
+          "score": 0.8794181942939758
+        },
+        {
+          "id": 2406,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.877545952796936
+        },
+        {
+          "id": 34082,
+          "concept": "gatito",
+          "query_concept": "gato",
+          "text": "query: Concepto: gatito\n  Descripción: m. Cría del gato\n  Sinónimos: gatita\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, animales domésticos, mascota\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, nacionales, mascota",
+          "description": "query: Concepto: gatito\n  Descripción: m. Cría del gato\n  Sinónimos: gatita\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, animales domésticos, mascota\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, nacionales, mascota",
+          "score": 0.8774570822715759
+        },
+        {
+          "id": 7114,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos, núcleo vocabulario-viviendo ser\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales, vocabulario básico",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos, núcleo vocabulario-viviendo ser\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales, vocabulario básico",
+          "score": 0.8754790425300598
+        }
+      ]
+    },
+    {
+      "concept": "tomando",
+      "candidates": [
+        {
+          "id": 38752,
+          "concept": "tomar la temperatura",
+          "query_concept": "tomando",
+          "text": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: ponerse el termómetro, poner el termómetro\n  Categorías: verbo, procedimiento médico, covid-19\n  Contexto: comunicación, idioma, verbo, Salud, medicamentos, procedimiento médico, covid-19",
+          "description": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: ponerse el termómetro, poner el termómetro\n  Categorías: verbo, procedimiento médico, covid-19\n  Contexto: comunicación, idioma, verbo, Salud, medicamentos, procedimiento médico, covid-19",
+          "score": 0.875706672668457
+        },
+        {
+          "id": 28641,
+          "concept": "comer",
+          "query_concept": "tomando",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8755024671554565
+        },
+        {
+          "id": 2349,
+          "concept": "comer",
+          "query_concept": "tomando",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8755024671554565
+        },
+        {
+          "id": 31975,
+          "concept": "tomar conciencia",
+          "query_concept": "tomando",
+          "text": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "description": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "score": 0.8732916116714478
+        },
+        {
+          "id": 12351,
+          "concept": "tomar conciencia",
+          "query_concept": "tomando",
+          "text": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "description": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "score": 0.8732916116714478
+        }
+      ]
+    },
+    {
+      "concept": "leche",
+      "candidates": [
+        {
+          "id": 2445,
+          "concept": "leche",
+          "query_concept": "leche",
+          "text": "query: Concepto: leche\n  Descripción:  f. Líquido blanco que segregan las mamas de las hembras de los mamíferos y que sirve de alimento para sus crías.\n  Sinónimos: \n  Categorías: bebidas, productos lácteos, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, alimentos a base de animales, productos lácteos, vocabulario básico",
+          "description": "query: Concepto: leche\n  Descripción:  f. Líquido blanco que segregan las mamas de las hembras de los mamíferos y que sirve de alimento para sus crías.\n  Sinónimos: \n  Categorías: bebidas, productos lácteos, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, alimentos a base de animales, productos lácteos, vocabulario básico",
+          "score": 0.8733434081077576
+        },
+        {
+          "id": 4769,
+          "concept": "vaso de leche",
+          "query_concept": "leche",
+          "text": "query: Concepto: vaso de leche\n  Descripción:  m. Recipiente pequeño de forma cilíndrica, generalmente de vidrio, que contiene leche para beber.\n  Sinónimos: \n  Categorías: bebidas, productos lácteos\n  Contexto: alimentación, alimentos, bebidas, alimentos a base de animales, productos lácteos",
+          "description": "query: Concepto: vaso de leche\n  Descripción:  m. Recipiente pequeño de forma cilíndrica, generalmente de vidrio, que contiene leche para beber.\n  Sinónimos: \n  Categorías: bebidas, productos lácteos\n  Contexto: alimentación, alimentos, bebidas, alimentos a base de animales, productos lácteos",
+          "score": 0.8569490909576416
+        },
+        {
+          "id": 31698,
+          "concept": "sacaleches",
+          "query_concept": "leche",
+          "text": "query: Concepto: sacaleches\n  Descripción: m. Aparato que sirve para extraer la leche del pecho de una mujer.\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "description": "query: Concepto: sacaleches\n  Descripción: m. Aparato que sirve para extraer la leche del pecho de una mujer.\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "score": 0.8550674319267273
+        },
+        {
+          "id": 31908,
+          "concept": "sacaleches",
+          "query_concept": "leche",
+          "text": "query: Concepto: sacaleches\n  Descripción: m. Aparato que sirve para extraer la leche del pecho de una mujer.\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "description": "query: Concepto: sacaleches\n  Descripción: m. Aparato que sirve para extraer la leche del pecho de una mujer.\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "score": 0.8550674319267273
+        },
+        {
+          "id": 34008,
+          "concept": "leche sin lactosa",
+          "query_concept": "leche",
+          "text": "query: Concepto: leche sin lactosa\n  Descripción: m. Leche a la que se le ha eliminado el azúcar que contiene formado por glucosa y galactosa.\n  Sinónimos: \n  Categorías: bebidas\n  Contexto: alimentación, alimentos, bebidas",
+          "description": "query: Concepto: leche sin lactosa\n  Descripción: m. Leche a la que se le ha eliminado el azúcar que contiene formado por glucosa y galactosa.\n  Sinónimos: \n  Categorías: bebidas\n  Contexto: alimentación, alimentos, bebidas",
+          "score": 0.8534981608390808
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "gato",
+        "selected_id": 9879,
+        "selected_concept": "gato",
+        "reason": "Es la representación estándar más clara del animal."
+      },
+      {
+        "query_concept": "tomando",
+        "selected_id": 28641,
+        "selected_concept": "comer",
+        "reason": "El concepto 'tomar' en el contexto de ingerir líquidos se representa adecuadamente bajo el verbo comer/tomar."
+      },
+      {
+        "query_concept": "leche",
+        "selected_id": 4769,
+        "selected_concept": "vaso de leche",
+        "reason": "Es la representación más adecuada para el acto de beber leche en una oración."
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "gato",
+        "id": 9879,
+        "url": "https://static.arasaac.org/pictograms/9879/9879_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "comer",
+        "id": 28641,
+        "url": "https://static.arasaac.org/pictograms/28641/28641_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "vaso de leche",
+        "id": 4769,
+        "url": "https://static.arasaac.org/pictograms/4769/4769_500.png",
+        "score": 0.86
+      }
+    ]
+  }
+}

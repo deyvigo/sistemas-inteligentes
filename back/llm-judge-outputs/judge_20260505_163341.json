@@ -1,0 +1,53 @@
+{
+  "timestamp": "20260505_163341",
+  "text": "En la granja dieron de comer a las gallinas",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "granja",
+      "id": 3337,
+      "url": "https://static.arasaac.org/pictograms/3337/3337_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: granja\n  Descripción:  f. Hacienda de campo que consta de establos, huerta y casa habitable.\n  Sinónimos: \n  Categorías: Carcasa de animales, Ganadería, hábitat natural, Zona rural\n  Contexto: animal, Carcasa de animales, trabajo, sector primario, Ganadería, geografía, geografía física, hábitat natural, lugar, Zona rural"
+    },
+    {
+      "order": 2,
+      "concept": "jarrón",
+      "id": 28541,
+      "url": "https://static.arasaac.org/pictograms/28541/28541_500.png",
+      "score": 0.82,
+      "description": "query: Concepto: jarrón\n  Descripción: \n  Sinónimos: \n  Categorías: artículo decorativo\n  Contexto: objeto, artículo decorativo"
+    },
+    {
+      "order": 3,
+      "concept": "comer",
+      "id": 6990,
+      "url": "https://static.arasaac.org/pictograms/6990/6990_500.png",
+      "score": 0.89,
+      "description": "query: Concepto: comer\n  Descripción: intr. Tomar la comida principal del día.\n  Sinónimos: \n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación"
+    },
+    {
+      "order": 4,
+      "concept": "gallina",
+      "id": 2403,
+      "url": "https://static.arasaac.org/pictograms/2403/2403_500.png",
+      "score": 0.86,
+      "description": "query: Concepto: gallina\n  Descripción:  f. Hembra del gallo, de menor tamaño que este, con cresta pequeña, cola sin plumas largas y patas sin espolones.\n  Sinónimos: \n  Categorías: omnívora, ave, oviparosa, animales terrestres, Ganadería, animales domésticos, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico\n  Contexto: animal, omnívora, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería, nacionales, vocabulario básico"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "jarrón",
+        "reason": "El concepto 'jarrón' no tiene relación semántica con la acción de alimentar a las gallinas. Es probable que se haya seleccionado erróneamente en lugar de 'dar' o 'comida'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Reemplazar el pictograma de 'jarrón' por uno de 'dar' o 'comida' para completar la acción de alimentar.",
+      "Si la intención es 'alimentar', buscar el pictograma específico de 'alimentar' en lugar de usar el verbo intransitivo 'comer'."
+    ]
+  }
+}

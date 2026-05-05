@@ -1,0 +1,57 @@
+{
+  "timestamp": "20260505_163311",
+  "text": "Estoy haciendo fila en el banco",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "estar",
+      "id": 5466,
+      "url": "https://static.arasaac.org/pictograms/5466/5466_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico"
+    },
+    {
+      "order": 2,
+      "concept": "hacer",
+      "id": 11749,
+      "url": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico"
+    },
+    {
+      "order": 3,
+      "concept": "fila",
+      "id": 31803,
+      "url": "https://static.arasaac.org/pictograms/31803/31803_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos"
+    },
+    {
+      "order": 4,
+      "concept": "banco",
+      "id": 36828,
+      "url": "https://static.arasaac.org/pictograms/36828/36828_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "estar",
+        "reason": "El pictograma de 'estar' en AAC suele usarse como verbo auxiliar o de estado, pero aquí resulta redundante y confuso junto al pictograma de 'hacer'."
+      },
+      {
+        "concept": "hacer",
+        "reason": "El pictograma de 'hacer' (fabricar/construir) no representa la acción de 'esperar' o 'estar de pie' que implica hacer una fila. El significado se pierde al usar un verbo genérico de construcción."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'estar' y 'hacer' por el pictograma de 'esperar', que es el concepto comunicativo real detrás de 'hacer fila'.",
+      "La secuencia ideal sería: [ESPERAR] [FILA] [BANCO]."
+    ]
+  }
+}

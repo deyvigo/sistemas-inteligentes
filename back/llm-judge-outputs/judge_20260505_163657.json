@@ -1,0 +1,39 @@
+{
+  "timestamp": "20260505_163657",
+  "text": "Un policia vigila el banco",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "policía",
+      "id": 12353,
+      "url": "https://static.arasaac.org/pictograms/12353/12353_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: policía\n  Descripción:  f. Cuerpo encargado de velar por el mantenimiento del orden público y la seguridad de los ciudadanos, a las órdenes de las autoridades políticas.\n  Sinónimos: funcionario de prisiones\n  Categorías: profesional, Seguridad y defensa\n  Contexto: trabajo, profesional, sector terciario, defensa, seguridad"
+    },
+    {
+      "order": 2,
+      "concept": "vigilar",
+      "id": 8718,
+      "url": "https://static.arasaac.org/pictograms/8718/8718_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: vigilar\n  Descripción: intr. Velar sobre alguien o algo, o atender exacta y cuidadosamente a él o a ello. U. t. c. tr.\n  Sinónimos: otear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo"
+    },
+    {
+      "order": 3,
+      "concept": "banco",
+      "id": 36828,
+      "url": "https://static.arasaac.org/pictograms/36828/36828_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia es clara y representa correctamente el significado central de la acción y los roles involucrados."
+    ]
+  }
+}

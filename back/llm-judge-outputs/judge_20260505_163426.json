@@ -1,0 +1,39 @@
+{
+  "timestamp": "20260505_163426",
+  "text": "Cual es tu comida favorita",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "¿cuál?",
+      "id": 26022,
+      "url": "https://static.arasaac.org/pictograms/26022/26022_500.png",
+      "score": 0.9,
+      "description": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo"
+    },
+    {
+      "order": 2,
+      "concept": "comida",
+      "id": 4610,
+      "url": "https://static.arasaac.org/pictograms/4610/4610_500.png",
+      "score": 0.89,
+      "description": "query: Concepto: comida\n  Descripción:  f. Conjunto de cosas que se comen.\n  Sinónimos: alimentos, alimento, comidas\n  Categorías: alimentos, categorización, core vocabulario-lactancia, vocabulario básico varios\n  Contexto: alimentación, alimentos, categorización, vocabulario básico"
+    },
+    {
+      "order": 3,
+      "concept": "favorito",
+      "id": 30012,
+      "url": "https://static.arasaac.org/pictograms/30012/30012_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: favorito\n  Descripción:  adj. Predilecto, preferido sobre otros.\n  Sinónimos: favorita, preferido, preferida, predilecto, predilecta\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Aunque la secuencia es clara, falta el concepto 'tú' (o 'tu') para especificar que la pregunta va dirigida al interlocutor. Considerar añadir el pictograma de 'tú/ti' para completar la intención comunicativa."
+    ]
+  }
+}

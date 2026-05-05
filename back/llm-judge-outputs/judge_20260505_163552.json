@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260505_163552",
+  "text": "Dani almorzo bocadillos y fruta",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "danzantes",
+      "id": 32794,
+      "url": "https://static.arasaac.org/pictograms/32794/32794_500.png",
+      "score": 0.81,
+      "description": "query: Concepto: danzantes\n  Descripción: m. pl. Personas que danzan en procesiones y bailes públicos.\n  Sinónimos: aurresku\n  Categorías: profesional, Danza regional\n  Contexto: trabajo, profesional, arte escénico, danza, Danza regional, Mostrar"
+    },
+    {
+      "order": 2,
+      "concept": "almuerzo",
+      "id": 28206,
+      "url": "https://static.arasaac.org/pictograms/28206/28206_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación"
+    },
+    {
+      "order": 3,
+      "concept": "bocadillo",
+      "id": 2281,
+      "url": "https://static.arasaac.org/pictograms/2281/2281_500.png",
+      "score": 0.89,
+      "description": "query: Concepto: bocadillo\n  Descripción:  m. Panecillo cortado longitudinalmente en dos rebanadas con alimentos variados en su interior.\n  Sinónimos: \n  Categorías: alimentos transformados, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos transformados, vocabulario básico"
+    },
+    {
+      "order": 4,
+      "concept": "fruta",
+      "id": 4653,
+      "url": "https://static.arasaac.org/pictograms/4653/4653_500.png",
+      "score": 0.9,
+      "description": "query: Concepto: fruta\n  Descripción: f. Fruto comestible de ciertas plantas.\n  Sinónimos: frutas\n  Categorías: Frutas, categorización\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas, categorización"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "danzantes",
+        "reason": "El pictograma 'danzantes' no representa a la persona 'Dani'. Se debe usar un pictograma de persona o nombre propio para representar al sujeto que realiza la acción."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir el pictograma de 'danzantes' por un pictograma de 'niño', 'persona' o el pictograma específico del nombre 'Dani' para representar correctamente al sujeto."
+    ]
+  }
+}

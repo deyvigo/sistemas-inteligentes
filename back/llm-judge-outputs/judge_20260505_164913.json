@@ -1,0 +1,78 @@
+{
+  "timestamp": "20260505_164913",
+  "text": "Levanta la mano y pregunta sobre lo que no entendiste",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "incomprensión",
+      "id": 15333,
+      "url": "https://static.arasaac.org/pictograms/15333/15333_500.png",
+      "score": 0.78,
+      "description": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:"
+    },
+    {
+      "order": 2,
+      "concept": "levantar",
+      "id": 35101,
+      "url": "https://static.arasaac.org/pictograms/35101/35101_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: levantar\n  Descripción: tr. Mover hacia arriba algo.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto"
+    },
+    {
+      "order": 3,
+      "concept": "mano",
+      "id": 2928,
+      "url": "https://static.arasaac.org/pictograms/2928/2928_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: mano\n  Descripción:  f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.\n  Sinónimos: mano derecha\n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos"
+    },
+    {
+      "order": 4,
+      "concept": "preguntar",
+      "id": 9844,
+      "url": "https://static.arasaac.org/pictograms/9844/9844_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana"
+    },
+    {
+      "order": 5,
+      "concept": "sobre",
+      "id": 7814,
+      "url": "https://static.arasaac.org/pictograms/7814/7814_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: sobre\n  Descripción: prep. Encima de.\n  Sinónimos: \n  Categorías: preposición, conceptos básicos\n  Contexto: comunicación, idioma, preposición, matemáticas, conceptos básicos, vocabulario básico"
+    },
+    {
+      "order": 6,
+      "concept": "entender",
+      "id": 16659,
+      "url": "https://static.arasaac.org/pictograms/16659/16659_500.png",
+      "score": 0.86,
+      "description": "query: Concepto: entender\n  Descripción: tr. Tener idea clara de las cosas\n  Sinónimos: comprender, comprensible, entendible, inteligible\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "negación"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "incomprensión",
+        "reason": "El pictograma representa el concepto de 'incomprensión' (el sustantivo o el estado), pero no ayuda a expresar la acción de 'no entender'. Falta un pictograma de negación (NO)."
+      },
+      {
+        "concept": "sobre",
+        "reason": "Se está utilizando la preposición como un pictograma independiente. En AAC, esto no aporta significado semántico a la instrucción de preguntar."
+      }
+    ],
+    "ordering_issues": [
+      "El orden actual (incomprensión - levantar - mano - preguntar - sobre - entender) dificulta la interpretación de una secuencia lógica de acción (Acción 1: levantar mano; Acción 2: preguntar sobre lo no entendido)."
+    ],
+    "suggestions": [
+      "Cambiar el orden a: 'Levantar mano' y 'Preguntar' + 'No' + 'Entender'.",
+      "Eliminar el pictograma de 'sobre' por ser innecesario.",
+      "Asegurar que el pictograma de 'entender' esté precedido por un pictograma de 'no' (negación) para expresar 'no entender'."
+    ]
+  }
+}

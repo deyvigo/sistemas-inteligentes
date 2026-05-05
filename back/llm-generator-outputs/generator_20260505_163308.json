@@ -1,0 +1,246 @@
+{
+  "timestamp": "20260505_163308",
+  "text": "Estoy haciendo fila en el banco",
+  "concepts": [
+    "estoy",
+    "haciendo",
+    "fila",
+    "banco"
+  ],
+  "candidates": [
+    {
+      "concept": "estoy",
+      "candidates": [
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8651782274246216
+        },
+        {
+          "id": 13630,
+          "concept": "estoy bien",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "description": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "score": 0.8628960251808167
+        },
+        {
+          "id": 36392,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción: \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, carácter, Carácter del libro, personal de salud, persona religiosa, carácter religioso, líder, persona según su edad, profesional, pronombre personal\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, carácter, Carácter del libro, literatura, Salud, medicamentos, profesional, religión, persona, líder, trabajo, pronombre, pronombre personal",
+          "description": "query: Concepto: estar\n  Descripción: \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, carácter, Carácter del libro, personal de salud, persona religiosa, carácter religioso, líder, persona según su edad, profesional, pronombre personal\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, carácter, Carácter del libro, literatura, Salud, medicamentos, profesional, religión, persona, líder, trabajo, pronombre, pronombre personal",
+          "score": 0.8625627756118774
+        },
+        {
+          "id": 37183,
+          "concept": "estoy regular",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estoy regular\n  Descripción: \n  Sinónimos: ¡estoy regular!\n  Categorías: verbo, sensación\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción",
+          "description": "query: Concepto: estoy regular\n  Descripción: \n  Sinónimos: ¡estoy regular!\n  Categorías: verbo, sensación\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción",
+          "score": 0.8623778820037842
+        },
+        {
+          "id": 13368,
+          "concept": "estar de pie",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar de pie\n  Descripción: intr. Permanecer derecho, erguido o afirmado sobre los pies\n  Sinónimos: \n  Categorías: verbo, posición corporal\n  Contexto: comunicación, idioma, verbo, cuerpo humano, posición",
+          "description": "query: Concepto: estar de pie\n  Descripción: intr. Permanecer derecho, erguido o afirmado sobre los pies\n  Sinónimos: \n  Categorías: verbo, posición corporal\n  Contexto: comunicación, idioma, verbo, cuerpo humano, posición",
+          "score": 0.8611255884170532
+        }
+      ]
+    },
+    {
+      "concept": "haciendo",
+      "candidates": [
+        {
+          "id": 11749,
+          "concept": "hacer",
+          "query_concept": "haciendo",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.87673020362854
+        },
+        {
+          "id": 32751,
+          "concept": "hacer",
+          "query_concept": "haciendo",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.87673020362854
+        },
+        {
+          "id": 8008,
+          "concept": "actividades",
+          "query_concept": "haciendo",
+          "text": "query: Concepto: actividades\n  Descripción: f. pl. Ocupación a que se dedica habitualmente una persona\n  Sinónimos: actividad\n  Categorías: tarea educativa\n  Contexto: Educación, tarea educativa",
+          "description": "query: Concepto: actividades\n  Descripción: f. pl. Ocupación a que se dedica habitualmente una persona\n  Sinónimos: actividad\n  Categorías: tarea educativa\n  Contexto: Educación, tarea educativa",
+          "score": 0.8634442090988159
+        },
+        {
+          "id": 10367,
+          "concept": "¿qué has hecho?",
+          "query_concept": "haciendo",
+          "text": "query: Concepto: ¿qué has hecho?\n  Descripción: Expresión utilizada para preguntar a alguien por las acciones que ha realizado.\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "description": "query: Concepto: ¿qué has hecho?\n  Descripción: Expresión utilizada para preguntar a alguien por las acciones que ha realizado.\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "score": 0.8608343005180359
+        },
+        {
+          "id": 7794,
+          "concept": "manualidades",
+          "query_concept": "haciendo",
+          "text": "query: Concepto: manualidades\n  Descripción: f. pl. Trabajos efectuados con las manos, con o sin ayuda de herramienta\n  Sinónimos: trabajos manuales, plástica\n  Categorías: tarea educativa\n  Contexto: Educación, tarea educativa",
+          "description": "query: Concepto: manualidades\n  Descripción: f. pl. Trabajos efectuados con las manos, con o sin ayuda de herramienta\n  Sinónimos: trabajos manuales, plástica\n  Categorías: tarea educativa\n  Contexto: Educación, tarea educativa",
+          "score": 0.8607852458953857
+        }
+      ]
+    },
+    {
+      "concept": "fila",
+      "candidates": [
+        {
+          "id": 31803,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8771249055862427
+        },
+        {
+          "id": 35123,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8771249055862427
+        },
+        {
+          "id": 7102,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8771249055862427
+        },
+        {
+          "id": 38597,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8601710796356201
+        },
+        {
+          "id": 38596,
+          "concept": "fila",
+          "query_concept": "fila",
+          "text": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: fila\n  Descripción: \n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8601710796356201
+        }
+      ]
+    },
+    {
+      "concept": "banco",
+      "candidates": [
+        {
+          "id": 4919,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "score": 0.8795212507247925
+        },
+        {
+          "id": 36828,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 36830,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 3255,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: \n  Categorías: mobiliario urbano, parque infantil\n  Contexto: zona urbana, mobiliario urbano, lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: \n  Categorías: mobiliario urbano, parque infantil\n  Contexto: zona urbana, mobiliario urbano, lugar, instalación, instalaciones recreativas, ocio, parque infantil",
+          "score": 0.8779463768005371
+        },
+        {
+          "id": 36831,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros, Sistema de señalización\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros, comunicación, Sistema de señalización",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros, Sistema de señalización\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros, comunicación, Sistema de señalización",
+          "score": 0.8751123547554016
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "estoy",
+        "selected_id": 5466,
+        "selected_concept": "estar",
+        "reason": "mejor coincidencia para el estado actual"
+      },
+      {
+        "query_concept": "haciendo",
+        "selected_id": 11749,
+        "selected_concept": "hacer",
+        "reason": "mejor coincidencia para el verbo"
+      },
+      {
+        "query_concept": "fila",
+        "selected_id": 31803,
+        "selected_concept": "fila",
+        "reason": "mejor coincidencia para una fila de personas"
+      },
+      {
+        "query_concept": "banco",
+        "selected_id": 36828,
+        "selected_concept": "banco",
+        "reason": "mejor coincidencia para la entidad financiera"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "estar",
+        "id": 5466,
+        "url": "https://static.arasaac.org/pictograms/5466/5466_500.png",
+        "score": 0.87
+      },
+      {
+        "concept": "hacer",
+        "id": 11749,
+        "url": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "fila",
+        "id": 31803,
+        "url": "https://static.arasaac.org/pictograms/31803/31803_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "banco",
+        "id": 36828,
+        "url": "https://static.arasaac.org/pictograms/36828/36828_500.png",
+        "score": 0.88
+      }
+    ]
+  }
+}

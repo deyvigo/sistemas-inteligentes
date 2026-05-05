@@ -1,0 +1,188 @@
+{
+  "timestamp": "20260505_163859",
+  "text": "Cerrar los ojos y dormir",
+  "concepts": [
+    "cerrar",
+    "ojos",
+    "dormir"
+  ],
+  "candidates": [
+    {
+      "concept": "cerrar",
+      "candidates": [
+        {
+          "id": 7056,
+          "concept": "cerrar",
+          "query_concept": "cerrar",
+          "text": "query: Concepto: cerrar\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción",
+          "description": "query: Concepto: cerrar\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción",
+          "score": 0.904534101486206
+        },
+        {
+          "id": 24976,
+          "concept": "cerrar",
+          "query_concept": "cerrar",
+          "text": "query: Concepto: cerrar\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: cerrar\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.9044526815414429
+        },
+        {
+          "id": 24022,
+          "concept": "cerrar la puerta",
+          "query_concept": "cerrar",
+          "text": "query: Concepto: cerrar la puerta\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción",
+          "description": "query: Concepto: cerrar la puerta\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción",
+          "score": 0.8960875272750854
+        },
+        {
+          "id": 6973,
+          "concept": "cerrar",
+          "query_concept": "cerrar",
+          "text": "query: Concepto: cerrar\n  Descripción: tr. Juntar cosas o partes de una cosa que están separadas o desplegadas: Cerrar las alas\n  Sinónimos: \n  Categorías: verbo, literatura, biblioteca de ciencias\n  Contexto: comunicación, idioma, verbo, literatura, biblioteca de ciencias",
+          "description": "query: Concepto: cerrar\n  Descripción: tr. Juntar cosas o partes de una cosa que están separadas o desplegadas: Cerrar las alas\n  Sinónimos: \n  Categorías: verbo, literatura, biblioteca de ciencias\n  Contexto: comunicación, idioma, verbo, literatura, biblioteca de ciencias",
+          "score": 0.8941847085952759
+        },
+        {
+          "id": 11212,
+          "concept": "cerrar la ventana",
+          "query_concept": "cerrar",
+          "text": "query: Concepto: cerrar la ventana\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción",
+          "description": "query: Concepto: cerrar la ventana\n  Descripción: tr. Mover o manejar la cosa que sirve para obstruir el paso de algo, de modo que quede en la posición en que lo hace: Cerrar la ventana\n  Sinónimos: \n  Categorías: verbo, elemento arquitectónico, instalaciones de construcción\n  Contexto: comunicación, idioma, verbo, arquitectura, edificio, elemento arquitectónico, lugar, instalaciones de construcción",
+          "score": 0.8932561278343201
+        }
+      ]
+    },
+    {
+      "concept": "ojos",
+      "candidates": [
+        {
+          "id": 2876,
+          "concept": "ojos",
+          "query_concept": "ojos",
+          "text": "query: Concepto: ojos\n  Descripción:  m. Órganos de la vista\n  Sinónimos: \n  Categorías: anatomía humana, sentidos, sistema visual, covid-19, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos, sistema visual, covid-19, vocabulario básico",
+          "description": "query: Concepto: ojos\n  Descripción:  m. Órganos de la vista\n  Sinónimos: \n  Categorías: anatomía humana, sentidos, sistema visual, covid-19, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos, sistema visual, covid-19, vocabulario básico",
+          "score": 0.8953623175621033
+        },
+        {
+          "id": 6573,
+          "concept": "ojo",
+          "query_concept": "ojos",
+          "text": "query: Concepto: ojo\n  Descripción: m. Órgano de la vista\n  Sinónimos: vista\n  Categorías: anatomía humana, sentidos, sistema visual, oftalmología\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos, sistema visual, Salud, medicamentos, oftalmología",
+          "description": "query: Concepto: ojo\n  Descripción: m. Órgano de la vista\n  Sinónimos: vista\n  Categorías: anatomía humana, sentidos, sistema visual, oftalmología\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos, sistema visual, Salud, medicamentos, oftalmología",
+          "score": 0.8948862552642822
+        },
+        {
+          "id": 9103,
+          "concept": "iris",
+          "query_concept": "ojos",
+          "text": "query: Concepto: iris\n  Descripción:  m. Disco membranoso del ojo entre la córnea y el cristalino, que puede adoptar distintas coloraciones y en cuyo centro se halla la pupila\n  Sinónimos: \n  Categorías: anatomía humana, sistema visual, oftalmología, cuerpo humano\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sistema visual, Salud, medicamentos, oftalmología",
+          "description": "query: Concepto: iris\n  Descripción:  m. Disco membranoso del ojo entre la córnea y el cristalino, que puede adoptar distintas coloraciones y en cuyo centro se halla la pupila\n  Sinónimos: \n  Categorías: anatomía humana, sistema visual, oftalmología, cuerpo humano\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sistema visual, Salud, medicamentos, oftalmología",
+          "score": 0.8849884867668152
+        },
+        {
+          "id": 34193,
+          "concept": "ojeras",
+          "query_concept": "ojos",
+          "text": "query: Concepto: ojeras\n  Descripción: U. m. en pl. Manchas más o menos lívidas, perennes o accidentales, alrededor de la base del párpado inferior. \n  Sinónimos: \n  Categorías: Síntomas, oftalmología\n  Contexto: Salud, medicamentos, Síntomas, oftalmología",
+          "description": "query: Concepto: ojeras\n  Descripción: U. m. en pl. Manchas más o menos lívidas, perennes o accidentales, alrededor de la base del párpado inferior. \n  Sinónimos: \n  Categorías: Síntomas, oftalmología\n  Contexto: Salud, medicamentos, Síntomas, oftalmología",
+          "score": 0.8835521340370178
+        },
+        {
+          "id": 28673,
+          "concept": "ver",
+          "query_concept": "ojos",
+          "text": "query: Concepto: ver\n  Descripción: tr. Percibir por los ojos los objetos mediante la acción de la luz.\n  Sinónimos: mirar, observar\n  Categorías: verbo, sentidos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos",
+          "description": "query: Concepto: ver\n  Descripción: tr. Percibir por los ojos los objetos mediante la acción de la luz.\n  Sinónimos: mirar, observar\n  Categorías: verbo, sentidos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos",
+          "score": 0.8822831511497498
+        }
+      ]
+    },
+    {
+      "concept": "dormir",
+      "candidates": [
+        {
+          "id": 6479,
+          "concept": "dormir",
+          "query_concept": "dormir",
+          "text": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+          "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+          "score": 0.878088116645813
+        },
+        {
+          "id": 28623,
+          "concept": "dormir",
+          "query_concept": "dormir",
+          "text": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "score": 0.8779820203781128
+        },
+        {
+          "id": 2369,
+          "concept": "dormir",
+          "query_concept": "dormir",
+          "text": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "score": 0.8779820203781128
+        },
+        {
+          "id": 37203,
+          "concept": "dormir bien",
+          "query_concept": "dormir",
+          "text": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+          "description": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+          "score": 0.8692686557769775
+        },
+        {
+          "id": 31857,
+          "concept": "despertar",
+          "query_concept": "dormir",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.8637996315956116
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "cerrar",
+        "selected_id": 7056,
+        "selected_concept": "cerrar",
+        "reason": "mejor coincidencia genérica para la acción"
+      },
+      {
+        "query_concept": "ojos",
+        "selected_id": 2876,
+        "selected_concept": "ojos",
+        "reason": "coincidencia exacta en plural"
+      },
+      {
+        "query_concept": "dormir",
+        "selected_id": 6479,
+        "selected_concept": "dormir",
+        "reason": "pictograma estándar para la acción de dormir"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "cerrar",
+        "id": 7056,
+        "url": "https://static.arasaac.org/pictograms/7056/7056_500.png",
+        "score": 0.9
+      },
+      {
+        "concept": "ojos",
+        "id": 2876,
+        "url": "https://static.arasaac.org/pictograms/2876/2876_500.png",
+        "score": 0.9
+      },
+      {
+        "concept": "dormir",
+        "id": 6479,
+        "url": "https://static.arasaac.org/pictograms/6479/6479_500.png",
+        "score": 0.88
+      }
+    ]
+  }
+}

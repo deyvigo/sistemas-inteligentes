@@ -1,0 +1,246 @@
+{
+  "timestamp": "20260505_163538",
+  "text": "Dani almorzo bocadillos y fruta",
+  "concepts": [
+    "dani",
+    "almorzo",
+    "bocadillos",
+    "fruta"
+  ],
+  "candidates": [
+    {
+      "concept": "dani",
+      "candidates": [
+        {
+          "id": 32794,
+          "concept": "danzantes",
+          "query_concept": "dani",
+          "text": "query: Concepto: danzantes\n  Descripción: m. pl. Personas que danzan en procesiones y bailes públicos.\n  Sinónimos: aurresku\n  Categorías: profesional, Danza regional\n  Contexto: trabajo, profesional, arte escénico, danza, Danza regional, Mostrar",
+          "description": "query: Concepto: danzantes\n  Descripción: m. pl. Personas que danzan en procesiones y bailes públicos.\n  Sinónimos: aurresku\n  Categorías: profesional, Danza regional\n  Contexto: trabajo, profesional, arte escénico, danza, Danza regional, Mostrar",
+          "score": 0.8130438327789307
+        },
+        {
+          "id": 17223,
+          "concept": "dulzaina",
+          "query_concept": "dani",
+          "text": "query: Concepto: dulzaina\n  Descripción: f. Instrumento musical de viento, parecido a la chirimía, pero más corto y de tonos más altos.\n  Sinónimos: \n  Categorías: instrumento de viento\n  Contexto: música, instrumento musical, instrumento de viento",
+          "description": "query: Concepto: dulzaina\n  Descripción: f. Instrumento musical de viento, parecido a la chirimía, pero más corto y de tonos más altos.\n  Sinónimos: \n  Categorías: instrumento de viento\n  Contexto: música, instrumento musical, instrumento de viento",
+          "score": 0.8069924116134644
+        },
+        {
+          "id": 5071,
+          "concept": "Año Nuevo",
+          "query_concept": "dani",
+          "text": "query: Concepto: Año Nuevo\n  Descripción: m. El que está a punto de empezar o el que ha empezado recientemente.\n\n\n  Sinónimos: Día de Año nuevo\n  Categorías: Año nuevo\n  Contexto: evento, evento popular, Año nuevo",
+          "description": "query: Concepto: Año Nuevo\n  Descripción: m. El que está a punto de empezar o el que ha empezado recientemente.\n\n\n  Sinónimos: Día de Año nuevo\n  Categorías: Año nuevo\n  Contexto: evento, evento popular, Año nuevo",
+          "score": 0.8051308393478394
+        },
+        {
+          "id": 35069,
+          "concept": "Dios",
+          "query_concept": "dani",
+          "text": "query: Concepto: Dios\n  Descripción:  m. Nombre del ser supremo, creador del universo, según las religiones monoteístas. Se escribe con mayúscula: Dios es uno y trino. \n  Sinónimos: \n  Categorías: cristianidad\n  Contexto: religión, cristianidad",
+          "description": "query: Concepto: Dios\n  Descripción:  m. Nombre del ser supremo, creador del universo, según las religiones monoteístas. Se escribe con mayúscula: Dios es uno y trino. \n  Sinónimos: \n  Categorías: cristianidad\n  Contexto: religión, cristianidad",
+          "score": 0.8051194548606873
+        },
+        {
+          "id": 24013,
+          "concept": "Dios",
+          "query_concept": "dani",
+          "text": "query: Concepto: Dios\n  Descripción:  m. Nombre del ser supremo, creador del universo, según las religiones monoteístas. Se escribe con mayúscula: Dios es uno y trino. \n  Sinónimos: \n  Categorías: cristianidad\n  Contexto: religión, cristianidad",
+          "description": "query: Concepto: Dios\n  Descripción:  m. Nombre del ser supremo, creador del universo, según las religiones monoteístas. Se escribe con mayúscula: Dios es uno y trino. \n  Sinónimos: \n  Categorías: cristianidad\n  Contexto: religión, cristianidad",
+          "score": 0.8051194548606873
+        }
+      ]
+    },
+    {
+      "concept": "almorzo",
+      "candidates": [
+        {
+          "id": 28206,
+          "concept": "almuerzo",
+          "query_concept": "almorzo",
+          "text": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.8753504157066345
+        },
+        {
+          "id": 28207,
+          "concept": "almuerzo",
+          "query_concept": "almorzo",
+          "text": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.8753504157066345
+        },
+        {
+          "id": 28205,
+          "concept": "almuerzo",
+          "query_concept": "almorzo",
+          "text": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "description": "query: Concepto: almuerzo\n  Descripción:  m. Comida ligera que se toma a media mañana.\n  Sinónimos: almorzar\n  Categorías: verbo, evento, alimentación\n  Contexto: comunicación, idioma, verbo, evento, alimentación",
+          "score": 0.8753504157066345
+        },
+        {
+          "id": 37843,
+          "concept": "almuerzo",
+          "query_concept": "almorzo",
+          "text": "query: Concepto: almuerzo\n  Descripción: \n  Sinónimos: \n  Categorías: evento, alimentación, hábitos saludables, rutina\n  Contexto: evento, alimentación, Salud, estilo de vida, hábitos saludables, persona, rutina",
+          "description": "query: Concepto: almuerzo\n  Descripción: \n  Sinónimos: \n  Categorías: evento, alimentación, hábitos saludables, rutina\n  Contexto: evento, alimentación, Salud, estilo de vida, hábitos saludables, persona, rutina",
+          "score": 0.8556419610977173
+        },
+        {
+          "id": 37131,
+          "concept": "olmo",
+          "query_concept": "almorzo",
+          "text": "query: Concepto: olmo\n  Descripción: \n  Sinónimos: \n  Categorías: árbol\n  Contexto: planta, árbol",
+          "description": "query: Concepto: olmo\n  Descripción: \n  Sinónimos: \n  Categorías: árbol\n  Contexto: planta, árbol",
+          "score": 0.8540648221969604
+        }
+      ]
+    },
+    {
+      "concept": "bocadillos",
+      "candidates": [
+        {
+          "id": 28413,
+          "concept": "comer un bocadillo",
+          "query_concept": "bocadillos",
+          "text": "query: Concepto: comer un bocadillo\n  Descripción: U. t. c. tr. Tomar un panecillo partido longitudinalmente en dos mitades entre las cuales se colocan alimentos variados.\n  Sinónimos: \n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer un bocadillo\n  Descripción: U. t. c. tr. Tomar un panecillo partido longitudinalmente en dos mitades entre las cuales se colocan alimentos variados.\n  Sinónimos: \n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8900965452194214
+        },
+        {
+          "id": 28414,
+          "concept": "comer un bocadillo",
+          "query_concept": "bocadillos",
+          "text": "query: Concepto: comer un bocadillo\n  Descripción: U. t. c. tr. Tomar un panecillo partido longitudinalmente en dos mitades entre las cuales se colocan alimentos variados.\n  Sinónimos: \n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer un bocadillo\n  Descripción: U. t. c. tr. Tomar un panecillo partido longitudinalmente en dos mitades entre las cuales se colocan alimentos variados.\n  Sinónimos: \n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8900965452194214
+        },
+        {
+          "id": 28415,
+          "concept": "comer un bocadillo",
+          "query_concept": "bocadillos",
+          "text": "query: Concepto: comer un bocadillo\n  Descripción: U. t. c. tr. Tomar un panecillo partido longitudinalmente en dos mitades entre las cuales se colocan alimentos variados.\n  Sinónimos: \n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer un bocadillo\n  Descripción: U. t. c. tr. Tomar un panecillo partido longitudinalmente en dos mitades entre las cuales se colocan alimentos variados.\n  Sinónimos: \n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8900965452194214
+        },
+        {
+          "id": 2281,
+          "concept": "bocadillo",
+          "query_concept": "bocadillos",
+          "text": "query: Concepto: bocadillo\n  Descripción:  m. Panecillo cortado longitudinalmente en dos rebanadas con alimentos variados en su interior.\n  Sinónimos: \n  Categorías: alimentos transformados, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos transformados, vocabulario básico",
+          "description": "query: Concepto: bocadillo\n  Descripción:  m. Panecillo cortado longitudinalmente en dos rebanadas con alimentos variados en su interior.\n  Sinónimos: \n  Categorías: alimentos transformados, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos transformados, vocabulario básico",
+          "score": 0.8893187046051025
+        },
+        {
+          "id": 16581,
+          "concept": "bocadillo",
+          "query_concept": "bocadillos",
+          "text": "query: Concepto: bocadillo\n  Descripción:  m. Panecillo cortado longitudinalmente en dos rebanadas con alimentos variados en su interior.\n  Sinónimos: bocadillo de calamares\n  Categorías: plato tradicional\n  Contexto: alimentación, alimentos, Gastronomía, plato tradicional",
+          "description": "query: Concepto: bocadillo\n  Descripción:  m. Panecillo cortado longitudinalmente en dos rebanadas con alimentos variados en su interior.\n  Sinónimos: bocadillo de calamares\n  Categorías: plato tradicional\n  Contexto: alimentación, alimentos, Gastronomía, plato tradicional",
+          "score": 0.8836836218833923
+        }
+      ]
+    },
+    {
+      "concept": "fruta",
+      "candidates": [
+        {
+          "id": 4653,
+          "concept": "fruta",
+          "query_concept": "fruta",
+          "text": "query: Concepto: fruta\n  Descripción: f. Fruto comestible de ciertas plantas.\n  Sinónimos: frutas\n  Categorías: Frutas, categorización\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas, categorización",
+          "description": "query: Concepto: fruta\n  Descripción: f. Fruto comestible de ciertas plantas.\n  Sinónimos: frutas\n  Categorías: Frutas, categorización\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas, categorización",
+          "score": 0.900412917137146
+        },
+        {
+          "id": 28339,
+          "concept": "fruta",
+          "query_concept": "fruta",
+          "text": "query: Concepto: fruta\n  Descripción: f. Fruto comestible de ciertas plantas.\n  Sinónimos: frutas\n  Categorías: Frutas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas, vocabulario básico",
+          "description": "query: Concepto: fruta\n  Descripción: f. Fruto comestible de ciertas plantas.\n  Sinónimos: frutas\n  Categorías: Frutas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas, vocabulario básico",
+          "score": 0.900034487247467
+        },
+        {
+          "id": 16303,
+          "concept": "frutero",
+          "query_concept": "fruta",
+          "text": "query: Concepto: frutero\n  Descripción: m. Plato hecho a propósito para servir la fruta\n  Sinónimos: \n  Categorías: utensilio, Frutas\n  Contexto: objeto, hogar, utensilio, Inicio, alimentación, alimentos, alimentos a base de plantas, Frutas",
+          "description": "query: Concepto: frutero\n  Descripción: m. Plato hecho a propósito para servir la fruta\n  Sinónimos: \n  Categorías: utensilio, Frutas\n  Contexto: objeto, hogar, utensilio, Inicio, alimentación, alimentos, alimentos a base de plantas, Frutas",
+          "score": 0.8936065435409546
+        },
+        {
+          "id": 5931,
+          "concept": "brocheta de fruta",
+          "query_concept": "fruta",
+          "text": "query: Concepto: brocheta de fruta\n  Descripción: f. Trozos de fruta ensartada en un pincho.\n  Sinónimos: brocheta\n  Categorías: Gastronomía\n  Contexto: alimentación, alimentos, Gastronomía",
+          "description": "query: Concepto: brocheta de fruta\n  Descripción: f. Trozos de fruta ensartada en un pincho.\n  Sinónimos: brocheta\n  Categorías: Gastronomía\n  Contexto: alimentación, alimentos, Gastronomía",
+          "score": 0.8921663761138916
+        },
+        {
+          "id": 13034,
+          "concept": "arándanos",
+          "query_concept": "fruta",
+          "text": "query: Concepto: arándanos\n  Descripción: m. Frutos del arándano\n  Sinónimos: \n  Categorías: Frutas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas",
+          "description": "query: Concepto: arándanos\n  Descripción: m. Frutos del arándano\n  Sinónimos: \n  Categorías: Frutas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas",
+          "score": 0.8914376497268677
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "dani",
+        "selected_id": 32794,
+        "selected_concept": "danzantes",
+        "reason": "selección por defecto ante ausencia de nombre propio"
+      },
+      {
+        "query_concept": "almorzo",
+        "selected_id": 28206,
+        "selected_concept": "almuerzo",
+        "reason": "mejor representación de la acción de almorzar"
+      },
+      {
+        "query_concept": "bocadillos",
+        "selected_id": 2281,
+        "selected_concept": "bocadillo",
+        "reason": "representación precisa del alimento"
+      },
+      {
+        "query_concept": "fruta",
+        "selected_id": 4653,
+        "selected_concept": "fruta",
+        "reason": "representación general del concepto"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "danzantes",
+        "id": 32794,
+        "url": "https://static.arasaac.org/pictograms/32794/32794_500.png",
+        "score": 0.81
+      },
+      {
+        "concept": "almuerzo",
+        "id": 28206,
+        "url": "https://static.arasaac.org/pictograms/28206/28206_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "bocadillo",
+        "id": 2281,
+        "url": "https://static.arasaac.org/pictograms/2281/2281_500.png",
+        "score": 0.89
+      },
+      {
+        "concept": "fruta",
+        "id": 4653,
+        "url": "https://static.arasaac.org/pictograms/4653/4653_500.png",
+        "score": 0.9
+      }
+    ]
+  }
+}

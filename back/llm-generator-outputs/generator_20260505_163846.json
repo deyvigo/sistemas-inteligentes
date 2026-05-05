@@ -1,0 +1,130 @@
+{
+  "timestamp": "20260505_163846",
+  "text": "Mi voto es secreto",
+  "concepts": [
+    "voto",
+    "secreto"
+  ],
+  "candidates": [
+    {
+      "concept": "voto",
+      "candidates": [
+        {
+          "id": 24603,
+          "concept": "voto",
+          "query_concept": "voto",
+          "text": "query: Concepto: voto\n  Descripción: m. Papeleta en la que se da a conocer un parecer o dictamen en una elección.\n  Sinónimos: papeleta, papeleta electoral\n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: voto\n  Descripción: m. Papeleta en la que se da a conocer un parecer o dictamen en una elección.\n  Sinónimos: papeleta, papeleta electoral\n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "score": 0.89111328125
+        },
+        {
+          "id": 6631,
+          "concept": "votar",
+          "query_concept": "voto",
+          "text": "query: Concepto: votar\n  Descripción: \tintr. Dar uno su voto o manifestar su opinión en una reunión o cuerpo deliberante, o en una elección de personas: las personas mayores de 18 años pueden votar en las elecciones generales. También tr.: votar una ley. \n  Sinónimos: \n  Categorías: verbo, elecciones\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: votar\n  Descripción: \tintr. Dar uno su voto o manifestar su opinión en una reunión o cuerpo deliberante, o en una elección de personas: las personas mayores de 18 años pueden votar en las elecciones generales. También tr.: votar una ley. \n  Sinónimos: \n  Categorías: verbo, elecciones\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, representación política, elecciones",
+          "score": 0.8880186676979065
+        },
+        {
+          "id": 39234,
+          "concept": "confirmar voto",
+          "query_concept": "voto",
+          "text": "query: Concepto: confirmar voto\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, elecciones\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: confirmar voto\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, elecciones\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, representación política, elecciones",
+          "score": 0.8797680735588074
+        },
+        {
+          "id": 35883,
+          "concept": "voto secreto",
+          "query_concept": "voto",
+          "text": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "score": 0.8736890554428101
+        },
+        {
+          "id": 35884,
+          "concept": "voto secreto",
+          "query_concept": "voto",
+          "text": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "score": 0.8736890554428101
+        }
+      ]
+    },
+    {
+      "concept": "secreto",
+      "candidates": [
+        {
+          "id": 27691,
+          "concept": "contraseña",
+          "query_concept": "secreto",
+          "text": "query: Concepto: contraseña\n  Descripción: f. Seña secreta que permite el acceso a algo, a alguien o a un grupo de personas antes inaccesible.\n  Sinónimos: clave\n  Categorías: informática\n  Contexto: informática",
+          "description": "query: Concepto: contraseña\n  Descripción: f. Seña secreta que permite el acceso a algo, a alguien o a un grupo de personas antes inaccesible.\n  Sinónimos: clave\n  Categorías: informática\n  Contexto: informática",
+          "score": 0.8728820085525513
+        },
+        {
+          "id": 35883,
+          "concept": "voto secreto",
+          "query_concept": "secreto",
+          "text": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "score": 0.8705286383628845
+        },
+        {
+          "id": 35884,
+          "concept": "voto secreto",
+          "query_concept": "secreto",
+          "text": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "description": "query: Concepto: voto secreto\n  Descripción: m. Garantía del sistema electoral que impide que un extraño pueda influir en su voto o conocerlo. \n  Sinónimos: \n  Categorías: elecciones\n  Contexto: trabajo, sector terciario, representación política, elecciones",
+          "score": 0.8705286383628845
+        },
+        {
+          "id": 27367,
+          "concept": "recordar la contraseña",
+          "query_concept": "secreto",
+          "text": "query: Concepto: recordar la contraseña\n  Descripción: tr. Traer a la memoria la seña secreta que permite el acceso a algo\n  Sinónimos: \n  Categorías: verbo, informática\n  Contexto: comunicación, idioma, verbo, informática",
+          "description": "query: Concepto: recordar la contraseña\n  Descripción: tr. Traer a la memoria la seña secreta que permite el acceso a algo\n  Sinónimos: \n  Categorías: verbo, informática\n  Contexto: comunicación, idioma, verbo, informática",
+          "score": 0.8644760251045227
+        },
+        {
+          "id": 39204,
+          "concept": "confidencial",
+          "query_concept": "secreto",
+          "text": "query: Concepto: confidencial\n  Descripción: \n  Sinónimos: documento confidencial\n  Categorías: Documento oficial\n  Contexto: documento, Administración pública",
+          "description": "query: Concepto: confidencial\n  Descripción: \n  Sinónimos: documento confidencial\n  Categorías: Documento oficial\n  Contexto: documento, Administración pública",
+          "score": 0.8613963723182678
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "voto",
+        "selected_id": 24603,
+        "selected_concept": "voto",
+        "reason": "mejor representación del concepto de papeleta electoral"
+      },
+      {
+        "query_concept": "secreto",
+        "selected_id": 39204,
+        "selected_concept": "confidencial",
+        "reason": "transmite mejor la naturaleza de secreto en el contexto de la oración"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "voto",
+        "id": 24603,
+        "url": "https://static.arasaac.org/pictograms/24603/24603_500.png",
+        "score": 0.89
+      },
+      {
+        "concept": "confidencial",
+        "id": 39204,
+        "url": "https://static.arasaac.org/pictograms/39204/39204_500.png",
+        "score": 0.86
+      }
+    ]
+  }
+}

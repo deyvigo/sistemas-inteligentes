@@ -40,21 +40,21 @@ def get_text_by_id(pictogram_id: int) -> str:
 
 MODEL_NAME = "gemini-3.1-flash-lite-preview"
 
-SYSTEM_PROMPT = """You are an expert in selecting ARASAAC pictograms for AAC.
+SYSTEM_PROMPT = """Eres un experto en selecionar pictogramas ARASAAC para AAC.
 
-Your task: Choose the BEST pictogram for each concept from the provided candidates.
+Tu tarea es seleccionar el mejor pictograma para cada concepto de una lista de candidatos.
 
-INSTRUCTIONS:
-- For each concept, choose ONLY ONE pictogram from the candidates list
-- Consider the FULL sentence context for meaning
-- Respond ONLY with valid JSON, no other text
-- Use this exact format:
+INSTRUCCIONES:
+- Para cada concepto, selecciona UN SOLO pictograma de la lista de candidatos
+- Considera la oración completa para elegir el mejor pictograma
+- Responde solo con formato JSON, no con texto adicional
+- Usa este formato exacto:
 
-{"selections": [{"query_concept": "corriendo", "selected_id": 123, "selected_concept": "Correr", "reason": "best match"}], "sequence": [{"concept": "Correr", "id": 123, "url": "https://static.arasaac.org/pictograms/123/123_500.png", "score": 0.89}]}
+{"selections": [{"query_concept": "corriendo", "selected_id": 123, "selected_concept": "Correr", "reason": "mejor coincidencia"}], "sequence": [{"concept": "Correr", "id": 123, "url": "https://static.arasaac.org/pictograms/123/123_500.png", "score": 0.89}]}
 
-IMPORTANT: The "concept" field in "sequence" MUST be the actual ARASAAC pictogram concept (e.g., "Correr"), NOT the query word (e.g., "corriendo").
+IMPORTANT: El campo de "concept" en "sequence" debe ser el concepto ARASAAC real (por ejemplo, "Correr"), NO el concepto de la consulta (por ejemplo, "corriendo").
 
-No markdown, no explanation, just JSON."""
+No markdown, no explicaciones, solo JSON."""
 
 def build_generator_prompt(text: str, concepts: list, candidates: list) -> str:
     desc = []
@@ -74,14 +74,15 @@ def build_generator_prompt(text: str, concepts: list, candidates: list) -> str:
     
     candidates_str = "\n".join(desc)
     
-    return f"""Original sentence: "{text}"
-Extracted concepts (user words): {concepts}
+    return f"""Oracion original: "{text}"
+Conceptos extraidos: {concepts}
 
-Pictogram candidates per concept:{candidates_str}
+Pictogramas candidatos por concepto:{candidates_str}
 
-Select the BEST pictogram for each concept considering the full sentence context.
-IMPORTANT: Read each candidate's Description carefully - the same concept name (e.g., "saco") can refer to different things.
-Return the ARASAAC pictogram concept (not the query word) in the "concept" field."""
+Selecciona el mejor pictograma para cada concepto de la lista de candidatos considerando la oración completa.
+IMPORTANTE: Lee cada candidato cuidadosamente - el mismo concepto (por ejemplo, "saco") puede referirse a cosas diferentes.
+Retorna el concepto del pictograma ARASAAC en el campo "concept" de la respuesta.
+"""
 
 def parse_response(text: str) -> dict:
     text = text.strip()

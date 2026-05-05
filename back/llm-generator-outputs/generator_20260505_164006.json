@@ -1,0 +1,304 @@
+{
+  "timestamp": "20260505_164006",
+  "text": "Yo quiero usar la polea para mover los objetos",
+  "concepts": [
+    "quiero",
+    "usar",
+    "polea",
+    "mover",
+    "objetos"
+  ],
+  "candidates": [
+    {
+      "concept": "quiero",
+      "candidates": [
+        {
+          "id": 11538,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875734806060791
+        },
+        {
+          "id": 11536,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875734806060791
+        },
+        {
+          "id": 6600,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, persona",
+          "score": 0.8860514163970947
+        },
+        {
+          "id": 31141,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+          "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+          "score": 0.8759012222290039
+        },
+        {
+          "id": 5441,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir, yo quiero\n  Categorías: verbos habituales, vocabulario básico-comunicación, respuesta humana, alimentación, modo de transporte, material didáctico, material deportivo, Juguete\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, psicología, respuesta humana, alimentación, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Juguete",
+          "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir, yo quiero\n  Categorías: verbos habituales, vocabulario básico-comunicación, respuesta humana, alimentación, modo de transporte, material didáctico, material deportivo, Juguete\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, psicología, respuesta humana, alimentación, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Juguete",
+          "score": 0.8741824626922607
+        }
+      ]
+    },
+    {
+      "concept": "usar",
+      "candidates": [
+        {
+          "id": 17036,
+          "concept": "uso",
+          "query_concept": "usar",
+          "text": "query: Concepto: uso\n  Descripción: m. Acción y resultado de usar: lo he comprado para vuestro uso y disfrute. \n  Sinónimos: utilización, utilidad\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: uso\n  Descripción: m. Acción y resultado de usar: lo he comprado para vuestro uso y disfrute. \n  Sinónimos: utilización, utilidad\n  Categorías: varios\n  Contexto:",
+          "score": 0.876681387424469
+        },
+        {
+          "id": 15485,
+          "concept": "utilizar",
+          "query_concept": "usar",
+          "text": "query: Concepto: utilizar\n  Descripción: tr. Aprovecharse de algo. U. t. c. prnl.\n  Sinónimos: usar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: utilizar\n  Descripción: tr. Aprovecharse de algo. U. t. c. prnl.\n  Sinónimos: usar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8733621835708618
+        },
+        {
+          "id": 17308,
+          "concept": "sábana bajera",
+          "query_concept": "usar",
+          "text": "query: Concepto: sábana bajera\n  Descripción: f. Aquella que se usa o se pone debajo de otra\n  Sinónimos: \n  Categorías: ajuar\n  Contexto: objeto, hogar, ajuar, Inicio",
+          "description": "query: Concepto: sábana bajera\n  Descripción: f. Aquella que se usa o se pone debajo de otra\n  Sinónimos: \n  Categorías: ajuar\n  Contexto: objeto, hogar, ajuar, Inicio",
+          "score": 0.8560343980789185
+        },
+        {
+          "id": 29879,
+          "concept": "expulsar",
+          "query_concept": "usar",
+          "text": "query: Concepto: expulsar\n  Descripción: tr. Echar a una persona de un lugar.\n  Sinónimos: \n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+          "description": "query: Concepto: expulsar\n  Descripción: tr. Echar a una persona de un lugar.\n  Sinónimos: \n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+          "score": 0.8558973073959351
+        },
+        {
+          "id": 12295,
+          "concept": "causa",
+          "query_concept": "usar",
+          "text": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "score": 0.853194534778595
+        }
+      ]
+    },
+    {
+      "concept": "polea",
+      "candidates": [
+        {
+          "id": 26334,
+          "concept": "polea",
+          "query_concept": "polea",
+          "text": "query: Concepto: polea\n  Descripción: f. Rueda acanalada en su circunferencia y móvil alrededor de un eje. Por la canal o garganta pasa una cuerda o cadena en cuyos dos extremos actúan, respectivamente, la potencia y la resistencia.\n  Sinónimos: \n  Categorías: física\n  Contexto: física",
+          "description": "query: Concepto: polea\n  Descripción: f. Rueda acanalada en su circunferencia y móvil alrededor de un eje. Por la canal o garganta pasa una cuerda o cadena en cuyos dos extremos actúan, respectivamente, la potencia y la resistencia.\n  Sinónimos: \n  Categorías: física\n  Contexto: física",
+          "score": 0.874008059501648
+        },
+        {
+          "id": 31366,
+          "concept": "pololos",
+          "query_concept": "polea",
+          "text": "query: Concepto: pololos\n  Descripción: m. pl. Pantalones bombachos cortos que se ponen debajo de la falda y la enagua, y forman parte de algunos trajes regionales femeninos.\n  Sinónimos: \n  Categorías: ropa\n  Contexto: objeto, moda, ropa",
+          "description": "query: Concepto: pololos\n  Descripción: m. pl. Pantalones bombachos cortos que se ponen debajo de la falda y la enagua, y forman parte de algunos trajes regionales femeninos.\n  Sinónimos: \n  Categorías: ropa\n  Contexto: objeto, moda, ropa",
+          "score": 0.8544204235076904
+        },
+        {
+          "id": 25339,
+          "concept": "polainas",
+          "query_concept": "polea",
+          "text": "query: Concepto: polainas\n  Descripción: f. pl. Especie de medias calzas, hechas regularmente de paño o cuero, que cubren la pierna hasta la rodilla y a veces se abotonan o abrochan por la parte de afuera.\n  Sinónimos: \n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+          "description": "query: Concepto: polainas\n  Descripción: f. pl. Especie de medias calzas, hechas regularmente de paño o cuero, que cubren la pierna hasta la rodilla y a veces se abotonan o abrochan por la parte de afuera.\n  Sinónimos: \n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+          "score": 0.854373574256897
+        },
+        {
+          "id": 37153,
+          "concept": "polen",
+          "query_concept": "polea",
+          "text": "query: Concepto: polen\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+          "description": "query: Concepto: polen\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+          "score": 0.8506248593330383
+        },
+        {
+          "id": 6188,
+          "concept": "Polo Sur",
+          "query_concept": "polea",
+          "text": "query: Concepto: Polo Sur\n  Descripción: El término Polo Sur se refiere normalmente al Polo Sur Geográfico, el punto más austral de la superficie terreste, en opuesto al Polo Norte. Otros \"Polos Sur\" incluyen el Polo Sur Ceremonial, el Polo Sur Magnético y Geomagnético, y el Polo Sur de Inaccesibilidad.\n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+          "description": "query: Concepto: Polo Sur\n  Descripción: El término Polo Sur se refiere normalmente al Polo Sur Geográfico, el punto más austral de la superficie terreste, en opuesto al Polo Norte. Otros \"Polos Sur\" incluyen el Polo Sur Ceremonial, el Polo Sur Magnético y Geomagnético, y el Polo Sur de Inaccesibilidad.\n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+          "score": 0.8415459394454956
+        }
+      ]
+    },
+    {
+      "concept": "mover",
+      "candidates": [
+        {
+          "id": 27371,
+          "concept": "mover",
+          "query_concept": "mover",
+          "text": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "description": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "score": 0.8848767876625061
+        },
+        {
+          "id": 7167,
+          "concept": "desplazar",
+          "query_concept": "mover",
+          "text": "query: Concepto: desplazar\n  Descripción: tr. Mover o sacar a alguien o algo del lugar en que está. U. t. c. prnl.\n  Sinónimos: mover, menear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: desplazar\n  Descripción: tr. Mover o sacar a alguien o algo del lugar en que está. U. t. c. prnl.\n  Sinónimos: mover, menear\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8633087873458862
+        },
+        {
+          "id": 38822,
+          "concept": "mudar",
+          "query_concept": "mover",
+          "text": "query: Concepto: mudar\n  Descripción: \n  Sinónimos: trasladar\n  Categorías: verbo, servicios de transporte\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, servicios de transporte",
+          "description": "query: Concepto: mudar\n  Descripción: \n  Sinónimos: trasladar\n  Categorías: verbo, servicios de transporte\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, servicios de transporte",
+          "score": 0.8624368906021118
+        },
+        {
+          "id": 24819,
+          "concept": "trasladarse",
+          "query_concept": "mover",
+          "text": "query: Concepto: trasladarse\n  Descripción: U. t. c. prnl. tr. Ir alguien de un lugar a otro. \n  Sinónimos: desplazarse\n  Categorías: Movimiento\n  Contexto: Movimiento",
+          "description": "query: Concepto: trasladarse\n  Descripción: U. t. c. prnl. tr. Ir alguien de un lugar a otro. \n  Sinónimos: desplazarse\n  Categorías: Movimiento\n  Contexto: Movimiento",
+          "score": 0.8614327907562256
+        },
+        {
+          "id": 28561,
+          "concept": "mover el ratón",
+          "query_concept": "mover",
+          "text": "query: Concepto: mover el ratón\n  Descripción:  tr. Hacer que el ratón ocupe lugar distinto del que ocupa.\n  Sinónimos: \n  Categorías: verbo, hardware\n  Contexto: comunicación, idioma, verbo, informática, hardware",
+          "description": "query: Concepto: mover el ratón\n  Descripción:  tr. Hacer que el ratón ocupe lugar distinto del que ocupa.\n  Sinónimos: \n  Categorías: verbo, hardware\n  Contexto: comunicación, idioma, verbo, informática, hardware",
+          "score": 0.860066831111908
+        }
+      ]
+    },
+    {
+      "concept": "objetos",
+      "candidates": [
+        {
+          "id": 32582,
+          "concept": "objetos",
+          "query_concept": "objetos",
+          "text": "query: Concepto: objetos\n  Descripción: m. pl. Lo que posee carácter material e inanimado;cosa:me gusta rodearme de objetos bellos.\n  Sinónimos: objetos cotidianos, objeto, objeto cotidiano\n  Categorías: objeto, categorización\n  Contexto: objeto, categorización",
+          "description": "query: Concepto: objetos\n  Descripción: m. pl. Lo que posee carácter material e inanimado;cosa:me gusta rodearme de objetos bellos.\n  Sinónimos: objetos cotidianos, objeto, objeto cotidiano\n  Categorías: objeto, categorización\n  Contexto: objeto, categorización",
+          "score": 0.8900429010391235
+        },
+        {
+          "id": 11318,
+          "concept": "objeto",
+          "query_concept": "objetos",
+          "text": "query: Concepto: objeto\n  Descripción: m. Lo que posee carácter material e inanimado;cosa:me gusta rodearme de objetos bellos.\n  Sinónimos: objetos\n  Categorías: objeto, categorización\n  Contexto: objeto, categorización",
+          "description": "query: Concepto: objeto\n  Descripción: m. Lo que posee carácter material e inanimado;cosa:me gusta rodearme de objetos bellos.\n  Sinónimos: objetos\n  Categorías: objeto, categorización\n  Contexto: objeto, categorización",
+          "score": 0.8892260789871216
+        },
+        {
+          "id": 37997,
+          "concept": "moda",
+          "query_concept": "objetos",
+          "text": "query: Concepto: moda\n  Descripción: \n  Sinónimos: \n  Categorías: moda\n  Contexto: objeto, moda",
+          "description": "query: Concepto: moda\n  Descripción: \n  Sinónimos: \n  Categorías: moda\n  Contexto: objeto, moda",
+          "score": 0.8880494832992554
+        },
+        {
+          "id": 38441,
+          "concept": "boina",
+          "query_concept": "objetos",
+          "text": "query: Concepto: boina\n  Descripción: \n  Sinónimos: \n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+          "description": "query: Concepto: boina\n  Descripción: \n  Sinónimos: \n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+          "score": 0.8869360089302063
+        },
+        {
+          "id": 29998,
+          "concept": "objetos litúrgicos",
+          "query_concept": "objetos",
+          "text": "query: Concepto: objetos litúrgicos\n  Descripción: m. Conjunto de objetos que se utilizan para la celebración de la Eucaristía.\n  Sinónimos: objeto litúrgico\n  Categorías: objeto religioso, cristianidad\n  Contexto: religión, objeto, cristianidad",
+          "description": "query: Concepto: objetos litúrgicos\n  Descripción: m. Conjunto de objetos que se utilizan para la celebración de la Eucaristía.\n  Sinónimos: objeto litúrgico\n  Categorías: objeto religioso, cristianidad\n  Contexto: religión, objeto, cristianidad",
+          "score": 0.8864516019821167
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selections": [
+      {
+        "query_concept": "quiero",
+        "selected_id": 5441,
+        "selected_concept": "querer",
+        "reason": "Mejor representación del verbo desear/querer en contexto comunicativo"
+      },
+      {
+        "query_concept": "usar",
+        "selected_id": 15485,
+        "selected_concept": "utilizar",
+        "reason": "Sinónimo directo y pictograma estándar para la acción de usar"
+      },
+      {
+        "query_concept": "polea",
+        "selected_id": 26334,
+        "selected_concept": "polea",
+        "reason": "Representación técnica exacta del objeto"
+      },
+      {
+        "query_concept": "mover",
+        "selected_id": 27371,
+        "selected_concept": "mover",
+        "reason": "Verbo fundamental para la acción física descrita"
+      },
+      {
+        "query_concept": "objetos",
+        "selected_id": 32582,
+        "selected_concept": "objetos",
+        "reason": "Término genérico adecuado para la oración"
+      }
+    ],
+    "sequence": [
+      {
+        "concept": "querer",
+        "id": 5441,
+        "url": "https://static.arasaac.org/pictograms/5441/5441_500.png",
+        "score": 0.87
+      },
+      {
+        "concept": "utilizar",
+        "id": 15485,
+        "url": "https://static.arasaac.org/pictograms/15485/15485_500.png",
+        "score": 0.87
+      },
+      {
+        "concept": "polea",
+        "id": 26334,
+        "url": "https://static.arasaac.org/pictograms/26334/26334_500.png",
+        "score": 0.87
+      },
+      {
+        "concept": "mover",
+        "id": 27371,
+        "url": "https://static.arasaac.org/pictograms/27371/27371_500.png",
+        "score": 0.88
+      },
+      {
+        "concept": "objetos",
+        "id": 32582,
+        "url": "https://static.arasaac.org/pictograms/32582/32582_500.png",
+        "score": 0.89
+      }
+    ]
+  }
+}

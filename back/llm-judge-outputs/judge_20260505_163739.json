@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260505_163739",
+  "text": "Un perro duerme en el banco del parque",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "perro",
+      "id": 38967,
+      "url": "https://static.arasaac.org/pictograms/38967/38967_500.png",
+      "score": 0.87,
+      "description": "query: Concepto: perro\n  Descripción: \n  Sinónimos: perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales"
+    },
+    {
+      "order": 2,
+      "concept": "sueño",
+      "id": 5590,
+      "url": "https://static.arasaac.org/pictograms/5590/5590_500.png",
+      "score": 0.85,
+      "description": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:"
+    },
+    {
+      "order": 3,
+      "concept": "banco",
+      "id": 4919,
+      "url": "https://static.arasaac.org/pictograms/4919/4919_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo"
+    },
+    {
+      "order": 4,
+      "concept": "parque",
+      "id": 2859,
+      "url": "https://static.arasaac.org/pictograms/2859/2859_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: parque\n  Descripción: m. Terreno arbolado y ajardinado situado en el interior de una población como lugar de recreo.\n  Sinónimos: \n  Categorías: parque infantil, instalaciones de entretenimiento, léxico básico-lugar, léxico básico-leisure\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, parque infantil, vocabulario básico"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "sueño",
+        "reason": "Se ha seleccionado el pictograma de 'sueño' (sustantivo: fantasía al dormir) en lugar de la acción 'dormir' (verbo). En AAC, esto cambia el significado de una acción a un concepto abstracto."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir el pictograma de 'sueño' (sustantivo) por el pictograma de 'dormir' (verbo) para representar correctamente la acción del perro."
+    ]
+  }
+}

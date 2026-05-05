@@ -1,0 +1,39 @@
+{
+  "timestamp": "20260505_165209",
+  "text": "Esperar en fila tu turno",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "esperar",
+      "id": 8109,
+      "url": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+      "score": 0.9,
+      "description": "query: Concepto: esperar\n  Descripción: tr. Permanecer en sitio adonde se cree que ha de ir alguien o en donde se presume que ha de ocurrir algo\n  Sinónimos: \n  Categorías: verbo, evento\n  Contexto: comunicación, idioma, verbo, evento"
+    },
+    {
+      "order": 2,
+      "concept": "fila",
+      "id": 31803,
+      "url": "https://static.arasaac.org/pictograms/31803/31803_500.png",
+      "score": 0.88,
+      "description": "query: Concepto: fila\n  Descripción:  f. Serie de personas o cosas colocadas en línea.\n  Sinónimos: \n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos"
+    },
+    {
+      "order": 3,
+      "concept": "turno",
+      "id": 22190,
+      "url": "https://static.arasaac.org/pictograms/22190/22190_500.png",
+      "score": 0.86,
+      "description": "query: Concepto: turno\n  Descripción: m. Orden según el cual se suceden varias personas en el desempeño de cualquier actividad o función.\n  Sinónimos: coger turno, tomar turno\n  Categorías: verbo, Comercio\n  Contexto: comunicación, idioma, verbo, trabajo, sector terciario, Comercio"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia es clara y representa adecuadamente los tres pilares semánticos de la instrucción (Esperar, Fila, Turno)."
+    ]
+  }
+}
