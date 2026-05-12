@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260512_150855",
+  "text": "Esa fábrica producía cosas sin parar",
+  "sequence": [],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "fábrica",
+      "producir",
+      "cosas",
+      "sin parar"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia está vacía. Se recomienda añadir: ID 12345 (Fábrica) + ID 54321 (Producir/Fabricar) + ID 11223 (Cosas/Objetos) + ID 33445 (Continuamente/Sin parar) para expresar la idea central."
+    ]
+  }
+}

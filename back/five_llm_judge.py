@@ -71,7 +71,7 @@ def build_prompt(text: str, sequence: list) -> str:
     for i, item in enumerate(sequence):
         detail = f"- Concepto: '{item['concept']}'"
         if 'description' in item:
-            detail += f", Descripción: '{item['description']}'"
+            detail += f", Descripción: '{item['description'][:60]}'"
         else:
             detail += " [NO DESCRIPTION PROVIDED]"
         detail += f", URL: {item['url']}"
@@ -138,8 +138,9 @@ def save_result(text: str, sequence: list, result: dict) -> Path:
     
     return filepath
 
-def judge(text: str, sequence: list, api_key: Optional[str] = None) -> dict:
+def judge(text: str, sequence: list, api_key: Optional[str] = None, custom_system_prompt: Optional[str] = None) -> dict:
     prompt = build_prompt(text, sequence)
+    system_prompt = custom_system_prompt or SYSTEM_PROMPT
 
     try:
         if api_key:
@@ -151,7 +152,7 @@ def judge(text: str, sequence: list, api_key: Optional[str] = None) -> dict:
             model=MODEL_NAME,
             contents=prompt,
             config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT
+                system_instruction=system_prompt
             )
         )
         result = parse_response(response.text)

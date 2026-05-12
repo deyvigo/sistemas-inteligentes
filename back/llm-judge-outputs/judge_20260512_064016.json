@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260512_064016",
+  "text": "Esa fábrica producía cosas sin parar",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "fábrica",
+      "id": 35393,
+      "url": "https://static.arasaac.org/pictograms/35393/35393_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+      "extracted_query": "fábrica"
+    },
+    {
+      "order": 2,
+      "concept": "producir",
+      "id": 11698,
+      "url": "https://static.arasaac.org/pictograms/11698/11698_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+      "extracted_query": "producía"
+    },
+    {
+      "order": 3,
+      "concept": "parar",
+      "id": 7195,
+      "url": "https://static.arasaac.org/pictograms/7195/7195_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+      "extracted_query": "parar"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "cosas"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Falta representar el objeto de la acción ('cosas'). Se sugiere añadir el pictograma ID 2341 (Cosas/Objeto) después de 'producir'.",
+      "La secuencia actual 'fábrica - producir - parar' resulta ambigua porque no comunica la negación ('sin'). Se recomienda añadir el pictograma ID 3656 (No/Negación) antes de 'parar' para indicar que la acción es ininterrumpida."
+    ]
+  }
+}

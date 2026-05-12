@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260512_164913",
+  "text": "Un perro durmiendo en el banco",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "perro",
+      "id": 2517,
+      "url": "https://static.arasaac.org/pictograms/2517/2517_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+      "extracted_query": "perro"
+    },
+    {
+      "order": 2,
+      "concept": "dormir bien",
+      "id": 37203,
+      "url": "https://static.arasaac.org/pictograms/37203/37203_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+      "extracted_query": "durmiendo"
+    },
+    {
+      "order": 3,
+      "concept": "banco",
+      "id": 4919,
+      "url": "https://static.arasaac.org/pictograms/4919/4919_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+      "extracted_query": "banco"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "dormir bien",
+        "reason": "El pictograma seleccionado representa 'dormir bien' (acción positiva o estado de bienestar al dormir), mientras que la frase original es solo 'durmiendo'. La distinción semántica es innecesaria y confusa."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Reemplazar ID 37203 (dormir bien) por ID 2361 (dormir) porque el pictograma representa la acción neutra de 'dormir' sin añadir el adjetivo 'bien', ajustándose mejor al significado original de la frase."
+    ]
+  }
+}

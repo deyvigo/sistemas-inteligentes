@@ -1,0 +1,60 @@
+{
+  "timestamp": "20260512_064731",
+  "text": "Esa fábrica producía cosas sin parar",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "fábrica",
+      "id": 35393,
+      "url": "https://static.arasaac.org/pictograms/35393/35393_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+      "extracted_query": "fábrica"
+    },
+    {
+      "order": 2,
+      "concept": "producir",
+      "id": 11698,
+      "url": "https://static.arasaac.org/pictograms/11698/11698_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+      "extracted_query": "producía"
+    },
+    {
+      "order": 3,
+      "concept": "ningún",
+      "id": 26941,
+      "url": "https://static.arasaac.org/pictograms/26941/26941_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: ningún\n  Descripción: adj. indef. Ni una sola de las personas o cosas significadas por el sustantivo al que acompaña. El masculino sufre apócope antepuesto al sustantivo. No había ninguna golondrina. No he tenido ningún problema. No he tenido problema ninguno. U. m. en sing.\n  Sinónimos: ninguna, ninguno, ninguna\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido, pronombre, pronombre indefinido",
+      "extracted_query": "sin"
+    },
+    {
+      "order": 4,
+      "concept": "parar",
+      "id": 7195,
+      "url": "https://static.arasaac.org/pictograms/7195/7195_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+      "extracted_query": "parar"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "cosas/objetos"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "ningún",
+        "reason": "El pictograma 'ningún' (ID 26941) transmite una negación total o inexistencia, lo cual cambia el significado de la frase original 'sin parar' (que denota continuidad) por una idea de inexistencia o vacío."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Eliminar el pictograma 'ningún' (ID 26941) ya que distorsiona el sentido de continuidad.",
+      "Añadir el pictograma 'objetos' (ID 24657) para representar 'cosas', ya que es un concepto central de la frase.",
+      "Para representar 'sin parar', se recomienda usar el pictograma 'continuar' (ID 26364) o 'siempre' (ID 23838), los cuales captan mejor la idea de acción ininterrumpida que la negación."
+    ]
+  }
+}

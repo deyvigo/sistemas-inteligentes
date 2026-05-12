@@ -1,0 +1,56 @@
+{
+  "timestamp": "20260512_144815",
+  "text": "Esa fábrica producía cosas sin parar",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "fábrica",
+      "id": 35393,
+      "url": "https://static.arasaac.org/pictograms/35393/35393_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+      "extracted_query": "fábrica"
+    },
+    {
+      "order": 2,
+      "concept": "producir",
+      "id": 11698,
+      "url": "https://static.arasaac.org/pictograms/11698/11698_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+      "extracted_query": "producía"
+    },
+    {
+      "order": 3,
+      "concept": "sin",
+      "id": 7813,
+      "url": "https://static.arasaac.org/pictograms/7813/7813_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: sin\n  Descripción:  prep. Denota carencia o falta de algo.\n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+      "extracted_query": "sin"
+    },
+    {
+      "order": 4,
+      "concept": "parar",
+      "id": 7195,
+      "url": "https://static.arasaac.org/pictograms/7195/7195_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+      "extracted_query": "parar"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "sin parar",
+        "reason": "La secuencia 'sin' + 'parar' se interpreta como una negación gramatical, pero pierde el sentido idiomático de 'continuidad' o 'incesante' que requiere la frase original."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Aunque los pictogramas son correctos individualmente, la combinación 'sin' + 'parar' puede resultar confusa para el usuario. Considerar sustituir por un pictograma que represente 'continuamente' o 'siempre' (ej: ID 23684 'Continuar') para expresar mejor la idea de incesancia."
+    ]
+  }
+}

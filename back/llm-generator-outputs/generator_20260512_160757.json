@@ -1,0 +1,135 @@
+{
+  "timestamp": "20260512_160757",
+  "text": "La doctora me mira los oídos con el otoscopio",
+  "concepts": [
+    "doctora",
+    "mira",
+    "oídos",
+    "otoscopio"
+  ],
+  "candidates": [
+    {
+      "concept": "doctora",
+      "candidates": [
+        {
+          "id": 8263,
+          "concept": "médica",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8842349052429199
+        },
+        {
+          "id": 38857,
+          "concept": "médico",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médico\n  Descripción: \n  Sinónimos: médica, doctor, doctora\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "description": "query: Concepto: médico\n  Descripción: \n  Sinónimos: médica, doctor, doctora\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "score": 0.8697195053100586
+        },
+        {
+          "id": 2467,
+          "concept": "médico",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médico\n  Descripción: n. Persona que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctor\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médico\n  Descripción: n. Persona que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctor\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8694306015968323
+        }
+      ]
+    },
+    {
+      "concept": "mira",
+      "candidates": [
+        {
+          "id": 7801,
+          "concept": "¿qué miras?",
+          "query_concept": "mira",
+          "text": "query: Concepto: ¿qué miras?\n  Descripción: Pregunta que realiza una persona a otra cuando desea saber lo que está viendo la otra persona\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "description": "query: Concepto: ¿qué miras?\n  Descripción: Pregunta que realiza una persona a otra cuando desea saber lo que está viendo la otra persona\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "score": 0.8464536666870117
+        },
+        {
+          "id": 27889,
+          "concept": "mirador",
+          "query_concept": "mira",
+          "text": "query: Concepto: mirador\n  Descripción: m. Lugar bien situado para contemplar un paisaje o un acontecimiento.\n  Sinónimos: \n  Categorías: Zona rural, mar y océanos\n  Contexto: lugar, Zona rural, geografía, geografía física, forma de tierra, mar, océano",
+          "description": "query: Concepto: mirador\n  Descripción: m. Lugar bien situado para contemplar un paisaje o un acontecimiento.\n  Sinónimos: \n  Categorías: Zona rural, mar y océanos\n  Contexto: lugar, Zona rural, geografía, geografía física, forma de tierra, mar, océano",
+          "score": 0.8432589769363403
+        },
+        {
+          "id": 38995,
+          "concept": "brida",
+          "query_concept": "mira",
+          "text": "query: Concepto: brida\n  Descripción: \n  Sinónimos: \n  Categorías: herramienta de trabajo\n  Contexto: trabajo, herramienta",
+          "description": "query: Concepto: brida\n  Descripción: \n  Sinónimos: \n  Categorías: herramienta de trabajo\n  Contexto: trabajo, herramienta",
+          "score": 0.8405144214630127
+        }
+      ]
+    },
+    {
+      "concept": "oídos",
+      "candidates": [
+        {
+          "id": 39498,
+          "concept": "oído",
+          "query_concept": "oídos",
+          "text": "query: Concepto: oído\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía humana, Sistema auditivo, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema auditivo, sentidos",
+          "description": "query: Concepto: oído\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía humana, Sistema auditivo, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema auditivo, sentidos",
+          "score": 0.8839803338050842
+        },
+        {
+          "id": 5915,
+          "concept": "auriculares",
+          "query_concept": "oídos",
+          "text": "query: Concepto: auriculares\n  Descripción:  m. En los aparatos telefónicos o receptores de sonido, partes o dispositivos que se aplican al oído para recibirlo.\n\n\n  Sinónimos: \n  Categorías: dispositivo de música\n  Contexto: objeto, aparato, dispositivo de música",
+          "description": "query: Concepto: auriculares\n  Descripción:  m. En los aparatos telefónicos o receptores de sonido, partes o dispositivos que se aplican al oído para recibirlo.\n\n\n  Sinónimos: \n  Categorías: dispositivo de música\n  Contexto: objeto, aparato, dispositivo de música",
+          "score": 0.8829852342605591
+        },
+        {
+          "id": 28659,
+          "concept": "oir",
+          "query_concept": "oídos",
+          "text": "query: Concepto: oir\n  Descripción: tr. Percibir los sonidos a través del oído; escuchar.\n  Sinónimos: escuchar\n  Categorías: verbo, sentidos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos",
+          "description": "query: Concepto: oir\n  Descripción: tr. Percibir los sonidos a través del oído; escuchar.\n  Sinónimos: escuchar\n  Categorías: verbo, sentidos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos",
+          "score": 0.8791290521621704
+        }
+      ]
+    },
+    {
+      "concept": "otoscopio",
+      "candidates": [
+        {
+          "id": 27001,
+          "concept": "otoscopio",
+          "query_concept": "otoscopio",
+          "text": "query: Concepto: otoscopio\n  Descripción: m. Med. Instrumento para reconocer el órgano del oído.\n  Sinónimos: \n  Categorías: dispositivo médico\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico",
+          "description": "query: Concepto: otoscopio\n  Descripción: m. Med. Instrumento para reconocer el órgano del oído.\n  Sinónimos: \n  Categorías: dispositivo médico\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico",
+          "score": 0.9067872762680054
+        },
+        {
+          "id": 30769,
+          "concept": "otoscopia",
+          "query_concept": "otoscopio",
+          "text": "query: Concepto: otoscopia\n  Descripción: f. Exploración o examen visual del oído externo y el tímpano con la ayuda de un aparato que ilumina la zona y facilita su observación.\n  Sinónimos: \n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "description": "query: Concepto: otoscopia\n  Descripción: f. Exploración o examen visual del oído externo y el tímpano con la ayuda de un aparato que ilumina la zona y facilita su observación.\n  Sinónimos: \n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "score": 0.8911646008491516
+        },
+        {
+          "id": 30735,
+          "concept": "oftalmoscopio",
+          "query_concept": "otoscopio",
+          "text": "query: Concepto: oftalmoscopio\n  Descripción: m. Instrumento que permite el estudio detallado de la anatomía y patología del fondo del ojo.\n  Sinónimos: \n  Categorías: dispositivo médico, oftalmología\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico, oftalmología",
+          "description": "query: Concepto: oftalmoscopio\n  Descripción: m. Instrumento que permite el estudio detallado de la anatomía y patología del fondo del ojo.\n  Sinónimos: \n  Categorías: dispositivo médico, oftalmología\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico, oftalmología",
+          "score": 0.8825623989105225
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      8263,
+      27001,
+      39498
+    ]
+  }
+}

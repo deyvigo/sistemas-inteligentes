@@ -1,0 +1,97 @@
+{
+  "session_id": "session_1778566643002",
+  "timestamp": "2026-05-12T06:17:23.002Z",
+  "input": {
+    "original_text": "Un gato tomando agua",
+    "concepts_extracted": [
+      "gato",
+      "tomando",
+      "agua"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "gato",
+        "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+        "extracted_query": "gato",
+        "id": 2406,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/2406/2406_500.png"
+      },
+      {
+        "concept": "agua",
+        "description": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, vocabulario básico",
+        "extracted_query": "agua",
+        "id": 32464,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/32464/32464_500.png"
+      }
+    ],
+    "analysis": {
+      "action": null,
+      "concepts": [
+        "gato",
+        "tomando",
+        "agua"
+      ],
+      "negation": false,
+      "objects": [],
+      "subject": null,
+      "temporal_markers": []
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [],
+    "missing_concepts": [
+      "tomar/beber"
+    ],
+    "ordering_issues": [],
+    "score": 3,
+    "suggestions": [
+      "Añadir un pictograma que represente la acción de 'beber' o 'tomar' para completar el significado de la frase original."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "gato",
+        "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+        "extracted_query": "gato",
+        "id": 2406,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/2406/2406_500.png"
+      },
+      {
+        "concept": "beber",
+        "description": "query: Concepto: beber\n  Descripción: intr. Ingerir un líquido.\n  Sinónimos: tomar\n  Categorías: verbos habituales, bebidas, necesidades básicas, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, alimentación, alimentos, bebidas, persona, necesidades básicas, vocabulario básico",
+        "feedback_override": false,
+        "id": 6061,
+        "order": 2,
+        "query_concept": "beber",
+        "score": 0.8745092153549194,
+        "url": "https://static.arasaac.org/pictograms/6061/6061_500.png"
+      },
+      {
+        "concept": "agua",
+        "description": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, vocabulario básico",
+        "extracted_query": "agua",
+        "id": 32464,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/32464/32464_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [],
+      "addedPictogramIds": [
+        6061
+      ],
+      "reorder_details": []
+    }
+  }
+}

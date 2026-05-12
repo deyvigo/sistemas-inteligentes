@@ -27,6 +27,7 @@ interface QueryResponse {
     temporal_markers: string[]
   }
   judge?: JudgeResult
+  judge_skipped?: boolean
 }
 
 interface SearchBarProps {
@@ -38,6 +39,7 @@ interface SearchBarProps {
 export const SearchBar = ({ value, onChange, onSend }: SearchBarProps) => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [runJudge, setRunJudge] = useState(true)
 
   async function handleSubmit() {
     if (!value) return
@@ -54,7 +56,7 @@ export const SearchBar = ({ value, onChange, onSend }: SearchBarProps) => {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({ query: value, top_k: 5 })
+        body: JSON.stringify({ query: value, top_k: 5, run_judge: runJudge })
       })
       if (!res.ok) throw new Error(`Error: ${res.status}`)
       const data: QueryResponse = await res.json()
@@ -91,6 +93,15 @@ export const SearchBar = ({ value, onChange, onSend }: SearchBarProps) => {
       {error && (
         <p className="text-red-500 text-sm">{error}</p>
       )}
+      <label className="flex items-center gap-2 text-sm text-gray-600 select-none cursor-pointer">
+        <input
+          type="checkbox"
+          checked={runJudge}
+          onChange={(e) => setRunJudge(e.target.checked)}
+          className="w-4 h-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+        />
+        <span>Evaluar con LLM</span>
+      </label>
     </div>
   )
 }

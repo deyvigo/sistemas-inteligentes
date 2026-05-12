@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260512_160651",
+  "text": "La doctora me mira los oídos con el otoscopio",
+  "sequence": [],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [
+      "Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    ],
+    "suggestions": []
+  }
+}

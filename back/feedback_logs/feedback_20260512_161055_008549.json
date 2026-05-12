@@ -1,0 +1,101 @@
+{
+  "session_id": "session_1778602254991",
+  "timestamp": "2026-05-12T16:10:54.991Z",
+  "input": {
+    "original_text": "La doctora me mira los oídos con el otoscopio",
+    "concepts_extracted": [
+      "doctora",
+      "mira",
+      "oídos",
+      "otoscopio"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "médica",
+        "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+        "extracted_query": "doctora",
+        "id": 8263,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/8263/8263_500.png"
+      },
+      {
+        "concept": "otoscopio",
+        "description": "query: Concepto: otoscopio\n  Descripción: m. Med. Instrumento para reconocer el órgano del oído.\n  Sinónimos: \n  Categorías: dispositivo médico\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico",
+        "extracted_query": "otoscopio",
+        "id": 27001,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/27001/27001_500.png"
+      },
+      {
+        "concept": "oído",
+        "description": "query: Concepto: oído\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía humana, Sistema auditivo, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema auditivo, sentidos",
+        "extracted_query": "oídos",
+        "id": 39498,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/39498/39498_500.png"
+      }
+    ],
+    "analysis": {
+      "concepts": [
+        "doctora",
+        "mira",
+        "oídos",
+        "otoscopio"
+      ]
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [],
+    "missing_concepts": [
+      "mirar/examinar"
+    ],
+    "ordering_issues": [],
+    "score": 3,
+    "suggestions": [
+      "La secuencia actual carece del verbo principal. Es necesario incluir el pictograma ID 5296 (Mirar) o ID 12519 (Examinar) para que la acción del profesional sea clara y la frase tenga sentido lógico.",
+      "El orden sugerido para mayor claridad comunicativa sería: Médica - Mirar - Oído - Otoscopio."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "médica",
+        "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+        "extracted_query": "doctora",
+        "id": 8263,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/8263/8263_500.png"
+      },
+      {
+        "concept": "otoscopio",
+        "description": "query: Concepto: otoscopio\n  Descripción: m. Med. Instrumento para reconocer el órgano del oído.\n  Sinónimos: \n  Categorías: dispositivo médico\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico",
+        "extracted_query": "otoscopio",
+        "id": 27001,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/27001/27001_500.png"
+      },
+      {
+        "concept": "oído",
+        "description": "query: Concepto: oído\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía humana, Sistema auditivo, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema auditivo, sentidos",
+        "extracted_query": "oídos",
+        "id": 39498,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/39498/39498_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [],
+      "addedPictogramIds": [],
+      "reorder_details": []
+    }
+  }
+}

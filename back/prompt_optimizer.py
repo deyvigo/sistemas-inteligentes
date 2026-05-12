@@ -113,7 +113,7 @@ def get_optimized_judge_prompt(base_prompt: str, error_patterns: dict, top_n: in
             additional_instructions += "- Be more careful with ORDERING. Users frequently correct the sequence order. Consider natural Spanish word order.\n"
         
         elif 'suggestion_not_followed' in error_pattern:
-            additional_instructions += "- Some suggestions were ignored by users. Be more precise and actionable in your suggestions.\n"
+            additional_instructions += "- Algunas sugerencias fueron ignoradas por los usuarios. Cuando sugieras un reemplazo, incluye el ID exacto del pictograma y explica POR QUÉ en 1-2 oraciones. Ej: 'Reemplazar ID 123 (Corriendo) por ID 456 (Correr) porque la descripción del pictograma coincide con el contexto de la frase'.\n"
     
     return base_prompt + additional_instructions
 
@@ -136,15 +136,15 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict, top_n
     if not top_errors:
         return base_prompt
     
-    additional_instructions = "\n\n# ADDITIONAL INSTRUCTIONS BASED ON FEEDBACK:\n"
+    additional_instructions = "\n\n# Instrucciones addicionales basadas en el feedback:\n"
     
     for error_pattern, count in top_errors:
         if 'recurring_incorrect' in error_pattern:
             concept = error_pattern.replace('recurring_incorrect: ', '')
-            additional_instructions += f"- For concept '{concept}', ensure you select the pictogram that matches the EXACT meaning in context. Check verb tense, gender, number.\n"
+            additional_instructions += f"- Para el concepto '{concept}', asegurate seleccionar el pictograma que coincida con el significado exacto en el contexto. Revisa tiempo del verbo,genero, numero.\n"
         
         elif 'ordering' in error_pattern:
-            additional_instructions += "- When selecting pictograms, consider the ORIGINAL ORDER of concepts extracted. Maintain that order in your output.\n"
+            additional_instructions += "- Cuando seleccionas un pictograma, asegurate de mantener el orden original de los conceptos extraidos. Manten el orden en tu salida.\n"
     
     return base_prompt + additional_instructions
 

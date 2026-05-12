@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260512_063450",
+  "text": "Esa fábrica producía cosas sin parar",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "fábrica",
+      "id": 35393,
+      "url": "https://static.arasaac.org/pictograms/35393/35393_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+      "extracted_query": "fábrica"
+    },
+    {
+      "order": 2,
+      "concept": "producir",
+      "id": 11698,
+      "url": "https://static.arasaac.org/pictograms/11698/11698_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+      "extracted_query": "producía"
+    },
+    {
+      "order": 3,
+      "concept": "parar",
+      "id": 7195,
+      "url": "https://static.arasaac.org/pictograms/7195/7195_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+      "extracted_query": "parar"
+    },
+    {
+      "order": 4,
+      "concept": "Unknown",
+      "id": 1,
+      "url": "https://static.arasaac.org/pictograms/1/1_500.png",
+      "score": 0.0,
+      "description": "",
+      "extracted_query": ""
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "cosas (objeto/cantidad)",
+      "negación (sin)"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "parar",
+        "reason": "El pictograma representa la acción de 'parar' o 'detenerse' (de tráfico), pero falta el concepto de negación ('sin') para expresar que la acción no cesaba."
+      },
+      {
+        "concept": "Unknown",
+        "reason": "El pictograma con ID 1 no aporta significado semántico a la frase y es irrelevante para el mensaje."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Incluir un pictograma de negación (ej. ID 2341 'no' o similar) antes de 'parar' para expresar 'sin parar'.",
+      "Añadir el pictograma ID 2064 'cosa' para representar el objeto directo que falta en la secuencia.",
+      "Eliminar el pictograma ID 1 ya que no tiene valor informativo en la secuencia."
+    ]
+  }
+}

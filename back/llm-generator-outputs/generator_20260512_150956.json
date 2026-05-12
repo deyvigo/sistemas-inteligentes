@@ -1,0 +1,167 @@
+{
+  "timestamp": "20260512_150956",
+  "text": "Esa fábrica producía cosas sin parar",
+  "concepts": [
+    "fábrica",
+    "producía",
+    "cosas",
+    "sin",
+    "parar"
+  ],
+  "candidates": [
+    {
+      "concept": "fábrica",
+      "candidates": [
+        {
+          "id": 35393,
+          "concept": "fábrica",
+          "query_concept": "fábrica",
+          "text": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+          "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+          "score": 0.8910247683525085
+        },
+        {
+          "id": 8581,
+          "concept": "empresa",
+          "query_concept": "fábrica",
+          "text": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria\n  Categorías: Construcción industrial, lugar de trabajo\n  Contexto: lugar, edificio, industria, trabajo, lugar de trabajo",
+          "description": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria\n  Categorías: Construcción industrial, lugar de trabajo\n  Contexto: lugar, edificio, industria, trabajo, lugar de trabajo",
+          "score": 0.8841375112533569
+        },
+        {
+          "id": 24507,
+          "concept": "empresa",
+          "query_concept": "fábrica",
+          "text": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria, taller\n  Categorías: Construcción industrial, léxico básico-lugar\n  Contexto: lugar, edificio, industria, vocabulario básico",
+          "description": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria, taller\n  Categorías: Construcción industrial, léxico básico-lugar\n  Contexto: lugar, edificio, industria, vocabulario básico",
+          "score": 0.8789059519767761
+        }
+      ]
+    },
+    {
+      "concept": "producía",
+      "candidates": [
+        {
+          "id": 17032,
+          "concept": "fabricación",
+          "query_concept": "producía",
+          "text": "query: Concepto: fabricación\n  Descripción: f. Acción y efecto de fabricar.\n  Sinónimos: elaboración, producción\n  Categorías: industria\n  Contexto: trabajo, sector secundario, industria, industria manufacturera",
+          "description": "query: Concepto: fabricación\n  Descripción: f. Acción y efecto de fabricar.\n  Sinónimos: elaboración, producción\n  Categorías: industria\n  Contexto: trabajo, sector secundario, industria, industria manufacturera",
+          "score": 0.8905767202377319
+        },
+        {
+          "id": 11698,
+          "concept": "producir",
+          "query_concept": "producía",
+          "text": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+          "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+          "score": 0.8879975080490112
+        },
+        {
+          "id": 32751,
+          "concept": "hacer",
+          "query_concept": "producía",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8829386234283447
+        }
+      ]
+    },
+    {
+      "concept": "cosas",
+      "candidates": [
+        {
+          "id": 17056,
+          "concept": "otros",
+          "query_concept": "cosas",
+          "text": "query: Concepto: otros\n  Descripción: adj. Dicho de personas o de cosas: Distintos de aquellos de que se habla. U. t. c. s.\n  Sinónimos: otras\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido",
+          "description": "query: Concepto: otros\n  Descripción: adj. Dicho de personas o de cosas: Distintos de aquellos de que se habla. U. t. c. s.\n  Sinónimos: otras\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido",
+          "score": 0.8668924570083618
+        },
+        {
+          "id": 24119,
+          "concept": "ingredientes",
+          "query_concept": "cosas",
+          "text": "query: Concepto: ingredientes\n  Descripción: m. pl. Cosas que entran con otras en remedios, bebidas, guisados u otro compuestos. \n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "description": "query: Concepto: ingredientes\n  Descripción: m. pl. Cosas que entran con otras en remedios, bebidas, guisados u otro compuestos. \n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "score": 0.8628205060958862
+        },
+        {
+          "id": 7077,
+          "concept": "desde",
+          "query_concept": "cosas",
+          "text": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "description": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "score": 0.8625103831291199
+        }
+      ]
+    },
+    {
+      "concept": "sin",
+      "candidates": [
+        {
+          "id": 7813,
+          "concept": "sin",
+          "query_concept": "sin",
+          "text": "query: Concepto: sin\n  Descripción:  prep. Denota carencia o falta de algo.\n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "description": "query: Concepto: sin\n  Descripción:  prep. Denota carencia o falta de algo.\n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "score": 10.0,
+          "feedback_override": true
+        },
+        {
+          "id": 26941,
+          "concept": "ningún",
+          "query_concept": "sin",
+          "text": "query: Concepto: ningún\n  Descripción: adj. indef. Ni una sola de las personas o cosas significadas por el sustantivo al que acompaña. El masculino sufre apócope antepuesto al sustantivo. No había ninguna golondrina. No he tenido ningún problema. No he tenido problema ninguno. U. m. en sing.\n  Sinónimos: ninguna, ninguno, ninguna\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido, pronombre, pronombre indefinido",
+          "description": "query: Concepto: ningún\n  Descripción: adj. indef. Ni una sola de las personas o cosas significadas por el sustantivo al que acompaña. El masculino sufre apócope antepuesto al sustantivo. No había ninguna golondrina. No he tenido ningún problema. No he tenido problema ninguno. U. m. en sing.\n  Sinónimos: ninguna, ninguno, ninguna\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido, pronombre, pronombre indefinido",
+          "score": 0.8493305444717407
+        },
+        {
+          "id": 11314,
+          "concept": "ninguno",
+          "query_concept": "sin",
+          "text": "query: Concepto: ninguno\n  Descripción: adj. indef. Ni una sola de las personas o cosas significadas por el sustantivo al que acompaña. El masculino sufre apócope antepuesto al sustantivo. No había ninguna golondrina. No he tenido ningún problema. No he tenido problema ninguno. U. m. en sing.\n  Sinónimos: ninguna, nadie\n  Categorías: adjetivo indefinido, vocabulario básico-comunicación, pronombre indefinido, conceptos básicos\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido, vocabulario básico, pronombre, pronombre indefinido, matemáticas, conceptos básicos",
+          "description": "query: Concepto: ninguno\n  Descripción: adj. indef. Ni una sola de las personas o cosas significadas por el sustantivo al que acompaña. El masculino sufre apócope antepuesto al sustantivo. No había ninguna golondrina. No he tenido ningún problema. No he tenido problema ninguno. U. m. en sing.\n  Sinónimos: ninguna, nadie\n  Categorías: adjetivo indefinido, vocabulario básico-comunicación, pronombre indefinido, conceptos básicos\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido, vocabulario básico, pronombre, pronombre indefinido, matemáticas, conceptos básicos",
+          "score": 0.8472278118133545
+        }
+      ]
+    },
+    {
+      "concept": "parar",
+      "candidates": [
+        {
+          "id": 7195,
+          "concept": "parar",
+          "query_concept": "parar",
+          "text": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "score": 0.8763859272003174
+        },
+        {
+          "id": 36021,
+          "concept": "parar",
+          "query_concept": "parar",
+          "text": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "score": 0.8763859272003174
+        },
+        {
+          "id": 7196,
+          "concept": "parar",
+          "query_concept": "parar",
+          "text": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbos habituales, seguridad vial, vocabulario básico-comunicación, ejercicio físico\n  Contexto: comunicación, idioma, verbo, verbos habituales, Movimiento, tráfico, seguridad vial, vocabulario básico, ocio, deporte, ejercicio físico",
+          "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbos habituales, seguridad vial, vocabulario básico-comunicación, ejercicio físico\n  Contexto: comunicación, idioma, verbo, verbos habituales, Movimiento, tráfico, seguridad vial, vocabulario básico, ocio, deporte, ejercicio físico",
+          "score": 0.8735687136650085
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      35393,
+      11698,
+      7813,
+      7195
+    ]
+  }
+}

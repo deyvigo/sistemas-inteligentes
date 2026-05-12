@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260512_165235",
+  "text": "El corazón mueve la sangre por el cuerpo",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "corazón",
+      "id": 2715,
+      "url": "https://static.arasaac.org/pictograms/2715/2715_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: corazón\n  Descripción:  m. Órgano muscular hueco, impulsor de la circulación de la sangre en los vertebrados y otros animales.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema circulatorio, cuerpo humano\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema circulatorio",
+      "extracted_query": "corazón"
+    },
+    {
+      "order": 2,
+      "concept": "mover",
+      "id": 27371,
+      "url": "https://static.arasaac.org/pictograms/27371/27371_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+      "extracted_query": "mueve"
+    },
+    {
+      "order": 3,
+      "concept": "sangre",
+      "id": 2803,
+      "url": "https://static.arasaac.org/pictograms/2803/2803_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: sangre\n  Descripción:  f. Fluido rojo compuesto por plasma y células en suspensión que circula por las arterias y las venas\n  Sinónimos: \n  Categorías: Sistema circulatorio, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, fisiología, fisiología humana, Sistema circulatorio, vocabulario básico",
+      "extracted_query": "sangre"
+    },
+    {
+      "order": 4,
+      "concept": "cuerpo",
+      "id": 17018,
+      "url": "https://static.arasaac.org/pictograms/17018/17018_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: cuerpo\n  Descripción: m. Tronco humano y animal, a diferencia de la cabeza y de las extremidades.\n  Sinónimos: cuerpo de espaldas\n  Categorías: anatomía humana, posición corporal\n  Contexto: cuerpo humano, anatomía, anatomía humana, posición",
+      "extracted_query": "cuerpo"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia es excelente. Los pictogramas seleccionados (2715, 27371, 2803, 17018) transmiten el significado biológico de forma clara, directa y sin ambigüedades."
+    ]
+  }
+}

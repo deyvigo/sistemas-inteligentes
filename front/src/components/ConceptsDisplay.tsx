@@ -21,17 +21,11 @@ export const ConceptTag = ({ concept, type }: ConceptTagProps) => {
 
 interface ConceptsDisplayProps {
   concepts: string[]
-  negation: boolean
-  temporal_markers: string[]
 }
 
-export const ConceptsDisplay = ({ concepts, negation, temporal_markers }: ConceptsDisplayProps) => {
+export const ConceptsDisplay = ({ concepts }: ConceptsDisplayProps) => {
   return (
     <div className="flex flex-wrap gap-2">
-      {negation && <ConceptTag concept="no" type="negation" />}
-      {temporal_markers.map((marker) => (
-        <ConceptTag key={marker} concept={marker} type="time" />
-      ))}
       {concepts.map((concept) => (
         <ConceptTag key={concept} concept={concept} type="noun" />
       ))}

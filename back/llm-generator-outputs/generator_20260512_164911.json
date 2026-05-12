@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260512_164911",
+  "text": "Un perro durmiendo en el banco",
+  "concepts": [
+    "perro",
+    "durmiendo",
+    "banco"
+  ],
+  "candidates": [
+    {
+      "concept": "perro",
+      "candidates": [
+        {
+          "id": 38967,
+          "concept": "perro",
+          "query_concept": "perro",
+          "text": "query: Concepto: perro\n  Descripción: \n  Sinónimos: perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: perro\n  Descripción: \n  Sinónimos: perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8749443888664246
+        },
+        {
+          "id": 2517,
+          "concept": "perro",
+          "query_concept": "perro",
+          "text": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: perro\n  Descripción:  m. y f. Mamífero carnívoro doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, producto de las distintas razas obte nidas por hibridación, que está adaptado a todas las regiones de la Tierra; es fiel. \n  Sinónimos: can, perra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8714560270309448
+        },
+        {
+          "id": 37133,
+          "concept": "peluquero canino",
+          "query_concept": "perro",
+          "text": "query: Concepto: peluquero canino\n  Descripción: \n  Sinónimos: \n  Categorías: profesional, mascota\n  Contexto: trabajo, profesional, animal, mascota",
+          "description": "query: Concepto: peluquero canino\n  Descripción: \n  Sinónimos: \n  Categorías: profesional, mascota\n  Contexto: trabajo, profesional, animal, mascota",
+          "score": 0.8712748885154724
+        }
+      ]
+    },
+    {
+      "concept": "durmiendo",
+      "candidates": [
+        {
+          "id": 31857,
+          "concept": "despertar",
+          "query_concept": "durmiendo",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.8671929836273193
+        },
+        {
+          "id": 37203,
+          "concept": "dormir bien",
+          "query_concept": "durmiendo",
+          "text": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+          "description": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+          "score": 0.8671694397926331
+        },
+        {
+          "id": 32218,
+          "concept": "prohibido dormir bocabajo",
+          "query_concept": "durmiendo",
+          "text": "query: Concepto: prohibido dormir bocabajo\n  Descripción: No está permitido que el bebé o el niño duerma con la cara hacia la almohada\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "description": "query: Concepto: prohibido dormir bocabajo\n  Descripción: No está permitido que el bebé o el niño duerma con la cara hacia la almohada\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "score": 0.8665691614151001
+        }
+      ]
+    },
+    {
+      "concept": "banco",
+      "candidates": [
+        {
+          "id": 4919,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "description": "query: Concepto: banco\n  Descripción: m. Asiento, con respaldo o sin él, en que pueden sentarse varias personas.\n  Sinónimos: banco sueco\n  Categorías: Mobiliario, Equipo educativo\n  Contexto: objeto, Mobiliario, Educación, Equipo educativo",
+          "score": 0.8795212507247925
+        },
+        {
+          "id": 36828,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        },
+        {
+          "id": 36830,
+          "concept": "banco",
+          "query_concept": "banco",
+          "text": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "description": "query: Concepto: banco\n  Descripción: \n  Sinónimos: \n  Categorías: Edificio comercial, servicios financieros\n  Contexto: lugar, edificio, Comercio, trabajo, sector terciario, servicios financieros",
+          "score": 0.8791214227676392
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      2517,
+      37203,
+      4919
+    ]
+  }
+}

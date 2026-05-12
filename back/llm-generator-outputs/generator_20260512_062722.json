@@ -1,0 +1,198 @@
+{
+  "timestamp": "20260512_062722",
+  "text": "Estoy tranquilo mientras la enfermera me mide la temperatura",
+  "concepts": [
+    "estoy",
+    "tranquilo",
+    "mientras",
+    "enfermera",
+    "mide",
+    "temperatura"
+  ],
+  "candidates": [
+    {
+      "concept": "estoy",
+      "candidates": [
+        {
+          "id": 5465,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8651782274246216
+        },
+        {
+          "id": 13630,
+          "concept": "estoy bien",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "description": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "score": 0.8628960251808167
+        }
+      ]
+    },
+    {
+      "concept": "tranquilo",
+      "candidates": [
+        {
+          "id": 31310,
+          "concept": "tranquilo",
+          "query_concept": "tranquilo",
+          "text": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.891228973865509
+        },
+        {
+          "id": 38932,
+          "concept": "tranquilo",
+          "query_concept": "tranquilo",
+          "text": "query: Concepto: tranquilo\n  Descripción: \n  Sinónimos: \n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: tranquilo\n  Descripción: \n  Sinónimos: \n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.8844057321548462
+        },
+        {
+          "id": 37828,
+          "concept": "tranquilo",
+          "query_concept": "tranquilo",
+          "text": "query: Concepto: tranquilo\n  Descripción: \n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: tranquilo\n  Descripción: \n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.8839981555938721
+        }
+      ]
+    },
+    {
+      "concept": "mientras",
+      "candidates": [
+        {
+          "id": 24737,
+          "concept": "durante",
+          "query_concept": "mientras",
+          "text": "query: Concepto: durante\n  Descripción:  prep. Denota simultaneidad de un acontecimiento con otro.\n  Sinónimos: mientras\n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "description": "query: Concepto: durante\n  Descripción:  prep. Denota simultaneidad de un acontecimiento con otro.\n  Sinónimos: mientras\n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "score": 0.8772739171981812
+        },
+        {
+          "id": 7081,
+          "concept": "durante",
+          "query_concept": "mientras",
+          "text": "query: Concepto: durante\n  Descripción:  prep. Denota simultaneidad de un acontecimiento con otro.\n  Sinónimos: mientras\n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "description": "query: Concepto: durante\n  Descripción:  prep. Denota simultaneidad de un acontecimiento con otro.\n  Sinónimos: mientras\n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "score": 0.8772739171981812
+        },
+        {
+          "id": 5367,
+          "concept": "al lado de",
+          "query_concept": "mientras",
+          "text": "query: Concepto: al lado de\n  Descripción: loc. adv. Muy cerca, inmediato de algo.\n  Sinónimos: junto a, junto, ambos, conjunto, junta, lado\n  Categorías: conceptos básicos, vocabulario-conocimiento básico\n  Contexto: matemáticas, conceptos básicos, vocabulario básico",
+          "description": "query: Concepto: al lado de\n  Descripción: loc. adv. Muy cerca, inmediato de algo.\n  Sinónimos: junto a, junto, ambos, conjunto, junta, lado\n  Categorías: conceptos básicos, vocabulario-conocimiento básico\n  Contexto: matemáticas, conceptos básicos, vocabulario básico",
+          "score": 0.8641155362129211
+        }
+      ]
+    },
+    {
+      "concept": "enfermera",
+      "candidates": [
+        {
+          "id": 35307,
+          "concept": "enfermera",
+          "query_concept": "enfermera",
+          "text": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "score": 0.9139114022254944
+        },
+        {
+          "id": 35301,
+          "concept": "enfermera",
+          "query_concept": "enfermera",
+          "text": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.913543701171875
+        },
+        {
+          "id": 38883,
+          "concept": "enfermero",
+          "query_concept": "enfermera",
+          "text": "query: Concepto: enfermero\n  Descripción: \n  Sinónimos: enfermera\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "description": "query: Concepto: enfermero\n  Descripción: \n  Sinónimos: enfermera\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "score": 0.9106670618057251
+        }
+      ]
+    },
+    {
+      "concept": "mide",
+      "candidates": [
+        {
+          "id": 2278,
+          "concept": "bidé",
+          "query_concept": "mide",
+          "text": "query: Concepto: bidé\n  Descripción: m. Lavabo bajo de forma ovalada empleado en la higiene íntima. pl. bidés.\n  Sinónimos: \n  Categorías: instalaciones de construcción, edificio residencial\n  Contexto: lugar, edificio, instalaciones de construcción, Inicio",
+          "description": "query: Concepto: bidé\n  Descripción: m. Lavabo bajo de forma ovalada empleado en la higiene íntima. pl. bidés.\n  Sinónimos: \n  Categorías: instalaciones de construcción, edificio residencial\n  Contexto: lugar, edificio, instalaciones de construcción, Inicio",
+          "score": 0.8446330428123474
+        },
+        {
+          "id": 33102,
+          "concept": "¿cuánto mide?",
+          "query_concept": "mide",
+          "text": "query: Concepto: ¿cuánto mide?\n  Descripción: Se usa para averiguar la longitud de algo\n  Sinónimos: cuánto mide\n  Categorías: expresión, prueba médica, paciente\n  Contexto: comunicación, idioma, expresión, Salud, medicamentos, procedimiento médico, prueba médica, persona, paciente",
+          "description": "query: Concepto: ¿cuánto mide?\n  Descripción: Se usa para averiguar la longitud de algo\n  Sinónimos: cuánto mide\n  Categorías: expresión, prueba médica, paciente\n  Contexto: comunicación, idioma, expresión, Salud, medicamentos, procedimiento médico, prueba médica, persona, paciente",
+          "score": 0.8415099382400513
+        },
+        {
+          "id": 19570,
+          "concept": "medio",
+          "query_concept": "mide",
+          "text": "query: Concepto: medio\n  Descripción: adj. Igual a la mitad de algo. Medio metro\n  Sinónimos: mitad, 1/2\n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: medio\n  Descripción: adj. Igual a la mitad de algo. Medio metro\n  Sinónimos: mitad, 1/2\n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 0.8412463068962097
+        }
+      ]
+    },
+    {
+      "concept": "temperatura",
+      "candidates": [
+        {
+          "id": 36973,
+          "concept": "tomar la temperatura",
+          "query_concept": "temperatura",
+          "text": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: toma de temperatura\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+          "description": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: toma de temperatura\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 35589,
+          "concept": "frío",
+          "query_concept": "temperatura",
+          "text": "query: Concepto: frío\n  Descripción: m. Temperatura baja o sensación que se experimenta ante un notorio descenso de temperatura.\n  Sinónimos: \n  Categorías: física\n  Contexto: física",
+          "description": "query: Concepto: frío\n  Descripción: m. Temperatura baja o sensación que se experimenta ante un notorio descenso de temperatura.\n  Sinónimos: \n  Categorías: física\n  Contexto: física",
+          "score": 0.8991436958312988
+        },
+        {
+          "id": 34898,
+          "concept": "temperatura",
+          "query_concept": "temperatura",
+          "text": "query: Concepto: temperatura\n  Descripción:  f. Magnitud física que mide la sensación subjetiva de calor o frío de los cuerpos o del ambiente: la temperatura se mide en grados. \n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "description": "query: Concepto: temperatura\n  Descripción:  f. Magnitud física que mide la sensación subjetiva de calor o frío de los cuerpos o del ambiente: la temperatura se mide en grados. \n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "score": 0.8965885639190674
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      5465,
+      31310,
+      35307,
+      36973
+    ]
+  }
+}

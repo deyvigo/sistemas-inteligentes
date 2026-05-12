@@ -1,0 +1,166 @@
+{
+  "timestamp": "20260512_063653",
+  "text": "Esa fábrica producía cosas sin parar",
+  "concepts": [
+    "no",
+    "fábrica",
+    "producía",
+    "cosas",
+    "parar"
+  ],
+  "candidates": [
+    {
+      "concept": "no",
+      "candidates": [
+        {
+          "id": 15333,
+          "concept": "incomprensión",
+          "query_concept": "no",
+          "text": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.7806166410446167
+        },
+        {
+          "id": 24891,
+          "concept": "bola de nieve",
+          "query_concept": "no",
+          "text": "query: Concepto: bola de nieve\n  Descripción: f. Compactación de nieve en forma de bola\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: bola de nieve\n  Descripción: f. Compactación de nieve en forma de bola\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.7773364186286926
+        },
+        {
+          "id": 38157,
+          "concept": "Clasificación Decimal Universal",
+          "query_concept": "no",
+          "text": "query: Concepto: Clasificación Decimal Universal\n  Descripción: \n  Sinónimos: CDU\n  Categorías: Clasificación decimal universal\n  Contexto: biblioteca de ciencias, Clasificación decimal",
+          "description": "query: Concepto: Clasificación Decimal Universal\n  Descripción: \n  Sinónimos: CDU\n  Categorías: Clasificación decimal universal\n  Contexto: biblioteca de ciencias, Clasificación decimal",
+          "score": 0.7759571075439453
+        }
+      ]
+    },
+    {
+      "concept": "fábrica",
+      "candidates": [
+        {
+          "id": 35393,
+          "concept": "fábrica",
+          "query_concept": "fábrica",
+          "text": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+          "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+          "score": 0.8910247683525085
+        },
+        {
+          "id": 8581,
+          "concept": "empresa",
+          "query_concept": "fábrica",
+          "text": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria\n  Categorías: Construcción industrial, lugar de trabajo\n  Contexto: lugar, edificio, industria, trabajo, lugar de trabajo",
+          "description": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria\n  Categorías: Construcción industrial, lugar de trabajo\n  Contexto: lugar, edificio, industria, trabajo, lugar de trabajo",
+          "score": 0.8841375112533569
+        },
+        {
+          "id": 24507,
+          "concept": "empresa",
+          "query_concept": "fábrica",
+          "text": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria, taller\n  Categorías: Construcción industrial, léxico básico-lugar\n  Contexto: lugar, edificio, industria, vocabulario básico",
+          "description": "query: Concepto: empresa\n  Descripción:  f. Entidad integrada por el capital y el trabajo, como factores de la producción, y dedicada a actividades industriales, mercantiles o de prestación de servicios con fines lucrativos.\n  Sinónimos: fábrica, industria, taller\n  Categorías: Construcción industrial, léxico básico-lugar\n  Contexto: lugar, edificio, industria, vocabulario básico",
+          "score": 0.8789059519767761
+        }
+      ]
+    },
+    {
+      "concept": "producía",
+      "candidates": [
+        {
+          "id": 17032,
+          "concept": "fabricación",
+          "query_concept": "producía",
+          "text": "query: Concepto: fabricación\n  Descripción: f. Acción y efecto de fabricar.\n  Sinónimos: elaboración, producción\n  Categorías: industria\n  Contexto: trabajo, sector secundario, industria, industria manufacturera",
+          "description": "query: Concepto: fabricación\n  Descripción: f. Acción y efecto de fabricar.\n  Sinónimos: elaboración, producción\n  Categorías: industria\n  Contexto: trabajo, sector secundario, industria, industria manufacturera",
+          "score": 0.8905767202377319
+        },
+        {
+          "id": 11698,
+          "concept": "producir",
+          "query_concept": "producía",
+          "text": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+          "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+          "score": 0.8879975080490112
+        },
+        {
+          "id": 32751,
+          "concept": "hacer",
+          "query_concept": "producía",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8829386234283447
+        }
+      ]
+    },
+    {
+      "concept": "cosas",
+      "candidates": [
+        {
+          "id": 17056,
+          "concept": "otros",
+          "query_concept": "cosas",
+          "text": "query: Concepto: otros\n  Descripción: adj. Dicho de personas o de cosas: Distintos de aquellos de que se habla. U. t. c. s.\n  Sinónimos: otras\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido",
+          "description": "query: Concepto: otros\n  Descripción: adj. Dicho de personas o de cosas: Distintos de aquellos de que se habla. U. t. c. s.\n  Sinónimos: otras\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido",
+          "score": 0.8668924570083618
+        },
+        {
+          "id": 24119,
+          "concept": "ingredientes",
+          "query_concept": "cosas",
+          "text": "query: Concepto: ingredientes\n  Descripción: m. pl. Cosas que entran con otras en remedios, bebidas, guisados u otro compuestos. \n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "description": "query: Concepto: ingredientes\n  Descripción: m. pl. Cosas que entran con otras en remedios, bebidas, guisados u otro compuestos. \n  Sinónimos: \n  Categorías: cocina\n  Contexto: alimentación, cocina",
+          "score": 0.8628205060958862
+        },
+        {
+          "id": 7077,
+          "concept": "desde",
+          "query_concept": "cosas",
+          "text": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "description": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "score": 0.8625103831291199
+        }
+      ]
+    },
+    {
+      "concept": "parar",
+      "candidates": [
+        {
+          "id": 7195,
+          "concept": "parar",
+          "query_concept": "parar",
+          "text": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "score": 0.8763859272003174
+        },
+        {
+          "id": 36021,
+          "concept": "parar",
+          "query_concept": "parar",
+          "text": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+          "score": 0.8763859272003174
+        },
+        {
+          "id": 7196,
+          "concept": "parar",
+          "query_concept": "parar",
+          "text": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbos habituales, seguridad vial, vocabulario básico-comunicación, ejercicio físico\n  Contexto: comunicación, idioma, verbo, verbos habituales, Movimiento, tráfico, seguridad vial, vocabulario básico, ocio, deporte, ejercicio físico",
+          "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbos habituales, seguridad vial, vocabulario básico-comunicación, ejercicio físico\n  Contexto: comunicación, idioma, verbo, verbos habituales, Movimiento, tráfico, seguridad vial, vocabulario básico, ocio, deporte, ejercicio físico",
+          "score": 0.8735687136650085
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      35393,
+      11698,
+      7195,
+      1
+    ]
+  }
+}

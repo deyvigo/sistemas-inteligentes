@@ -1,0 +1,131 @@
+{
+  "session_id": "session_1778568901624",
+  "timestamp": "2026-05-12T06:55:01.624Z",
+  "input": {
+    "original_text": "Esa fábrica producía cosas sin parar",
+    "concepts_extracted": [
+      "fábrica",
+      "producía",
+      "cosas",
+      "sin",
+      "parar"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "fábrica",
+        "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+        "extracted_query": "fábrica",
+        "id": 35393,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/35393/35393_500.png"
+      },
+      {
+        "concept": "producir",
+        "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+        "extracted_query": "producía",
+        "id": 11698,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/11698/11698_500.png"
+      },
+      {
+        "concept": "parar",
+        "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+        "extracted_query": "parar",
+        "id": 7195,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/7195/7195_500.png"
+      },
+      {
+        "concept": "ningún",
+        "description": "query: Concepto: ningún\n  Descripción: adj. indef. Ni una sola de las personas o cosas significadas por el sustantivo al que acompaña. El masculino sufre apócope antepuesto al sustantivo. No había ninguna golondrina. No he tenido ningún problema. No he tenido problema ninguno. U. m. en sing.\n  Sinónimos: ninguna, ninguno, ninguna\n  Categorías: adjetivo indefinido\n  Contexto: comunicación, idioma, adjetivo, adjetivo indefinido, pronombre, pronombre indefinido",
+        "extracted_query": "sin",
+        "id": 26941,
+        "order": 5,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/26941/26941_500.png"
+      }
+    ],
+    "analysis": {
+      "concepts": [
+        "fábrica",
+        "producía",
+        "cosas",
+        "sin",
+        "parar"
+      ]
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [
+      {
+        "concept": "ningún",
+        "reason": "El pictograma de 'ningún' (negación/carencia) altera completamente el significado original de 'sin parar' (continuidad), sugiriendo que la fábrica no produce nada."
+      }
+    ],
+    "missing_concepts": [
+      "continuidad/sin parar"
+    ],
+    "ordering_issues": [],
+    "score": 2,
+    "suggestions": [
+      "Para expresar 'sin parar', es mejor utilizar una secuencia como 'Trabajar' (ID 2374) seguido de 'Sin' (ID 3058) y 'Parar' (ID 7195) o buscar un pictograma que represente 'Continuar' (ID 20857).",
+      "El pictograma 'Ningún' (ID 26941) debe eliminarse, ya que su carga semántica de negación contradice la idea de producción continua de la frase original."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "fábrica",
+        "description": "query: Concepto: fábrica\n  Descripción:  f. Establecimiento industrial donde se transforman los productos semielaborados o materias primas para la obtención de objetos destinados al consumo.\n  Sinónimos: taller\n  Categorías: Construcción industrial, Sistema de señalización\n  Contexto: lugar, edificio, industria, comunicación, Sistema de señalización",
+        "extracted_query": "fábrica",
+        "id": 35393,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/35393/35393_500.png"
+      },
+      {
+        "concept": "producir",
+        "description": "query: Concepto: producir\n  Descripción: tr. Fabricar, elaborar cosas útiles.\n  Sinónimos: crear, elaborar, fabricar, montar\n  Categorías: verbo, industria\n  Contexto: comunicación, idioma, verbo, trabajo, sector secundario, industria, industria manufacturera",
+        "extracted_query": "producía",
+        "id": 11698,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/11698/11698_500.png"
+      },
+      {
+        "concept": "sin",
+        "description": "query: Concepto: sin\n  Descripción:  prep. Denota carencia o falta de algo.\n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+        "feedback_override": false,
+        "id": 7813,
+        "order": 3,
+        "query_concept": "sin",
+        "score": 0.8437524437904358,
+        "url": "https://static.arasaac.org/pictograms/7813/7813_500.png"
+      },
+      {
+        "concept": "parar",
+        "description": "query: Concepto: parar\n  Descripción:  intr. Cesar o interrumpirse un movimiento o acción.\n  Sinónimos: detener\n  Categorías: verbo, seguridad vial\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, seguridad vial",
+        "extracted_query": "parar",
+        "id": 7195,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/7195/7195_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [
+        26941
+      ],
+      "addedPictogramIds": [
+        7813
+      ],
+      "reorder_details": []
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "20260512_061953",
+  "text": "Estoy tranquilo mientras la enfermera me mide la temperatura",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "tranquilo",
+      "id": 31310,
+      "url": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+      "extracted_query": "tranquilo"
+    },
+    {
+      "order": 2,
+      "concept": "enfermera",
+      "id": 35307,
+      "url": "https://static.arasaac.org/pictograms/35307/35307_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+      "extracted_query": "enfermera"
+    },
+    {
+      "order": 3,
+      "concept": "¿cuánto mide?",
+      "id": 33102,
+      "url": "https://static.arasaac.org/pictograms/33102/33102_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: ¿cuánto mide?\n  Descripción: Se usa para averiguar la longitud de algo\n  Sinónimos: cuánto mide\n  Categorías: expresión, prueba médica, paciente\n  Contexto: comunicación, idioma, expresión, Salud, medicamentos, procedimiento médico, prueba médica, persona, paciente",
+      "extracted_query": "mide"
+    },
+    {
+      "order": 4,
+      "concept": "temperatura",
+      "id": 8230,
+      "url": "https://static.arasaac.org/pictograms/8230/8230_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: temperatura\n  Descripción:  f. Magnitud física que mide la sensación subjetiva de calor o frío de los cuerpos o del ambiente: la temperatura se mide en grados. \n  Sinónimos: \n  Categorías: física\n  Contexto: física",
+      "extracted_query": "temperatura"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "¿cuánto mide?",
+        "reason": "El pictograma representa una pregunta o una medida de longitud física, no la acción clínica de 'tomar la temperatura' o 'medir temperatura'. Es impreciso para el contexto de salud."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir el pictograma '¿cuánto mide?' por uno que represente la acción clínica de medir o el termómetro directamente.",
+      "Añadir un pictograma de acción (verbo) como 'medir' o 'tomar' para dar coherencia a la relación entre la enfermera y la temperatura."
+    ]
+  }
+}

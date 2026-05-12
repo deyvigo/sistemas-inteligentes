@@ -1,0 +1,104 @@
+{
+  "timestamp": "20260512_061524",
+  "text": "Un gato tomando agua",
+  "concepts": [
+    "gato",
+    "tomando",
+    "agua"
+  ],
+  "candidates": [
+    {
+      "concept": "gato",
+      "candidates": [
+        {
+          "id": 9879,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8805826902389526
+        },
+        {
+          "id": 9881,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, halloween, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, evento, evento popular, halloween, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, halloween, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, evento, evento popular, halloween, mascota, nacionales",
+          "score": 0.8794181942939758
+        },
+        {
+          "id": 2406,
+          "concept": "gato",
+          "query_concept": "gato",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.877545952796936
+        }
+      ]
+    },
+    {
+      "concept": "tomando",
+      "candidates": [
+        {
+          "id": 38752,
+          "concept": "tomar la temperatura",
+          "query_concept": "tomando",
+          "text": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: ponerse el termómetro, poner el termómetro\n  Categorías: verbo, procedimiento médico, covid-19\n  Contexto: comunicación, idioma, verbo, Salud, medicamentos, procedimiento médico, covid-19",
+          "description": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: ponerse el termómetro, poner el termómetro\n  Categorías: verbo, procedimiento médico, covid-19\n  Contexto: comunicación, idioma, verbo, Salud, medicamentos, procedimiento médico, covid-19",
+          "score": 0.875706672668457
+        },
+        {
+          "id": 28641,
+          "concept": "comer",
+          "query_concept": "tomando",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8755024671554565
+        },
+        {
+          "id": 2349,
+          "concept": "comer",
+          "query_concept": "tomando",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8755024671554565
+        }
+      ]
+    },
+    {
+      "concept": "agua",
+      "candidates": [
+        {
+          "id": 32464,
+          "concept": "agua",
+          "query_concept": "agua",
+          "text": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, vocabulario básico",
+          "description": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, vocabulario básico",
+          "score": 0.8972858190536499
+        },
+        {
+          "id": 2248,
+          "concept": "agua",
+          "query_concept": "agua",
+          "text": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, alimentos ricos en minerales\n  Contexto: alimentación, alimentos, bebidas, alimentos ricos en minerales",
+          "description": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, alimentos ricos en minerales\n  Contexto: alimentación, alimentos, bebidas, alimentos ricos en minerales",
+          "score": 0.8961372971534729
+        },
+        {
+          "id": 6889,
+          "concept": "agua",
+          "query_concept": "agua",
+          "text": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: alimentos ricos en minerales, bebidas\n  Contexto: alimentación, alimentos, alimentos ricos en minerales, bebidas",
+          "description": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: alimentos ricos en minerales, bebidas\n  Contexto: alimentación, alimentos, alimentos ricos en minerales, bebidas",
+          "score": 0.895787239074707
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      2406,
+      32464
+    ]
+  }
+}

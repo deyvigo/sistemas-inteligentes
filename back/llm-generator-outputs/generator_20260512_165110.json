@@ -1,0 +1,136 @@
+{
+  "timestamp": "20260512_165110",
+  "text": "La paleontóloga descubre los huesos de dinosaurio",
+  "concepts": [
+    "paleontóloga",
+    "descubre",
+    "huesos",
+    "dinosaurio"
+  ],
+  "candidates": [
+    {
+      "concept": "paleontóloga",
+      "candidates": [
+        {
+          "id": 34256,
+          "concept": "paleontóloga",
+          "query_concept": "paleontóloga",
+          "text": "query: Concepto: paleontóloga\n  Descripción: f. Persona que profesa la paleontología o tiene en ella especiales conocimientos.\n  Sinónimos: \n  Categorías: paleontología, profesional\n  Contexto: paleontología, trabajo, profesional",
+          "description": "query: Concepto: paleontóloga\n  Descripción: f. Persona que profesa la paleontología o tiene en ella especiales conocimientos.\n  Sinónimos: \n  Categorías: paleontología, profesional\n  Contexto: paleontología, trabajo, profesional",
+          "score": 0.9078495502471924
+        },
+        {
+          "id": 34254,
+          "concept": "paleontólogo",
+          "query_concept": "paleontóloga",
+          "text": "query: Concepto: paleontólogo\n  Descripción: m. persona que profesa la paleontología o tiene en ella especiales conocimientos.\n  Sinónimos: \n  Categorías: paleontología, profesional\n  Contexto: paleontología, trabajo, profesional",
+          "description": "query: Concepto: paleontólogo\n  Descripción: m. persona que profesa la paleontología o tiene en ella especiales conocimientos.\n  Sinónimos: \n  Categorías: paleontología, profesional\n  Contexto: paleontología, trabajo, profesional",
+          "score": 0.8955845832824707
+        },
+        {
+          "id": 35009,
+          "concept": "yacimiento paleontológico",
+          "query_concept": "paleontóloga",
+          "text": "query: Concepto: yacimiento paleontológico\n  Descripción: m. Lugar donde se hallan restos de fósiles de dinosaurios y plantas prehistóricas.\n  Sinónimos: \n  Categorías: paleontología, lugar de trabajo\n  Contexto: paleontología, lugar, lugar de trabajo",
+          "description": "query: Concepto: yacimiento paleontológico\n  Descripción: m. Lugar donde se hallan restos de fósiles de dinosaurios y plantas prehistóricas.\n  Sinónimos: \n  Categorías: paleontología, lugar de trabajo\n  Contexto: paleontología, lugar, lugar de trabajo",
+          "score": 0.8655068278312683
+        }
+      ]
+    },
+    {
+      "concept": "descubre",
+      "candidates": [
+        {
+          "id": 8086,
+          "concept": "desenchufar",
+          "query_concept": "descubre",
+          "text": "query: Concepto: desenchufar\n  Descripción: tr. Hacer que algo que estaba enchufado deje de estarlo.\n  Sinónimos: \n  Categorías: verbo, instalaciones de construcción, aparato\n  Contexto: comunicación, idioma, verbo, lugar, edificio, instalaciones de construcción, objeto, aparato",
+          "description": "query: Concepto: desenchufar\n  Descripción: tr. Hacer que algo que estaba enchufado deje de estarlo.\n  Sinónimos: \n  Categorías: verbo, instalaciones de construcción, aparato\n  Contexto: comunicación, idioma, verbo, lugar, edificio, instalaciones de construcción, objeto, aparato",
+          "score": 0.871368944644928
+        },
+        {
+          "id": 32378,
+          "concept": "desenterrar",
+          "query_concept": "descubre",
+          "text": "query: Concepto: desenterrar\n  Descripción: tr. Exhumar, descubrir, sacar lo que está debajo de tierra.\n  Sinónimos: exhumar, excavar\n  Categorías: verbo, arqueología\n  Contexto: comunicación, idioma, verbo, histórico, arqueología",
+          "description": "query: Concepto: desenterrar\n  Descripción: tr. Exhumar, descubrir, sacar lo que está debajo de tierra.\n  Sinónimos: exhumar, excavar\n  Categorías: verbo, arqueología\n  Contexto: comunicación, idioma, verbo, histórico, arqueología",
+          "score": 0.8615915179252625
+        },
+        {
+          "id": 7015,
+          "concept": "descolgar",
+          "query_concept": "descubre",
+          "text": "query: Concepto: descolgar\n  Descripción: tr. Quitar una cosa de donde está colgada\n  Sinónimos: \n  Categorías: verbo, ropa\n  Contexto: comunicación, idioma, verbo, objeto, moda, ropa",
+          "description": "query: Concepto: descolgar\n  Descripción: tr. Quitar una cosa de donde está colgada\n  Sinónimos: \n  Categorías: verbo, ropa\n  Contexto: comunicación, idioma, verbo, objeto, moda, ropa",
+          "score": 0.8605399131774902
+        }
+      ]
+    },
+    {
+      "concept": "huesos",
+      "candidates": [
+        {
+          "id": 6528,
+          "concept": "hueso",
+          "query_concept": "huesos",
+          "text": "query: Concepto: hueso\n  Descripción: m. Cada una de las piezas duras que forman el esqueleto de los vertebrados.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "description": "query: Concepto: hueso\n  Descripción: m. Cada una de las piezas duras que forman el esqueleto de los vertebrados.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "score": 0.8966900706291199
+        },
+        {
+          "id": 2972,
+          "concept": "hueso",
+          "query_concept": "huesos",
+          "text": "query: Concepto: hueso\n  Descripción: m. Cada una de las piezas duras que forman el esqueleto de los vertebrados.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema óseo, halloween\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema óseo, evento, evento popular, halloween",
+          "description": "query: Concepto: hueso\n  Descripción: m. Cada una de las piezas duras que forman el esqueleto de los vertebrados.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema óseo, halloween\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema óseo, evento, evento popular, halloween",
+          "score": 0.8953664302825928
+        },
+        {
+          "id": 25522,
+          "concept": "vértebras",
+          "query_concept": "huesos",
+          "text": "query: Concepto: vértebras\n  Descripción: f. Anat. pl. Huesos cortos, articulados entre sí, que forman el espinazo de los animales vertebrados.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema óseo\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema óseo",
+          "description": "query: Concepto: vértebras\n  Descripción: f. Anat. pl. Huesos cortos, articulados entre sí, que forman el espinazo de los animales vertebrados.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema óseo\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema óseo",
+          "score": 0.8864898681640625
+        }
+      ]
+    },
+    {
+      "concept": "dinosaurio",
+      "candidates": [
+        {
+          "id": 34953,
+          "concept": "cuello de dinosaurio",
+          "query_concept": "dinosaurio",
+          "text": "query: Concepto: cuello de dinosaurio\n  Descripción: m. Parte del cuerpo del dinosaurio que une la cabeza con el tronco.\n  Sinónimos: \n  Categorías: anatomía dinosaurio\n  Contexto: animal, extinguido, dinosaurio, anatomía, anatomía dinosaurio",
+          "description": "query: Concepto: cuello de dinosaurio\n  Descripción: m. Parte del cuerpo del dinosaurio que une la cabeza con el tronco.\n  Sinónimos: \n  Categorías: anatomía dinosaurio\n  Contexto: animal, extinguido, dinosaurio, anatomía, anatomía dinosaurio",
+          "score": 0.8866572976112366
+        },
+        {
+          "id": 34957,
+          "concept": "cuello de dinosaurio",
+          "query_concept": "dinosaurio",
+          "text": "query: Concepto: cuello de dinosaurio\n  Descripción: m. Parte del cuerpo del dinosaurio que une la cabeza con el tronco.\n  Sinónimos: \n  Categorías: anatomía dinosaurio\n  Contexto: animal, extinguido, dinosaurio, anatomía, anatomía dinosaurio",
+          "description": "query: Concepto: cuello de dinosaurio\n  Descripción: m. Parte del cuerpo del dinosaurio que une la cabeza con el tronco.\n  Sinónimos: \n  Categorías: anatomía dinosaurio\n  Contexto: animal, extinguido, dinosaurio, anatomía, anatomía dinosaurio",
+          "score": 0.8866572976112366
+        },
+        {
+          "id": 25058,
+          "concept": "dinosaurio",
+          "query_concept": "dinosaurio",
+          "text": "query: Concepto: dinosaurio\n  Descripción: m. Reptil que vivió durante la era mesozoica, de cabeza pequeña, cuello largo, cola robusta y larga y las patas anteriores más cortas que las posteriores.\n  Sinónimos: \n  Categorías: dinosaurio\n  Contexto: animal, extinguido, dinosaurio, paleontología",
+          "description": "query: Concepto: dinosaurio\n  Descripción: m. Reptil que vivió durante la era mesozoica, de cabeza pequeña, cuello largo, cola robusta y larga y las patas anteriores más cortas que las posteriores.\n  Sinónimos: \n  Categorías: dinosaurio\n  Contexto: animal, extinguido, dinosaurio, paleontología",
+          "score": 0.8866524696350098
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      34256,
+      32378,
+      6528,
+      25058
+    ]
+  }
+}

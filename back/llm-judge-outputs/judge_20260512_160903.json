@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260512_160903",
+  "text": "La doctora me mira los oídos con el otoscopio",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "médica",
+      "id": 8263,
+      "url": "https://static.arasaac.org/pictograms/8263/8263_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+      "extracted_query": "doctora"
+    },
+    {
+      "order": 2,
+      "concept": "otoscopio",
+      "id": 27001,
+      "url": "https://static.arasaac.org/pictograms/27001/27001_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: otoscopio\n  Descripción: m. Med. Instrumento para reconocer el órgano del oído.\n  Sinónimos: \n  Categorías: dispositivo médico\n  Contexto: Salud, medicamentos, equipo médico, dispositivo médico",
+      "extracted_query": "otoscopio"
+    },
+    {
+      "order": 3,
+      "concept": "oído",
+      "id": 39498,
+      "url": "https://static.arasaac.org/pictograms/39498/39498_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: oído\n  Descripción: \n  Sinónimos: \n  Categorías: anatomía humana, Sistema auditivo, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema auditivo, sentidos",
+      "extracted_query": "oídos"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "mirar/examinar"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia actual carece del verbo principal. Es necesario incluir el pictograma ID 5296 (Mirar) o ID 12519 (Examinar) para que la acción del profesional sea clara y la frase tenga sentido lógico.",
+      "El orden sugerido para mayor claridad comunicativa sería: Médica - Mirar - Oído - Otoscopio."
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260512_061536",
+  "text": "Un gato tomando agua",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "gato",
+      "id": 2406,
+      "url": "https://static.arasaac.org/pictograms/2406/2406_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: minino, gata, minina\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+      "extracted_query": "gato"
+    },
+    {
+      "order": 2,
+      "concept": "agua",
+      "id": 32464,
+      "url": "https://static.arasaac.org/pictograms/32464/32464_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: agua\n  Descripción: f. Sustancia cuyas moléculas están formadas por la combinación de un átomo de oxígeno y dos de hidrógeno, líquida, inodora, insípida e incolora. Es el componente más abundante de la superficie terrestre.\n  Sinónimos: \n  Categorías: bebidas, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, bebidas, vocabulario básico",
+      "extracted_query": "agua"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "tomar/beber"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Añadir un pictograma que represente la acción de 'beber' o 'tomar' para completar el significado de la frase original."
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "session_id": "session_1778567119445",
+  "timestamp": "2026-05-12T06:25:19.445Z",
+  "input": {
+    "original_text": "Estoy tranquilo mientras la enfermera me mide la temperatura",
+    "concepts_extracted": [
+      "estoy",
+      "tranquilo",
+      "mientras",
+      "enfermera",
+      "mide",
+      "temperatura"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "tranquilo",
+        "description": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+        "extracted_query": "tranquilo",
+        "id": 31310,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/31310/31310_500.png"
+      },
+      {
+        "concept": "enfermera",
+        "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+        "extracted_query": "enfermera",
+        "id": 35307,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/35307/35307_500.png"
+      },
+      {
+        "concept": "tomar la temperatura",
+        "description": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: toma de temperatura\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+        "extracted_query": "temperatura",
+        "id": 36973,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/36973/36973_500.png"
+      }
+    ],
+    "analysis": {
+      "action": null,
+      "concepts": [
+        "estoy",
+        "tranquilo",
+        "mientras",
+        "enfermera",
+        "mide",
+        "temperatura"
+      ],
+      "negation": false,
+      "objects": [],
+      "subject": null,
+      "temporal_markers": []
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [],
+    "missing_concepts": [],
+    "ordering_issues": [
+      "Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    ],
+    "score": 3,
+    "suggestions": []
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "estar",
+        "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+        "feedback_override": false,
+        "id": 5465,
+        "order": 1,
+        "query_concept": "estar",
+        "score": 1.484403371810913,
+        "url": "https://static.arasaac.org/pictograms/5465/5465_500.png"
+      },
+      {
+        "concept": "tranquilo",
+        "description": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+        "extracted_query": "tranquilo",
+        "id": 31310,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/31310/31310_500.png"
+      },
+      {
+        "concept": "enfermera",
+        "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+        "extracted_query": "enfermera",
+        "id": 35307,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/35307/35307_500.png"
+      },
+      {
+        "concept": "tomar la temperatura",
+        "description": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: toma de temperatura\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+        "extracted_query": "temperatura",
+        "id": 36973,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/36973/36973_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [],
+      "addedPictogramIds": [
+        5465
+      ],
+      "reorder_details": []
+    }
+  }
+}

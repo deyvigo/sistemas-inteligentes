@@ -1,0 +1,136 @@
+{
+  "timestamp": "20260512_165158",
+  "text": "El corazón mueve la sangre por el cuerpo",
+  "concepts": [
+    "corazón",
+    "mueve",
+    "sangre",
+    "cuerpo"
+  ],
+  "candidates": [
+    {
+      "concept": "corazón",
+      "candidates": [
+        {
+          "id": 4613,
+          "concept": "corazón",
+          "query_concept": "corazón",
+          "text": "query: Concepto: corazón\n  Descripción: Figura con que se suele dibujar este órgano.\n  Sinónimos: \n  Categorías: forma, léxico-objeto básico\n  Contexto: forma, objeto, vocabulario básico",
+          "description": "query: Concepto: corazón\n  Descripción: Figura con que se suele dibujar este órgano.\n  Sinónimos: \n  Categorías: forma, léxico-objeto básico\n  Contexto: forma, objeto, vocabulario básico",
+          "score": 0.9004272818565369
+        },
+        {
+          "id": 6996,
+          "concept": "corazón",
+          "query_concept": "corazón",
+          "text": "query: Concepto: corazón\n  Descripción:  Se dice del tercero de los cinco dedos y el más largo de ellos.\n  Sinónimos: \n  Categorías: anatomía humana\n  Contexto: cuerpo humano, anatomía, anatomía humana",
+          "description": "query: Concepto: corazón\n  Descripción:  Se dice del tercero de los cinco dedos y el más largo de ellos.\n  Sinónimos: \n  Categorías: anatomía humana\n  Contexto: cuerpo humano, anatomía, anatomía humana",
+          "score": 0.8992763161659241
+        },
+        {
+          "id": 2715,
+          "concept": "corazón",
+          "query_concept": "corazón",
+          "text": "query: Concepto: corazón\n  Descripción:  m. Órgano muscular hueco, impulsor de la circulación de la sangre en los vertebrados y otros animales.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema circulatorio, cuerpo humano\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema circulatorio",
+          "description": "query: Concepto: corazón\n  Descripción:  m. Órgano muscular hueco, impulsor de la circulación de la sangre en los vertebrados y otros animales.\n  Sinónimos: \n  Categorías: anatomía humana, Sistema circulatorio, cuerpo humano\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema circulatorio",
+          "score": 0.8985946178436279
+        }
+      ]
+    },
+    {
+      "concept": "mueve",
+      "candidates": [
+        {
+          "id": 27371,
+          "concept": "mover",
+          "query_concept": "mueve",
+          "text": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "description": "query: Concepto: mover\n  Descripción: tr. Hacer que un cuerpo deje el lugar o espacio que ocupa y pase a ocupar otro.\n  Sinónimos: \n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "score": 0.8506753444671631
+        },
+        {
+          "id": 28563,
+          "concept": "muelle",
+          "query_concept": "mueve",
+          "text": "query: Concepto: muelle\n  Descripción:  m. Pieza elástica, generalmente de metal, helicoidal o en espiral, que recupera su forma después de una deformación\n  Sinónimos: \n  Categorías: herramienta de trabajo\n  Contexto: trabajo, herramienta",
+          "description": "query: Concepto: muelle\n  Descripción:  m. Pieza elástica, generalmente de metal, helicoidal o en espiral, que recupera su forma después de una deformación\n  Sinónimos: \n  Categorías: herramienta de trabajo\n  Contexto: trabajo, herramienta",
+          "score": 0.8408013582229614
+        },
+        {
+          "id": 10365,
+          "concept": "muda",
+          "query_concept": "mueve",
+          "text": "query: Concepto: muda\n  Descripción: adj. Privado físicamente de la facultad de hablar\n  Sinónimos: \n  Categorías: educación especial\n  Contexto: Educación, educación especial",
+          "description": "query: Concepto: muda\n  Descripción: adj. Privado físicamente de la facultad de hablar\n  Sinónimos: \n  Categorías: educación especial\n  Contexto: Educación, educación especial",
+          "score": 0.8402097225189209
+        }
+      ]
+    },
+    {
+      "concept": "sangre",
+      "candidates": [
+        {
+          "id": 2803,
+          "concept": "sangre",
+          "query_concept": "sangre",
+          "text": "query: Concepto: sangre\n  Descripción:  f. Fluido rojo compuesto por plasma y células en suspensión que circula por las arterias y las venas\n  Sinónimos: \n  Categorías: Sistema circulatorio, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, fisiología, fisiología humana, Sistema circulatorio, vocabulario básico",
+          "description": "query: Concepto: sangre\n  Descripción:  f. Fluido rojo compuesto por plasma y células en suspensión que circula por las arterias y las venas\n  Sinónimos: \n  Categorías: Sistema circulatorio, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, fisiología, fisiología humana, Sistema circulatorio, vocabulario básico",
+          "score": 0.8999948501586914
+        },
+        {
+          "id": 35233,
+          "concept": "hematología",
+          "query_concept": "sangre",
+          "text": "query: Concepto: hematología\n  Descripción: f. Med. Estudio de la sangre y de los órganos que la producen, en particular el que se refiere a los trastornos patológicos de la sangre.\n  Sinónimos: \n  Categorías: medicamentos, Sistema circulatorio\n  Contexto: Salud, medicamentos, cuerpo humano, fisiología, fisiología humana, Sistema circulatorio",
+          "description": "query: Concepto: hematología\n  Descripción: f. Med. Estudio de la sangre y de los órganos que la producen, en particular el que se refiere a los trastornos patológicos de la sangre.\n  Sinónimos: \n  Categorías: medicamentos, Sistema circulatorio\n  Contexto: Salud, medicamentos, cuerpo humano, fisiología, fisiología humana, Sistema circulatorio",
+          "score": 0.887007474899292
+        },
+        {
+          "id": 32017,
+          "concept": "sangrado vaginal",
+          "query_concept": "sangre",
+          "text": "query: Concepto: sangrado vaginal\n  Descripción: m. Sangrado anormal distinto del período menstrual y que puede estar relacionado con distintos factores médicos o relativos a problemas con el embarazao.\n  Sinónimos: \n  Categorías: Síntomas\n  Contexto: Salud, medicamentos, Síntomas",
+          "description": "query: Concepto: sangrado vaginal\n  Descripción: m. Sangrado anormal distinto del período menstrual y que puede estar relacionado con distintos factores médicos o relativos a problemas con el embarazao.\n  Sinónimos: \n  Categorías: Síntomas\n  Contexto: Salud, medicamentos, Síntomas",
+          "score": 0.8804866671562195
+        }
+      ]
+    },
+    {
+      "concept": "cuerpo",
+      "candidates": [
+        {
+          "id": 17018,
+          "concept": "cuerpo",
+          "query_concept": "cuerpo",
+          "text": "query: Concepto: cuerpo\n  Descripción: m. Tronco humano y animal, a diferencia de la cabeza y de las extremidades.\n  Sinónimos: cuerpo de espaldas\n  Categorías: anatomía humana, posición corporal\n  Contexto: cuerpo humano, anatomía, anatomía humana, posición",
+          "description": "query: Concepto: cuerpo\n  Descripción: m. Tronco humano y animal, a diferencia de la cabeza y de las extremidades.\n  Sinónimos: cuerpo de espaldas\n  Categorías: anatomía humana, posición corporal\n  Contexto: cuerpo humano, anatomía, anatomía humana, posición",
+          "score": 0.9015744924545288
+        },
+        {
+          "id": 6473,
+          "concept": "cuerpo",
+          "query_concept": "cuerpo",
+          "text": "query: Concepto: cuerpo\n  Descripción:  En el ser humano y en los animales, conjunto de las partes materiales que componen su organismo.\n  Sinónimos: \n  Categorías: anatomía humana, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, anatomía, anatomía humana, vocabulario básico",
+          "description": "query: Concepto: cuerpo\n  Descripción:  En el ser humano y en los animales, conjunto de las partes materiales que componen su organismo.\n  Sinónimos: \n  Categorías: anatomía humana, núcleo vocabulario-viviendo ser\n  Contexto: cuerpo humano, anatomía, anatomía humana, vocabulario básico",
+          "score": 0.9015695452690125
+        },
+        {
+          "id": 2728,
+          "concept": "cuerpo",
+          "query_concept": "cuerpo",
+          "text": "query: Concepto: cuerpo\n  Descripción: m. Tronco humano y animal, a diferencia de la cabeza y de las extremidades.\n  Sinónimos: \n  Categorías: anatomía humana\n  Contexto: cuerpo humano, anatomía, anatomía humana",
+          "description": "query: Concepto: cuerpo\n  Descripción: m. Tronco humano y animal, a diferencia de la cabeza y de las extremidades.\n  Sinónimos: \n  Categorías: anatomía humana\n  Contexto: cuerpo humano, anatomía, anatomía humana",
+          "score": 0.8981826305389404
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      2715,
+      27371,
+      2803,
+      17018
+    ]
+  }
+}

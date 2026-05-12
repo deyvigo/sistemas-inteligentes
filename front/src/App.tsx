@@ -31,6 +31,7 @@ interface QueryResponse {
   }
   judge?: JudgeResult
   gemini_configured?: boolean
+  judge_skipped?: boolean
 }
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
   const [feedbackSent, setFeedbackSent] = useState(false)
   const [feedbackSending, setFeedbackSending] = useState(false)
   const [feedbackHistory, setFeedbackHistory] = useState<Array<any>>([])
+  const [judgeLoading, setJudgeLoading] = useState(false)
 
    const handleReorder = (newSequence: SequenceItem[]) => {
      if (!data) return;
@@ -58,10 +60,7 @@ function App() {
 
    const handleDataUpdate = (newData: QueryResponse | null) => {
      setData(newData)
-     if (newData && !originalData) {
-       // Store the original data for feedback purposes (only set once)
-       setOriginalData(newData)
-     }
+     setOriginalData(newData)
    }
 
   const handleDelete = (id: number) => {
@@ -136,26 +135,25 @@ function App() {
     }
   }
 
-  const handleAddPictogram = (pictogram: SequenceItem) => {
-    if (!data) {
-      // Initialize data if not present (should not happen but safe)
-      handleDataUpdate({
-        original_text: "",
-        concepts_extracted: [],
-        sequence: [{ ...pictogram, order: 1 }],
-        analysis: { negation: false, temporal_markers: [] }
-      })
-    } else {
-      const newSequence = [...data.sequence, { ...pictogram, order: data.sequence.length + 1 }]
-      handleDataUpdate({
-        ...data,
-        sequence: newSequence
-      })
-    }
-    setSearchVisible(false)
-    setSearchQuery("")
-    setSearchResults([])
-  }
+   const handleAddPictogram = (pictogram: SequenceItem) => {
+     if (!data) {
+       setData({
+         original_text: "",
+         concepts_extracted: [],
+         sequence: [{ ...pictogram, order: 1 }],
+         analysis: { negation: false, temporal_markers: [] }
+       })
+     } else {
+       const newSequence = [...data.sequence, { ...pictogram, order: data.sequence.length + 1 }]
+       setData({
+         ...data,
+         sequence: newSequence
+       })
+     }
+     setSearchVisible(false)
+     setSearchQuery("")
+     setSearchResults([])
+   }
 
      const handleSendFeedback = async () => {
      if (!data || !originalData) return;
@@ -272,8 +270,30 @@ function App() {
        // We could set an error state, but for simplicity we'll just log and maybe show a message
        // For now, we'll set feedbackSent to false and let the UI show an error if we had a state for it.
        // We'll add an error state if needed, but let's keep it simple for now.
+      } finally {
+        setFeedbackSending(false);
+      }
+    };
+
+   const handleRunJudge = async () => {
+     if (!data) return;
+     setJudgeLoading(true);
+     try {
+       const response = await fetch("http://localhost:5000/judge", {
+         method: "POST",
+         headers: { "Content-Type": "application/json" },
+         body: JSON.stringify({
+           text: data.original_text,
+           sequence: data.sequence
+         })
+       });
+       if (!response.ok) throw new Error(`Error: ${response.status}`);
+       const judgeResult = await response.json();
+       setData(prev => prev ? { ...prev, judge: judgeResult, judge_skipped: false } : null);
+     } catch (error) {
+       console.error("Judge error:", error);
      } finally {
-       setFeedbackSending(false);
+       setJudgeLoading(false);
      }
    };
 
@@ -301,8 +321,6 @@ function App() {
               <h2 className="text-lg font-semibold text-gray-700 mb-3">Conceptos Extraídos</h2>
               <ConceptsDisplay
                 concepts={data.concepts_extracted}
-                negation={data.analysis.negation}
-                temporal_markers={data.analysis.temporal_markers}
               />
             </div>
 
@@ -324,7 +342,7 @@ function App() {
               />
               {data.judge ? (
                 <>
-                  <div className="mb-2">Judge data exists: score = {data.judge.score}</div>
+                  <div className="mb-2">Evaluación: puntuación {data.judge.score}/5</div>
                   <JudgeDisplay judge={data.judge} />
                   
                   {/* Feedback button */}
@@ -343,7 +361,23 @@ function App() {
                   )}
                 </>
               ) : (
-                <div className="text-red-500">judge is falsy: {JSON.stringify(data.judge)}</div>
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                  <div className="flex items-center gap-2 text-amber-700 mb-2">
+                    <span className="text-lg">⚡</span>
+                    <span className="font-medium">Evaluación del LLM omitida</span>
+                  </div>
+                  <p className="text-sm text-amber-600 mb-3">
+                    La generación fue más rápida al omitir la evaluación automática.
+                    Puedes evaluar esta secuencia manualmente si lo deseas.
+                  </p>
+                  <button
+                    onClick={handleRunJudge}
+                    disabled={judgeLoading}
+                    className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors disabled:opacity-50"
+                  >
+                    {judgeLoading ? "Evaluando..." : "🔍 Evaluar ahora con LLM"}
+                  </button>
+                </div>
               )}
             </div>
           </>

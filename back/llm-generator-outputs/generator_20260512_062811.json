@@ -1,0 +1,196 @@
+{
+  "timestamp": "20260512_062811",
+  "text": "Levanta la mano y pregunta sobre lo que no entendiste",
+  "concepts": [
+    "no",
+    "levanta",
+    "mano",
+    "pregunta",
+    "sobre",
+    "entendiste"
+  ],
+  "candidates": [
+    {
+      "concept": "no",
+      "candidates": [
+        {
+          "id": 15333,
+          "concept": "incomprensión",
+          "query_concept": "no",
+          "text": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.7806166410446167
+        },
+        {
+          "id": 24891,
+          "concept": "bola de nieve",
+          "query_concept": "no",
+          "text": "query: Concepto: bola de nieve\n  Descripción: f. Compactación de nieve en forma de bola\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: bola de nieve\n  Descripción: f. Compactación de nieve en forma de bola\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.7773364186286926
+        },
+        {
+          "id": 38157,
+          "concept": "Clasificación Decimal Universal",
+          "query_concept": "no",
+          "text": "query: Concepto: Clasificación Decimal Universal\n  Descripción: \n  Sinónimos: CDU\n  Categorías: Clasificación decimal universal\n  Contexto: biblioteca de ciencias, Clasificación decimal",
+          "description": "query: Concepto: Clasificación Decimal Universal\n  Descripción: \n  Sinónimos: CDU\n  Categorías: Clasificación decimal universal\n  Contexto: biblioteca de ciencias, Clasificación decimal",
+          "score": 0.7759571075439453
+        }
+      ]
+    },
+    {
+      "concept": "levanta",
+      "candidates": [
+        {
+          "id": 8152,
+          "concept": "levantar",
+          "query_concept": "levanta",
+          "text": "query: Concepto: levantar\n  Descripción: tr. Poner derecha o en posición vertical la persona o cosa que esté inclinada, tendida, etc. U. t. c. prnl.\n  Sinónimos: \n  Categorías: verbos habituales, ejercicio físico, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, ocio, deporte, ejercicio físico, vocabulario básico",
+          "description": "query: Concepto: levantar\n  Descripción: tr. Poner derecha o en posición vertical la persona o cosa que esté inclinada, tendida, etc. U. t. c. prnl.\n  Sinónimos: \n  Categorías: verbos habituales, ejercicio físico, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, ocio, deporte, ejercicio físico, vocabulario básico",
+          "score": 0.8760972023010254
+        },
+        {
+          "id": 35101,
+          "concept": "levantar",
+          "query_concept": "levanta",
+          "text": "query: Concepto: levantar\n  Descripción: tr. Mover hacia arriba algo.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto",
+          "description": "query: Concepto: levantar\n  Descripción: tr. Mover hacia arriba algo.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto",
+          "score": 0.8747771382331848
+        },
+        {
+          "id": 36073,
+          "concept": "levantar",
+          "query_concept": "levanta",
+          "text": "query: Concepto: levantar\n  Descripción: tr. Mover hacia arriba algo.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto",
+          "description": "query: Concepto: levantar\n  Descripción: tr. Mover hacia arriba algo.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto",
+          "score": 0.8747771382331848
+        }
+      ]
+    },
+    {
+      "concept": "mano",
+      "candidates": [
+        {
+          "id": 9830,
+          "concept": "manos",
+          "query_concept": "mano",
+          "text": "query: Concepto: manos\n  Descripción: f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.\n  Sinónimos: \n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+          "description": "query: Concepto: manos\n  Descripción: f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.\n  Sinónimos: \n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+          "score": 0.8694779872894287
+        },
+        {
+          "id": 2928,
+          "concept": "mano",
+          "query_concept": "mano",
+          "text": "query: Concepto: mano\n  Descripción:  f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.\n  Sinónimos: mano derecha\n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+          "description": "query: Concepto: mano\n  Descripción:  f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.\n  Sinónimos: mano derecha\n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+          "score": 0.8691428303718567
+        },
+        {
+          "id": 30168,
+          "concept": "mano izquierda",
+          "query_concept": "mano",
+          "text": "query: Concepto: mano izquierda\n  Descripción: f. La que corresponde al lado del cuerpo en que el hombre siente latir el corazón.\n  Sinónimos: \n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+          "description": "query: Concepto: mano izquierda\n  Descripción: f. La que corresponde al lado del cuerpo en que el hombre siente latir el corazón.\n  Sinónimos: \n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+          "score": 0.8649983406066895
+        }
+      ]
+    },
+    {
+      "concept": "pregunta",
+      "candidates": [
+        {
+          "id": 9844,
+          "concept": "preguntar",
+          "query_concept": "pregunta",
+          "text": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8845059871673584
+        },
+        {
+          "id": 36051,
+          "concept": "preguntar",
+          "query_concept": "pregunta",
+          "text": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8845059871673584
+        },
+        {
+          "id": 36159,
+          "concept": "preguntar",
+          "query_concept": "pregunta",
+          "text": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8845059871673584
+        }
+      ]
+    },
+    {
+      "concept": "sobre",
+      "candidates": [
+        {
+          "id": 5451,
+          "concept": "encima",
+          "query_concept": "sobre",
+          "text": "query: Concepto: encima\n  Descripción:  adv. l. En lugar o puesto superior respecto de otro inferior.\n  Sinónimos: \n  Categorías: adverbio del lugar, conceptos básicos\n  Contexto: comunicación, idioma, adverb, adverbio del lugar, matemáticas, conceptos básicos",
+          "description": "query: Concepto: encima\n  Descripción:  adv. l. En lugar o puesto superior respecto de otro inferior.\n  Sinónimos: \n  Categorías: adverbio del lugar, conceptos básicos\n  Contexto: comunicación, idioma, adverb, adverbio del lugar, matemáticas, conceptos básicos",
+          "score": 0.8781622648239136
+        },
+        {
+          "id": 7814,
+          "concept": "sobre",
+          "query_concept": "sobre",
+          "text": "query: Concepto: sobre\n  Descripción: prep. Encima de.\n  Sinónimos: \n  Categorías: preposición, conceptos básicos\n  Contexto: comunicación, idioma, preposición, matemáticas, conceptos básicos, vocabulario básico",
+          "description": "query: Concepto: sobre\n  Descripción: prep. Encima de.\n  Sinónimos: \n  Categorías: preposición, conceptos básicos\n  Contexto: comunicación, idioma, preposición, matemáticas, conceptos básicos, vocabulario básico",
+          "score": 0.8766137361526489
+        },
+        {
+          "id": 10325,
+          "concept": "sobre",
+          "query_concept": "sobre",
+          "text": "query: Concepto: sobre\n  Descripción: m. Envoltorio, por lo común de papel, en que se introduce una carta, comunicación, tarjeta, etc., para entregarla o enviarla por correo\n  Sinónimos: \n  Categorías: medios de comunicación, objeto, documento\n  Contexto: comunicación, medios de comunicación, objeto, documento",
+          "description": "query: Concepto: sobre\n  Descripción: m. Envoltorio, por lo común de papel, en que se introduce una carta, comunicación, tarjeta, etc., para entregarla o enviarla por correo\n  Sinónimos: \n  Categorías: medios de comunicación, objeto, documento\n  Contexto: comunicación, medios de comunicación, objeto, documento",
+          "score": 0.8736576437950134
+        }
+      ]
+    },
+    {
+      "concept": "entendiste",
+      "candidates": [
+        {
+          "id": 16659,
+          "concept": "entender",
+          "query_concept": "entendiste",
+          "text": "query: Concepto: entender\n  Descripción: tr. Tener idea clara de las cosas\n  Sinónimos: comprender, comprensible, entendible, inteligible\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: entender\n  Descripción: tr. Tener idea clara de las cosas\n  Sinónimos: comprender, comprensible, entendible, inteligible\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8602928519248962
+        },
+        {
+          "id": 11697,
+          "concept": "entender",
+          "query_concept": "entendiste",
+          "text": "query: Concepto: entender\n  Descripción: tr. Tener idea clara de las cosas\n  Sinónimos: comprender, comprensible, entendible, inteligible\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: entender\n  Descripción: tr. Tener idea clara de las cosas\n  Sinónimos: comprender, comprensible, entendible, inteligible\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8602928519248962
+        },
+        {
+          "id": 37827,
+          "concept": "no entiendo",
+          "query_concept": "entendiste",
+          "text": "query: Concepto: no entiendo\n  Descripción: \n  Sinónimos: no comprendo lo que dices, malentender\n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "description": "query: Concepto: no entiendo\n  Descripción: \n  Sinónimos: no comprendo lo que dices, malentender\n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "score": 0.8555294275283813
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      8152,
+      2928,
+      9844,
+      37827
+    ]
+  }
+}

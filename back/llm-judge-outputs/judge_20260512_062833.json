@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260512_062833",
+  "text": "Levanta la mano y pregunta sobre lo que no entendiste",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "levantar",
+      "id": 8152,
+      "url": "https://static.arasaac.org/pictograms/8152/8152_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: levantar\n  Descripción: tr. Poner derecha o en posición vertical la persona o cosa que esté inclinada, tendida, etc. U. t. c. prnl.\n  Sinónimos: \n  Categorías: verbos habituales, ejercicio físico, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, ocio, deporte, ejercicio físico, vocabulario básico",
+      "extracted_query": "levanta"
+    },
+    {
+      "order": 2,
+      "concept": "mano",
+      "id": 2928,
+      "url": "https://static.arasaac.org/pictograms/2928/2928_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: mano\n  Descripción:  f. Extremidad del cuerpo humano que va desde la muñeca hasta la punta de los dedos.\n  Sinónimos: mano derecha\n  Categorías: anatomía humana, sentidos\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, sentidos",
+      "extracted_query": "mano"
+    },
+    {
+      "order": 3,
+      "concept": "preguntar",
+      "id": 9844,
+      "url": "https://static.arasaac.org/pictograms/9844/9844_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: preguntar\n  Descripción:  Demandar e interrogar por cierta información: le preguntó dónde estaba la estación. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+      "extracted_query": "pregunta"
+    },
+    {
+      "order": 4,
+      "concept": "no entiendo",
+      "id": 37827,
+      "url": "https://static.arasaac.org/pictograms/37827/37827_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: no entiendo\n  Descripción: \n  Sinónimos: no comprendo lo que dices, malentender\n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+      "extracted_query": "entendiste"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia actual es excelente y transmite con claridad la instrucción: Levantar mano + Preguntar + No entiendo. No requiere cambios adicionales."
+    ]
+  }
+}

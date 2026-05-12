@@ -1,0 +1,139 @@
+{
+  "session_id": "session_1778566887239",
+  "timestamp": "2026-05-12T06:21:27.239Z",
+  "input": {
+    "original_text": "Estoy tranquilo mientras la enfermera me mide la temperatura",
+    "concepts_extracted": [
+      "estoy",
+      "tranquilo",
+      "mientras",
+      "enfermera",
+      "mide",
+      "temperatura"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "tranquilo",
+        "description": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+        "extracted_query": "tranquilo",
+        "id": 31310,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/31310/31310_500.png"
+      },
+      {
+        "concept": "enfermera",
+        "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+        "extracted_query": "enfermera",
+        "id": 35307,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/35307/35307_500.png"
+      },
+      {
+        "concept": "¿cuánto mide?",
+        "description": "query: Concepto: ¿cuánto mide?\n  Descripción: Se usa para averiguar la longitud de algo\n  Sinónimos: cuánto mide\n  Categorías: expresión, prueba médica, paciente\n  Contexto: comunicación, idioma, expresión, Salud, medicamentos, procedimiento médico, prueba médica, persona, paciente",
+        "extracted_query": "mide",
+        "id": 33102,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/33102/33102_500.png"
+      },
+      {
+        "concept": "temperatura",
+        "description": "query: Concepto: temperatura\n  Descripción:  f. Magnitud física que mide la sensación subjetiva de calor o frío de los cuerpos o del ambiente: la temperatura se mide en grados. \n  Sinónimos: \n  Categorías: física\n  Contexto: física",
+        "extracted_query": "temperatura",
+        "id": 8230,
+        "order": 5,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/8230/8230_500.png"
+      }
+    ],
+    "analysis": {
+      "action": null,
+      "concepts": [
+        "estoy",
+        "tranquilo",
+        "mientras",
+        "enfermera",
+        "mide",
+        "temperatura"
+      ],
+      "negation": false,
+      "objects": [],
+      "subject": null,
+      "temporal_markers": []
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [
+      {
+        "concept": "¿cuánto mide?",
+        "reason": "El pictograma representa una pregunta o una medida de longitud física, no la acción clínica de 'tomar la temperatura' o 'medir temperatura'. Es impreciso para el contexto de salud."
+      }
+    ],
+    "missing_concepts": [],
+    "ordering_issues": [],
+    "score": 3,
+    "suggestions": [
+      "Sustituir el pictograma '¿cuánto mide?' por uno que represente la acción clínica de medir o el termómetro directamente.",
+      "Añadir un pictograma de acción (verbo) como 'medir' o 'tomar' para dar coherencia a la relación entre la enfermera y la temperatura."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "estar",
+        "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+        "feedback_override": false,
+        "id": 5465,
+        "order": 1,
+        "query_concept": "estar",
+        "score": 0.8844033479690552,
+        "url": "https://static.arasaac.org/pictograms/5465/5465_500.png"
+      },
+      {
+        "concept": "tranquilo",
+        "description": "query: Concepto: tranquilo\n  Descripción: adj. Quieto, sosegado, pacífico.\n  Sinónimos: tranquila\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+        "extracted_query": "tranquilo",
+        "id": 31310,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/31310/31310_500.png"
+      },
+      {
+        "concept": "enfermera",
+        "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+        "extracted_query": "enfermera",
+        "id": 35307,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/35307/35307_500.png"
+      },
+      {
+        "concept": "tomar la temperatura",
+        "description": "query: Concepto: tomar la temperatura\n  Descripción: \n  Sinónimos: toma de temperatura\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+        "feedback_override": false,
+        "id": 36973,
+        "order": 4,
+        "query_concept": "tomar tem",
+        "score": 0.8652660846710205,
+        "url": "https://static.arasaac.org/pictograms/36973/36973_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [
+        33102,
+        8230
+      ],
+      "addedPictogramIds": [
+        5465,
+        36973
+      ],
+      "reorder_details": []
+    }
+  }
+}

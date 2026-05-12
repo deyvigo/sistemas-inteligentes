@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260512_150311",
+  "text": "Esa fábrica producía cosas sin parar",
+  "sequence": [],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [
+      "Error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    ],
+    "suggestions": []
+  }
+}
