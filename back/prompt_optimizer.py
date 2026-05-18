@@ -1,8 +1,7 @@
 import json
-import re
 from collections import Counter
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict
 
 def load_feedback_history():
     """Load all feedback entries from feedback_logs directory"""
@@ -24,8 +23,8 @@ def load_feedback_history():
 
 def detect_recurring_errors(feedback_history) -> Dict[str, int]:
     """
-    Find patterns in LLM Judge errors vs human corrections.
-    Used for Strategy C: Prompt Refinement.
+    Find patterns in human corrections vs LLM Generator errors.
+    Used for Strategy C: Generator Prompt Refinement.
     
     Returns:
         dict: {error_pattern: frequency_count}
@@ -33,120 +32,88 @@ def detect_recurring_errors(feedback_history) -> Dict[str, int]:
     error_patterns = Counter()
     
     for feedback in feedback_history:
-        judge_output = feedback.get('llm_evaluation', {})
         human_corrections = feedback.get('user_modifications', {}).get('final_sequence', [])
+        orig_sequence = feedback.get('system_generation', {}).get('sequence', [])
+        actions = feedback.get('user_modifications', {}).get('actions_taken', {})
         
-        # 1. Detect when Judge suggested something but human didn't follow
-        judge_suggestions = judge_output.get('suggestions', [])
-        for suggestion in judge_suggestions:
-            normalized = suggestion.lower().strip()
-            
-            # Check if human followed this suggestion
-            if not was_suggestion_followed(suggestion, human_corrections):
-                error_patterns[f"judge_suggestion_not_followed: {normalized[:50]}"] += 1
+        # 1. Detect Generator wrong ID selections (replacements made by human)
+        for i, corr_item in enumerate(human_corrections):
+            if i < len(orig_sequence):
+                orig_item = orig_sequence[i]
+                if orig_item.get('id') != corr_item.get('id'):
+                    concept = corr_item.get('concept', 'unknown')
+                    error_patterns[f"generator_wrong_id: {concept}"] += 1
         
-        # 2. Detect recurring incorrect pictogram issues
-        incorrect_picts = judge_output.get('incorrect_pictograms', [])
-        for item in incorrect_picts:
-            concept = item.get('concept', 'unknown')
-            error_patterns[f"recurring_incorrect: {concept}"] += 1
+        # 2. Detect missing concepts (human added pictograms)
+        added_ids = actions.get('addedPictogramIds', [])
+        for corr_item in human_corrections:
+            if corr_item.get('id') in added_ids:
+                concept = corr_item.get('concept', 'unknown')
+                if concept:
+                    error_patterns[f"generator_missing_concept: {concept}"] += 1
         
-        # 3. Detect ordering issues that persist
-        ordering_issues = judge_output.get('ordering_issues', [])
-        for issue in ordering_issues:
-            error_patterns[f"recurring_ordering: {issue[:50]}"] += 1
-        
-        # 4. Detect missing concepts that Judge didn't catch
-        missing = judge_output.get('missing_concepts', [])
-        for concept in missing:
-            error_patterns[f"missing_concept: {concept}"] += 1
+        # 3. Detect reordering
+        if actions.get('reordered', False):
+            error_patterns["reordering"] += 1
     
     return dict(error_patterns)
 
 
-def was_suggestion_followed(suggestion: str, human_corrections: list) -> bool:
-    """Check if a Judge suggestion was followed in human corrections"""
-    normalized_suggestion = suggestion.lower()
-    
-    # Simple check: if suggestion mentions a concept, check if that concept is in corrections
-    match = re.search(r'\'(.+?)\'', normalized_suggestion)
-    if match:
-        suggested_concept = match.group(1)
-        for item in human_corrections:
-            if suggested_concept in item.get('concept', '').lower():
-                return True
-    
-    return False
 
 
-def get_optimized_judge_prompt(base_prompt: str, error_patterns: dict, top_n: int = 3) -> str:
+
+def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> str:
     """
-    Adapt Judge prompt based on recurring errors.
-    
-    Args:
-        base_prompt: The original SYSTEM_PROMPT for LLM Judge
-        error_patterns: Output from detect_recurring_errors()
-        top_n: Number of top errors to address
-    
-    Returns:
-        Optimized prompt string
-    """
-    # Get top recurring errors
-    top_errors = sorted(error_patterns.items(), key=lambda x: x[1], reverse=True)[:top_n]
-    
-    if not top_errors:
-        return base_prompt  # No optimization needed
-    
-    # Build additional instructions based on top errors
-    additional_instructions = "\n\n# ADDITIONAL INSTRUCTIONS BASED ON FEEDBACK:\n"
-    
-    for error_pattern, count in top_errors:
-        if 'recurring_incorrect' in error_pattern:
-            concept = error_pattern.replace('recurring_incorrect: ', '')
-            additional_instructions += f"- Pay SPECIAL ATTENTION to selecting '{concept}'. Many users corrected this. Be extra careful with gender, number, and tense.\n"
-        
-        elif 'missing_concept' in error_pattern:
-            concept = error_pattern.replace('missing_concept: ', '')
-            additional_instructions += f"- Ensure '{concept}' is NOT marked as missing unless it's truly absent. Check synonyms and related terms.\n"
-        
-        elif 'ordering' in error_pattern:
-            additional_instructions += "- Be more careful with ORDERING. Users frequently correct the sequence order. Consider natural Spanish word order.\n"
-        
-        elif 'suggestion_not_followed' in error_pattern:
-            additional_instructions += "- Algunas sugerencias fueron ignoradas por los usuarios. Cuando sugieras un reemplazo, incluye el ID exacto del pictograma y explica POR QUÉ en 1-2 oraciones. Ej: 'Reemplazar ID 123 (Corriendo) por ID 456 (Correr) porque la descripción del pictograma coincide con el contexto de la frase'.\n"
-    
-    return base_prompt + additional_instructions
-
-
-def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict, top_n: int = 3) -> str:
-    """
-    Adapt Generator prompt based on recurring errors.
+    Adapt Generator prompt based on recurring human corrections.
+    Appends compact per-pattern instructions, max 5 lines.
     
     Args:
         base_prompt: The original SYSTEM_PROMPT for LLM Generator
         error_patterns: Output from detect_recurring_errors()
-        top_n: Number of top errors to address
     
     Returns:
         Optimized prompt string
     """
-    # Get top recurring errors (focus on generator-related)
-    top_errors = sorted(error_patterns.items(), key=lambda x: x[1], reverse=True)[:top_n]
-    
-    if not top_errors:
+    selection_errors = []
+    missing_concepts = []
+    has_reordering = False
+
+    for pattern, count in error_patterns.items():
+        if pattern.startswith("generator_wrong_id:"):
+            concept = pattern.replace("generator_wrong_id:", "").strip()
+            selection_errors.append(f"'{concept}'")
+        elif pattern.startswith("generator_missing_concept:"):
+            concept = pattern.replace("generator_missing_concept:", "").strip()
+            missing_concepts.append(f"'{concept}'")
+        elif pattern == "reordering":
+            has_reordering = True
+
+    parts = []
+    if selection_errors:
+        concepts_str = ", ".join(selection_errors[:5])
+        parts.append(
+            f"- Conceptos con errores frecuentes de selección: {concepts_str}. "
+            "Revisa que el pictograma coincida con el significado exacto en el contexto."
+        )
+    if missing_concepts:
+        concepts_str = ", ".join(missing_concepts[:5])
+        parts.append(
+            f"- Conceptos que suelen faltar: {concepts_str}. "
+            "Asegúrate de que cada concepto extraído tenga un pictograma."
+        )
+    if has_reordering:
+        parts.append(
+            "- Verifica el orden: manten el orden original de los conceptos extraídos "
+            "a menos que el contexto de la frase requiera otro."
+        )
+
+    if not parts:
         return base_prompt
-    
-    additional_instructions = "\n\n# Instrucciones addicionales basadas en el feedback:\n"
-    
-    for error_pattern, count in top_errors:
-        if 'recurring_incorrect' in error_pattern:
-            concept = error_pattern.replace('recurring_incorrect: ', '')
-            additional_instructions += f"- Para el concepto '{concept}', asegurate seleccionar el pictograma que coincida con el significado exacto en el contexto. Revisa tiempo del verbo,genero, numero.\n"
-        
-        elif 'ordering' in error_pattern:
-            additional_instructions += "- Cuando seleccionas un pictograma, asegurate de mantener el orden original de los conceptos extraidos. Manten el orden en tu salida.\n"
-    
-    return base_prompt + additional_instructions
+
+    instructions = "\n\n# Instrucciones adicionales basadas en feedback:\n"
+    instructions += "\n".join(parts)
+
+    return base_prompt + instructions
 
 
 def save_prompt_version(prompt_type: str, version: int, prompt_text: str):
@@ -173,51 +140,6 @@ def save_prompt_version(prompt_type: str, version: int, prompt_text: str):
     return filename
 
 
-def ab_test_prompts(prompt_a: str, prompt_b: str, test_phrases: List[str], api_key: Optional[str] = None):
-    """
-    A/B test two versions of a prompt.
-    
-    Args:
-        prompt_a: First prompt version
-        prompt_b: Second prompt version
-        test_phrases: List of test phrases
-        api_key: Optional API key
-    
-    Returns:
-        dict: Results comparison
-    """
-    from six_llm_generator import generate_sequence as llm_generate
-    from three_use_embedded import search_sequence_candidates
-    import random
-    
-    results_a = []
-    results_b = []
-    
-    for phrase in test_phrases:
-        # Randomly assign to A or B
-        if random.choice([True, False]):
-            # Test prompt A (Generator)
-            try:
-                from six_llm_generator import MODEL_NAME as model_a
-                # ... implementation depends on integration
-                results_a.append({"phrase": phrase, "prompt": "A"})
-            except:
-                pass
-        else:
-            # Test prompt B
-            try:
-                # ... implementation depends on integration
-                results_b.append({"phrase": phrase, "prompt": "B"})
-            except:
-                pass
-    
-    return {
-        "prompt_a_results": results_a,
-        "prompt_b_results": results_b,
-        "total_tested": len(test_phrases)
-    }
-
-
 if __name__ == "__main__":
     # Test the optimizer
     from datetime import datetime
@@ -233,13 +155,24 @@ if __name__ == "__main__":
         for pattern, count in sorted(errors.items(), key=lambda x: x[1], reverse=True)[:5]:
             print(f"  {pattern}: {count} times")
         
-        print("\nOptimizing prompts...")
-        base_judge_prompt = """You are an expert in selecting ARASAAC pictograms for AAC..."""
-        optimized = get_optimized_judge_prompt(base_judge_prompt, errors)
+        print("\nOptimizing Generator prompt...")
+        base_gen_prompt = """Eres un experto en selecionar pictogramas ARASAAC para AAC.
+
+Tu tarea es crear una secuencia de pictogramas que represente fielmente el significado de una frase en español.
+
+INSTRUCCIONES:
+- Revisa todos los pictogramas candidatos disponibles
+- Selecciona los que mejor representen la FRASE COMPLETA
+- NO es obligatorio elegir un pictograma por cada concepto extraído
+- Un MISMO pictograma puede cubrir VARIOS conceptos
+- El ORDEN de los IDs debe reflejar el orden logico de la idea"""
+        optimized = get_optimized_generator_prompt(base_gen_prompt, errors)
         print(f"Optimized prompt length: {len(optimized)} characters")
+        if len(optimized) > len(base_gen_prompt):
+            print("Additional instructions appended.")
         
         print("\nSaving prompt version...")
-        save_prompt_version("judge", 1, optimized)
+        save_prompt_version("generator", 1, optimized)
         print("Saved!")
     else:
         print("No feedback history found. Run the system to generate feedback first.")

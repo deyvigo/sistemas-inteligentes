@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260518_040551",
+  "text": "Estoy con sueño hoy dormire temprano",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "yo",
+      "id": 31807,
+      "url": "https://static.arasaac.org/pictograms/31807/31807_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+      "extracted_query": "estoy"
+    },
+    {
+      "order": 2,
+      "concept": "sueño",
+      "id": 5590,
+      "url": "https://static.arasaac.org/pictograms/5590/5590_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+      "extracted_query": "sueño"
+    },
+    {
+      "order": 3,
+      "concept": "hoy",
+      "id": 7131,
+      "url": "https://static.arasaac.org/pictograms/7131/7131_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+      "extracted_query": "hoy"
+    },
+    {
+      "order": 4,
+      "concept": "dormir",
+      "id": 6479,
+      "url": "https://static.arasaac.org/pictograms/6479/6479_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+      "extracted_query": "dormire"
+    },
+    {
+      "order": 5,
+      "concept": "anterior",
+      "id": 27319,
+      "url": "https://static.arasaac.org/pictograms/27319/27319_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: anterior\n  Descripción: adj. Que precede en lugar o tiempo.\n  Sinónimos: preceder, anteceder\n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+      "extracted_query": "temprano"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "temprano"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "anterior",
+        "reason": "El pictograma de 'anterior' no transmite el concepto de 'temprano' o 'pronto', que es fundamental para la intención de la frase."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Reemplazar el pictograma 'anterior' por uno que represente 'temprano' o 'pronto' para completar el sentido de la acción futura."
+    ]
+  }
+}

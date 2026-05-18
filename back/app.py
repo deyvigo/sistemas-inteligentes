@@ -117,17 +117,12 @@ def query_and_judge():
 
     processed = process_text(query_text)
 
-    # ── Load optimized prompts if available (Strategy C) ──
+    # ── Load optimized Generator prompt if available (Strategy C) ──
     prompt_dir = Path("./prompt_versions")
     judge_custom_prompt = None
     generator_custom_prompt = None
     if prompt_dir.exists():
-        judge_variants = sorted(prompt_dir.glob("judge_v*.txt"))
         generator_variants = sorted(prompt_dir.glob("generator_v*.txt"))
-        if judge_variants:
-            with open(judge_variants[-1], "r", encoding="utf-8") as f:
-                judge_custom_prompt = f.read()
-            print(f"[DEBUG] Using optimized Judge prompt: {judge_variants[-1].name}")
         if generator_variants:
             with open(generator_variants[-1], "r", encoding="utf-8") as f:
                 generator_custom_prompt = f.read()
@@ -362,77 +357,6 @@ def feedback_applied_suggestions():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/feedback/optimize-judge", methods=["POST"])
-def feedback_optimize_judge():
-    """Endpoint: generar nuevo prompt optimizado para el Judge (Strategy C)"""
-    try:
-        base_prompt = """Eres un evaluador experto en pictogramas AAC (Comunicación Aumentativa y Alternativa).
-
-Tu tarea es evaluar qué tan bien una secuencia de pictogramas transmite el SIGNIFICADO CENTRAL de una frase en español, NO su gramática exacta.
-
-CRITERIOS DE EVALUACIÓN (en orden de importancia):
-1. COBERTURA SEMÁNTICA (50%): ¿Los conceptos clave (sustantivos, verbos, adjetivos importantes) están representados?
-2. PRECISIÓN DE SELECCIÓN (30%): ¿Cada pictograma representa el concepto correcto?
-3. ORDEN LÓGICO (20%): ¿El orden permite entender la idea general?
-
-INSTRUCCIONES CRÍTICAS SOBRE GRAMÁTICA:
-- Los ARTÍCULOS (el, la, un, una, los, las) NO son concepts importantes en AAC. IGNÓRALOS completamente.
-- Las PREPOSICIONES (a, hacia, en, con, de) son secundarias. Solo marca como faltante si cambian el significado drásticamente (ej: "a" vs "de" cambia dirección).
-- Palabras como "un", "al" (a+el), "del" (de+el) NO deben listarse como faltantes.
-- No penalices por falta de conectores gramaticales. En AAC, "Niño corre parque" es aceptable; no necesita "El niño corre al parque".
-- Evalúa la INTENCIÓN COMUNICATIVA, no la corrección gramatical.
-
-EJEMPLOS DE LO QUE NO PENALIZAR:
-- Falta el artículo "un" o "el"
-- Falta la preposición "a" o "hacia" (a menos que sea crítica para el significado)
-- Falta de concordancia de género/número en artículos
-
-EJEMPLOS DE LO QUE SÍ PENALIZAR:
-- El pictograma no representa el concepto (ej: "corriendo" pero pictograma de "carrera" como evento deportivo)
-- Faltan sustantivos o verbos clave
-- Orden que invierte el significado (ej: "come niño" en lugar de "niño come")
-- A pesar de que las palabras sean similares como "comer" y "tomar" o cualquier otro sinonimo, verifica bien si la descripcion del pictograma realmente corresponde con lo que se quiere expresar.
-
-Responde SOLO con JSON válido:
-{
-  "score": 1-5,
-  "missing_concepts": ["concepto_clave1", "concepto_clave2"] | [],
-  "incorrect_pictograms": [{"concept": "X", "reason": "explicación enfocada en significado, no gramática"}] | [],
-  "ordering_issues": ["solo si el orden cambia el significado"] | [],
-  "suggestions": ["sugerencia concisa"] | []
-}
-
-Escala de score (ENFOCADA EN SIGNIFICADO):
-- 1: Muy malo - Conceptos clave faltantes o pictogramas totalmente incorrectos
-- 2: Malo - Algunos conceptos clave incorrectos o faltantes
-- 3: Regular - Mayormente comprensible, errores menores de significado
-- 4: Bueno - Transmite bien la idea, quizás un error menor de selección
-- 5: Excelente - Representación clara y precisa de la idea central"""
-
-        history = prompt_optimizer.load_feedback_history()
-        if not history:
-            return jsonify({"warning": "No hay feedback history para optimizar", "prompt": base_prompt}), 200
-
-        patterns = prompt_optimizer.detect_recurring_errors(history)
-        optimized = prompt_optimizer.get_optimized_judge_prompt(base_prompt, patterns)
-
-        # Save new version
-        prompt_dir = Path("./prompt_versions")
-        prompt_dir.mkdir(exist_ok=True)
-        existing = sorted(prompt_dir.glob("judge_v*.txt"))
-        version = len(existing) + 1
-        prompt_optimizer.save_prompt_version("judge", version, optimized)
-
-        return jsonify({
-            "status": "success",
-            "version": version,
-            "optimized_prompt": optimized,
-            "patterns_used": patterns
-        }), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
 @app.route("/feedback/optimize-generator", methods=["POST"])
 def feedback_optimize_generator():
     """Endpoint: generar nuevo prompt optimizado para el Generator (Strategy C)"""
@@ -501,7 +425,7 @@ def feedback_prompt_versions():
 
 
 def _auto_optimize_prompts():
-    """Background task: optimize Judge + Generator prompts after accumulating feedback"""
+    """Background task: optimize Generator prompt based on feedback"""
     try:
         history = prompt_optimizer.load_feedback_history()
         if not history:
@@ -511,55 +435,6 @@ def _auto_optimize_prompts():
         prompt_dir = Path("./prompt_versions")
         prompt_dir.mkdir(exist_ok=True)
 
-        # Optimize Judge
-        judge_base = """Eres un evaluador experto en pictogramas AAC (Comunicación Aumentativa y Alternativa).
-
-Tu tarea es evaluar qué tan bien una secuencia de pictogramas transmite el SIGNIFICADO CENTRAL de una frase en español, NO su gramática exacta.
-
-CRITERIOS DE EVALUACIÓN (en orden de importancia):
-1. COBERTURA SEMÁNTICA (50%): ¿Los conceptos clave (sustantivos, verbos, adjetivos importantes) están representados?
-2. PRECISIÓN DE SELECCIÓN (30%): ¿Cada pictograma representa el concepto correcto?
-3. ORDEN LÓGICO (20%): ¿El orden permite entender la idea general?
-
-INSTRUCCIONES CRÍTICAS SOBRE GRAMÁTICA:
-- Los ARTÍCULOS (el, la, un, una, los, las) NO son concepts importantes en AAC. IGNÓRALOS completamente.
-- Las PREPOSICIONES (a, hacia, en, con, de) son secundarias. Solo marca como faltante si cambian el significado drásticamente (ej: "a" vs "de" cambia dirección).
-- Palabras como "un", "al" (a+el), "del" (de+el) NO deben listarse como faltantes.
-- No penalices por falta de conectores gramaticales. En AAC, "Niño corre parque" es aceptable; no necesita "El niño corre al parque".
-- Evalúa la INTENCIÓN COMUNICATIVA, no la corrección gramatical.
-
-EJEMPLOS DE LO QUE NO PENALIZAR:
-- Falta el artículo "un" o "el"
-- Falta la preposición "a" o "hacia" (a menos que sea crítica para el significado)
-- Falta de concordancia de género/número en artículos
-
-EJEMPLOS DE LO QUE SÍ PENALIZAR:
-- El pictograma no representa el concepto (ej: "corriendo" pero pictograma de "carrera" como evento deportivo)
-- Faltan sustantivos o verbos clave
-- Orden que invierte el significado (ej: "come niño" en lugar de "niño come")
-- A pesar de que las palabras sean similares como "comer" y "tomar" o cualquier otro sinonimo, verifica bien si la descripcion del pictograma realmente corresponde con lo que se quiere expresar.
-
-Responde SOLO con JSON válido:
-{
-  "score": 1-5,
-  "missing_concepts": ["concepto_clave1", "concepto_clave2"] | [],
-  "incorrect_pictograms": [{"concept": "X", "reason": "explicación enfocada en significado, no gramática"}] | [],
-  "ordering_issues": ["solo si el orden cambia el significado"] | [],
-  "suggestions": ["sugerencia concisa"] | []
-}
-
-Escala de score (ENFOCADA EN SIGNIFICADO):
-- 1: Muy malo - Conceptos clave faltantes o pictogramas totalmente incorrectos
-- 2: Malo - Algunos conceptos clave incorrectos o faltantes
-- 3: Regular - Mayormente comprensible, errores menores de significado
-- 4: Bueno - Transmite bien la idea, quizás un error menor de selección
-- 5: Excelente - Representación clara y precisa de la idea central"""
-        optimized_judge = prompt_optimizer.get_optimized_judge_prompt(judge_base, patterns)
-        existing_judge = sorted(prompt_dir.glob("judge_v*.txt"))
-        prompt_optimizer.save_prompt_version("judge", len(existing_judge) + 1, optimized_judge)
-        print(f"[AUTO] Judge prompt optimized → version {len(existing_judge) + 1}")
-
-        # Optimize Generator
         gen_base = """Eres un experto en selecionar pictogramas ARASAAC para AAC.
 
 Tu tarea es crear una secuencia de pictogramas que represente fielmente el significado de una frase en español.
@@ -582,9 +457,9 @@ No incluyas conceptos, URLs, scores ni razones. Solo los IDs en el orden que con
         prompt_optimizer.save_prompt_version("generator", len(existing_gen) + 1, optimized_gen)
         print(f"[AUTO] Generator prompt optimized → version {len(existing_gen) + 1}")
 
-        print(f"[AUTO] Prompts optimized successfully after {len(history)} feedback entries")
+        print(f"[AUTO] Generator prompt optimized successfully after {len(history)} feedback entries")
     except Exception as e:
-        print(f"[AUTO] Prompt optimization error: {e}")
+        print(f"[AUTO] Generator prompt optimization error: {e}")
 
 
 if __name__ == "__main__":

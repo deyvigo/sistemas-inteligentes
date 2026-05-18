@@ -1,0 +1,63 @@
+{
+  "timestamp": "20260518_032544",
+  "text": "Estoy observando las estrellas en el cielo",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "estar",
+      "id": 5465,
+      "url": "https://static.arasaac.org/pictograms/5465/5465_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+      "extracted_query": "estoy"
+    },
+    {
+      "order": 2,
+      "concept": "mostrar",
+      "id": 11308,
+      "url": "https://static.arasaac.org/pictograms/11308/11308_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "observando"
+    },
+    {
+      "order": 3,
+      "concept": "estrellas",
+      "id": 6978,
+      "url": "https://static.arasaac.org/pictograms/6978/6978_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: estrellas\n  Descripción:  f. Cuerpos celestes que brillan en el cielo con luz propia. \n\n\n  Sinónimos: cielo, firmamento\n  Categorías: astronomía\n  Contexto: astronomía",
+      "extracted_query": "estrellas"
+    },
+    {
+      "order": 4,
+      "concept": "cielo",
+      "id": 38270,
+      "url": "https://static.arasaac.org/pictograms/38270/38270_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: cielo\n  Descripción: \n  Sinónimos: \n  Categorías: geografía física, transporte aéreo\n  Contexto: geografía, geografía física, Movimiento, tráfico, modo de transporte, transporte aéreo",
+      "extracted_query": "cielo"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "observar/mirar"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "estar",
+        "reason": "El verbo 'estar' es un auxiliar gramatical que no aporta significado a la acción de observar."
+      },
+      {
+        "concept": "mostrar",
+        "reason": "El pictograma de 'mostrar' (enseñar algo a alguien) altera el significado de la frase; la acción debería ser 'observar' o 'mirar'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Reemplazar 'estar' y 'mostrar' por un único pictograma de 'mirar' u 'observar' para capturar la acción principal.",
+      "Mantener solo 'mirar', 'estrellas' y 'cielo'."
+    ]
+  }
+}

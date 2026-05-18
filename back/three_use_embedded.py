@@ -1,9 +1,6 @@
 import numpy as np
-import re
-from sentence_transformers import SentenceTransformer
-import json
 from pathlib import Path
-from collections import defaultdict, Counter
+from sentence_transformers import SentenceTransformer
 
 # ── Import feedback analysis from central module ──
 from feedback_analyzer import (
@@ -13,7 +10,6 @@ from feedback_analyzer import (
     apply_rule_improvements,
     analyze_llm_suggestions,
     apply_llm_suggestions_as_postprocessing,
-    build_correction_table,
     get_overrides
 )
 
@@ -37,9 +33,8 @@ embeddings = np.load("./embeddings/embeddings.npy")
 ids = np.load("./embeddings/ids.npy")
 texts = np.load("./embeddings/texts.npy")
 
-# Feedback storage
-FEEDBACK_DIR = Path("./feedback_logs")
-FEEDBACK_DIR.mkdir(exist_ok=True)
+# Ensure feedback directory exists
+Path("./feedback_logs").mkdir(exist_ok=True)
 
 def search(query, top_k=5, offset=0):
     query_emb = model.encode([query], normalize_embeddings=True)[0]

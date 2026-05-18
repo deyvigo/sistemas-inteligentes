@@ -1,0 +1,170 @@
+{
+  "timestamp": "20260518_040542",
+  "text": "Estoy con sueño hoy dormire temprano",
+  "concepts": [
+    "estoy",
+    "sueño",
+    "hoy",
+    "dormire",
+    "temprano"
+  ],
+  "candidates": [
+    {
+      "concept": "estoy",
+      "candidates": [
+        {
+          "id": 5465,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 31807,
+          "concept": "yo",
+          "query_concept": "estoy",
+          "text": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+          "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8651782274246216
+        }
+      ]
+    },
+    {
+      "concept": "sueño",
+      "candidates": [
+        {
+          "id": 5590,
+          "concept": "sueño",
+          "query_concept": "sueño",
+          "text": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.8894964456558228
+        },
+        {
+          "id": 7257,
+          "concept": "soñar",
+          "query_concept": "sueño",
+          "text": "query: Concepto: soñar\n  Descripción: tr. Representar en la fantasía algo mientras dormimos\n  Sinónimos: sueño\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: soñar\n  Descripción: tr. Representar en la fantasía algo mientras dormimos\n  Sinónimos: sueño\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8885287046432495
+        },
+        {
+          "id": 28426,
+          "concept": "siesta",
+          "query_concept": "sueño",
+          "text": "query: Concepto: siesta\n  Descripción: f. Sueño que se toma después de comer.\n  Sinónimos: \n  Categorías: necesidades básicas\n  Contexto: persona, necesidades básicas",
+          "description": "query: Concepto: siesta\n  Descripción: f. Sueño que se toma después de comer.\n  Sinónimos: \n  Categorías: necesidades básicas\n  Contexto: persona, necesidades básicas",
+          "score": 0.8794173002243042
+        }
+      ]
+    },
+    {
+      "concept": "hoy",
+      "candidates": [
+        {
+          "id": 7131,
+          "concept": "hoy",
+          "query_concept": "hoy",
+          "text": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+          "description": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+          "score": 0.8854758739471436
+        },
+        {
+          "id": 13026,
+          "concept": "ahora",
+          "query_concept": "hoy",
+          "text": "query: Concepto: ahora\n  Descripción: adv. t. A esta hora, en este momento, en el tiempo actual o presente.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos",
+          "description": "query: Concepto: ahora\n  Descripción: adv. t. A esta hora, en este momento, en el tiempo actual o presente.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos",
+          "score": 0.8780568242073059
+        },
+        {
+          "id": 6926,
+          "concept": "ayer",
+          "query_concept": "hoy",
+          "text": "query: Concepto: ayer\n  Descripción:  adv. t. En el día inmediatamente anterior al de hoy.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico",
+          "description": "query: Concepto: ayer\n  Descripción:  adv. t. En el día inmediatamente anterior al de hoy.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico",
+          "score": 0.8776957988739014
+        }
+      ]
+    },
+    {
+      "concept": "dormire",
+      "candidates": [
+        {
+          "id": 6479,
+          "concept": "dormir",
+          "query_concept": "dormire",
+          "text": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+          "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+          "score": 0.8714804649353027
+        },
+        {
+          "id": 28623,
+          "concept": "dormir",
+          "query_concept": "dormire",
+          "text": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "score": 0.8709178566932678
+        },
+        {
+          "id": 2369,
+          "concept": "dormir",
+          "query_concept": "dormire",
+          "text": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbo, necesidades básicas, rutina\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, rutina",
+          "score": 0.8709178566932678
+        }
+      ]
+    },
+    {
+      "concept": "temprano",
+      "candidates": [
+        {
+          "id": 27319,
+          "concept": "anterior",
+          "query_concept": "temprano",
+          "text": "query: Concepto: anterior\n  Descripción: adj. Que precede en lugar o tiempo.\n  Sinónimos: preceder, anteceder\n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "description": "query: Concepto: anterior\n  Descripción: adj. Que precede en lugar o tiempo.\n  Sinónimos: preceder, anteceder\n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 25704,
+          "concept": "mañana",
+          "query_concept": "temprano",
+          "text": "query: Concepto: mañana\n  Descripción:  f. Tiempo entre el amanecer y el mediodía.\n  Sinónimos: temprano\n  Categorías: hora del día, core vocablo-time, adverb, adverbio del tiempo\n  Contexto: hora, calendario, vocabulario básico, comunicación, idioma, adverb, adverbio del tiempo",
+          "description": "query: Concepto: mañana\n  Descripción:  f. Tiempo entre el amanecer y el mediodía.\n  Sinónimos: temprano\n  Categorías: hora del día, core vocablo-time, adverb, adverbio del tiempo\n  Contexto: hora, calendario, vocabulario básico, comunicación, idioma, adverb, adverbio del tiempo",
+          "score": 0.8725687265396118
+        },
+        {
+          "id": 28618,
+          "concept": "madrugar",
+          "query_concept": "temprano",
+          "text": "query: Concepto: madrugar\n  Descripción: intr. Levantarse al amanecer o muy temprano.\n  Sinónimos: \n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: madrugar\n  Descripción: intr. Levantarse al amanecer o muy temprano.\n  Sinónimos: \n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.8564507961273193
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31807,
+      5590,
+      7131,
+      6479,
+      27319
+    ]
+  }
+}

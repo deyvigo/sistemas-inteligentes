@@ -1,0 +1,148 @@
+{
+  "session_id": "session_1779077017681",
+  "timestamp": "2026-05-18T04:03:37.681Z",
+  "input": {
+    "original_text": "Estoy con sueñon hoy dormire temprano",
+    "concepts_extracted": [
+      "estoy",
+      "sueñon",
+      "hoy",
+      "dormire",
+      "temprano"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "yo",
+        "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+        "extracted_query": "estoy",
+        "id": 31807,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/31807/31807_500.png"
+      },
+      {
+        "concept": "sueño",
+        "description": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+        "extracted_query": "sueñon",
+        "id": 5590,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/5590/5590_500.png"
+      },
+      {
+        "concept": "hoy",
+        "description": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+        "extracted_query": "hoy",
+        "id": 7131,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/7131/7131_500.png"
+      },
+      {
+        "concept": "dormir",
+        "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+        "extracted_query": "dormire",
+        "id": 6479,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/6479/6479_500.png"
+      },
+      {
+        "concept": "mañana",
+        "description": "query: Concepto: mañana\n  Descripción:  f. Tiempo entre el amanecer y el mediodía.\n  Sinónimos: temprano\n  Categorías: hora del día, core vocablo-time, adverb, adverbio del tiempo\n  Contexto: hora, calendario, vocabulario básico, comunicación, idioma, adverb, adverbio del tiempo",
+        "extracted_query": "temprano",
+        "id": 25704,
+        "order": 5,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/25704/25704_500.png"
+      }
+    ],
+    "analysis": {
+      "concepts": [
+        "estoy",
+        "sueñon",
+        "hoy",
+        "dormire",
+        "temprano"
+      ]
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [
+      {
+        "concept": "mañana",
+        "reason": "El pictograma de 'mañana' no representa el concepto de 'temprano'. Cambia completamente el significado de la intención (dormir pronto vs. dormir en un momento futuro)."
+      }
+    ],
+    "missing_concepts": [
+      "temprano"
+    ],
+    "ordering_issues": [],
+    "score": 2,
+    "suggestions": [
+      "Sustituir el pictograma de 'mañana' por uno que represente 'temprano' (como un reloj con manecillas marcando una hora temprana o un sol saliendo)."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "yo",
+        "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+        "extracted_query": "estoy",
+        "id": 31807,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/31807/31807_500.png"
+      },
+      {
+        "concept": "sueño",
+        "description": "query: Concepto: sueño\n  Descripción:  Representación en la fantasía de sucesos e imágenes mientras se duerme. \n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+        "extracted_query": "sueñon",
+        "id": 5590,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/5590/5590_500.png"
+      },
+      {
+        "concept": "hoy",
+        "description": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+        "extracted_query": "hoy",
+        "id": 7131,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/7131/7131_500.png"
+      },
+      {
+        "concept": "dormir",
+        "description": "query: Concepto: dormir\n  Descripción: intr. Estar en aquel reposo que consiste en la inacción o suspensión de los sentidos y de todo movimiento voluntario. \n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, rutina, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, rutina, vocabulario básico",
+        "extracted_query": "dormire",
+        "id": 6479,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/6479/6479_500.png"
+      },
+      {
+        "concept": "anterior",
+        "description": "query: Concepto: anterior\n  Descripción: adj. Que precede en lugar o tiempo.\n  Sinónimos: preceder, anteceder\n  Categorías: conceptos básicos\n  Contexto: matemáticas, conceptos básicos",
+        "feedback_override": false,
+        "id": 27319,
+        "order": 5,
+        "query_concept": "antes",
+        "score": 0.8731353282928467,
+        "url": "https://static.arasaac.org/pictograms/27319/27319_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [
+        25704
+      ],
+      "addedPictogramIds": [
+        27319
+      ],
+      "reorder_details": []
+    }
+  }
+}

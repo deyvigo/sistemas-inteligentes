@@ -1,0 +1,114 @@
+{
+  "session_id": "session_1779076028404",
+  "timestamp": "2026-05-18T03:47:08.404Z",
+  "input": {
+    "original_text": "Estoy mirando las estrellas en el cielo",
+    "concepts_extracted": [
+      "estoy",
+      "mirando",
+      "estrellas",
+      "cielo"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "mirada",
+        "description": "query: Concepto: mirada\n  Descripción: f. Acción y efecto de mirar.\n  Sinónimos: vistazo\n  Categorías: sentidos\n  Contexto: cuerpo humano, fisiología, fisiología humana, sentidos",
+        "extracted_query": "mirando",
+        "id": 36041,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/36041/36041_500.png"
+      },
+      {
+        "concept": "estrella",
+        "description": "query: Concepto: estrella\n  Descripción:  f. Cuerpo celeste que brilla en el cielo con luz propia. \n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+        "extracted_query": "estrellas",
+        "id": 2752,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/2752/2752_500.png"
+      },
+      {
+        "concept": "cielo",
+        "description": "query: Concepto: cielo\n  Descripción: \n  Sinónimos: \n  Categorías: geografía física, transporte aéreo\n  Contexto: geografía, geografía física, Movimiento, tráfico, modo de transporte, transporte aéreo",
+        "extracted_query": "cielo",
+        "id": 38270,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/38270/38270_500.png"
+      }
+    ],
+    "analysis": {
+      "concepts": [
+        "estoy",
+        "mirando",
+        "estrellas",
+        "cielo"
+      ]
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [],
+    "missing_concepts": [],
+    "ordering_issues": [],
+    "score": 5,
+    "suggestions": [
+      "La secuencia es clara y comunica perfectamente el mensaje central mediante el uso de sujeto implícito (yo), acción (mirar) y objeto/lugar (estrellas/cielo)."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "yo",
+        "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+        "feedback_override": false,
+        "id": 31807,
+        "order": 1,
+        "query_concept": "yo",
+        "score": 0.8568991422653198,
+        "url": "https://static.arasaac.org/pictograms/31807/31807_500.png"
+      },
+      {
+        "concept": "mirada",
+        "description": "query: Concepto: mirada\n  Descripción: f. Acción y efecto de mirar.\n  Sinónimos: vistazo\n  Categorías: sentidos\n  Contexto: cuerpo humano, fisiología, fisiología humana, sentidos",
+        "extracted_query": "mirando",
+        "id": 36041,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/36041/36041_500.png"
+      },
+      {
+        "concept": "estrellas",
+        "description": "query: Concepto: estrellas\n  Descripción:  f. Cuerpos celestes que brillan en el cielo con luz propia. \n\n\n  Sinónimos: cielo, firmamento\n  Categorías: astronomía\n  Contexto: astronomía",
+        "feedback_override": false,
+        "id": 6978,
+        "order": 3,
+        "query_concept": "estrellas",
+        "score": 0.9022436141967773,
+        "url": "https://static.arasaac.org/pictograms/6978/6978_500.png"
+      },
+      {
+        "concept": "cielo",
+        "description": "query: Concepto: cielo\n  Descripción: \n  Sinónimos: \n  Categorías: geografía física, transporte aéreo\n  Contexto: geografía, geografía física, Movimiento, tráfico, modo de transporte, transporte aéreo",
+        "extracted_query": "cielo",
+        "id": 38270,
+        "order": 4,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/38270/38270_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [
+        2752
+      ],
+      "addedPictogramIds": [
+        31807,
+        6978
+      ],
+      "reorder_details": []
+    }
+  }
+}

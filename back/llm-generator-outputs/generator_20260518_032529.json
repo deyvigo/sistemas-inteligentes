@@ -1,0 +1,137 @@
+{
+  "timestamp": "20260518_032529",
+  "text": "Estoy observando las estrellas en el cielo",
+  "concepts": [
+    "estoy",
+    "observando",
+    "estrellas",
+    "cielo"
+  ],
+  "candidates": [
+    {
+      "concept": "estoy",
+      "candidates": [
+        {
+          "id": 5465,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8651782274246216
+        },
+        {
+          "id": 13630,
+          "concept": "estoy bien",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "description": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "score": 0.8628960251808167
+        }
+      ]
+    },
+    {
+      "concept": "observando",
+      "candidates": [
+        {
+          "id": 11308,
+          "concept": "mostrar",
+          "query_concept": "observando",
+          "text": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8792303204536438
+        },
+        {
+          "id": 31902,
+          "concept": "mostrar",
+          "query_concept": "observando",
+          "text": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8792303204536438
+        },
+        {
+          "id": 16823,
+          "concept": "mostrar",
+          "query_concept": "observando",
+          "text": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: mostrar\n  Descripción: r. Exponer algo a la vista señalarlo para que se vea\n  Sinónimos: presentar, enseñar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8786386847496033
+        }
+      ]
+    },
+    {
+      "concept": "estrellas",
+      "candidates": [
+        {
+          "id": 6978,
+          "concept": "estrellas",
+          "query_concept": "estrellas",
+          "text": "query: Concepto: estrellas\n  Descripción:  f. Cuerpos celestes que brillan en el cielo con luz propia. \n\n\n  Sinónimos: cielo, firmamento\n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: estrellas\n  Descripción:  f. Cuerpos celestes que brillan en el cielo con luz propia. \n\n\n  Sinónimos: cielo, firmamento\n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.9022436141967773
+        },
+        {
+          "id": 2752,
+          "concept": "estrella",
+          "query_concept": "estrellas",
+          "text": "query: Concepto: estrella\n  Descripción:  f. Cuerpo celeste que brilla en el cielo con luz propia. \n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: estrella\n  Descripción:  f. Cuerpo celeste que brilla en el cielo con luz propia. \n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.899152398109436
+        },
+        {
+          "id": 4644,
+          "concept": "estrella",
+          "query_concept": "estrellas",
+          "text": "query: Concepto: estrella\n  Descripción:  Cualquier objeto que tiene la forma con la que habitualmente se representan las estrellas, es decir, un círculo rodeado de puntas.\n  Sinónimos: \n  Categorías: forma, geometría\n  Contexto: forma, matemáticas, geometría",
+          "description": "query: Concepto: estrella\n  Descripción:  Cualquier objeto que tiene la forma con la que habitualmente se representan las estrellas, es decir, un círculo rodeado de puntas.\n  Sinónimos: \n  Categorías: forma, geometría\n  Contexto: forma, matemáticas, geometría",
+          "score": 0.8869563937187195
+        }
+      ]
+    },
+    {
+      "concept": "cielo",
+      "candidates": [
+        {
+          "id": 38270,
+          "concept": "cielo",
+          "query_concept": "cielo",
+          "text": "query: Concepto: cielo\n  Descripción: \n  Sinónimos: \n  Categorías: geografía física, transporte aéreo\n  Contexto: geografía, geografía física, Movimiento, tráfico, modo de transporte, transporte aéreo",
+          "description": "query: Concepto: cielo\n  Descripción: \n  Sinónimos: \n  Categorías: geografía física, transporte aéreo\n  Contexto: geografía, geografía física, Movimiento, tráfico, modo de transporte, transporte aéreo",
+          "score": 0.8723284602165222
+        },
+        {
+          "id": 6978,
+          "concept": "estrellas",
+          "query_concept": "cielo",
+          "text": "query: Concepto: estrellas\n  Descripción:  f. Cuerpos celestes que brillan en el cielo con luz propia. \n\n\n  Sinónimos: cielo, firmamento\n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: estrellas\n  Descripción:  f. Cuerpos celestes que brillan en el cielo con luz propia. \n\n\n  Sinónimos: cielo, firmamento\n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.8689525127410889
+        },
+        {
+          "id": 2752,
+          "concept": "estrella",
+          "query_concept": "cielo",
+          "text": "query: Concepto: estrella\n  Descripción:  f. Cuerpo celeste que brilla en el cielo con luz propia. \n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: estrella\n  Descripción:  f. Cuerpo celeste que brilla en el cielo con luz propia. \n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.8640053272247314
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      5465,
+      11308,
+      6978,
+      38270
+    ]
+  }
+}

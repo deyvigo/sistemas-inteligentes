@@ -1,6 +1,4 @@
 import re
-import json
-from pathlib import Path
 
 
 COMMON_SUBJECTS = {"el", "la", "los", "las", "un", "una", "unos", "unas", "mi", "tu", "su", "nuestro", "nuestra"}

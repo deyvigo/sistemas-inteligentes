@@ -1,0 +1,42 @@
+{
+  "timestamp": "20260518_034451",
+  "text": "Estoy mirando las estrellas en el cielo",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "mirada",
+      "id": 36041,
+      "url": "https://static.arasaac.org/pictograms/36041/36041_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: mirada\n  Descripción: f. Acción y efecto de mirar.\n  Sinónimos: vistazo\n  Categorías: sentidos\n  Contexto: cuerpo humano, fisiología, fisiología humana, sentidos",
+      "extracted_query": "mirando"
+    },
+    {
+      "order": 2,
+      "concept": "estrella",
+      "id": 2752,
+      "url": "https://static.arasaac.org/pictograms/2752/2752_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: estrella\n  Descripción:  f. Cuerpo celeste que brilla en el cielo con luz propia. \n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+      "extracted_query": "estrellas"
+    },
+    {
+      "order": 3,
+      "concept": "cielo",
+      "id": 38270,
+      "url": "https://static.arasaac.org/pictograms/38270/38270_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: cielo\n  Descripción: \n  Sinónimos: \n  Categorías: geografía física, transporte aéreo\n  Contexto: geografía, geografía física, Movimiento, tráfico, modo de transporte, transporte aéreo",
+      "extracted_query": "cielo"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia es clara y comunica perfectamente el mensaje central mediante el uso de sujeto implícito (yo), acción (mirar) y objeto/lugar (estrellas/cielo)."
+    ]
+  }
+}

@@ -92,50 +92,6 @@ def analyze_concept_corrections(feedback_history):
     
     return result
 
-def apply_rule_improvements(concept, concept_stats):
-    """
-    Apply learned rules to adjust pictogram selection for a concept
-    
-    Args:
-        concept (str): The concept we're processing
-        concept_stats (dict): The analyzed statistics from feedback
-        
-    Returns:
-        dict: Modifiers to apply to search results (boost/suppress certain IDs)
-    """
-    if concept not in concept_stats:
-        return {}  # No learned rules for this concept
-    
-    stats = concept_stats[concept]
-    modifiers = {
-        'boost': {},
-        'suppress': {}
-    }
-    
-    # Boost preferred pictograms
-    for pictogram_id in stats['preferred_pictogram_ids']:
-        # Higher confidence = stronger boost
-        boost_value = min(stats['confidence'] * 0.1, 2.0)  # Cap at 2.0
-        modifiers['boost'][pictogram_id] = boost_value
-    
-    # Suppress rejected pictograms
-    for pictogram_id in stats['rejected_pictogram_ids']:
-        # Higher confidence = stronger suppression (negative boost)
-        suppress_value = max(-stats['confidence'] * 0.1, -2.0)  # Cap at -2.0
-        modifiers['suppress'][pictogram_id] = suppress_value
-    
-    return modifiers
-
-def get_pictogram_search_modifier(concept):
-    """
-    Convenience function to get search modifiers for a concept
-    Loads feedback history and applies rules
-    """
-    # In a production system, we'd cache this to avoid reloading every time
-    # For now, we'll load on demand
-    history = load_feedback_history()
-    concept_stats = analyze_concept_corrections(history)
-    return apply_rule_improvements(concept, concept_stats)
 
 def analyze_llm_suggestions(feedback_history):
     """
@@ -173,50 +129,6 @@ def analyze_llm_suggestions(feedback_history):
                 suggestion_patterns[suggestion[:50]] += 1
     
     return dict(suggestion_patterns)
-
-def apply_llm_suggestions_as_postprocessing(concept, llm_suggestions, original_sequence):
-    """
-    Apply learned LLM suggestions as post-processing rules to refine output
-    
-    Args:
-        concept (str): The concept we're processing
-        llm_suggestions (dict): Analyzed LLM suggestions from feedback
-        original_sequence (list): Original sequence of pictograms from system
-        
-    Returns:
-        list: Refined sequence after applying LLM suggestion rules
-    """
-    # Create a copy to avoid modifying original
-    refined_sequence = [item.copy() for item in original_sequence]
-    
-    # Look for replacement patterns that match our concept
-    for pattern, frequency in llm_suggestions.items():
-        if pattern.startswith('replace_') and f'with_{concept}' in pattern:
-            # Extract what concept we should be looking to replace
-            match = re.search(r'replace_(.+)_with_.+', pattern)
-            if match:
-                target_concept = match.group(1)
-                
-                # Find items in sequence matching target_concept
-                for item in refined_sequence:
-                    if item['concept'] == target_concept:
-                        # Apply the LLM suggestion: boost scores for pictograms that represent the action
-                        # In a real implementation, we would look up pictograms that match the suggested action
-                        # For now, we'll just mark that this item should be reviewed
-                        item['llm_suggestion_applied'] = True
-                        item['suggestion_source'] = pattern
-                        item['suggestion_frequency'] = frequency
-                        
-    return refined_sequence
-
-def get_llm_suggestion_modifier(concept):
-    """
-    Convenience function to get LLM suggestion modifiers for a concept
-    """
-    history = load_feedback_history()
-    llm_suggestions = analyze_llm_suggestions(history)
-    # Return suggestions for this concept (would need original sequence to apply fully)
-    return llm_suggestions
 
 
 # ─── Override system: force-include pictograms learned from human corrections ───
@@ -431,14 +343,14 @@ def build_correction_table(feedback_history, min_confidence=1):
             concept = item.get('concept', '').strip()
             if not concept:
                 continue
-            # Normalize Judge concept to an extracted concept key
-            key = _find_best_concept_match(concept, concepts_extracted) or concept
             concept_lower = concept.lower()
-            # Find which original sequence item matches this concept
+            # Find which original sequence item matches this concept by ARASAAC concept name
             for seq_item in orig_seq:
-                seq_text = _get_concept_text(seq_item).lower().strip()
-                if seq_text == concept_lower:
+                if seq_item.get('concept', '').lower().strip() == concept_lower:
                     rejected_id = int(seq_item['id'])
+                    # Use extracted_query as the key (the extracted concept this pictogram was assigned to)
+                    item_concept = seq_item.get('extracted_query', '').lower().strip() or concept
+                    key = _find_best_concept_match(item_concept, concepts_extracted) or item_concept
                     corrections[key]['rejected'][rejected_id] += 1
                     if timestamp:
                         corrections[key]['last_seen'] = timestamp
