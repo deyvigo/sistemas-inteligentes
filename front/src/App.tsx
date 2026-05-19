@@ -34,6 +34,14 @@ interface QueryResponse {
   judge_skipped?: boolean
 }
 
+const scoreColors: Record<number, string> = {
+  1: "bg-red-100 text-red-700 border-red-300",
+  2: "bg-orange-100 text-orange-700 border-orange-300",
+  3: "bg-yellow-100 text-yellow-700 border-yellow-300",
+  4: "bg-lime-100 text-lime-700 border-lime-300",
+  5: "bg-green-100 text-green-700 border-green-300",
+}
+
 function App() {
   const [query, setQuery] = useState("")
   const [data, setData] = useState<QueryResponse | null>(null)
@@ -49,6 +57,7 @@ function App() {
   const [feedbackHistory, setFeedbackHistory] = useState<Array<any>>([])
   const [judgeLoading, setJudgeLoading] = useState(false)
   const [searchingPictograms, setSearchingPictograms] = useState(false)
+  const [userScore, setUserScore] = useState<number | null>(null)
   const searchDebounceRef = useRef<ReturnType<typeof setTimeout>>(null)
 
    const handleReorder = (newSequence: SequenceItem[]) => {
@@ -60,10 +69,11 @@ function App() {
      });
    };
 
-   const handleDataUpdate = (newData: QueryResponse | null) => {
-     setData(newData)
-     setOriginalData(newData ? JSON.parse(JSON.stringify(newData)) : null)
-   }
+    const handleDataUpdate = (newData: QueryResponse | null) => {
+      setData(newData)
+      setOriginalData(newData ? JSON.parse(JSON.stringify(newData)) : null)
+      setUserScore(null)
+    }
 
   const handleDelete = (id: number) => {
     if (!data) return;
@@ -219,56 +229,58 @@ function App() {
        const reordered = reorderDetails.length > 0;
 
        // Prepare feedback for local storage (following README format)
-       const feedbackEntry = {
-         texto: data.original_text,
-         prediccion: originalData?.sequence || [],
-         judge_output: data.judge || {
-           score: 0,
-           missing_concepts: [],
-           incorrect_pictograms: [],
-           ordering_issues: [],
-           suggestions: []
-         },
-         correccion_humana: data.sequence,
-         acciones: {
-           reordered,
-           deletedPictogramIds,
-           addedPictogramIds,
-           reorder_details: reorderDetails
-         }
-       };
+        const feedbackEntry = {
+          texto: data.original_text,
+          prediccion: originalData?.sequence || [],
+          judge_output: data.judge || {
+            score: 0,
+            missing_concepts: [],
+            incorrect_pictograms: [],
+            ordering_issues: [],
+            suggestions: []
+          },
+          correccion_humana: data.sequence,
+          user_score: userScore,
+          acciones: {
+            reordered,
+            deletedPictogramIds,
+            addedPictogramIds,
+            reorder_details: reorderDetails
+          }
+        };
 
        // Add to local history
        setFeedbackHistory(prev => [...prev, feedbackEntry]);
 
-       const feedbackPayload = {
-         session_id: `session_${Date.now()}`,
-         timestamp: new Date().toISOString(),
-         input: {
-           original_text: data.original_text,
-           concepts_extracted: data.concepts_extracted
-         },
-         system_generation: {
-           sequence: originalData?.sequence || [],
-           analysis: originalData?.analysis || { negation: false, temporal_markers: [] }
-         },
-         llm_evaluation: data.judge || {
-           score: 0,
-           missing_concepts: [],
-           incorrect_pictograms: [],
-           ordering_issues: [],
-           suggestions: []
-         },
-         user_modifications: {
-           final_sequence: data.sequence,
-           actions_taken: {
-             reordered,
-             deletedPictogramIds,
-             addedPictogramIds,
-             reorder_details: reorderDetails
-           }
-         }
-       };
+        const feedbackPayload = {
+          session_id: `session_${Date.now()}`,
+          timestamp: new Date().toISOString(),
+          input: {
+            original_text: data.original_text,
+            concepts_extracted: data.concepts_extracted
+          },
+          system_generation: {
+            sequence: originalData?.sequence || [],
+            analysis: originalData?.analysis || { negation: false, temporal_markers: [] }
+          },
+          llm_evaluation: data.judge || {
+            score: 0,
+            missing_concepts: [],
+            incorrect_pictograms: [],
+            ordering_issues: [],
+            suggestions: []
+          },
+          user_score: userScore,
+          user_modifications: {
+            final_sequence: data.sequence,
+            actions_taken: {
+              reordered,
+              deletedPictogramIds,
+              addedPictogramIds,
+              reorder_details: reorderDetails
+            }
+          }
+        };
 
        const response = await fetch("http://localhost:5000/feedback", {
          method: "POST",
@@ -365,6 +377,26 @@ function App() {
                 <>
                   <div className="mb-2">Evaluación: puntuación {data.judge.score}/5</div>
                   <JudgeDisplay judge={data.judge} />
+
+                  {/* User Score */}
+                  <div className="mt-6">
+                    <h3 className="text-sm font-semibold text-gray-600 mb-2">Tu puntuación:</h3>
+                    <div className="flex gap-2">
+                      {[1, 2, 3, 4, 5].map((score) => (
+                        <button
+                          key={score}
+                          onClick={() => setUserScore(score === userScore ? null : score)}
+                          className={`w-10 h-10 rounded-full font-bold text-sm border-2 transition-all ${
+                            userScore === score
+                              ? `${scoreColors[score]} scale-110 shadow-md`
+                              : 'bg-gray-50 text-gray-400 border-gray-200 hover:bg-gray-100'
+                          }`}
+                        >
+                          {score}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
                   
                   {/* Feedback button */}
                   {!feedbackSending && (
@@ -382,23 +414,60 @@ function App() {
                   )}
                 </>
               ) : (
-                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-                  <div className="flex items-center gap-2 text-amber-700 mb-2">
-                    <span className="text-lg">⚡</span>
-                    <span className="font-medium">Evaluación del LLM omitida</span>
+                <>
+                  <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                    <div className="flex items-center gap-2 text-amber-700 mb-2">
+                      <span className="text-lg">⚡</span>
+                      <span className="font-medium">Evaluación del LLM omitida</span>
+                    </div>
+                    <p className="text-sm text-amber-600 mb-3">
+                      La generación fue más rápida al omitir la evaluación automática.
+                      Puedes evaluar esta secuencia manualmente si lo deseas.
+                    </p>
+                    <button
+                      onClick={handleRunJudge}
+                      disabled={judgeLoading}
+                      className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors disabled:opacity-50"
+                    >
+                      {judgeLoading ? "Evaluando..." : "🔍 Evaluar ahora con LLM"}
+                    </button>
                   </div>
-                  <p className="text-sm text-amber-600 mb-3">
-                    La generación fue más rápida al omitir la evaluación automática.
-                    Puedes evaluar esta secuencia manualmente si lo deseas.
-                  </p>
-                  <button
-                    onClick={handleRunJudge}
-                    disabled={judgeLoading}
-                    className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors disabled:opacity-50"
-                  >
-                    {judgeLoading ? "Evaluando..." : "🔍 Evaluar ahora con LLM"}
-                  </button>
-                </div>
+
+                  {/* User Score */}
+                  <div className="mt-6">
+                    <h3 className="text-sm font-semibold text-gray-600 mb-2">Tu puntuación:</h3>
+                    <div className="flex gap-2">
+                      {[1, 2, 3, 4, 5].map((score) => (
+                        <button
+                          key={score}
+                          onClick={() => setUserScore(score === userScore ? null : score)}
+                          className={`w-10 h-10 rounded-full font-bold text-sm border-2 transition-all ${
+                            userScore === score
+                              ? `${scoreColors[score]} scale-110 shadow-md`
+                              : 'bg-gray-50 text-gray-400 border-gray-200 hover:bg-gray-100'
+                          }`}
+                        >
+                          {score}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Feedback button */}
+                  {!feedbackSending && (
+                    <div className="mt-4">
+                      <button
+                        onClick={handleSendFeedback}
+                        disabled={feedbackSent}
+                        className={`w-full px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors ${
+                          feedbackSent ? 'bg-indigo-400 cursor-not-allowed' : 'hover:bg-indigo-700'
+                        }`}
+                      >
+                        {feedbackSent ? 'Feedback enviado ✓' : 'Enviar feedback para mejora'}
+                      </button>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </>
