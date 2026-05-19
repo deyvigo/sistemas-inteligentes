@@ -1,0 +1,101 @@
+{
+  "session_id": "session_1779164584415",
+  "timestamp": "2026-05-19T04:23:04.415Z",
+  "input": {
+    "original_text": "Quiero viajar por el mundo",
+    "concepts_extracted": [
+      "quiero",
+      "viajar",
+      "mundo"
+    ]
+  },
+  "system_generation": {
+    "sequence": [
+      {
+        "concept": "querer",
+        "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, persona",
+        "extracted_query": "quiero",
+        "id": 6600,
+        "order": 1,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/6600/6600_500.png"
+      },
+      {
+        "concept": "viajar",
+        "description": "query: Concepto: viajar\n  Descripción:  intr. Trasladarse de un lugar a otro, generalmente distante, por cualquier medio de locomoción.\n  Sinónimos: ir de excursión\n  Categorías: verbo, Movimiento, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+        "extracted_query": "viajar",
+        "id": 4671,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/4671/4671_500.png"
+      },
+      {
+        "concept": "mundo",
+        "description": "query: Concepto: mundo\n  Descripción: m. Planeta Tierra    \n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+        "extracted_query": "mundo",
+        "id": 30015,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/30015/30015_500.png"
+      }
+    ],
+    "analysis": {
+      "concepts": [
+        "quiero",
+        "viajar",
+        "mundo"
+      ]
+    }
+  },
+  "llm_evaluation": {
+    "incorrect_pictograms": [],
+    "missing_concepts": [],
+    "ordering_issues": [],
+    "score": 5,
+    "suggestions": [
+      "La secuencia es clara y comunica correctamente la intención de deseo y la acción de viajar a nivel global."
+    ]
+  },
+  "user_modifications": {
+    "final_sequence": [
+      {
+        "concept": "querer",
+        "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+        "feedback_override": false,
+        "id": 31141,
+        "order": 1,
+        "query_concept": "querer",
+        "score": 0.8897579908370972,
+        "url": "https://static.arasaac.org/pictograms/31141/31141_500.png"
+      },
+      {
+        "concept": "viajar",
+        "description": "query: Concepto: viajar\n  Descripción:  intr. Trasladarse de un lugar a otro, generalmente distante, por cualquier medio de locomoción.\n  Sinónimos: ir de excursión\n  Categorías: verbo, Movimiento, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+        "extracted_query": "viajar",
+        "id": 4671,
+        "order": 2,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/4671/4671_500.png"
+      },
+      {
+        "concept": "mundo",
+        "description": "query: Concepto: mundo\n  Descripción: m. Planeta Tierra    \n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+        "extracted_query": "mundo",
+        "id": 30015,
+        "order": 3,
+        "score": 0,
+        "url": "https://static.arasaac.org/pictograms/30015/30015_500.png"
+      }
+    ],
+    "actions_taken": {
+      "reordered": false,
+      "deletedPictogramIds": [
+        6600
+      ],
+      "addedPictogramIds": [
+        31141
+      ],
+      "reorder_details": []
+    }
+  }
+}

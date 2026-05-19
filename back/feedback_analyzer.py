@@ -191,29 +191,65 @@ def _find_best_concept_match(corr_text, concepts_list, extracted_embeddings=None
     return None  # below threshold → new concept
 
 
-def build_correction_table(feedback_history, min_confidence=1):
+# ─── Checkpoint system: incremental correction table ───
+
+CHECKPOINT_FILE = FEEDBACK_DIR / "_correction_checkpoint.json"
+
+def _load_checkpoint():
+    if CHECKPOINT_FILE.exists():
+        try:
+            with open(CHECKPOINT_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[CHECKPOINT] Error loading checkpoint: {e}")
+    return None
+
+def _save_checkpoint(processed_files, corrections):
+    serializable = {}
+    for key, data in corrections.items():
+        entry = {}
+        if data.get("candidates"):
+            entry["candidates"] = {str(k): v for k, v in data["candidates"].items()}
+        if data.get("rejected"):
+            entry["rejected"] = {str(k): v for k, v in data["rejected"].items()}
+        if data.get("missing_count"):
+            entry["missing_count"] = data["missing_count"]
+        if data.get("last_seen"):
+            entry["last_seen"] = data["last_seen"]
+        serializable[key] = entry
+    try:
+        with open(CHECKPOINT_FILE, "w", encoding="utf-8") as f:
+            json.dump({"processed_files": sorted(processed_files), "corrections": serializable}, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"[CHECKPOINT] Error saving checkpoint: {e}")
+
+def _rehydrate_corrections(checkpoint_data):
+    corrections = defaultdict(lambda: {"candidates": Counter(), "rejected": Counter(), "missing_count": 0, "last_seen": None})
+    for key, data in checkpoint_data.get("corrections", {}).items():
+        if data.get("candidates"):
+            corrections[key]["candidates"] = Counter({int(k): v for k, v in data["candidates"].items()})
+        if data.get("rejected"):
+            corrections[key]["rejected"] = Counter({int(k): v for k, v in data["rejected"].items()})
+        if data.get("missing_count"):
+            corrections[key]["missing_count"] = data["missing_count"]
+        if data.get("last_seen"):
+            corrections[key]["last_seen"] = data["last_seen"]
+    return corrections
+
+
+def _process_feedback_entries(feedback_history, corrections=None):
     """
-    Build a correction mapping from human + LLM feedback using embedding similarity.
+    Process feedback entries and accumulate into corrections dict.
     
-    For each human correction, finds which extracted concept the corrected item
-    semantically matches via embedding similarity. Stores multiple candidates
-    per concept with their correction counts.
-    
-    Also incorporates LLM Judge feedback:
-      - incorrect_pictograms → rejected IDs that penalize search scores
-      - missing_concepts → missing_count for hinting the generator
+    Args:
+        feedback_history: List of feedback dicts
+        corrections: Existing accumulator dict (defaultdict), or None to create new
     
     Returns:
-        dict: {
-          concept: {
-            "candidates": {id: count, ...},
-            "rejected": {id: count, ...},
-            "missing_count": int,
-            "last_seen": str
-          }
-        }
+        defaultdict: Accumulated corrections
     """
-    corrections = defaultdict(lambda: {"candidates": Counter(), "rejected": Counter(), "missing_count": 0, "last_seen": None})
+    if corrections is None:
+        corrections = defaultdict(lambda: {"candidates": Counter(), "rejected": Counter(), "missing_count": 0, "last_seen": None})
 
     for feedback in feedback_history:
         original_sequence = feedback.get('system_generation', {}).get('sequence', [])
@@ -367,7 +403,11 @@ def build_correction_table(feedback_history, min_confidence=1):
                     corrections[key]['last_seen'] = timestamp
                 print(f"[JUDGE] missing_count++ for concept='{missing}' → key='{key}' (now {corrections[key]['missing_count']})")
 
-    # Filter by min_confidence
+    return corrections
+
+
+def _filter_corrections(corrections, min_confidence=1):
+    """Filter accumulated corrections by min_confidence and return plain dict."""
     result = {}
     for key, data in corrections.items():
         has_candidates = any(c >= min_confidence for c in data['candidates'].values())
@@ -386,6 +426,69 @@ def build_correction_table(feedback_history, min_confidence=1):
     return result
 
 
+def build_correction_table(feedback_history, min_confidence=1):
+    """
+    Build a correction mapping from human + LLM feedback using embedding similarity.
+    Delegates to _process_feedback_entries and _filter_corrections.
+    
+    Returns:
+        dict: {
+          concept: {
+            "candidates": {id: count, ...},
+            "rejected": {id: count, ...},
+            "missing_count": int,
+            "last_seen": str
+          }
+        }
+    """
+    corrections = _process_feedback_entries(feedback_history)
+    return _filter_corrections(corrections, min_confidence)
+
+
+def load_and_build_correction_table(min_confidence=1):
+    """
+    Incrementally load feedback files using a checkpoint on disk.
+    
+    If checkpoint does not exist → process ALL files from scratch.
+    Otherwise → only process new files since last checkpoint.
+    
+    Returns:
+        dict: Same format as build_correction_table
+    """
+    checkpoint = _load_checkpoint()
+
+    if checkpoint is None:
+        print("[CHECKPOINT] No checkpoint found, processing all feedback from scratch")
+        history = load_feedback_history()
+        corrections = _process_feedback_entries(history)
+        processed_files = {f.name for f in FEEDBACK_DIR.glob("feedback_*.json")}
+        _save_checkpoint(processed_files, corrections)
+        return _filter_corrections(corrections, min_confidence)
+
+    processed_files = set(checkpoint.get("processed_files", []))
+    corrections = _rehydrate_corrections(checkpoint)
+
+    all_files = sorted(FEEDBACK_DIR.glob("feedback_*.json"))
+    new_files = [f for f in all_files if f.name not in processed_files]
+
+    if new_files:
+        print(f"[CHECKPOINT] {len(new_files)} new file(s) to process: {[f.name for f in new_files]}")
+        new_history = []
+        for f in new_files:
+            try:
+                with open(f, "r", encoding="utf-8") as fh:
+                    new_history.append(json.load(fh))
+                processed_files.add(f.name)
+            except Exception as e:
+                print(f"[CHECKPOINT] Error loading {f}: {e}")
+        corrections = _process_feedback_entries(new_history, corrections)
+        _save_checkpoint(processed_files, corrections)
+    else:
+        print("[CHECKPOINT] No new feedback files, using cached table")
+
+    return _filter_corrections(corrections, min_confidence)
+
+
 def get_overrides(concept, correction_table=None, min_confidence=1):
     """
     Check if there are learned overrides for a concept.
@@ -399,8 +502,7 @@ def get_overrides(concept, correction_table=None, min_confidence=1):
         dict with {"overrides": {id: count, ...}, "last_seen": str} or None
     """
     if correction_table is None:
-        history = load_feedback_history()
-        correction_table = build_correction_table(history)
+        correction_table = load_and_build_correction_table()
 
     key = concept.lower().strip()
     if key in correction_table:
@@ -635,8 +737,8 @@ def get_feedback_stats():
     
     avg_score = round(sum(scores) / len(scores), 2) if scores else 0
     
-    # Build correction table
-    correction_table = build_correction_table(history, min_confidence=1)
+    # Build correction table (uses checkpoint)
+    correction_table = load_and_build_correction_table(min_confidence=1)
     
     # Feedback over time (by date)
     date_counts = Counter()

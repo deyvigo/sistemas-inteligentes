@@ -1,0 +1,81 @@
+{
+  "processed_files": [
+    "feedback_20260512_061723_021440.json",
+    "feedback_20260512_062100_103408.json",
+    "feedback_20260512_062127_314928.json",
+    "feedback_20260512_062244_660689.json",
+    "feedback_20260512_062519_467687.json",
+    "feedback_20260512_065501_642426.json",
+    "feedback_20260512_161055_008549.json",
+    "feedback_20260518_034708_421070.json",
+    "feedback_20260518_040337_697284.json",
+    "feedback_20260519_042304_447666.json"
+  ],
+  "corrections": {
+    "tomando": {
+      "candidates": {
+        "6061": 1
+      },
+      "missing_count": 1,
+      "last_seen": "2026-05-12T06:17:23.002Z"
+    },
+    "estoy": {
+      "candidates": {
+        "5465": 4,
+        "31807": 1
+      },
+      "last_seen": "2026-05-18T03:47:08.404Z"
+    },
+    "temperatura": {
+      "candidates": {
+        "36973": 2
+      },
+      "last_seen": "2026-05-12T06:21:27.239Z"
+    },
+    "sin": {
+      "candidates": {
+        "7813": 1
+      },
+      "rejected": {
+        "26941": 1
+      },
+      "last_seen": "2026-05-12T06:55:01.624Z"
+    },
+    "estrellas": {
+      "candidates": {
+        "6978": 1
+      },
+      "last_seen": "2026-05-18T03:47:08.404Z"
+    },
+    "temprano": {
+      "candidates": {
+        "27319": 1
+      },
+      "rejected": {
+        "25704": 1
+      },
+      "missing_count": 1,
+      "last_seen": "2026-05-18T04:03:37.681Z"
+    },
+    "mide": {
+      "rejected": {
+        "33102": 2
+      },
+      "last_seen": "2026-05-12T06:21:27.239Z"
+    },
+    "parar": {
+      "missing_count": 1,
+      "last_seen": "2026-05-12T06:55:01.624Z"
+    },
+    "mira": {
+      "missing_count": 1,
+      "last_seen": "2026-05-12T16:10:54.991Z"
+    },
+    "quiero": {
+      "candidates": {
+        "31141": 1
+      },
+      "last_seen": "2026-05-19T04:23:04.415Z"
+    }
+  }
+}

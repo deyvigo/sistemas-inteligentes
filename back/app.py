@@ -317,8 +317,7 @@ def feedback_stats():
 def feedback_rules():
     """Endpoint: tabla de correcciones aprendidas (overrides)"""
     try:
-        history = feedback_analyzer.load_feedback_history()
-        correction_table = feedback_analyzer.build_correction_table(history, min_confidence=1)
+        correction_table = feedback_analyzer.load_and_build_correction_table(min_confidence=1)
         return jsonify({
             "total_rules": len(correction_table),
             "rules": correction_table

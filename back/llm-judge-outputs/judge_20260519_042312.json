@@ -1,0 +1,42 @@
+{
+  "timestamp": "20260519_042312",
+  "text": "Quiero viajar por el mundo",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "querer",
+      "id": 6600,
+      "url": "https://static.arasaac.org/pictograms/6600/6600_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, persona",
+      "extracted_query": "quiero"
+    },
+    {
+      "order": 2,
+      "concept": "viajar",
+      "id": 4671,
+      "url": "https://static.arasaac.org/pictograms/4671/4671_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: viajar\n  Descripción:  intr. Trasladarse de un lugar a otro, generalmente distante, por cualquier medio de locomoción.\n  Sinónimos: ir de excursión\n  Categorías: verbo, Movimiento, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+      "extracted_query": "viajar"
+    },
+    {
+      "order": 3,
+      "concept": "mundo",
+      "id": 30015,
+      "url": "https://static.arasaac.org/pictograms/30015/30015_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: mundo\n  Descripción: m. Planeta Tierra    \n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+      "extracted_query": "mundo"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "La secuencia comunica correctamente el deseo de viajar por el mundo sin necesidad de elementos gramaticales adicionales."
+    ]
+  }
+}

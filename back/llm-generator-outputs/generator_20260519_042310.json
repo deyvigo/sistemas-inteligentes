@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260519_042310",
+  "text": "Quiero viajar por el mundo",
+  "concepts": [
+    "quiero",
+    "viajar",
+    "mundo"
+  ],
+  "candidates": [
+    {
+      "concept": "quiero",
+      "candidates": [
+        {
+          "id": 11538,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875734806060791
+        },
+        {
+          "id": 11536,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875734806060791
+        },
+        {
+          "id": 6600,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, persona",
+          "score": 0.8860514163970947
+        }
+      ]
+    },
+    {
+      "concept": "viajar",
+      "candidates": [
+        {
+          "id": 32508,
+          "concept": "viaje",
+          "query_concept": "viajar",
+          "text": "query: Concepto: viaje\n  Descripción: m. Recorrido o itinerario que se realiza para ir de un lugar a otro: haremos el mismo viaje. \n  Sinónimos: \n  Categorías: ruta, léxico básico-movimiento\n  Contexto: Movimiento, tráfico, ruta, vocabulario básico",
+          "description": "query: Concepto: viaje\n  Descripción: m. Recorrido o itinerario que se realiza para ir de un lugar a otro: haremos el mismo viaje. \n  Sinónimos: \n  Categorías: ruta, léxico básico-movimiento\n  Contexto: Movimiento, tráfico, ruta, vocabulario básico",
+          "score": 0.8800348043441772
+        },
+        {
+          "id": 4671,
+          "concept": "viajar",
+          "query_concept": "viajar",
+          "text": "query: Concepto: viajar\n  Descripción:  intr. Trasladarse de un lugar a otro, generalmente distante, por cualquier medio de locomoción.\n  Sinónimos: ir de excursión\n  Categorías: verbo, Movimiento, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+          "description": "query: Concepto: viajar\n  Descripción:  intr. Trasladarse de un lugar a otro, generalmente distante, por cualquier medio de locomoción.\n  Sinónimos: ir de excursión\n  Categorías: verbo, Movimiento, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+          "score": 0.879732608795166
+        },
+        {
+          "id": 11393,
+          "concept": "viaje",
+          "query_concept": "viajar",
+          "text": "query: Concepto: viaje\n  Descripción: m. Recorrido o itinerario que se realiza para ir de un lugar a otro: haremos el mismo viaje. \n  Sinónimos: trayecto, recorrido, itinerario, ruta\n  Categorías: Movimiento, transporte aéreo\n  Contexto: Movimiento, tráfico, modo de transporte, transporte aéreo",
+          "description": "query: Concepto: viaje\n  Descripción: m. Recorrido o itinerario que se realiza para ir de un lugar a otro: haremos el mismo viaje. \n  Sinónimos: trayecto, recorrido, itinerario, ruta\n  Categorías: Movimiento, transporte aéreo\n  Contexto: Movimiento, tráfico, modo de transporte, transporte aéreo",
+          "score": 0.8793202042579651
+        }
+      ]
+    },
+    {
+      "concept": "mundo",
+      "candidates": [
+        {
+          "id": 30015,
+          "concept": "mundo",
+          "query_concept": "mundo",
+          "text": "query: Concepto: mundo\n  Descripción: m. Planeta Tierra    \n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+          "description": "query: Concepto: mundo\n  Descripción: m. Planeta Tierra    \n  Sinónimos: \n  Categorías: geografía física\n  Contexto: geografía, geografía física",
+          "score": 0.8738099336624146
+        },
+        {
+          "id": 8173,
+          "concept": "mundial",
+          "query_concept": "mundo",
+          "text": "query: Concepto: mundial\n  Descripción: adj. De todo el mundo\n  Sinónimos: \n  Categorías: adjetivo calificativo, geografía física\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, geografía, geografía física",
+          "description": "query: Concepto: mundial\n  Descripción: adj. De todo el mundo\n  Sinónimos: \n  Categorías: adjetivo calificativo, geografía física\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, geografía, geografía física",
+          "score": 0.8697082996368408
+        },
+        {
+          "id": 30014,
+          "concept": "Tierra",
+          "query_concept": "mundo",
+          "text": "query: Concepto: Tierra\n  Descripción: La Tierra es el tercer planeta del Sistema Solar, considerando su distancia al Sol, y el quinto de ellos según su tamaño. Está situada aproximadamente a unos 150 millones de kilómetros del Sol.\n  Sinónimos: mundo\n  Categorías: astronomía, planeta\n  Contexto: astronomía, planeta",
+          "description": "query: Concepto: Tierra\n  Descripción: La Tierra es el tercer planeta del Sistema Solar, considerando su distancia al Sol, y el quinto de ellos según su tamaño. Está situada aproximadamente a unos 150 millones de kilómetros del Sol.\n  Sinónimos: mundo\n  Categorías: astronomía, planeta\n  Contexto: astronomía, planeta",
+          "score": 0.8635115623474121
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      6600,
+      4671,
+      30015
+    ]
+  }
+}
