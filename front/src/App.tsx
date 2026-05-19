@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useRef, useCallback, useEffect } from "react"
 import { SearchBar } from "./components/SearchBar"
 import { ConceptsDisplay } from "./components/ConceptsDisplay"
 import { ImageList } from "./components/ImageList"
@@ -48,6 +48,8 @@ function App() {
   const [feedbackSending, setFeedbackSending] = useState(false)
   const [feedbackHistory, setFeedbackHistory] = useState<Array<any>>([])
   const [judgeLoading, setJudgeLoading] = useState(false)
+  const [searchingPictograms, setSearchingPictograms] = useState(false)
+  const searchDebounceRef = useRef<ReturnType<typeof setTimeout>>(null)
 
    const handleReorder = (newSequence: SequenceItem[]) => {
      if (!data) return;
@@ -81,29 +83,55 @@ function App() {
     })
   }
 
-  const handleSearch = async () => {
-    if (!searchQuery.trim()) {
+  const doSearch = useCallback(async (query: string) => {
+    if (!query.trim()) {
       setSearchResults([])
       setSearchOffset(0)
+      setHasMore(false)
+      setSearchingPictograms(false)
       return
     }
+    setSearchingPictograms(true)
     try {
       const response = await fetch("http://localhost:5000/search-pictograms", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: searchQuery, top_k: 8, offset: 0 })
+        body: JSON.stringify({ query, top_k: 8, offset: 0 })
       })
-      if (!response.ok) {
-        throw new Error(`Error: ${response.status}`)
-      }
+      if (!response.ok) throw new Error(`Error: ${response.status}`)
       const result = await response.json()
       setSearchResults(result.results || [])
-      setHasMore((result.results?.length || 0) >= 8) // Assume more if we got full batch
+      setHasMore((result.results?.length || 0) >= 8)
     } catch (error) {
       console.error("Search error:", error)
       setSearchResults([])
       setHasMore(false)
+    } finally {
+      setSearchingPictograms(false)
     }
+  }, [])
+
+  useEffect(() => {
+    if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+    if (!searchQuery.trim()) {
+      setSearchResults([])
+      setSearchOffset(0)
+      setHasMore(false)
+      setSearchingPictograms(false)
+      return
+    }
+    setSearchingPictograms(true)
+    searchDebounceRef.current = setTimeout(() => {
+      doSearch(searchQuery)
+    }, 350)
+    return () => {
+      if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+    }
+  }, [searchQuery, doSearch])
+
+  const handleSearch = () => {
+    if (searchDebounceRef.current) clearTimeout(searchDebounceRef.current)
+    doSearch(searchQuery)
   }
 
   const handleLoadMore = async () => {
@@ -305,7 +333,7 @@ function App() {
         </h1>
 
         <div className="bg-white rounded-2xl p-6 shadow-xl">
-          <SearchBar value={query} onChange={setQuery} onSend={handleDataUpdate} />
+          <SearchBar value={query} onChange={(v) => { setQuery(v); setData(null); }} onSend={handleDataUpdate} />
         </div>
 
         {data && (
@@ -463,7 +491,7 @@ function App() {
                   </div>
                 </div>
               )}
-              {searchResults.length === 0 && searchQuery && (
+              {searchResults.length === 0 && searchQuery && !searchingPictograms && (
                 <p className="text-gray-500 italic">No se encontraron pictogramas para "{searchQuery}"</p>
               )}
             </div>
@@ -475,6 +503,7 @@ function App() {
                 setSearchOffset(0)
                 setLoadingMore(false)
                 setHasMore(false)
+                setSearchingPictograms(false)
               }}
               className="mt-4 w-full px-4 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 transition-colors"
             >
