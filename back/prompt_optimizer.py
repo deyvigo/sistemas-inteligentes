@@ -52,9 +52,18 @@ def detect_recurring_errors(feedback_history) -> Dict[str, int]:
                 if concept:
                     error_patterns[f"generator_missing_concept: {concept}"] += 1
         
-        # 3. Detect reordering
+        # 3. Detect reordering — and which concepts were moved
         if actions.get('reordered', False):
             error_patterns["reordering"] += 1
+            orig_ids = [item.get('id') for item in orig_sequence]
+            corr_ids = [item.get('id') for item in human_corrections]
+            for orig_idx, pid in enumerate(orig_ids):
+                if pid in corr_ids:
+                    corr_idx = corr_ids.index(pid)
+                    if corr_idx != orig_idx:
+                        concept = orig_sequence[orig_idx].get('concept', 'unknown')
+                        if concept:
+                            error_patterns[f"reordering: {concept}"] += 1
     
     return dict(error_patterns)
 
@@ -76,6 +85,7 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> st
     """
     selection_errors = []
     missing_concepts = []
+    reorder_concepts = []
     has_reordering = False
 
     for pattern, count in error_patterns.items():
@@ -85,6 +95,9 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> st
         elif pattern.startswith("generator_missing_concept:"):
             concept = pattern.replace("generator_missing_concept:", "").strip()
             missing_concepts.append(f"'{concept}'")
+        elif pattern.startswith("reordering:"):
+            concept = pattern.replace("reordering:", "").strip()
+            reorder_concepts.append(f"'{concept}'")
         elif pattern == "reordering":
             has_reordering = True
 
@@ -101,11 +114,18 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> st
             f"- Conceptos que suelen faltar: {concepts_str}. "
             "Asegúrate de que cada concepto extraído tenga un pictograma."
         )
-    if has_reordering:
-        parts.append(
-            "- Verifica el orden: manten el orden original de los conceptos extraídos "
-            "a menos que el contexto de la frase requiera otro."
-        )
+    if has_reordering or reorder_concepts:
+        if reorder_concepts:
+            concepts_str = ", ".join(reorder_concepts[:5])
+            parts.append(
+                f"- El orden de estos conceptos suele ser incorrecto: {concepts_str}. "
+                "Respeta el orden lógico de la frase original."
+            )
+        else:
+            parts.append(
+                "- Verifica el orden: manten el orden original de los conceptos extraídos "
+                "a menos que el contexto de la frase requiera otro."
+            )
 
     if not parts:
         return base_prompt

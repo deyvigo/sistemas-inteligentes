@@ -16,6 +16,7 @@ export const Pictogram = ({ url, concept, order, onDelete, description }: Pictog
           alt={concept}
           className="w-32 h-32 object-contain rounded-lg"
           loading="lazy"
+          draggable={false}
         />
         <span className="absolute -top-2 -right-2 w-7 h-7 bg-indigo-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
           {order}

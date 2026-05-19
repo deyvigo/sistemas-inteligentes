@@ -62,24 +62,17 @@ function App() {
 
    const handleDataUpdate = (newData: QueryResponse | null) => {
      setData(newData)
-     setOriginalData(newData)
+     setOriginalData(newData ? JSON.parse(JSON.stringify(newData)) : null)
    }
 
   const handleDelete = (id: number) => {
     if (!data) return;
     setData(prev => {
       if (!prev) return null
-      
-      const newSequence = prev.sequence.filter(item => item.id !== id)
-      // Update order values
-      newSequence.forEach((item, index) => {
-        item.order = index + 1
-      })
-      
-      return {
-        ...prev,
-        sequence: newSequence
-      }
+      const newSequence = prev.sequence
+        .filter(item => item.id !== id)
+        .map((item, index) => ({ ...item, order: index + 1 }))
+      return { ...prev, sequence: newSequence }
     })
   }
 
