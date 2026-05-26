@@ -1,5 +1,6 @@
 import json
 from collections import Counter
+from datetime import datetime
 from pathlib import Path
 from typing import Dict
 
@@ -10,7 +11,7 @@ def load_feedback_history():
     if not FEEDBACK_DIR.exists():
         return history
     
-    for feedback_file in FEEDBACK_DIR.glob("feedback_*.json"):
+    for feedback_file in sorted(FEEDBACK_DIR.glob("feedback_*.json")):
         try:
             with open(feedback_file, "r", encoding="utf-8") as f:
                 feedback_data = json.load(f)
@@ -35,6 +36,8 @@ def detect_recurring_errors(feedback_history) -> Dict[str, int]:
         human_corrections = feedback.get('user_modifications', {}).get('final_sequence', [])
         orig_sequence = feedback.get('system_generation', {}).get('sequence', [])
         actions = feedback.get('user_modifications', {}).get('actions_taken', {})
+        selected_variant = feedback.get('selected_generation_variant')
+        judge_refinement = feedback.get('judge_refinement') or {}
         
         # 1. Detect Generator wrong ID selections (replacements made by human)
         for i, corr_item in enumerate(human_corrections):
@@ -64,6 +67,19 @@ def detect_recurring_errors(feedback_history) -> Dict[str, int]:
                         concept = orig_sequence[orig_idx].get('concept', 'unknown')
                         if concept:
                             error_patterns[f"reordering: {concept}"] += 1
+
+        # 4. Track whether users accept the Judge-refined version.
+        # This helps tune the generator prompt toward patterns that reduce
+        # post-processing needs in future generations.
+        if selected_variant == "judge_refined":
+            error_patterns["accepted_judge_refinement"] += 1
+            for action in judge_refinement.get("actions", []):
+                action_type = action.get("type")
+                concept = action.get("concept")
+                if action_type == "add_missing" and concept:
+                    error_patterns[f"judge_refinement_missing_concept: {concept}"] += 1
+                elif action_type == "replace_incorrect" and concept:
+                    error_patterns[f"judge_refinement_wrong_selection: {concept}"] += 1
     
     return dict(error_patterns)
 
@@ -87,6 +103,8 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> st
     missing_concepts = []
     reorder_concepts = []
     has_reordering = False
+    judge_missing_concepts = []
+    judge_selection_errors = []
 
     for pattern, count in error_patterns.items():
         if pattern.startswith("generator_wrong_id:"):
@@ -100,6 +118,12 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> st
             reorder_concepts.append(f"'{concept}'")
         elif pattern == "reordering":
             has_reordering = True
+        elif pattern.startswith("judge_refinement_missing_concept:"):
+            concept = pattern.replace("judge_refinement_missing_concept:", "").strip()
+            judge_missing_concepts.append(f"'{concept}'")
+        elif pattern.startswith("judge_refinement_wrong_selection:"):
+            concept = pattern.replace("judge_refinement_wrong_selection:", "").strip()
+            judge_selection_errors.append(f"'{concept}'")
 
     parts = []
     if selection_errors:
@@ -126,6 +150,18 @@ def get_optimized_generator_prompt(base_prompt: str, error_patterns: dict) -> st
                 "- Verifica el orden: manten el orden original de los conceptos extraídos "
                 "a menos que el contexto de la frase requiera otro."
             )
+    if judge_missing_concepts:
+        concepts_str = ", ".join(judge_missing_concepts[:5])
+        parts.append(
+            f"- El LLM-Judge suele agregar conceptos faltantes en: {concepts_str}. "
+            "Inclúyelos desde la generación inicial cuando estén presentes en la oración."
+        )
+    if judge_selection_errors:
+        concepts_str = ", ".join(judge_selection_errors[:5])
+        parts.append(
+            f"- El LLM-Judge suele corregir la selección para: {concepts_str}. "
+            "Compara la descripción de cada candidato antes de seleccionar el ID final."
+        )
 
     if not parts:
         return base_prompt
@@ -162,8 +198,6 @@ def save_prompt_version(prompt_type: str, version: int, prompt_text: str):
 
 if __name__ == "__main__":
     # Test the optimizer
-    from datetime import datetime
-    
     print("Loading feedback history...")
     history = load_feedback_history()
     print(f"Found {len(history)} feedback entries")

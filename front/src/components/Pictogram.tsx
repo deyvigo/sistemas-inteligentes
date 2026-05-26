@@ -1,15 +1,35 @@
+import type { MouseEvent, PointerEvent } from "react"
+
 interface PictogramProps {
   id: number
   url: string
   concept: string
   order: number
   onDelete: () => void
+  onMoveLeft: () => void
+  onMoveRight: () => void
+  canMoveLeft: boolean
+  canMoveRight: boolean
   description?: string
 }
 
-export const Pictogram = ({ url, concept, order, onDelete, description }: PictogramProps) => {
+export const Pictogram = ({
+  url,
+  concept,
+  order,
+  onDelete,
+  onMoveLeft,
+  onMoveRight,
+  canMoveLeft,
+  canMoveRight,
+  description,
+}: PictogramProps) => {
+  const stopDragFromControls = (e: PointerEvent | MouseEvent) => {
+    e.stopPropagation()
+  }
+
   return (
-    <div className="flex flex-col items-center p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+    <div className="flex flex-col items-center p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors w-40">
       <div className="relative group">
         <img
           src={url}
@@ -37,14 +57,52 @@ export const Pictogram = ({ url, concept, order, onDelete, description }: Pictog
         )}
         {/* Delete button */}
         <button
-          onClick={onDelete}
+          onPointerDown={stopDragFromControls}
+          onClick={(e) => {
+            stopDragFromControls(e)
+            onDelete()
+          }}
           className="absolute top-0 right-0 -mt-2 -mr-2 w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center text-xs hover:bg-red-600 transition-colors group-hover:bg-red-600"
           aria-label="Eliminar pictograma"
+          title="Eliminar pictograma"
         >
           ×
         </button>
       </div>
-      <span className="mt-2 text-sm text-gray-600">{concept}</span>
+      <span className="mt-2 text-sm text-gray-600 text-center leading-tight min-h-10 flex items-center">
+        {concept}
+      </span>
+      <div
+        className="mt-2 flex items-center gap-2"
+        onPointerDown={stopDragFromControls}
+      >
+        <button
+          type="button"
+          onClick={(e) => {
+            stopDragFromControls(e)
+            onMoveLeft()
+          }}
+          disabled={!canMoveLeft}
+          className="w-8 h-8 rounded-full border border-gray-200 bg-white text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 disabled:opacity-35 disabled:hover:bg-white disabled:hover:text-gray-600 transition-colors"
+          aria-label="Mover pictograma a la izquierda"
+          title="Mover a la izquierda"
+        >
+          ←
+        </button>
+        <button
+          type="button"
+          onClick={(e) => {
+            stopDragFromControls(e)
+            onMoveRight()
+          }}
+          disabled={!canMoveRight}
+          className="w-8 h-8 rounded-full border border-gray-200 bg-white text-gray-600 hover:bg-indigo-50 hover:text-indigo-600 disabled:opacity-35 disabled:hover:bg-white disabled:hover:text-gray-600 transition-colors"
+          aria-label="Mover pictograma a la derecha"
+          title="Mover a la derecha"
+        >
+          →
+        </button>
+      </div>
     </div>
   )
 }

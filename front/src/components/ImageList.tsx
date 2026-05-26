@@ -2,6 +2,7 @@ import { useState, useRef } from "react"
 import { Pictogram } from "./Pictogram"
 
 interface SequenceItem {
+  uid: string
   order: number
   concept: string
   id: number
@@ -13,23 +14,36 @@ interface SequenceItem {
 interface ImageListProps {
   sequence: SequenceItem[]
   onReorder: (newSequence: SequenceItem[]) => void
-  onDelete: (id: number) => void
+  onDelete: (uid: string) => void
 }
 
 export const ImageList = ({ sequence, onReorder, onDelete }: ImageListProps) => {
-  const [draggedId, setDraggedId] = useState<number | null>(null)
-  const [dragOverId, setDragOverId] = useState<number | null>(null)
-  const lastHoverRef = useRef<number | null>(null)
+  const [draggedUid, setDraggedUid] = useState<string | null>(null)
+  const [dragOverUid, setDragOverUid] = useState<string | null>(null)
+  const lastHoverRef = useRef<string | null>(null)
 
-  const handleDragStart = (e: React.DragEvent, id: number) => {
-    setDraggedId(id)
+  const renumber = (items: SequenceItem[]) =>
+    items.map((item, index) => ({ ...item, order: index + 1 }))
+
+  const moveItem = (uid: string, direction: -1 | 1) => {
+    const currentIndex = sequence.findIndex(item => item.uid === uid)
+    const targetIndex = currentIndex + direction
+    if (currentIndex < 0 || targetIndex < 0 || targetIndex >= sequence.length) return
+    const next = [...sequence]
+    const [item] = next.splice(currentIndex, 1)
+    next.splice(targetIndex, 0, item)
+    onReorder(renumber(next))
+  }
+
+  const handleDragStart = (e: React.DragEvent, uid: string) => {
+    setDraggedUid(uid)
     e.dataTransfer.effectAllowed = "move"
-    e.dataTransfer.setData("text/plain", id.toString())
+    e.dataTransfer.setData("text/plain", uid)
   }
 
   const handleDragEnd = () => {
-    setDraggedId(null)
-    setDragOverId(null)
+    setDraggedUid(null)
+    setDragOverUid(null)
     lastHoverRef.current = null
   }
 
@@ -38,34 +52,33 @@ export const ImageList = ({ sequence, onReorder, onDelete }: ImageListProps) => 
     e.dataTransfer.dropEffect = "move"
   }
 
-  const handleDragEnter = (e: React.DragEvent, id: number) => {
+  const handleDragEnter = (e: React.DragEvent, uid: string) => {
     e.preventDefault()
-    if (id !== draggedId && id !== lastHoverRef.current) {
-      lastHoverRef.current = id
-      setDragOverId(id)
+    if (uid !== draggedUid && uid !== lastHoverRef.current) {
+      lastHoverRef.current = uid
+      setDragOverUid(uid)
     }
   }
 
   const handleDragLeave = (e: React.DragEvent) => {
     if (e.currentTarget.contains(e.relatedTarget as Node)) return
     lastHoverRef.current = null
-    setDragOverId(null)
+    setDragOverUid(null)
   }
 
-  const handleDrop = (e: React.DragEvent, targetId: number) => {
+  const handleDrop = (e: React.DragEvent, targetUid: string) => {
     e.preventDefault()
     lastHoverRef.current = null
-    setDragOverId(null)
-    setDraggedId(null)
-    if (draggedId === null || draggedId === targetId) return
+    setDragOverUid(null)
+    setDraggedUid(null)
+    if (draggedUid === null || draggedUid === targetUid) return
     const newSequence = [...sequence]
-    const draggedIndex = newSequence.findIndex(item => item.id === draggedId)
-    const targetIndex = newSequence.findIndex(item => item.id === targetId)
+    const draggedIndex = newSequence.findIndex(item => item.uid === draggedUid)
+    const targetIndex = newSequence.findIndex(item => item.uid === targetUid)
     if (draggedIndex < 0 || targetIndex < 0) return
     const [draggedItem] = newSequence.splice(draggedIndex, 1)
     newSequence.splice(targetIndex, 0, draggedItem)
-    const reordered = newSequence.map((item, index) => ({ ...item, order: index + 1 }))
-    onReorder(reordered)
+    onReorder(renumber(newSequence))
   }
 
   if (!sequence || sequence.length === 0) {
@@ -78,19 +91,19 @@ export const ImageList = ({ sequence, onReorder, onDelete }: ImageListProps) => 
 
   return (
     <div className="flex flex-wrap justify-center gap-4">
-      {sequence.map((item) => (
+      {sequence.map((item, index) => (
         <div
-          key={item.id}
+          key={item.uid}
           draggable={true}
-          onDragStart={(e) => handleDragStart(e, item.id)}
+          onDragStart={(e) => handleDragStart(e, item.uid)}
           onDragEnd={handleDragEnd}
           onDragOver={handleDragOver}
-          onDragEnter={(e) => handleDragEnter(e, item.id)}
+          onDragEnter={(e) => handleDragEnter(e, item.uid)}
           onDragLeave={handleDragLeave}
-          onDrop={(e) => handleDrop(e, item.id)}
+          onDrop={(e) => handleDrop(e, item.uid)}
           className={`relative cursor-grab active:cursor-grabbing ${
-            draggedId === item.id ? "opacity-40" : ""
-          } ${dragOverId === item.id ? "ring-2 ring-indigo-500 rounded-xl" : ""}`}
+            draggedUid === item.uid ? "opacity-40" : ""
+          } ${dragOverUid === item.uid ? "ring-2 ring-indigo-500 rounded-xl" : ""}`}
         >
           <Pictogram
             id={item.id}
@@ -98,9 +111,13 @@ export const ImageList = ({ sequence, onReorder, onDelete }: ImageListProps) => 
             concept={item.concept}
             order={item.order}
             description={item.description}
-            onDelete={() => onDelete(item.id)}
+            canMoveLeft={index > 0}
+            canMoveRight={index < sequence.length - 1}
+            onMoveLeft={() => moveItem(item.uid, -1)}
+            onMoveRight={() => moveItem(item.uid, 1)}
+            onDelete={() => onDelete(item.uid)}
           />
-          {dragOverId === item.id && (
+          {dragOverUid === item.uid && (
             <div className="absolute inset-0 border-2 border-indigo-500 bg-indigo-50/50 rounded-xl pointer-events-none" />
           )}
         </div>

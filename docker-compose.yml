@@ -3,7 +3,7 @@ services:
     build: ./back
     image: my-backend
     ports:
-      - "5000:5000" # Cambia el primero si tu app usa otro puerto
+      - "5001:5000"
     volumes:
       - ./back:/app
     environment:
@@ -24,7 +24,7 @@ services:
       - ./front:/app
       - /app/node_modules # Evita que los módulos locales sobrescriban los del contenedor
     environment:
-      - VITE_API_URL=http://localhost:5000
+      - VITE_API_URL=http://localhost:5001
     depends_on:
       - backend
     networks:

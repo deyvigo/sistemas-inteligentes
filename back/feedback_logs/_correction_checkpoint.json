@@ -9,7 +9,17 @@
     "feedback_20260512_161055_008549.json",
     "feedback_20260518_034708_421070.json",
     "feedback_20260518_040337_697284.json",
-    "feedback_20260519_042304_447666.json"
+    "feedback_20260519_042304_447666.json",
+    "feedback_20260526_012139_703906.json",
+    "feedback_20260526_013504_343704.json",
+    "feedback_20260526_013927_250899.json",
+    "feedback_20260526_015544_250786.json",
+    "feedback_20260526_015912_521087.json",
+    "feedback_20260526_020020_207084.json",
+    "feedback_20260526_040835_022736.json",
+    "feedback_20260526_040917_738320.json",
+    "feedback_20260526_041041_417164.json",
+    "feedback_20260526_041105_698097.json"
   ],
   "corrections": {
     "tomando": {
@@ -76,6 +86,35 @@
         "31141": 1
       },
       "last_seen": "2026-05-19T04:23:04.415Z"
+    },
+    "dicen": {
+      "candidates": {
+        "9693": 1
+      },
+      "last_seen": "2026-05-26T01:35:04.294Z"
+    },
+    "cuando": {
+      "candidates": {
+        "31886": 1
+      },
+      "rejected": {
+        "31886": 1
+      },
+      "last_seen": "2026-05-26T01:39:27.116Z"
+    },
+    "bajo": {
+      "candidates": {
+        "5437": 1
+      },
+      "rejected": {
+        "4571": 1,
+        "5437": 1
+      },
+      "last_seen": "2026-05-26T04:10:41.390Z"
+    },
+    "pie": {
+      "missing_count": 1,
+      "last_seen": "2026-05-26T04:09:17.693Z"
     }
   }
 }

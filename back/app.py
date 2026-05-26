@@ -11,6 +11,8 @@ from datetime import datetime
 from pathlib import Path
 import feedback_analyzer
 import prompt_optimizer
+import eval_judge_impact
+import eval_iterative
 import threading
 
 def extract_concept(text):
@@ -21,6 +23,10 @@ def extract_concept(text):
         return match.group(1).strip()
     # Fallback: return first 50 chars
     return text.strip()[:50]
+
+
+def _renumber_sequence(sequence):
+    return [{**item, "order": idx + 1} for idx, item in enumerate(sequence)]
 
 load_dotenv()
 
@@ -53,7 +59,9 @@ def home():
 @app.route("/config")
 def config():
     return jsonify({
-        "gemini_configured": bool(GEMINI_API_KEY)
+        "gemini_configured": bool(GEMINI_API_KEY or GEMINI_API_KEY_GENERATOR or GEMINI_API_KEY_JUDGE),
+        "generator_configured": bool(GEMINI_API_KEY_GENERATOR),
+        "judge_configured": bool(GEMINI_API_KEY_JUDGE),
     })
 
 @app.route("/query", methods=["POST"])
@@ -92,13 +100,46 @@ def judge():
     text = body["text"]
     sequence = body["sequence"]
 
-    if not GEMINI_API_KEY:
+    judge_key = GEMINI_API_KEY_JUDGE or GEMINI_API_KEY
+    if not judge_key:
         return jsonify({
-            "error": "GEMINI_API_KEY no configurada en el servidor"
+            "error": "GEMINI_API_KEY_JUDGE o GEMINI_API_KEY no configurada en el servidor"
         }), 400
 
-    result = llm_judge(text, sequence, GEMINI_API_KEY)
+    result = llm_judge(text, sequence, judge_key)
     return jsonify(result)
+
+
+@app.route("/judge-refinement", methods=["POST"])
+def judge_refinement():
+    """Aplica post-procesamiento determinista usando la salida del LLM-Judge."""
+    body = request.json
+    sequence = body["sequence"]
+    judge_output = body["judge"]
+
+    if judge_output.get("error"):
+        return jsonify({
+            "variant": "judge_refined",
+            "description": "No se puede refinar porque la evaluación del LLM-Judge falló.",
+            "sequence": _renumber_sequence(sequence),
+            "actions": [],
+            "changed": False,
+            "error": "Judge evaluation failed"
+        }), 200
+
+    refined_sequence, refinement_actions = eval_judge_impact.refine_with_judge(sequence, judge_output)
+    
+    return jsonify({
+        "variant": "judge_refined",
+        "description": "Secuencia refinada aplicando conceptos faltantes y reemplazos sugeridos por el LLM-Judge.",
+        "score": judge_output.get("score"),
+        "missing_concepts": judge_output.get("missing_concepts", []),
+        "incorrect_pictograms": judge_output.get("incorrect_pictograms", []),
+        "suggestions": judge_output.get("suggestions", []),
+        "sequence": _renumber_sequence(refined_sequence),
+        "actions": refinement_actions,
+        "changed": [item["id"] for item in refined_sequence] != [item["id"] for item in sequence],
+    })
 
 @app.route("/query-and-judge", methods=["POST"])
 def query_and_judge():
@@ -154,8 +195,17 @@ def query_and_judge():
 
             sequence_results = generation_result["sequence"]
             llm_selections = generation_result.get("selections", [])
-            llm_generator_used = True
-            print(f"[DEBUG] LLM Generator used successfully")
+
+            # If LLM returned empty (internal failure), fall back to embedding search
+            if not sequence_results:
+                print(f"[WARNING] LLM Generator returned empty sequence, falling back to embedding-only")
+                if generation_result.get("error"):
+                    print(f"[WARNING] LLM Generator error was: {generation_result['error']}")
+                sequence_results = search_sequence(processed["concepts"], top_k)
+                llm_generator_used = False
+            else:
+                llm_generator_used = True
+                print(f"[DEBUG] LLM Generator used successfully")
 
         except Exception as e:
             print(f"[ERROR] LLM Generator failed: {e}, falling back to embedding-only")
@@ -206,17 +256,66 @@ def query_and_judge():
     response = {
         "original_text": query_text,
         "concepts_extracted": processed["concepts"],
-        "sequence": pictograms,
         "analysis": processed["analysis"],
         "gemini_configured": bool(GEMINI_API_KEY),
         "llm_generator_used": llm_generator_used,
         "llm_selections": llm_selections if use_llm_generator else [],
         "applied_feedback": applied_feedback_info,
-        "judge_skipped": not run_judge
+        "judge_skipped": not run_judge,
+        # ── Secuencia generada (opción A)
+        "generator_sequence": {
+            "variant": "generator",
+            "description": "Secuencia generada por el LLM-Generator",
+            "sequence": _renumber_sequence(pictograms),
+        },
+        # ── Evaluación del Judge
+        "judge_evaluation": None,
+        # ── Secuencia refinada por el Judge (opción B)
+        "judge_refined_sequence": None,
     }
 
     if judge_result:
-        response["judge"] = judge_result
+        response["judge_evaluation"] = judge_result
+        if not judge_result.get("error"):
+            try:
+                refined_sequence, refinement_actions = eval_judge_impact.refine_with_judge(pictograms, judge_result)
+                
+                # Log refinement result
+                if refinement_actions:
+                    print(f"[DEBUG] Refinement actions applied: {len(refinement_actions)}")
+                    for action in refinement_actions:
+                        print(f"  - {action.get('type')}: {action.get('concept')} (strategy: {action.get('strategy', 'N/A')})")
+                else:
+                    print(f"[DEBUG] No refinement actions applied")
+                
+                response["judge_refined_sequence"] = {
+                    "variant": "judge_refined",
+                    "description": "Secuencia refinada aplicando conceptos faltantes y reemplazos sugeridos por el LLM-Judge.",
+                    "score": judge_result.get("score"),
+                    "missing_concepts": judge_result.get("missing_concepts", []),
+                    "incorrect_pictograms": judge_result.get("incorrect_pictograms", []),
+                    "suggestions": judge_result.get("suggestions", []),
+                    "sequence": _renumber_sequence(refined_sequence),
+                    "actions": refinement_actions,
+                    "changed": [item["id"] for item in refined_sequence] != [item["id"] for item in pictograms],
+                }
+            except Exception as e:
+                print(f"[ERROR] Error during refinement: {e}")
+                import traceback
+                traceback.print_exc()
+                response["judge_refined_sequence"] = {
+                    "variant": "judge_refined",
+                    "description": "Secuencia refinada aplicando conceptos faltantes y reemplazos sugeridos por el LLM-Judge.",
+                    "sequence": _renumber_sequence(pictograms),
+                    "actions": [],
+                    "changed": False,
+                    "error": str(e),
+                }
+
+    # For backward compatibility
+    response["sequence"] = response["generator_sequence"]["sequence"]
+    response["judge"] = response["judge_evaluation"]
+    response["judge_refinement"] = response["judge_refined_sequence"]
 
     return jsonify(response)
 
@@ -421,6 +520,81 @@ def feedback_prompt_versions():
         return jsonify({"versions": versions}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+# ── Evaluation endpoints ──────────────────────────────────────────────────────
+
+@app.route("/eval/judge-impact", methods=["GET"])
+def eval_judge_impact_results():
+    """Devuelve los últimos resultados del análisis de impacto del LLM-Judge (Exp 1)."""
+    data = eval_judge_impact.get_latest()
+    if data is None:
+        return jsonify({"status": "not_run", "message": "El análisis no ha sido ejecutado aún."}), 404
+    return jsonify(data), 200
+
+
+@app.route("/eval/judge-impact/run", methods=["POST"])
+def eval_judge_impact_run():
+    """Lanza el análisis de impacto del LLM-Judge en segundo plano (Exp 1)."""
+    judge_key = GEMINI_API_KEY_JUDGE or GEMINI_API_KEY
+    if not judge_key:
+        return jsonify({"error": "GEMINI_API_KEY_JUDGE o GEMINI_API_KEY no configurada"}), 400
+    body = request.json or {}
+    n     = body.get("n", 30)
+    seed  = body.get("seed", 42)
+    delay = body.get("delay", 1.0)
+    use_llm_generator = body.get("use_llm_generator", USE_LLM_GENERATOR)
+
+    def _run():
+        try:
+            eval_judge_impact.run(
+                n=n,
+                seed=seed,
+                api_key=judge_key,
+                delay=delay,
+                use_llm_generator=use_llm_generator,
+            )
+            print(f"[EVAL] judge-impact analysis complete ({n} sentences)")
+        except Exception as e:
+            print(f"[EVAL] judge-impact error: {e}")
+
+    t = threading.Thread(target=_run, daemon=True)
+    t.start()
+    return jsonify({"status": "running", "n": n, "seed": seed}), 202
+
+
+@app.route("/eval/iterative", methods=["GET"])
+def eval_iterative_stats():
+    """Devuelve el análisis de mejora iterativa desde los logs de feedback (Exp 4, Parte A)."""
+    try:
+        stats = eval_iterative.get_history_stats()
+        sim   = eval_iterative.get_latest_simulation()
+        return jsonify({"history": stats, "simulation": sim}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/eval/iterative/run", methods=["POST"])
+def eval_iterative_run():
+    """Lanza la simulación de mejora iterativa en segundo plano (Exp 4, Parte B)."""
+    judge_key = GEMINI_API_KEY_JUDGE or GEMINI_API_KEY
+    if not judge_key:
+        return jsonify({"error": "GEMINI_API_KEY_JUDGE o GEMINI_API_KEY no configurada"}), 400
+    body  = request.json or {}
+    n     = body.get("n", 15)
+    seed  = body.get("seed", 42)
+    delay = body.get("delay", 1.5)
+
+    def _run():
+        try:
+            eval_iterative.run_simulation(n=n, seed=seed, api_key=judge_key, delay=delay)
+            print(f"[EVAL] iterative simulation complete ({n} sentences)")
+        except Exception as e:
+            print(f"[EVAL] iterative simulation error: {e}")
+
+    t = threading.Thread(target=_run, daemon=True)
+    t.start()
+    return jsonify({"status": "running", "n": n, "seed": seed}), 202
 
 
 def _auto_optimize_prompts():

@@ -1,5 +1,7 @@
 import json
 import os
+import re
+import time
 import numpy as np
 from datetime import datetime
 from pathlib import Path
@@ -38,20 +40,62 @@ def get_text_by_id(pictogram_id: int) -> str:
     """Get the full ARASAAC text description for a pictogram ID"""
     return _id_to_text.get(int(pictogram_id), "")
 
-MODEL_NAME = "gemini-3.1-flash-lite-preview"
+MODEL_NAME = "gemini-3.1-flash-lite"
 
-SYSTEM_PROMPT = """Eres un experto en selecionar pictogramas ARASAAC para AAC.
+MAX_RETRIES = 3
 
-Tu tarea es crear una secuencia de pictogramas que represente fielmente el significado de una frase en español.
+def _generate_with_retry(client, contents, config):
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            return client.models.generate_content(
+                model=MODEL_NAME,
+                contents=contents,
+                config=config
+            )
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                if attempt == MAX_RETRIES:
+                    raise
+                match = re.search(r"retryDelay.*?(\d+)s", error_str)
+                delay = int(match.group(1)) if match else (2 ** attempt) * 10
+                print(f"[RATE LIMIT] Reintentando en {delay}s (intento {attempt + 1}/{MAX_RETRIES})...")
+                time.sleep(delay)
+            else:
+                raise
 
-INSTRUCCIONES:
-- Revisa todos los pictogramas candidatos disponibles
-- Selecciona los que mejor representen la FRASE COMPLETA, no cada concepto individualmente
+SYSTEM_PROMPT = """Eres un experto en seleccionar pictogramas ARASAAC para AAC (Comunicación Aumentativa y Alternativa).
+
+Tu tarea es crear una secuencia de pictogramas que represente fielmente el SIGNIFICADO de una frase en español.
+
+INSTRUCCIONES GENERALES:
+- Revisa TODOS los pictogramas candidatos disponibles y sus descripciones antes de elegir
+- Selecciona los que mejor representen la FRASE COMPLETA, no cada palabra individualmente
 - NO es obligatorio elegir un pictograma por cada concepto extraído
-- Un MISMO pictograma puede cubrir VARIOS conceptos (ej: "niño comiendo pan" podria representarse con 2 pictogramas en vez de 3)
-- El ORDEN de los IDs debe reflejar el orden logico de la idea, no necesariamente el orden de la lista de conceptos
-- Piensa en como se comunicaria esta frase usando pictogramas AAC
-- Respuesta unicamente JSON, sin texto adicional
+- Un MISMO pictograma puede cubrir VARIOS conceptos (ej: "niño comiendo pan" → 2 pictogramas en vez de 3)
+- El ORDEN de los IDs debe reflejar el orden lógico de la comunicación AAC
+- Compara la descripción del pictograma candidato con el concepto antes de seleccionarlo
+
+MANEJO DE VERBOS EN AAC (MUY IMPORTANTE):
+- VERBOS COPULATIVOS (ser, estar): Suelen OMITIRSE en AAC. Representa solo el estado o cualidad.
+  Ejemplo: "Estoy cansado" → busca solo "cansado". "Soy feliz" → busca "feliz".
+- VERBOS DE ESTADO FÍSICO con tener/sentir (tener frío, tener calor, tener hambre, tener sed, tener miedo, sentir dolor):
+  Usa el ESTADO COMPLETO como concepto unificado. Busca "frío", "calor", "hambre", "sed", "miedo", "dolor" directamente.
+  NO uses por separado "tener" + "frío". Busca el pictograma del estado.
+- VERBO TENER (posesión simple): Si el objeto ya está claro, prioriza el objeto.
+  Ejemplo: "tengo una pelota" → usa "pelota" (o "tener" + "pelota" si hay candidato explícito).
+- VERBOS DE ACCIÓN (correr, comer, beber, jugar, saltar, caminar, dormir, etc.):
+  Busca el pictograma que muestre la ACCIÓN directamente. Verifica que la descripción del candidato
+  corresponda a la acción y no a un concepto relacionado diferente (ej: "corriendo" vs "carrera deportiva").
+- VERBOS MODALES (querer, poder, deber, necesitar): Busca el pictograma de la acción principal que los acompaña.
+  Ejemplo: "quiero comer" → prioriza "querer" + "comer" o solo "comer" según el contexto.
+
+SELECCIÓN PRECISA DE PICTOGRAMAS:
+- Si un candidato tiene descripción, léela para confirmar que coincide con el concepto de la frase.
+- Si hay varios candidatos para un concepto, elige el que la descripción indique mayor similitud semántica.
+- Evita pictogramas cuya descripción sea solo parcialmente similar al concepto buscado.
+
+- Respuesta únicamente JSON, sin texto adicional
 - Formato exacto:
 
 {"selected_ids": [456, 123, 789]}
@@ -182,12 +226,10 @@ def generate_sequence(text: str, concepts: list, candidates: list, api_key: Opti
         else:
             client = genai.Client()
         
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=system_prompt
-            )
+        response = _generate_with_retry(
+            client,
+            prompt,
+            types.GenerateContentConfig(system_instruction=system_prompt)
         )
         
         print(f"[DEBUG] LLM raw response: {response.text[:300]}")
