@@ -1,0 +1,36 @@
+{
+  "timestamp": "20260526_065517",
+  "text": "Me van a hacer un electrocardiograma",
+  "sequence": [
+    {
+      "concept": "hacer",
+      "id": 11749,
+      "url": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+      "extracted_query": "hacer"
+    },
+    {
+      "concept": "electrocardiograma",
+      "id": 8100,
+      "url": "https://static.arasaac.org/pictograms/8100/8100_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: electro\n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+      "extracted_query": "electrocardiograma"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "hacer",
+        "reason": "El pictograma de 'hacer' (fabricar/componer) es demasiado abstracto y sugiere una acción de construcción manual, lo cual es semánticamente incorrecto para un procedimiento médico. Se requiere un pictograma relacionado con 'médico', 'revisar' o 'examen'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'hacer' por 'médico' o 'revisar'"
+    ]
+  }
+}

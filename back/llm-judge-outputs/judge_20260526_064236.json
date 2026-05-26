@@ -1,0 +1,92 @@
+{
+  "timestamp": "20260526_064236",
+  "text": "La doctora mira la garganta con el bajalenguas",
+  "sequence": [
+    {
+      "concept": "médica",
+      "id": 8263,
+      "url": "https://static.arasaac.org/pictograms/8263/8263_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+      "extracted_query": "doctora",
+      "order": 1
+    },
+    {
+      "concept": "garganta",
+      "id": 3332,
+      "url": "https://static.arasaac.org/pictograms/3332/3332_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: garganta\n  Descripción:  Conducto interno entre el paladar y la entrada del esófago.\n  Sinónimos: \n  Categorías: anatomía humana, sistema digestivo\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología humana, fisiología, sistema digestivo",
+      "extracted_query": "garganta",
+      "order": 2
+    },
+    {
+      "concept": "¿qué miras?",
+      "id": 7801,
+      "url": "https://static.arasaac.org/pictograms/7801/7801_500.png",
+      "score": 0.8685663342475891,
+      "description": "query: Concepto: ¿qué miras?\n  Descripción: Pregunta que realiza una persona a otra cuando desea saber lo que está viendo la otra persona\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+      "extracted_query": "mirar",
+      "judge_added": true,
+      "order": 3
+    },
+    {
+      "concept": "Baleares",
+      "id": 8036,
+      "url": "https://static.arasaac.org/pictograms/8036/8036_500.png",
+      "score": 0.8512074947357178,
+      "description": "query: Concepto: Baleares\n  Descripción: Son una comunidad autónoma española compuesta por las islas del archipiélago balear, situado en el Mar Mediterráneo junto a la costa oriental de la Península Ibérica.\n\n\n  Sinónimos: \n  Categorías: bandera, región de las españas\n  Contexto: geografía, geografía política, bandera, región de las españas",
+      "extracted_query": "bajalenguas",
+      "judge_added": true,
+      "order": 4
+    },
+    {
+      "concept": "ver",
+      "id": 6564,
+      "url": "https://static.arasaac.org/pictograms/6564/6564_500.png",
+      "score": 0.8677037954330444,
+      "description": "query: Concepto: ver\n  Descripción: tr. Percibir por los ojos los objetos mediante la acción de la luz.\n  Sinónimos: mirar, observar\n  Categorías: verbos habituales, sentidos, necesidades básicas, vocabulario básico-comunicación, núcleo vocabulario-viviendo ser\n  Contexto: comunicación, idioma, verbo, verbos habituales, cuerpo humano, fisiología, fisiología humana, sentidos, persona, necesidades básicas, vocabulario básico",
+      "extracted_query": "mirar",
+      "judge_added": true,
+      "order": 5
+    },
+    {
+      "concept": "neblinoso",
+      "id": 2885,
+      "url": "https://static.arasaac.org/pictograms/2885/2885_500.png",
+      "score": 0.850207507610321,
+      "description": "query: Concepto: neblinoso\n  Descripción: adj. Dicho del día o de la atmósfera: En que abunda y es baja la niebla.\n  Sinónimos: neblinosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+      "extracted_query": "bajalenguas",
+      "judge_added": true,
+      "order": 6
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "bajalenguas"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "¿qué miras?",
+        "reason": "Es un pictograma de pregunta que no aporta al significado de la acción de examinar."
+      },
+      {
+        "concept": "Baleares",
+        "reason": "El pictograma representa una región geográfica (Islas Baleares), no el instrumento médico 'bajalenguas'."
+      },
+      {
+        "concept": "neblinoso",
+        "reason": "El adjetivo 'neblinoso' no tiene relación semántica con la acción médica descrita."
+      }
+    ],
+    "ordering_issues": [
+      "La estructura actual no forma una secuencia lógica, los pictogramas extraños rompen la semántica de la frase."
+    ],
+    "suggestions": [
+      "Sustituir '¿qué miras?' y 'ver' por un único pictograma de 'examinar' o 'revisar'.",
+      "Sustituir 'Baleares' por un pictograma de 'paleta' o 'instrumento médico'.",
+      "Eliminar 'neblinoso' por carecer de sentido en el contexto médico."
+    ]
+  }
+}

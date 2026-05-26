@@ -1,0 +1,54 @@
+{
+  "timestamp": "20260526_053357",
+  "text": "Me estoy poniendo la camisa",
+  "sequence": [
+    {
+      "concept": "estar",
+      "id": 5465,
+      "url": "https://static.arasaac.org/pictograms/5465/5465_500.png",
+      "score": 10.0,
+      "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+      "extracted_query": "estoy",
+      "feedback_override": true
+    },
+    {
+      "concept": "poner de pie",
+      "id": 35229,
+      "url": "https://static.arasaac.org/pictograms/35229/35229_500.png",
+      "score": 0.868201494216919,
+      "description": "query: Concepto: poner de pie\n  Descripción: prnl. Estando sentada la persona, levantarse en posición vertical y erguida.\n  Sinónimos: \n  Categorías: verbo, instalaciones recreativas, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, lugar, instalación, instalaciones recreativas, ocio, psicología, comportamiento perturbador",
+      "extracted_query": "poniendo",
+      "feedback_override": false
+    },
+    {
+      "concept": "camisa",
+      "id": 13640,
+      "url": "https://static.arasaac.org/pictograms/13640/13640_500.png",
+      "score": 0.8902420997619629,
+      "description": "query: Concepto: camisa\n  Descripción:  f. Prenda de vestir con cuello, botones y puños, que cubre el torso.\n  Sinónimos: \n  Categorías: ropa, léxico-objeto básico\n  Contexto: objeto, moda, ropa, vocabulario básico",
+      "extracted_query": "camisa",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "ponerse (ropa)"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "estar",
+        "reason": "Es un verbo copulativo innecesario en AAC según las instrucciones, no aporta al significado de la acción de vestir."
+      },
+      {
+        "concept": "poner de pie",
+        "reason": "El pictograma representa la acción física de levantarse o ponerse erguido, no la acción de vestir una prenda."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Eliminar pictograma de estar",
+      "Sustituir poner de pie por vestir"
+    ]
+  }
+}

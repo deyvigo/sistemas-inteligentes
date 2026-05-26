@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_061153",
+  "text": "Escuchar a los pájaros cantar",
+  "concepts": [
+    "escuchar",
+    "pájaros",
+    "cantar"
+  ],
+  "candidates": [
+    {
+      "concept": "escuchar",
+      "candidates": [
+        {
+          "id": 29718,
+          "concept": "escuchar música",
+          "query_concept": "escuchar",
+          "text": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oír música\n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "description": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oír música\n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "score": 0.8912622332572937
+        },
+        {
+          "id": 29719,
+          "concept": "escuchar música",
+          "query_concept": "escuchar",
+          "text": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oír música\n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "description": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oír música\n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "score": 0.8912622332572937
+        },
+        {
+          "id": 32131,
+          "concept": "escuchar música",
+          "query_concept": "escuchar",
+          "text": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oir música\n  Categorías: verbo, arte musical, medios de comunicación, Aparatos eléctricos, aparato, Dispositivo de medios de comunicación de masas\n  Contexto: comunicación, idioma, verbo, música, medios de comunicación, objeto, aparato, Aparatos eléctricos, Inicio, Dispositivo de medios de comunicación de masas",
+          "description": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oir música\n  Categorías: verbo, arte musical, medios de comunicación, Aparatos eléctricos, aparato, Dispositivo de medios de comunicación de masas\n  Contexto: comunicación, idioma, verbo, música, medios de comunicación, objeto, aparato, Aparatos eléctricos, Inicio, Dispositivo de medios de comunicación de masas",
+          "score": 0.8894925117492676
+        }
+      ]
+    },
+    {
+      "concept": "pájaros",
+      "candidates": [
+        {
+          "id": 2490,
+          "concept": "pájaro",
+          "query_concept": "pájaros",
+          "text": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: herbívoro, ave, oviparosa, animal volador, núcleo vocabulario-viviendo ser\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animal volador, vocabulario básico",
+          "description": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: herbívoro, ave, oviparosa, animal volador, núcleo vocabulario-viviendo ser\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animal volador, vocabulario básico",
+          "score": 0.8960715532302856
+        },
+        {
+          "id": 26271,
+          "concept": "pájaro",
+          "query_concept": "pájaros",
+          "text": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: carnívoros, herbívoro, omnívora, ave, oviparosa, animal volador\n  Contexto: animal, carnívoros, herbívoro, omnívora, vertebrados, ave, oviparosa, animal volador",
+          "description": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: carnívoros, herbívoro, omnívora, ave, oviparosa, animal volador\n  Contexto: animal, carnívoros, herbívoro, omnívora, vertebrados, ave, oviparosa, animal volador",
+          "score": 0.8952206969261169
+        },
+        {
+          "id": 26270,
+          "concept": "pájaro",
+          "query_concept": "pájaros",
+          "text": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: carnívoros, herbívoro, omnívora, ave, oviparosa, animal volador\n  Contexto: animal, carnívoros, herbívoro, omnívora, vertebrados, ave, oviparosa, animal volador",
+          "description": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: carnívoros, herbívoro, omnívora, ave, oviparosa, animal volador\n  Contexto: animal, carnívoros, herbívoro, omnívora, vertebrados, ave, oviparosa, animal volador",
+          "score": 0.8952206969261169
+        }
+      ]
+    },
+    {
+      "concept": "cantar",
+      "candidates": [
+        {
+          "id": 28657,
+          "concept": "cantar",
+          "query_concept": "cantar",
+          "text": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "description": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "score": 0.8909042477607727
+        },
+        {
+          "id": 2315,
+          "concept": "cantar",
+          "query_concept": "cantar",
+          "text": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "description": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "score": 0.8909042477607727
+        },
+        {
+          "id": 32015,
+          "concept": "cantar",
+          "query_concept": "cantar",
+          "text": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "description": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+          "score": 0.8909042477607727
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      29718,
+      2490,
+      28657
+    ]
+  }
+}

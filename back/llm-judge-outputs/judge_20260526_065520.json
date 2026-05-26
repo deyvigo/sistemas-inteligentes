@@ -1,0 +1,42 @@
+{
+  "timestamp": "20260526_065520",
+  "text": "Me van a hacer un electrocardiograma",
+  "sequence": [
+    {
+      "concept": "reanimar",
+      "id": 9024,
+      "url": "https://static.arasaac.org/pictograms/9024/9024_500.png",
+      "score": 0.8696697354316711,
+      "description": "query: Concepto: reanimar\n  Descripción:  tr. y prnl. Hacer que alguien recupere el conocimiento.\n  Sinónimos: \n  Categorías: procedimiento médico\n  Contexto: Salud, medicamentos, procedimiento médico",
+      "extracted_query": "médico' o 'revisar",
+      "judge_replaced": true,
+      "order": 1
+    },
+    {
+      "concept": "electrocardiograma",
+      "id": 8100,
+      "url": "https://static.arasaac.org/pictograms/8100/8100_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: electro\n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+      "extracted_query": "electrocardiograma",
+      "order": 2
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "hacer/examen/prueba"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "reanimar",
+        "reason": "El pictograma de 'reanimar' (RCP) sugiere una emergencia médica o maniobra de salvamento, lo cual altera drásticamente el significado de la frase original, que se refiere a una prueba médica diagnóstica."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir reanimar por examen médico o prueba médica",
+      "Agregar pictograma de médico o enfermero si se desea clarificar el agente"
+    ]
+  }
+}

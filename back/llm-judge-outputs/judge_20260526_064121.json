@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260526_064121",
+  "text": "¿Qué animales viven en el océano?",
+  "sequence": [
+    {
+      "concept": "qué",
+      "id": 22620,
+      "url": "https://static.arasaac.org/pictograms/22620/22620_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+      "extracted_query": "qué",
+      "order": 1
+    },
+    {
+      "concept": "animales",
+      "id": 6901,
+      "url": "https://static.arasaac.org/pictograms/6901/6901_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: animales\n  Descripción:  m. Seres orgánicos que viven, sienten y se mueven por propio impulso.\n  Sinónimos: animal\n  Categorías: animal, categorización, núcleo vocabulario-viviendo ser, vocabulario básico varios\n  Contexto: animal, categorización, vocabulario básico",
+      "extracted_query": "animales",
+      "order": 2
+    },
+    {
+      "concept": "océano",
+      "id": 32699,
+      "url": "https://static.arasaac.org/pictograms/32699/32699_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: océano\n  Descripción:  Cada una de las cinco grandes subdivisiones de esta extensión\n  Sinónimos: Océano Atlántico\n  Categorías: oceanografía, mar y océanos\n  Contexto: oceanografía, geografía, geografía física, forma de tierra, mar, océano",
+      "extracted_query": "océano",
+      "order": 3
+    },
+    {
+      "concept": "vivir",
+      "id": 11605,
+      "url": "https://static.arasaac.org/pictograms/11605/11605_500.png",
+      "score": 0.8789341449737549,
+      "description": "query: Concepto: vivir\n  Descripción: Habitar en un lugar: vivimos en el campo. También tr.\n  Sinónimos: \n  Categorías: verbos habituales, necesidades básicas, vocabulario básico-comunicación, núcleo vocabulario-viviendo ser\n  Contexto: comunicación, idioma, verbo, verbos habituales, persona, necesidades básicas, vocabulario básico",
+      "extracted_query": "vivir",
+      "judge_added": true,
+      "order": 4
+    },
+    {
+      "concept": "vivir",
+      "id": 35103,
+      "url": "https://static.arasaac.org/pictograms/35103/35103_500.png",
+      "score": 0.877976655960083,
+      "description": "query: Concepto: vivir\n  Descripción: Habitar en un lugar: vivimos en el campo. También tr.\n  Sinónimos: \n  Categorías: Inicio, verbo, necesidades básicas\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas",
+      "extracted_query": "vivir",
+      "judge_added": true,
+      "order": 5
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "vivir",
+        "reason": "La secuencia incluye el concepto 'vivir' dos veces (pictogramas 11605 y 35103), lo cual es redundante y confuso para el usuario."
+      }
+    ],
+    "ordering_issues": [
+      "Aunque el significado se entiende, en comunicación aumentativa el orden sujeto/objeto suele ser 'Animales, qué, vivir, océano' o 'Qué, animales, vivir, océano' para mayor claridad de la pregunta."
+    ],
+    "suggestions": [
+      "Eliminar un pictograma de 'vivir' para evitar redundancia.",
+      "Mover 'animales' antes de 'vivir' para mejorar la estructura lógica de la pregunta."
+    ]
+  }
+}

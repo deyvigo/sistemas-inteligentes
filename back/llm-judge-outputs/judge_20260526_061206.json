@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260526_061206",
+  "text": "Tomar conciencia",
+  "sequence": [
+    {
+      "concept": "tomar conciencia",
+      "id": 31975,
+      "url": "https://static.arasaac.org/pictograms/31975/31975_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+      "extracted_query": "conciencia"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

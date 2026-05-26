@@ -1,0 +1,74 @@
+{
+  "timestamp": "20260526_061242",
+  "text": "Leo el texto",
+  "concepts": [
+    "leo",
+    "texto"
+  ],
+  "candidates": [
+    {
+      "concept": "leo",
+      "candidates": [
+        {
+          "id": 7152,
+          "concept": "mañana",
+          "query_concept": "leo",
+          "text": "query: Concepto: mañana\n  Descripción:  adv. t. En el día siguiente al de hoy.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico",
+          "description": "query: Concepto: mañana\n  Descripción:  adv. t. En el día siguiente al de hoy.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico",
+          "score": 0.8403815627098083
+        },
+        {
+          "id": 25704,
+          "concept": "mañana",
+          "query_concept": "leo",
+          "text": "query: Concepto: mañana\n  Descripción:  f. Tiempo entre el amanecer y el mediodía.\n  Sinónimos: temprano\n  Categorías: hora del día, core vocablo-time, adverb, adverbio del tiempo\n  Contexto: hora, calendario, vocabulario básico, comunicación, idioma, adverb, adverbio del tiempo",
+          "description": "query: Concepto: mañana\n  Descripción:  f. Tiempo entre el amanecer y el mediodía.\n  Sinónimos: temprano\n  Categorías: hora del día, core vocablo-time, adverb, adverbio del tiempo\n  Contexto: hora, calendario, vocabulario básico, comunicación, idioma, adverb, adverbio del tiempo",
+          "score": 0.8396764993667603
+        },
+        {
+          "id": 7131,
+          "concept": "hoy",
+          "query_concept": "leo",
+          "text": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+          "description": "query: Concepto: hoy\n  Descripción:  m. Momento actual: el ayer, el hoy y el mañana. \n  Sinónimos: \n  Categorías: adverb, adverbio del tiempo, conceptos básicos, vocabulario básico-educación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico, Educación",
+          "score": 0.8379480838775635
+        }
+      ]
+    },
+    {
+      "concept": "texto",
+      "candidates": [
+        {
+          "id": 37340,
+          "concept": "texto",
+          "query_concept": "texto",
+          "text": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+          "description": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+          "score": 0.8993562459945679
+        },
+        {
+          "id": 24017,
+          "concept": "elástico",
+          "query_concept": "texto",
+          "text": "query: Concepto: elástico\n  Descripción: adj. Dicho de un cuerpo: Que puede recobrar más o menos completamente su forma y extensión tan pronto como cesa la acción que las alteraba.\n  Sinónimos: \n  Categorías: textura\n  Contexto: textura",
+          "description": "query: Concepto: elástico\n  Descripción: adj. Dicho de un cuerpo: Que puede recobrar más o menos completamente su forma y extensión tan pronto como cesa la acción que las alteraba.\n  Sinónimos: \n  Categorías: textura\n  Contexto: textura",
+          "score": 0.8696725368499756
+        },
+        {
+          "id": 7187,
+          "concept": "nota",
+          "query_concept": "texto",
+          "text": "query: Concepto: nota\n  Descripción:  f. Escrito breve que recuerda o avisa de algo\n  Sinónimos: \n  Categorías: documento de información\n  Contexto: documento, documento de información",
+          "description": "query: Concepto: nota\n  Descripción:  f. Escrito breve que recuerda o avisa de algo\n  Sinónimos: \n  Categorías: documento de información\n  Contexto: documento, documento de información",
+          "score": 0.865280270576477
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      7486,
+      37340
+    ]
+  }
+}

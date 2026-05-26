@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260526_061239",
+  "text": "Observamos el clima lluvioso",
+  "sequence": [
+    {
+      "concept": "examinar",
+      "id": 31904,
+      "url": "https://static.arasaac.org/pictograms/31904/31904_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: examinar\n  Descripción: tr. Inquirir, investigar, escudriñar con diligencia y cuidado algo.\n  Sinónimos: reconocer, auscultar, explorar\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+      "extracted_query": "observamos"
+    },
+    {
+      "concept": "clima",
+      "id": 24721,
+      "url": "https://static.arasaac.org/pictograms/24721/24721_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: clima\n  Descripción:  m. Conjunto de condiciones atmosféricas propias de una zona geográfica: clima lluvioso, tropical. \n  Sinónimos: \n  Categorías: meteorología, categorización\n  Contexto: meteorología, categorización",
+      "extracted_query": "clima"
+    },
+    {
+      "concept": "lluvioso",
+      "id": 2936,
+      "url": "https://static.arasaac.org/pictograms/2936/2936_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: lluvioso\n  Descripción:  adj. Se dice del tiempo o del lugar en que son frecuentes las lluvias\n  Sinónimos: lluviosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+      "extracted_query": "lluvioso"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "examinar",
+        "reason": "Aunque 'examinar' es una forma de observar, en AAC es preferible usar un pictograma que denote 'ver' o 'mirar' para la acción de observar el tiempo, ya que 'examinar' tiene una connotación de análisis profundo o investigación técnica."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'examinar' por 'ver' o 'mirar'"
+    ]
+  }
+}

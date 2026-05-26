@@ -1,0 +1,104 @@
+{
+  "timestamp": "20260526_064030",
+  "text": "Me van a hacer un electrocardiograma",
+  "concepts": [
+    "van",
+    "hacer",
+    "electrocardiograma"
+  ],
+  "candidates": [
+    {
+      "concept": "van",
+      "candidates": [
+        {
+          "id": 10270,
+          "concept": "vena",
+          "query_concept": "van",
+          "text": "query: Concepto: vena\n  Descripción:  f. Cada uno de los vasos o conductos por los que la sangre vuelve al corazón\n  Sinónimos: \n  Categorías: anatomía humana, Sistema circulatorio\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema circulatorio",
+          "description": "query: Concepto: vena\n  Descripción:  f. Cada uno de los vasos o conductos por los que la sangre vuelve al corazón\n  Sinónimos: \n  Categorías: anatomía humana, Sistema circulatorio\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología, fisiología humana, Sistema circulatorio",
+          "score": 0.8155679702758789
+        },
+        {
+          "id": 3206,
+          "concept": "monovolumen",
+          "query_concept": "van",
+          "text": "query: Concepto: monovolumen\n  Descripción:  adj. Se dice de un tipo de automóvil de turismo en el que el motor, los asientos de los pasajeros y el maletero ocupan un solo espacio. U. m. c. s.\n  Sinónimos: \n  Categorías: Transporte terrestre\n  Contexto: Movimiento, tráfico, modo de transporte, Transporte terrestre",
+          "description": "query: Concepto: monovolumen\n  Descripción:  adj. Se dice de un tipo de automóvil de turismo en el que el motor, los asientos de los pasajeros y el maletero ocupan un solo espacio. U. m. c. s.\n  Sinónimos: \n  Categorías: Transporte terrestre\n  Contexto: Movimiento, tráfico, modo de transporte, Transporte terrestre",
+          "score": 0.8130476474761963
+        },
+        {
+          "id": 3244,
+          "concept": "puerta",
+          "query_concept": "van",
+          "text": "query: Concepto: puerta\n  Descripción:  f. Vano de forma regular abierto en pared, cerca o verja, desde el suelo hasta la altura conveniente, para entrar y salir: hay una pequeña puerta en la valla por la que se puede entrar en el solar. \n  Sinónimos: \n  Categorías: instalaciones de construcción, elemento arquitectónico, Construcción, edificio residencial, vocabulario-trabajo básico\n  Contexto: lugar, edificio, instalaciones de construcción, arquitectura, elemento arquitectónico, trabajo, sector secundario, Construcción, Inicio, vocabulario básico",
+          "description": "query: Concepto: puerta\n  Descripción:  f. Vano de forma regular abierto en pared, cerca o verja, desde el suelo hasta la altura conveniente, para entrar y salir: hay una pequeña puerta en la valla por la que se puede entrar en el solar. \n  Sinónimos: \n  Categorías: instalaciones de construcción, elemento arquitectónico, Construcción, edificio residencial, vocabulario-trabajo básico\n  Contexto: lugar, edificio, instalaciones de construcción, arquitectura, elemento arquitectónico, trabajo, sector secundario, Construcción, Inicio, vocabulario básico",
+          "score": 0.8125877380371094
+        }
+      ]
+    },
+    {
+      "concept": "hacer",
+      "candidates": [
+        {
+          "id": 11749,
+          "concept": "hacer",
+          "query_concept": "hacer",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8894239664077759
+        },
+        {
+          "id": 32751,
+          "concept": "hacer",
+          "query_concept": "hacer",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8894239664077759
+        },
+        {
+          "id": 21466,
+          "concept": "buscar",
+          "query_concept": "hacer",
+          "text": "query: Concepto: buscar\n  Descripción:  tr. Hacer algo para hallar a alguien o algo.\n  Sinónimos: rebuscar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: buscar\n  Descripción:  tr. Hacer algo para hallar a alguien o algo.\n  Sinónimos: rebuscar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8700453042984009
+        }
+      ]
+    },
+    {
+      "concept": "electrocardiograma",
+      "candidates": [
+        {
+          "id": 8100,
+          "concept": "electrocardiograma",
+          "query_concept": "electrocardiograma",
+          "text": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: electro\n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "description": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: electro\n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "score": 0.9249948263168335
+        },
+        {
+          "id": 30805,
+          "concept": "electrocardiograma",
+          "query_concept": "electrocardiograma",
+          "text": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: \n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "description": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: \n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "score": 0.9238650798797607
+        },
+        {
+          "id": 30802,
+          "concept": "electrocardiograma",
+          "query_concept": "electrocardiograma",
+          "text": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: \n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "description": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: \n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+          "score": 0.9238650798797607
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      11749,
+      8100
+    ]
+  }
+}

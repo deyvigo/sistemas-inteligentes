@@ -1,0 +1,37 @@
+{
+  "timestamp": "20260526_061040",
+  "text": "Limpiar y tirar la basura",
+  "sequence": [
+    {
+      "concept": "limpiar",
+      "id": 17269,
+      "url": "https://static.arasaac.org/pictograms/17269/17269_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: limpiar\n  Descripción:  tr. Quitar la suciedad de algo.\n  Sinónimos: \n  Categorías: verbo, utensilio\n  Contexto: comunicación, idioma, verbo, objeto, hogar, utensilio, Inicio",
+      "extracted_query": "limpiar"
+    },
+    {
+      "concept": "tirar",
+      "id": 28449,
+      "url": "https://static.arasaac.org/pictograms/28449/28449_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: tirar\n  Descripción: tr. Desechar algo, deshacerse de ello, darlo por inservible \n  Sinónimos: arrojar, lanzar\n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+      "extracted_query": "tirar"
+    },
+    {
+      "concept": "basura",
+      "id": 8499,
+      "url": "https://static.arasaac.org/pictograms/8499/8499_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: basura\n  Descripción:  f. Inmundicia, suciedad.\n  Sinónimos: \n  Categorías: reciclaje, contaminación\n  Contexto: ciencias del medio ambiente, reciclaje, contaminación",
+      "extracted_query": "basura"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

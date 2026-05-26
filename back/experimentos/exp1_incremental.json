@@ -1,0 +1,13 @@
+[
+  {
+    "ts": "2026-05-26T06:31:00.034084",
+    "text": "los pollitos dicen pio",
+    "score_A": 5,
+    "errors_A": 0,
+    "recall_A": 0.3333,
+    "length_A": 3,
+    "length_B": 3,
+    "actions": 0,
+    "refined": false
+  }
+]

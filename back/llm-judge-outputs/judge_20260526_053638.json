@@ -1,0 +1,41 @@
+{
+  "timestamp": "20260526_053638",
+  "text": "Leo el texto",
+  "sequence": [
+    {
+      "concept": "mañana",
+      "id": 7152,
+      "url": "https://static.arasaac.org/pictograms/7152/7152_500.png",
+      "score": 0.8403815627098083,
+      "description": "query: Concepto: mañana\n  Descripción:  adv. t. En el día siguiente al de hoy.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos, vocabulario básico",
+      "extracted_query": "leo",
+      "feedback_override": false
+    },
+    {
+      "concept": "texto",
+      "id": 37340,
+      "url": "https://static.arasaac.org/pictograms/37340/37340_500.png",
+      "score": 0.8993562459945679,
+      "description": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+      "extracted_query": "texto",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "leer"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "mañana",
+        "reason": "El concepto 'mañana' no tiene relación semántica con la frase 'Leo el texto'. Se debe usar un pictograma que represente la acción de leer."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir mañana por leer",
+      "Agregar pictograma de leer"
+    ]
+  }
+}

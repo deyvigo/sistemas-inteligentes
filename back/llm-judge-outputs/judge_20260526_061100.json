@@ -1,0 +1,33 @@
+{
+  "timestamp": "20260526_061100",
+  "text": "Me estoy poniendo la camisa",
+  "sequence": [
+    {
+      "concept": "yo",
+      "id": 31807,
+      "url": "https://static.arasaac.org/pictograms/31807/31807_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+      "extracted_query": "estoy"
+    },
+    {
+      "concept": "camisa",
+      "id": 13640,
+      "url": "https://static.arasaac.org/pictograms/13640/13640_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: camisa\n  Descripción:  f. Prenda de vestir con cuello, botones y puños, que cubre el torso.\n  Sinónimos: \n  Categorías: ropa, léxico-objeto básico\n  Contexto: objeto, moda, ropa, vocabulario básico",
+      "extracted_query": "camisa"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "ponerse"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de ponerse"
+    ]
+  }
+}

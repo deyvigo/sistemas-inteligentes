@@ -1,0 +1,37 @@
+{
+  "timestamp": "20260526_065151",
+  "text": "No escribir en la pared",
+  "sequence": [
+    {
+      "concept": "escribir",
+      "id": 2380,
+      "text": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+      "score": 0.8957452774047852,
+      "feedback_override": false,
+      "extracted_query": "escribir",
+      "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+      "url": "https://static.arasaac.org/pictograms/2380/2380_500.png"
+    },
+    {
+      "concept": "pádel",
+      "id": 28609,
+      "text": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+      "score": 0.848670482635498,
+      "feedback_override": false,
+      "extracted_query": "pared",
+      "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+      "url": "https://static.arasaac.org/pictograms/28609/28609_500.png"
+    }
+  ],
+  "result": {
+    "score": 0,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [],
+    "error": true,
+    "error_type": "api_error",
+    "message": "El LLM-Judge no pudo evaluar la secuencia por un error técnico.",
+    "details": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  }
+}

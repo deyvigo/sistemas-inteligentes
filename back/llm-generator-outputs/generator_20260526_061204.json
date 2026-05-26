@@ -1,0 +1,73 @@
+{
+  "timestamp": "20260526_061204",
+  "text": "Tomar conciencia",
+  "concepts": [
+    "tomar",
+    "conciencia"
+  ],
+  "candidates": [
+    {
+      "concept": "tomar",
+      "candidates": [
+        {
+          "id": 28641,
+          "concept": "comer",
+          "query_concept": "tomar",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8663412928581238
+        },
+        {
+          "id": 2349,
+          "concept": "comer",
+          "query_concept": "tomar",
+          "text": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+          "score": 0.8663412928581238
+        },
+        {
+          "id": 2276,
+          "concept": "beber",
+          "query_concept": "tomar",
+          "text": "query: Concepto: beber\n  Descripción: intr. Ingerir un líquido.\n  Sinónimos: tomar\n  Categorías: verbo, bebidas, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, bebidas, persona, necesidades básicas",
+          "description": "query: Concepto: beber\n  Descripción: intr. Ingerir un líquido.\n  Sinónimos: tomar\n  Categorías: verbo, bebidas, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, bebidas, persona, necesidades básicas",
+          "score": 0.8635807037353516
+        }
+      ]
+    },
+    {
+      "concept": "conciencia",
+      "candidates": [
+        {
+          "id": 12319,
+          "concept": "conciencia",
+          "query_concept": "conciencia",
+          "text": "query: Concepto: conciencia\n  Descripción: f. Conocimiento que el ser humano posee sobre sí mismo, sobre su existencia y su relación con el mundo. \n  Sinónimos: \n  Categorías: valor humano\n  Contexto: psicología, valor humano",
+          "description": "query: Concepto: conciencia\n  Descripción: f. Conocimiento que el ser humano posee sobre sí mismo, sobre su existencia y su relación con el mundo. \n  Sinónimos: \n  Categorías: valor humano\n  Contexto: psicología, valor humano",
+          "score": 0.8995615243911743
+        },
+        {
+          "id": 31975,
+          "concept": "tomar conciencia",
+          "query_concept": "conciencia",
+          "text": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "description": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "score": 0.8956563472747803
+        },
+        {
+          "id": 12351,
+          "concept": "tomar conciencia",
+          "query_concept": "conciencia",
+          "text": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "description": "query: Concepto: tomar conciencia\n  Descripción: loc. verb. Darse cuenta, percatarse de ello.\n  Sinónimos: \n  Categorías: verbo, valor humano\n  Contexto: comunicación, idioma, verbo, psicología, valor humano",
+          "score": 0.8956563472747803
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31975
+    ]
+  }
+}

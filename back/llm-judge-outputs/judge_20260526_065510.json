@@ -1,0 +1,125 @@
+{
+  "timestamp": "20260526_065510",
+  "text": "Como no sabían qué hacer, pensaron que lo mejor sería contárselo a más gente",
+  "sequence": [
+    {
+      "concept": "saber",
+      "id": 26405,
+      "url": "https://static.arasaac.org/pictograms/26405/26405_500.png",
+      "score": 0.8673986792564392,
+      "description": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+      "extracted_query": "sabían",
+      "judge_replaced": true,
+      "order": 1
+    },
+    {
+      "concept": "hacer",
+      "id": 11749,
+      "url": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+      "extracted_query": "hacer",
+      "order": 2
+    },
+    {
+      "concept": "pensar",
+      "id": 31847,
+      "url": "https://static.arasaac.org/pictograms/31847/31847_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+      "extracted_query": "pensaron",
+      "order": 3
+    },
+    {
+      "concept": "mejor",
+      "id": 11470,
+      "url": "https://static.arasaac.org/pictograms/11470/11470_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: mejor\n  Descripción:  adj. comp. de bueno. Superior a otra cosa en bondad y que la excede en una cualidad natural o moral.\n  Sinónimos: importante, admirar\n  Categorías: verbo, sensación, carácter, persona según su edad\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción, carácter, persona",
+      "extracted_query": "mejor",
+      "order": 4
+    },
+    {
+      "concept": "más",
+      "id": 26913,
+      "url": "https://static.arasaac.org/pictograms/26913/26913_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado\n  Contexto: comunicación, idioma, adverb, adverbio de grado",
+      "extracted_query": "más",
+      "order": 5
+    },
+    {
+      "concept": "gente",
+      "id": 7116,
+      "url": "https://static.arasaac.org/pictograms/7116/7116_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+      "extracted_query": "gente",
+      "order": 6
+    },
+    {
+      "concept": "decir",
+      "id": 9693,
+      "url": "https://static.arasaac.org/pictograms/9693/9693_500.png",
+      "score": 0.8984920978546143,
+      "description": "query: Concepto: decir\n  Descripción: tr. Expresar verbalmente el pensamiento\n  Sinónimos: expresar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+      "extracted_query": "decir",
+      "judge_added": true,
+      "order": 7
+    },
+    {
+      "concept": "contar",
+      "id": 2714,
+      "url": "https://static.arasaac.org/pictograms/2714/2714_500.png",
+      "score": 0.9029914140701294,
+      "description": "query: Concepto: contar\n  Descripción:  tr. Numerar o computar las cosas considerándolas como unidades homogéneas. \n  Sinónimos: \n  Categorías: verbo, tarea educativa, verbos habituales, vocabulario básico-comunicación, matemáticas\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa, verbos habituales, vocabulario básico, matemáticas",
+      "extracted_query": "contar",
+      "judge_added": true,
+      "order": 8
+    },
+    {
+      "concept": "prohibido molestar",
+      "id": 25718,
+      "url": "https://static.arasaac.org/pictograms/25718/25718_500.png",
+      "score": 0.8466824293136597,
+      "description": "query: Concepto: prohibido molestar\n  Descripción: No está permitido causar molestias\n  Sinónimos: \n  Categorías: Sistema de señalización\n  Contexto: comunicación, Sistema de señalización",
+      "extracted_query": "no' antes de 'saber",
+      "judge_added": true,
+      "order": 9
+    },
+    {
+      "concept": "desde",
+      "id": 7077,
+      "url": "https://static.arasaac.org/pictograms/7077/7077_500.png",
+      "score": 0.8726862072944641,
+      "description": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+      "extracted_query": "decir' o 'contar' antes de 'gente",
+      "judge_added": true,
+      "order": 10
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "contar",
+        "reason": "El pictograma de 'contar' seleccionado hace referencia a enumerar o calcular (aritmética), no a relatar o comunicar una información. Se debe usar un pictograma de 'comunicar' o 'explicar'."
+      },
+      {
+        "concept": "prohibido molestar",
+        "reason": "Este concepto es totalmente irrelevante para la frase y confunde el significado central."
+      },
+      {
+        "concept": "desde",
+        "reason": "Esta preposición no aporta significado a la acción de contar algo a la gente."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Eliminar pictograma de 'prohibido molestar'",
+      "Eliminar pictograma de 'desde'",
+      "Sustituir 'contar' por un pictograma de 'explicar' o 'informar'"
+    ]
+  }
+}

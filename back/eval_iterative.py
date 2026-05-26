@@ -339,11 +339,40 @@ def _build_round_tables(sessions: list) -> tuple:
     return tables, cuts
 
 
-def run_simulation(n: int = 15, seed: int = 42,
-                   api_key: str = "", delay: float = 1.5) -> dict:
+def _build_per_round(sentence_results: list, labels: list, cuts: list) -> list:
+    """Calcula métricas promedio por ronda sobre los resultados disponibles."""
+    n_rounds = len(labels)
+
+    def _round_avg(r_idx, key):
+        vals = [
+            row["rounds"][r_idx][key]
+            for row in sentence_results
+            if r_idx < len(row["rounds"])
+        ]
+        return round(sum(vals) / len(vals), 3) if vals else 0.0
+
+    return [
+        {
+            "label":             labels[r],
+            "feedback_sessions": cuts[r],
+            "avg_score":         _round_avg(r, "score"),
+            "avg_errors":        _round_avg(r, "errors"),
+            "avg_recall":        _round_avg(r, "recall"),
+            "avg_bleu":          _round_avg(r, "bleu"),
+            "avg_chrf":          _round_avg(r, "chrf"),
+            "avg_overrides":     _round_avg(r, "overrides_applied"),
+            "avg_errors_corrected_vs_round0": _round_avg(r, "errors_corrected_vs_round0"),
+        }
+        for r in range(n_rounds)
+    ]
+
+
+def run_simulation(n: int = 10, seed: int = 42,
+                   api_key: str = "", delay: float = 0.3) -> dict:
     """
     Parte B: ejecuta la simulación con LLM sobre un conjunto fijo de oraciones.
-    Guarda y devuelve los resultados.
+    Guarda resultados parciales tras cada oración (status='running') y
+    el resultado final con status='complete'.
     """
     from five_llm_judge import judge as llm_judge
     from four_extract_concepts import process_text
@@ -362,6 +391,7 @@ def run_simulation(n: int = 15, seed: int = 42,
     sessions = _load_sessions()
     tables, cuts = _build_round_tables(sessions)
     labels = [f"Round {k} ({c} fb)" for k, c in enumerate(cuts)]
+    started_at = datetime.now().isoformat()
 
     sentence_results = []
     for s_idx, entry in enumerate(test_sentences, 1):
@@ -396,35 +426,35 @@ def run_simulation(n: int = 15, seed: int = 42,
                 "judge":             jout,
             })
             print(f"    {label:<22} | score={score}  errores={errors}")
+
         sentence_results.append(row)
 
-    def _round_avg(r_idx, key):
-        vals = [row["rounds"][r_idx][key] for row in sentence_results]
-        return round(sum(vals) / len(vals), 3) if vals else 0.0
-
-    per_round = [
-        {
-            "label":             labels[r],
-            "feedback_sessions": cuts[r],
-            "avg_score":         _round_avg(r, "score"),
-            "avg_errors":        _round_avg(r, "errors"),
-            "avg_recall":        _round_avg(r, "recall"),
-            "avg_bleu":          _round_avg(r, "bleu"),
-            "avg_chrf":          _round_avg(r, "chrf"),
-            "avg_overrides":     _round_avg(r, "overrides_applied"),
-            "avg_errors_corrected_vs_round0": _round_avg(r, "errors_corrected_vs_round0"),
+        # Guardado incremental tras cada oración completa
+        partial = {
+            "metadata": {
+                "run_at":    started_at,
+                "n":         len(test_sentences),
+                "seed":      seed,
+                "status":    "running",
+                "processed": s_idx,
+                "round_cuts": cuts,
+            },
+            "per_round":        _build_per_round(sentence_results, labels, cuts),
+            "sentence_results": sentence_results,
         }
-        for r in range(len(cuts))
-    ]
+        with open(LATEST_SIM, "w", encoding="utf-8") as f:
+            json.dump(partial, f, indent=2, ensure_ascii=False)
 
     payload = {
         "metadata": {
-            "run_at": datetime.now().isoformat(),
-            "n": len(sentence_results),
-            "seed": seed,
+            "run_at":    started_at,
+            "n":         len(sentence_results),
+            "seed":      seed,
+            "status":    "complete",
+            "processed": len(sentence_results),
             "round_cuts": cuts,
         },
-        "per_round":        per_round,
+        "per_round":        _build_per_round(sentence_results, labels, cuts),
         "sentence_results": sentence_results,
     }
 

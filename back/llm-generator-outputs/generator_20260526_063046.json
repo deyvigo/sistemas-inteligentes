@@ -1,0 +1,106 @@
+{
+  "timestamp": "20260526_063046",
+  "text": "los pollitos dicen pio",
+  "concepts": [
+    "pollitos",
+    "dicen",
+    "pio"
+  ],
+  "candidates": [
+    {
+      "concept": "pollitos",
+      "candidates": [
+        {
+          "id": 34076,
+          "concept": "pollito",
+          "query_concept": "pollitos",
+          "text": "query: Concepto: pollito\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: \n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería",
+          "description": "query: Concepto: pollito\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: \n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería",
+          "score": 0.8871194124221802
+        },
+        {
+          "id": 2533,
+          "concept": "pollo",
+          "query_concept": "pollitos",
+          "text": "query: Concepto: pollo\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: pollito\n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería, animales domésticos, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería, nacionales, vocabulario básico",
+          "description": "query: Concepto: pollo\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: pollito\n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería, animales domésticos, núcleo vocabulario-viviendo ser, vocabulario-trabajo básico\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería, nacionales, vocabulario básico",
+          "score": 0.8803740739822388
+        },
+        {
+          "id": 35815,
+          "concept": "palitos de pollo",
+          "query_concept": "pollitos",
+          "text": "query: Concepto: palitos de pollo\n  Descripción: Estilo de pollo frito que solo incluye pollo con forma de dedos, sin huesos ni piel. Se preparan cubriendo la carne de pollo con una mezcla de empanado y friéndola.\n  Sinónimos: tiras de pollo\n  Categorías: Gastronomía\n  Contexto: alimentación, alimentos, Gastronomía",
+          "description": "query: Concepto: palitos de pollo\n  Descripción: Estilo de pollo frito que solo incluye pollo con forma de dedos, sin huesos ni piel. Se preparan cubriendo la carne de pollo con una mezcla de empanado y friéndola.\n  Sinónimos: tiras de pollo\n  Categorías: Gastronomía\n  Contexto: alimentación, alimentos, Gastronomía",
+          "score": 0.8681511878967285
+        }
+      ]
+    },
+    {
+      "concept": "dicen",
+      "candidates": [
+        {
+          "id": 9693,
+          "concept": "decir",
+          "query_concept": "dicen",
+          "text": "query: Concepto: decir\n  Descripción: tr. Expresar verbalmente el pensamiento\n  Sinónimos: expresar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+          "description": "query: Concepto: decir\n  Descripción: tr. Expresar verbalmente el pensamiento\n  Sinónimos: expresar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 7077,
+          "concept": "desde",
+          "query_concept": "dicen",
+          "text": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "description": "query: Concepto: desde\n  Descripción:  prep. Denota el punto, en tiempo o lugar, de que procede, se origina o ha de empezar a contarse una cosa, un hecho o una distancia. \n  Sinónimos: \n  Categorías: preposición\n  Contexto: comunicación, idioma, preposición",
+          "score": 0.8753777742385864
+        },
+        {
+          "id": 7273,
+          "concept": "sediento",
+          "query_concept": "dicen",
+          "text": "query: Concepto: sediento\n  Descripción:  adj. Que tiene sed.\n  Sinónimos: tener sed, sed\n  Categorías: verbo, necesidades básicas, sensación corporal\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, cuerpo humano, sensación corporal",
+          "description": "query: Concepto: sediento\n  Descripción:  adj. Que tiene sed.\n  Sinónimos: tener sed, sed\n  Categorías: verbo, necesidades básicas, sensación corporal\n  Contexto: comunicación, idioma, verbo, persona, necesidades básicas, cuerpo humano, sensación corporal",
+          "score": 0.8721144199371338
+        }
+      ]
+    },
+    {
+      "concept": "pio",
+      "candidates": [
+        {
+          "id": 8262,
+          "concept": "piar",
+          "query_concept": "pio",
+          "text": "query: Concepto: piar\n  Descripción: intr. Producir las aves el sonido que se representa onomatopéyicamente por \"pío, pío\".\n  Sinónimos: \n  Categorías: verbo, onomatopeya, comportamiento de los animales\n  Contexto: comunicación, idioma, verbo, interjección, onomatopeya, animal, comportamiento de los animales",
+          "description": "query: Concepto: piar\n  Descripción: intr. Producir las aves el sonido que se representa onomatopéyicamente por \"pío, pío\".\n  Sinónimos: \n  Categorías: verbo, onomatopeya, comportamiento de los animales\n  Contexto: comunicación, idioma, verbo, interjección, onomatopeya, animal, comportamiento de los animales",
+          "score": 0.8587096333503723
+        },
+        {
+          "id": 5538,
+          "concept": "pico",
+          "query_concept": "pio",
+          "text": "query: Concepto: pico\n  Descripción: Parte saliente de la cabeza de las aves, compuesta de dos piezas córneas, una superior y otra inferior, que terminan generalmente en punta y les sirven para tomar el alimento.\n  Sinónimos: \n  Categorías: anatomía animal, animal\n  Contexto: animal, anatomía, anatomía animal",
+          "description": "query: Concepto: pico\n  Descripción: Parte saliente de la cabeza de las aves, compuesta de dos piezas córneas, una superior y otra inferior, que terminan generalmente en punta y les sirven para tomar el alimento.\n  Sinónimos: \n  Categorías: anatomía animal, animal\n  Contexto: animal, anatomía, anatomía animal",
+          "score": 0.8521425724029541
+        },
+        {
+          "id": 16380,
+          "concept": "pisar",
+          "query_concept": "pio",
+          "text": "query: Concepto: pisar\n  Descripción: tr. Poner el pie sobre algo.\n  Sinónimos: pisotón\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+          "description": "query: Concepto: pisar\n  Descripción: tr. Poner el pie sobre algo.\n  Sinónimos: pisotón\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+          "score": 0.8465211391448975
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      34076,
+      9693,
+      8262
+    ]
+  }
+}

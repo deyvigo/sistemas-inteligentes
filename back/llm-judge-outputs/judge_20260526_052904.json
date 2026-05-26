@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260526_052904",
+  "text": "la gata está durmiendo.",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "gato",
+      "id": 9879,
+      "url": "https://static.arasaac.org/pictograms/9879/9879_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+      "extracted_query": "gata"
+    },
+    {
+      "order": 2,
+      "concept": "estar",
+      "id": 5465,
+      "url": "https://static.arasaac.org/pictograms/5465/5465_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+      "extracted_query": "está"
+    },
+    {
+      "order": 3,
+      "concept": "dormir bien",
+      "id": 37203,
+      "url": "https://static.arasaac.org/pictograms/37203/37203_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+      "extracted_query": "durmiendo"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "dormir bien",
+        "reason": "El pictograma seleccionado indica 'dormir bien' (acción de dormir con bienestar), mientras que la frase original solo requiere el concepto neutro de 'dormir'. Se debe usar el pictograma estándar de 'dormir'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'dormir bien' por 'dormir'"
+    ]
+  }
+}

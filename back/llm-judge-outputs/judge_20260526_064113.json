@@ -1,0 +1,95 @@
+{
+  "timestamp": "20260526_064113",
+  "text": "Llegó un príncipe y despertó a Blancanieves con un beso",
+  "sequence": [
+    {
+      "concept": "llegar",
+      "id": 16805,
+      "url": "https://static.arasaac.org/pictograms/16805/16805_500.png",
+      "score": 0.8968182802200317,
+      "description": "query: Concepto: llegar\n  Descripción: intr. Alcanzar el fin o término de un desplazamiento.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "llegar",
+      "judge_replaced": true,
+      "order": 1
+    },
+    {
+      "concept": "príncipe",
+      "id": 5555,
+      "url": "https://static.arasaac.org/pictograms/5555/5555_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: príncipe\n  Descripción:  m. Hijo primogénito del rey y heredero de la corona: la muerte del príncipe dejó el trono sin sucesión. \n  Sinónimos: \n  Categorías: carácter de cuento, Carácter del libro, carácter histórico, literatura, histórico, Carácter de la película\n  Contexto: carácter, carácter histórico, histórico, Carácter del libro, carácter de cuento, literatura, Carácter de la película, cine",
+      "extracted_query": "príncipe",
+      "order": 2
+    },
+    {
+      "concept": "beso",
+      "id": 21437,
+      "url": "https://static.arasaac.org/pictograms/21437/21437_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+      "extracted_query": "beso",
+      "order": 3
+    },
+    {
+      "concept": "despertar",
+      "id": 31857,
+      "url": "https://static.arasaac.org/pictograms/31857/31857_500.png",
+      "score": 0.8807227611541748,
+      "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+      "extracted_query": "despertar",
+      "judge_added": true,
+      "order": 4
+    },
+    {
+      "concept": "Blancanieves",
+      "id": 21447,
+      "url": "https://static.arasaac.org/pictograms/21447/21447_500.png",
+      "score": 0.8583489060401917,
+      "description": "query: Concepto: Blancanieves\n  Descripción: Personaje central de un cuento de hadas mundialmente conocido. La versión más conocida es la de los hermanos Grimm y la de Blanca Nieves y los Siete Enanos. La versión típica tiene elementos como el espejo mágico y los siete enanos (o duendes). En algunas versiones los enanitos son ladrones y el diálogo con el espejo se hace con el sol o la luna.\n  Sinónimos: \n  Categorías: carácter de cuento\n  Contexto: carácter, Carácter del libro, carácter de cuento, literatura",
+      "extracted_query": "Blancanieves",
+      "judge_added": true,
+      "order": 5
+    },
+    {
+      "concept": "despertar",
+      "id": 28625,
+      "url": "https://static.arasaac.org/pictograms/28625/28625_500.png",
+      "score": 0.8786112666130066,
+      "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezar, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+      "extracted_query": "despertar",
+      "judge_added": true,
+      "order": 6
+    },
+    {
+      "concept": "blanco",
+      "id": 2662,
+      "url": "https://static.arasaac.org/pictograms/2662/2662_500.png",
+      "score": 0.8341258764266968,
+      "description": "query: Concepto: blanco\n  Descripción:  adj. De color de nieve o leche. Es el color de la luz solar, no descompuesta en los colores del espectro.\n  Sinónimos: blanca\n  Categorías: color\n  Contexto: color",
+      "extracted_query": "Blancanieves",
+      "judge_added": true,
+      "order": 7
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "blanco",
+        "reason": "Es redundante e incorrecto incluir el adjetivo 'blanco' cuando ya se incluyó el sustantivo propio 'Blancanieves' anteriormente."
+      },
+      {
+        "concept": "despertar",
+        "reason": "Aparece el concepto 'despertar' dos veces en la secuencia, lo cual es innecesario y confuso para el usuario de AAC."
+      }
+    ],
+    "ordering_issues": [
+      "La secuencia lógica debería seguir el orden de la acción: Sujeto (príncipe) + Acción (llegar) + Acción (despertar) + Objeto (Blancanieves) + Medio (beso)."
+    ],
+    "suggestions": [
+      "Eliminar el segundo pictograma de 'despertar' y el pictograma de 'blanco'.",
+      "Reordenar la secuencia a: Príncipe, llegar, despertar, Blancanieves, beso."
+    ]
+  }
+}

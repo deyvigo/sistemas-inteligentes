@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260526_065146",
+  "text": "Esto uno con el pegamento",
+  "sequence": [
+    {
+      "concept": "este",
+      "id": 7095,
+      "text": "query: Concepto: este\n  Descripción: pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar.\n  Sinónimos: esta, esto\n  Categorías: adjetivo demostrativo, pronombre demostrativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo demostrativo, pronombre, pronombre demostrativo",
+      "score": 0.8818525075912476,
+      "feedback_override": false,
+      "extracted_query": "esto",
+      "description": "query: Concepto: este\n  Descripción: pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar.\n  Sinónimos: esta, esto\n  Categorías: adjetivo demostrativo, pronombre demostrativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo demostrativo, pronombre, pronombre demostrativo",
+      "url": "https://static.arasaac.org/pictograms/7095/7095_500.png"
+    },
+    {
+      "concept": "uno",
+      "id": 2627,
+      "text": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1, un, una\n  Categorías: número, matemáticas, vocabulario-conocimiento básico, adjetivo, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral, vocabulario básico",
+      "score": 0.8682464957237244,
+      "feedback_override": false,
+      "extracted_query": "uno",
+      "description": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1, un, una\n  Categorías: número, matemáticas, vocabulario-conocimiento básico, adjetivo, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral, vocabulario básico",
+      "url": "https://static.arasaac.org/pictograms/2627/2627_500.png"
+    },
+    {
+      "concept": "pegamento",
+      "id": 2510,
+      "text": "query: Concepto: pegamento\n  Descripción: m. Sustancia química de propiedades aglutinantes que se utiliza para pegar: pegamento de barra.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+      "score": 0.8871860504150391,
+      "feedback_override": false,
+      "extracted_query": "pegamento",
+      "description": "query: Concepto: pegamento\n  Descripción: m. Sustancia química de propiedades aglutinantes que se utiliza para pegar: pegamento de barra.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+      "url": "https://static.arasaac.org/pictograms/2510/2510_500.png"
+    }
+  ],
+  "result": {
+    "score": 0,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [],
+    "error": true,
+    "error_type": "api_error",
+    "message": "El LLM-Judge no pudo evaluar la secuencia por un error técnico.",
+    "details": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  }
+}

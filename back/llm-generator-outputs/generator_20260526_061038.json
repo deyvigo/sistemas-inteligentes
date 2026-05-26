@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_061038",
+  "text": "Limpiar y tirar la basura",
+  "concepts": [
+    "limpiar",
+    "tirar",
+    "basura"
+  ],
+  "candidates": [
+    {
+      "concept": "limpiar",
+      "candidates": [
+        {
+          "id": 17269,
+          "concept": "limpiar",
+          "query_concept": "limpiar",
+          "text": "query: Concepto: limpiar\n  Descripción:  tr. Quitar la suciedad de algo.\n  Sinónimos: \n  Categorías: verbo, utensilio\n  Contexto: comunicación, idioma, verbo, objeto, hogar, utensilio, Inicio",
+          "description": "query: Concepto: limpiar\n  Descripción:  tr. Quitar la suciedad de algo.\n  Sinónimos: \n  Categorías: verbo, utensilio\n  Contexto: comunicación, idioma, verbo, objeto, hogar, utensilio, Inicio",
+          "score": 0.906368613243103
+        },
+        {
+          "id": 4871,
+          "concept": "limpiador",
+          "query_concept": "limpiar",
+          "text": "query: Concepto: limpiador\n  Descripción:  Producto químico más o menos líquido o instrumento que se utiliza para limpiar.\n  Sinónimos: \n  Categorías: producto de limpieza\n  Contexto: objeto, producto de limpieza",
+          "description": "query: Concepto: limpiador\n  Descripción:  Producto químico más o menos líquido o instrumento que se utiliza para limpiar.\n  Sinónimos: \n  Categorías: producto de limpieza\n  Contexto: objeto, producto de limpieza",
+          "score": 0.9008594751358032
+        },
+        {
+          "id": 3351,
+          "concept": "limpiar",
+          "query_concept": "limpiar",
+          "text": "query: Concepto: limpiar\n  Descripción:  tr. Quitar la suciedad de algo.\n  Sinónimos: \n  Categorías: verbos habituales, producto de limpieza, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, objeto, producto de limpieza, vocabulario básico",
+          "description": "query: Concepto: limpiar\n  Descripción:  tr. Quitar la suciedad de algo.\n  Sinónimos: \n  Categorías: verbos habituales, producto de limpieza, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, objeto, producto de limpieza, vocabulario básico",
+          "score": 0.8982185125350952
+        }
+      ]
+    },
+    {
+      "concept": "tirar",
+      "candidates": [
+        {
+          "id": 15375,
+          "concept": "empujar",
+          "query_concept": "tirar",
+          "text": "query: Concepto: empujar\n  Descripción: tr. Hacer fuerza contra alguien o algo para moverlo, sostenerlo o rechazarlo.\n  Sinónimos: tirar\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+          "description": "query: Concepto: empujar\n  Descripción: tr. Hacer fuerza contra alguien o algo para moverlo, sostenerlo o rechazarlo.\n  Sinónimos: tirar\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+          "score": 0.8855874538421631
+        },
+        {
+          "id": 28449,
+          "concept": "tirar",
+          "query_concept": "tirar",
+          "text": "query: Concepto: tirar\n  Descripción: tr. Desechar algo, deshacerse de ello, darlo por inservible \n  Sinónimos: arrojar, lanzar\n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+          "description": "query: Concepto: tirar\n  Descripción: tr. Desechar algo, deshacerse de ello, darlo por inservible \n  Sinónimos: arrojar, lanzar\n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+          "score": 0.875231146812439
+        },
+        {
+          "id": 6542,
+          "concept": "tirar",
+          "query_concept": "tirar",
+          "text": "query: Concepto: tirar\n  Descripción: tr. Desechar algo, deshacerse de ello, darlo por inservible \n  Sinónimos: arrojar, lanzar\n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+          "description": "query: Concepto: tirar\n  Descripción: tr. Desechar algo, deshacerse de ello, darlo por inservible \n  Sinónimos: arrojar, lanzar\n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+          "score": 0.875231146812439
+        }
+      ]
+    },
+    {
+      "concept": "basura",
+      "candidates": [
+        {
+          "id": 6065,
+          "concept": "bolsa de basura",
+          "query_concept": "basura",
+          "text": "query: Concepto: bolsa de basura\n  Descripción: f. Saco o talega de plástico destinado a guardar basura.\n  Sinónimos: \n  Categorías: reciclaje, vocabulario-conocimiento básico\n  Contexto: ciencias del medio ambiente, reciclaje, vocabulario básico",
+          "description": "query: Concepto: bolsa de basura\n  Descripción: f. Saco o talega de plástico destinado a guardar basura.\n  Sinónimos: \n  Categorías: reciclaje, vocabulario-conocimiento básico\n  Contexto: ciencias del medio ambiente, reciclaje, vocabulario básico",
+          "score": 0.8938820362091064
+        },
+        {
+          "id": 8499,
+          "concept": "basura",
+          "query_concept": "basura",
+          "text": "query: Concepto: basura\n  Descripción:  f. Inmundicia, suciedad.\n  Sinónimos: \n  Categorías: reciclaje, contaminación\n  Contexto: ciencias del medio ambiente, reciclaje, contaminación",
+          "description": "query: Concepto: basura\n  Descripción:  f. Inmundicia, suciedad.\n  Sinónimos: \n  Categorías: reciclaje, contaminación\n  Contexto: ciencias del medio ambiente, reciclaje, contaminación",
+          "score": 0.8928504586219788
+        },
+        {
+          "id": 11189,
+          "concept": "basurera",
+          "query_concept": "basura",
+          "text": "query: Concepto: basurera\n  Descripción: f. Persona que tiene por oficio recoger basura.\n  Sinónimos: \n  Categorías: profesional, eliminación de residuos\n  Contexto: trabajo, profesional, sector terciario, eliminación de residuos",
+          "description": "query: Concepto: basurera\n  Descripción: f. Persona que tiene por oficio recoger basura.\n  Sinónimos: \n  Categorías: profesional, eliminación de residuos\n  Contexto: trabajo, profesional, sector terciario, eliminación de residuos",
+          "score": 0.8766175508499146
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      17269,
+      28449,
+      8499
+    ]
+  }
+}

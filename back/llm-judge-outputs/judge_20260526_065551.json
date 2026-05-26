@@ -1,0 +1,29 @@
+{
+  "timestamp": "20260526_065551",
+  "text": "Yo quiero encender la luz",
+  "sequence": [
+    {
+      "concept": "querer",
+      "id": 31141,
+      "url": "https://static.arasaac.org/pictograms/31141/31141_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+      "extracted_query": "quiero"
+    },
+    {
+      "concept": "encender la luz",
+      "id": 8103,
+      "url": "https://static.arasaac.org/pictograms/8103/8103_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: encender la luz\n  Descripción: tr. Conectar un circuito eléctrico, en este caso la luz.\n  Sinónimos: \n  Categorías: verbo, Aparatos de iluminación\n  Contexto: comunicación, idioma, verbo, objeto, aparato, Aparatos de iluminación, Inicio",
+      "extracted_query": "encender"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

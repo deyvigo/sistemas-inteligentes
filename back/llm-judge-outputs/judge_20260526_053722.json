@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_053722",
+  "text": "Yo quiero exponer",
+  "sequence": [
+    {
+      "concept": "querer",
+      "id": 31141,
+      "url": "https://static.arasaac.org/pictograms/31141/31141_500.png",
+      "score": 10.0,
+      "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+      "extracted_query": "quiero",
+      "feedback_override": true
+    },
+    {
+      "concept": "exprimidor",
+      "id": 3270,
+      "url": "https://static.arasaac.org/pictograms/3270/3270_500.png",
+      "score": 0.8659263253211975,
+      "description": "query: Concepto: exprimidor\n  Descripción: Instrumento usado para estrujar la materia cuyo zumo se quiere extraer.\n  Sinónimos: \n  Categorías: Aparatos eléctricos, cocina\n  Contexto: objeto, aparato, Aparatos eléctricos, Inicio, alimentación, cocina",
+      "extracted_query": "exponer",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "exponer"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "exprimidor",
+        "reason": "El pictograma seleccionado representa un utensilio de cocina (exprimidor), lo cual no tiene relación con el verbo 'exponer' (presentar un tema o mostrar algo ante otros)."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir exprimidor por exponer"
+    ]
+  }
+}

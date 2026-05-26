@@ -1,0 +1,165 @@
+{
+  "timestamp": "20260526_061248",
+  "text": "Karen trabajaba con niños y niñas diferentes",
+  "concepts": [
+    "karen",
+    "trabajaba",
+    "niños",
+    "niñas",
+    "diferentes"
+  ],
+  "candidates": [
+    {
+      "concept": "karen",
+      "candidates": [
+        {
+          "id": 35301,
+          "concept": "enfermera",
+          "query_concept": "karen",
+          "text": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8343480825424194
+        },
+        {
+          "id": 8263,
+          "concept": "médica",
+          "query_concept": "karen",
+          "text": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8330309391021729
+        },
+        {
+          "id": 35271,
+          "concept": "enfermero",
+          "query_concept": "karen",
+          "text": "query: Concepto: enfermero\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: enfermero\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8315946459770203
+        }
+      ]
+    },
+    {
+      "concept": "trabajaba",
+      "candidates": [
+        {
+          "id": 34393,
+          "concept": "trabajar",
+          "query_concept": "trabajaba",
+          "text": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbo, profesional\n  Contexto: comunicación, idioma, verbo, trabajo, profesional",
+          "description": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbo, profesional\n  Contexto: comunicación, idioma, verbo, trabajo, profesional",
+          "score": 0.8848317861557007
+        },
+        {
+          "id": 2599,
+          "concept": "trabajar",
+          "query_concept": "trabajaba",
+          "text": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbo, profesional\n  Contexto: comunicación, idioma, verbo, trabajo, profesional",
+          "description": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbo, profesional\n  Contexto: comunicación, idioma, verbo, trabajo, profesional",
+          "score": 0.8848317861557007
+        },
+        {
+          "id": 6624,
+          "concept": "trabajar",
+          "query_concept": "trabajaba",
+          "text": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbos habituales, profesional, tarea educativa, vocabulario básico-comunicación, vocabulario-trabajo básico, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, trabajo, profesional, Educación, tarea educativa, vocabulario básico",
+          "description": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbos habituales, profesional, tarea educativa, vocabulario básico-comunicación, vocabulario-trabajo básico, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, trabajo, profesional, Educación, tarea educativa, vocabulario básico",
+          "score": 0.8842515349388123
+        }
+      ]
+    },
+    {
+      "concept": "niños",
+      "candidates": [
+        {
+          "id": 31462,
+          "concept": "niños",
+          "query_concept": "niños",
+          "text": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+          "description": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+          "score": 0.8984776735305786
+        },
+        {
+          "id": 7178,
+          "concept": "niños",
+          "query_concept": "niños",
+          "text": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos, críos\n  Categorías: grupo, niño, persona según su edad\n  Contexto: persona, grupo, niño",
+          "description": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos, críos\n  Categorías: grupo, niño, persona según su edad\n  Contexto: persona, grupo, niño",
+          "score": 0.8967302441596985
+        },
+        {
+          "id": 6975,
+          "concept": "niños",
+          "query_concept": "niños",
+          "text": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos, críos\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+          "description": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos, críos\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+          "score": 0.8957170248031616
+        }
+      ]
+    },
+    {
+      "concept": "niñas",
+      "candidates": [
+        {
+          "id": 6974,
+          "concept": "niñas",
+          "query_concept": "niñas",
+          "text": "query: Concepto: niñas\n  Descripción: adj. Que están en la niñez. U. t. c. s\n  Sinónimos: crías, chicas\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+          "description": "query: Concepto: niñas\n  Descripción: adj. Que están en la niñez. U. t. c. s\n  Sinónimos: crías, chicas\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+          "score": 0.8859729766845703
+        },
+        {
+          "id": 2484,
+          "concept": "niña",
+          "query_concept": "niñas",
+          "text": "query: Concepto: niña\n  Descripción:  adj. y s. Que se halla en la niñez: todavía es muy niño para viajar solo. \n  Sinónimos: chica, cría\n  Categorías: niño\n  Contexto: persona, niño",
+          "description": "query: Concepto: niña\n  Descripción:  adj. y s. Que se halla en la niñez: todavía es muy niño para viajar solo. \n  Sinónimos: chica, cría\n  Categorías: niño\n  Contexto: persona, niño",
+          "score": 0.8776317834854126
+        },
+        {
+          "id": 28283,
+          "concept": "niña",
+          "query_concept": "niñas",
+          "text": "query: Concepto: niña\n  Descripción:  adj. y s. Que se halla en la niñez: todavía es muy niño para viajar solo. \n  Sinónimos: chica, cría\n  Categorías: niño\n  Contexto: persona, niño",
+          "description": "query: Concepto: niña\n  Descripción:  adj. y s. Que se halla en la niñez: todavía es muy niño para viajar solo. \n  Sinónimos: chica, cría\n  Categorías: niño\n  Contexto: persona, niño",
+          "score": 0.8776317834854126
+        }
+      ]
+    },
+    {
+      "concept": "diferentes",
+      "candidates": [
+        {
+          "id": 4628,
+          "concept": "desigual",
+          "query_concept": "diferentes",
+          "text": "query: Concepto: desigual\n  Descripción:  adj. Diferente, distinto: las opciones son muy desiguales.\n  Sinónimos: diferente, distinto, distinta\n  Categorías: adjetivo calificativo, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, matemáticas, conceptos básicos, vocabulario básico",
+          "description": "query: Concepto: desigual\n  Descripción:  adj. Diferente, distinto: las opciones son muy desiguales.\n  Sinónimos: diferente, distinto, distinta\n  Categorías: adjetivo calificativo, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, matemáticas, conceptos básicos, vocabulario básico",
+          "score": 0.8651942014694214
+        },
+        {
+          "id": 32394,
+          "concept": "desigual",
+          "query_concept": "diferentes",
+          "text": "query: Concepto: desigual\n  Descripción:  adj. Diferente, distinto: las opciones son muy desiguales.\n  Sinónimos: diferente, distinto, distinta\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "description": "query: Concepto: desigual\n  Descripción:  adj. Diferente, distinto: las opciones son muy desiguales.\n  Sinónimos: diferente, distinto, distinta\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "score": 0.8598607778549194
+        },
+        {
+          "id": 31955,
+          "concept": "cambio",
+          "query_concept": "diferentes",
+          "text": "query: Concepto: cambio\n  Descripción: m. Acción y resultado de cambiar:\n  Sinónimos: intercambio\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: cambio\n  Descripción: m. Acción y resultado de cambiar:\n  Sinónimos: intercambio\n  Categorías: varios\n  Contexto:",
+          "score": 0.8577336072921753
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      34393,
+      31462,
+      4628
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "timestamp": "20260526_053151",
+  "text": "Hablar con gritos o mal humor no ayuda",
+  "sequence": [
+    {
+      "concept": "hablar",
+      "id": 6517,
+      "url": "https://static.arasaac.org/pictograms/6517/6517_500.png",
+      "score": 0.898945152759552,
+      "description": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+      "extracted_query": "hablar",
+      "feedback_override": false
+    },
+    {
+      "concept": "grito",
+      "id": 37924,
+      "url": "https://static.arasaac.org/pictograms/37924/37924_500.png",
+      "score": 0.8778345584869385,
+      "description": "query: Concepto: grito\n  Descripción: \n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+      "extracted_query": "gritos",
+      "feedback_override": false
+    },
+    {
+      "concept": "mala",
+      "id": 10207,
+      "url": "https://static.arasaac.org/pictograms/10207/10207_500.png",
+      "score": 0.8652541041374207,
+      "description": "query: Concepto: mala\n  Descripción:  adj. Que carece de bondad y de otras cualidades positivas.\n  Sinónimos: malvada, maligna\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+      "extracted_query": "mal",
+      "feedback_override": false
+    },
+    {
+      "concept": "divertido",
+      "id": 24735,
+      "url": "https://static.arasaac.org/pictograms/24735/24735_500.png",
+      "score": 0.853344202041626,
+      "description": "query: Concepto: divertido\n  Descripción:  adj. Alegre, festivo.\n  Sinónimos: divertida\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+      "extracted_query": "humor",
+      "feedback_override": false
+    },
+    {
+      "concept": "necesito ayuda",
+      "id": 7171,
+      "url": "https://static.arasaac.org/pictograms/7171/7171_500.png",
+      "score": 0.8867309093475342,
+      "description": "query: Concepto: necesito ayuda\n  Descripción: intr. y tr. Tener necesidad de una persona o cosa.\n  Sinónimos: \n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+      "extracted_query": "ayuda",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "humor",
+      "no"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "mala",
+        "reason": "La descripción indica 'que carece de bondad', pero en el contexto original se requiere el concepto 'humor' para formar 'mal humor'."
+      },
+      {
+        "concept": "divertido",
+        "reason": "El pictograma es erróneo y no guarda relación con el concepto de 'mal humor' o el sentido negativo de la frase."
+      },
+      {
+        "concept": "necesito ayuda",
+        "reason": "El pictograma representa 'necesito ayuda' (acción de pedir auxilio), mientras que la frase original usa 'no ayuda' (negación del verbo ayudar/servir)."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir [mala, divertido] por [mal humor]",
+      "Sustituir [necesito ayuda] por [no ayudar]",
+      "Agregar pictograma de negación [no] antes de [ayudar]"
+    ]
+  }
+}

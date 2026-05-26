@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_065421",
+  "text": "Esto uno con el pegamento",
+  "concepts": [
+    "esto",
+    "uno",
+    "pegamento"
+  ],
+  "candidates": [
+    {
+      "concept": "esto",
+      "candidates": [
+        {
+          "id": 7095,
+          "concept": "este",
+          "query_concept": "esto",
+          "text": "query: Concepto: este\n  Descripción: pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar.\n  Sinónimos: esta, esto\n  Categorías: adjetivo demostrativo, pronombre demostrativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo demostrativo, pronombre, pronombre demostrativo",
+          "description": "query: Concepto: este\n  Descripción: pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar.\n  Sinónimos: esta, esto\n  Categorías: adjetivo demostrativo, pronombre demostrativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo demostrativo, pronombre, pronombre demostrativo",
+          "score": 0.8818525075912476
+        },
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "esto",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8684921264648438
+        },
+        {
+          "id": 13026,
+          "concept": "ahora",
+          "query_concept": "esto",
+          "text": "query: Concepto: ahora\n  Descripción: adv. t. A esta hora, en este momento, en el tiempo actual o presente.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos",
+          "description": "query: Concepto: ahora\n  Descripción: adv. t. A esta hora, en este momento, en el tiempo actual o presente.\n  Sinónimos: \n  Categorías: adverbio del tiempo, conceptos básicos\n  Contexto: comunicación, idioma, adverb, adverbio del tiempo, matemáticas, conceptos básicos",
+          "score": 0.8677234649658203
+        }
+      ]
+    },
+    {
+      "concept": "uno",
+      "candidates": [
+        {
+          "id": 2627,
+          "concept": "uno",
+          "query_concept": "uno",
+          "text": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1, un, una\n  Categorías: número, matemáticas, vocabulario-conocimiento básico, adjetivo, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral, vocabulario básico",
+          "description": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1, un, una\n  Categorías: número, matemáticas, vocabulario-conocimiento básico, adjetivo, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral, vocabulario básico",
+          "score": 0.8682464957237244
+        },
+        {
+          "id": 35677,
+          "concept": "uno",
+          "query_concept": "uno",
+          "text": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1\n  Categorías: número, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral",
+          "description": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1\n  Categorías: número, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral",
+          "score": 0.8639597296714783
+        },
+        {
+          "id": 7291,
+          "concept": "uno",
+          "query_concept": "uno",
+          "text": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1\n  Categorías: número, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral",
+          "description": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1\n  Categorías: número, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral",
+          "score": 0.8639597296714783
+        }
+      ]
+    },
+    {
+      "concept": "pegamento",
+      "candidates": [
+        {
+          "id": 2510,
+          "concept": "pegamento",
+          "query_concept": "pegamento",
+          "text": "query: Concepto: pegamento\n  Descripción: m. Sustancia química de propiedades aglutinantes que se utiliza para pegar: pegamento de barra.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+          "description": "query: Concepto: pegamento\n  Descripción: m. Sustancia química de propiedades aglutinantes que se utiliza para pegar: pegamento de barra.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+          "score": 0.8871860504150391
+        },
+        {
+          "id": 37499,
+          "concept": "adhesivo",
+          "query_concept": "pegamento",
+          "text": "query: Concepto: adhesivo\n  Descripción: \n  Sinónimos: pegamento\n  Categorías: material didáctico, herramienta de trabajo, carpintería\n  Contexto: Educación, material didáctico, trabajo, herramienta, sector secundario, carpintería",
+          "description": "query: Concepto: adhesivo\n  Descripción: \n  Sinónimos: pegamento\n  Categorías: material didáctico, herramienta de trabajo, carpintería\n  Contexto: Educación, material didáctico, trabajo, herramienta, sector secundario, carpintería",
+          "score": 0.8822922706604004
+        },
+        {
+          "id": 25307,
+          "concept": "pegajoso",
+          "query_concept": "pegamento",
+          "text": "query: Concepto: pegajoso\n  Descripción:  adj. Que se pega con facilidad. \n  Sinónimos: pegajosa\n  Categorías: adjetivo calificativo, textura\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, textura",
+          "description": "query: Concepto: pegajoso\n  Descripción:  adj. Que se pega con facilidad. \n  Sinónimos: pegajosa\n  Categorías: adjetivo calificativo, textura\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, textura",
+          "score": 0.8695336580276489
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      7095,
+      2627,
+      2510
+    ]
+  }
+}

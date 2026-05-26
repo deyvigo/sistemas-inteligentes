@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260526_065424",
+  "text": "Esto uno con el pegamento",
+  "sequence": [
+    {
+      "concept": "este",
+      "id": 7095,
+      "url": "https://static.arasaac.org/pictograms/7095/7095_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: este\n  Descripción: pron. dem. Designa lo que está cerca de la persona que habla, o representa y señala lo que se acaba de mencionar.\n  Sinónimos: esta, esto\n  Categorías: adjetivo demostrativo, pronombre demostrativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo demostrativo, pronombre, pronombre demostrativo",
+      "extracted_query": "esto"
+    },
+    {
+      "concept": "uno",
+      "id": 2627,
+      "url": "https://static.arasaac.org/pictograms/2627/2627_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1, un, una\n  Categorías: número, matemáticas, vocabulario-conocimiento básico, adjetivo, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral, vocabulario básico",
+      "extracted_query": "uno"
+    },
+    {
+      "concept": "pegamento",
+      "id": 2510,
+      "url": "https://static.arasaac.org/pictograms/2510/2510_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pegamento\n  Descripción: m. Sustancia química de propiedades aglutinantes que se utiliza para pegar: pegamento de barra.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+      "extracted_query": "pegamento"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "unir"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "este",
+        "reason": "El pictograma de 'este' (pronombre demostrativo) no aporta significado funcional en este contexto. Se requiere un verbo de acción para representar la intención de 'unir' o 'pegar'."
+      },
+      {
+        "concept": "uno",
+        "reason": "El pictograma representa el número '1'. En el contexto de la frase, 'uno' funciona como pronombre o parte de la acción de unir, por lo que es redundante o confuso."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'este' por el pictograma de acción 'unir'",
+      "Eliminar el pictograma 'uno' ya que carece de valor semántico en la instrucción"
+    ]
+  }
+}

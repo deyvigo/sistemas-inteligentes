@@ -1,0 +1,48 @@
+{
+  "timestamp": "20260526_065531",
+  "text": "Llegó un príncipe y despertó a Blancanieves con un beso",
+  "sequence": [
+    {
+      "concept": "venir",
+      "id": 11708,
+      "url": "https://static.arasaac.org/pictograms/11708/11708_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: acudir, llegar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "llegó"
+    },
+    {
+      "concept": "príncipe",
+      "id": 5555,
+      "url": "https://static.arasaac.org/pictograms/5555/5555_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: príncipe\n  Descripción:  m. Hijo primogénito del rey y heredero de la corona: la muerte del príncipe dejó el trono sin sucesión. \n  Sinónimos: \n  Categorías: carácter de cuento, Carácter del libro, carácter histórico, literatura, histórico, Carácter de la película\n  Contexto: carácter, carácter histórico, histórico, Carácter del libro, carácter de cuento, literatura, Carácter de la película, cine",
+      "extracted_query": "príncipe"
+    },
+    {
+      "concept": "beso",
+      "id": 21437,
+      "url": "https://static.arasaac.org/pictograms/21437/21437_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+      "extracted_query": "beso"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "despertar",
+      "Blancanieves"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "venir",
+        "reason": "El concepto 'llegar' implica el final de un trayecto, mientras que 'venir' es el movimiento. Aunque son cercanos, falta la acción principal de 'despertar' que es fundamental para el significado de la frase."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de 'despertar'",
+      "Agregar pictograma de 'Blancanieves'"
+    ]
+  }
+}

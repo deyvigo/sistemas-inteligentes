@@ -1,0 +1,78 @@
+{
+  "timestamp": "20260526_053142",
+  "text": "Las hojas se secan y se caen de los árboles con el viento",
+  "sequence": [
+    {
+      "concept": "hoja",
+      "id": 3114,
+      "url": "https://static.arasaac.org/pictograms/3114/3114_500.png",
+      "score": 0.8937759399414062,
+      "description": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: \n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+      "extracted_query": "hojas",
+      "feedback_override": false
+    },
+    {
+      "concept": "haba seca",
+      "id": 34890,
+      "url": "https://static.arasaac.org/pictograms/34890/34890_500.png",
+      "score": 0.8504236936569214,
+      "description": "query: Concepto: haba seca\n  Descripción: f. Fruto de la planta del mismo nombre de familia de las Fabáceas que se ha dejado secar.\n  Sinónimos: \n  Categorías: Frutas desecadas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas desecadas",
+      "extracted_query": "secan",
+      "feedback_override": false
+    },
+    {
+      "concept": "caganer",
+      "id": 12301,
+      "url": "https://static.arasaac.org/pictograms/12301/12301_500.png",
+      "score": 0.8444389700889587,
+      "description": "query: Concepto: caganer\n  Descripción: m. Un caganer es una figura de una persona defecando que se suele colocar en los belenes, como tradición en Cataluña y en la Comunidad Valenciana. También es frecuente esta figura en los belenes de las islas Canarias\n  Sinónimos: \n  Categorías: carácter, Navidad\n  Contexto: carácter, evento, evento popular, Navidad",
+      "extracted_query": "caen",
+      "feedback_override": false
+    },
+    {
+      "concept": "árbol de primavera",
+      "id": 24537,
+      "url": "https://static.arasaac.org/pictograms/24537/24537_500.png",
+      "score": 0.8878259062767029,
+      "description": "query: Concepto: árbol de primavera\n  Descripción: m. Aquel al que le nacen los brotes de las nuevas hojas.\n  Sinónimos: \n  Categorías: primavera, árbol\n  Contexto: primavera, planta, árbol",
+      "extracted_query": "árboles",
+      "feedback_override": false
+    },
+    {
+      "concept": "viento",
+      "id": 7259,
+      "url": "https://static.arasaac.org/pictograms/7259/7259_500.png",
+      "score": 0.8837795853614807,
+      "description": "query: Concepto: viento\n  Descripción: m. corriente de aire producida en la atmósfera por el encuentro de diferentes presiones en áreas distintas\n\n\n  Sinónimos: \n  Categorías: fenómenos atmosféricos, otoño\n  Contexto: meteorología, fenómenos atmosféricos, otoño",
+      "extracted_query": "viento",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "secar",
+      "caer"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "haba seca",
+        "reason": "La descripción indica una legumbre (haba), no el proceso de desecación de las hojas. Se debería usar un pictograma de 'seco' o 'marchitar'."
+      },
+      {
+        "concept": "caganer",
+        "reason": "Es un elemento cultural irrelevante y confuso. Debe sustituirse por un pictograma de acción como 'caer'."
+      },
+      {
+        "concept": "árbol de primavera",
+        "reason": "Representa una estación opuesta al proceso de caída de hojas (otoño). Debe usarse un pictograma genérico de 'árbol'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'haba seca' por el concepto 'seco' o 'marchito'",
+      "Sustituir 'caganer' por el concepto 'caer'",
+      "Sustituir 'árbol de primavera' por el concepto 'árbol'"
+    ]
+  }
+}

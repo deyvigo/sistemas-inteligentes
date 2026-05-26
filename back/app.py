@@ -317,6 +317,22 @@ def query_and_judge():
     response["judge"] = response["judge_evaluation"]
     response["judge_refinement"] = response["judge_refined_sequence"]
 
+    # Accumulate online stats for Experiment 1 (non-blocking, no extra LLM call)
+    if judge_result and not judge_result.get("error") and response.get("judge_refined_sequence"):
+        try:
+            refined_seq = response["judge_refined_sequence"]["sequence"]
+            actions     = response["judge_refined_sequence"].get("actions", [])
+            eval_judge_impact.record_online_session(
+                text     = query_text,
+                concepts = processed["concepts"],
+                seq_A    = pictograms,
+                jout_A   = judge_result,
+                seq_B    = refined_seq,
+                actions  = actions,
+            )
+        except Exception:
+            pass
+
     return jsonify(response)
 
 @app.route("/simple-query", methods=["POST"])
@@ -540,9 +556,9 @@ def eval_judge_impact_run():
     if not judge_key:
         return jsonify({"error": "GEMINI_API_KEY_JUDGE o GEMINI_API_KEY no configurada"}), 400
     body = request.json or {}
-    n     = body.get("n", 30)
+    n     = body.get("n", 15)
     seed  = body.get("seed", 42)
-    delay = body.get("delay", 1.0)
+    delay = body.get("delay", 0.3)
     use_llm_generator = body.get("use_llm_generator", USE_LLM_GENERATOR)
 
     def _run():
@@ -581,9 +597,9 @@ def eval_iterative_run():
     if not judge_key:
         return jsonify({"error": "GEMINI_API_KEY_JUDGE o GEMINI_API_KEY no configurada"}), 400
     body  = request.json or {}
-    n     = body.get("n", 15)
+    n     = body.get("n", 10)
     seed  = body.get("seed", 42)
-    delay = body.get("delay", 1.5)
+    delay = body.get("delay", 0.3)
 
     def _run():
         try:

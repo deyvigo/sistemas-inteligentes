@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260526_065637",
+  "text": "La doctora mira la garganta con el bajalenguas",
+  "sequence": [
+    {
+      "concept": "médica",
+      "id": 8263,
+      "url": "https://static.arasaac.org/pictograms/8263/8263_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+      "extracted_query": "doctora"
+    },
+    {
+      "concept": "garganta",
+      "id": 3332,
+      "url": "https://static.arasaac.org/pictograms/3332/3332_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: garganta\n  Descripción:  Conducto interno entre el paladar y la entrada del esófago.\n  Sinónimos: \n  Categorías: anatomía humana, sistema digestivo\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología humana, fisiología, sistema digestivo",
+      "extracted_query": "garganta"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "mirar",
+      "bajalenguas"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de mirar",
+      "Agregar pictograma de bajalenguas"
+    ]
+  }
+}

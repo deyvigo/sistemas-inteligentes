@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_053712",
+  "text": "Yo quiero exponer",
+  "sequence": [
+    {
+      "concept": "querer",
+      "id": 11538,
+      "url": "https://static.arasaac.org/pictograms/11538/11538_500.png",
+      "score": 0.8875735998153687,
+      "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+      "extracted_query": "quiero",
+      "feedback_override": false
+    },
+    {
+      "concept": "exprimidor",
+      "id": 3270,
+      "url": "https://static.arasaac.org/pictograms/3270/3270_500.png",
+      "score": 0.8659263253211975,
+      "description": "query: Concepto: exprimidor\n  Descripción: Instrumento usado para estrujar la materia cuyo zumo se quiere extraer.\n  Sinónimos: \n  Categorías: Aparatos eléctricos, cocina\n  Contexto: objeto, aparato, Aparatos eléctricos, Inicio, alimentación, cocina",
+      "extracted_query": "exponer",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "exponer"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "exprimidor",
+        "reason": "El pictograma seleccionado representa un utensilio de cocina ('exprimidor') y no el verbo de acción 'exponer' (presentar un tema, hablar en público)."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'exprimidor' por un pictograma de 'exponer' (ej: persona hablando frente a una audiencia o presentación)."
+    ]
+  }
+}

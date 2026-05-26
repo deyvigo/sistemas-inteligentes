@@ -1,0 +1,166 @@
+{
+  "timestamp": "20260526_052947",
+  "text": "Las hojas se secan y se caen de los árboles con el viento",
+  "concepts": [
+    "hojas",
+    "secan",
+    "caen",
+    "árboles",
+    "viento"
+  ],
+  "candidates": [
+    {
+      "concept": "hojas",
+      "candidates": [
+        {
+          "id": 3114,
+          "concept": "hoja",
+          "query_concept": "hojas",
+          "text": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: \n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+          "description": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: \n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+          "score": 0.8937759399414062
+        },
+        {
+          "id": 5076,
+          "concept": "hoja",
+          "query_concept": "hojas",
+          "text": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: hoja marrón\n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+          "description": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: hoja marrón\n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+          "score": 0.8932631015777588
+        },
+        {
+          "id": 5077,
+          "concept": "hoja",
+          "query_concept": "hojas",
+          "text": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: hoja verde\n  Categorías: anatomía de las plantas, núcleo vocabulario-viviendo ser\n  Contexto: planta, anatomía de las plantas, anatomía, vocabulario básico",
+          "description": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: hoja verde\n  Categorías: anatomía de las plantas, núcleo vocabulario-viviendo ser\n  Contexto: planta, anatomía de las plantas, anatomía, vocabulario básico",
+          "score": 0.8869893550872803
+        }
+      ]
+    },
+    {
+      "concept": "secan",
+      "candidates": [
+        {
+          "id": 34890,
+          "concept": "haba seca",
+          "query_concept": "secan",
+          "text": "query: Concepto: haba seca\n  Descripción: f. Fruto de la planta del mismo nombre de familia de las Fabáceas que se ha dejado secar.\n  Sinónimos: \n  Categorías: Frutas desecadas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas desecadas",
+          "description": "query: Concepto: haba seca\n  Descripción: f. Fruto de la planta del mismo nombre de familia de las Fabáceas que se ha dejado secar.\n  Sinónimos: \n  Categorías: Frutas desecadas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas desecadas",
+          "score": 0.8504236936569214
+        },
+        {
+          "id": 9035,
+          "concept": "secar",
+          "query_concept": "secan",
+          "text": "query: Concepto: secar\n  Descripción:  tr. Hacer que algo o alguien quede sin humedad o seco.\n  Sinónimos: secar la mesa\n  Categorías: verbo, producto de limpieza\n  Contexto: comunicación, idioma, verbo, objeto, producto de limpieza",
+          "description": "query: Concepto: secar\n  Descripción:  tr. Hacer que algo o alguien quede sin humedad o seco.\n  Sinónimos: secar la mesa\n  Categorías: verbo, producto de limpieza\n  Contexto: comunicación, idioma, verbo, objeto, producto de limpieza",
+          "score": 0.8489691019058228
+        },
+        {
+          "id": 8648,
+          "concept": "pasas",
+          "query_concept": "secan",
+          "text": "query: Concepto: pasas\n  Descripción:  f. Uvas que se han secado de forma natural en la vid, o artificialmente. \n\n\n  Sinónimos: \n  Categorías: Frutas desecadas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas desecadas",
+          "description": "query: Concepto: pasas\n  Descripción:  f. Uvas que se han secado de forma natural en la vid, o artificialmente. \n\n\n  Sinónimos: \n  Categorías: Frutas desecadas\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Frutas desecadas",
+          "score": 0.8481448888778687
+        }
+      ]
+    },
+    {
+      "concept": "caen",
+      "candidates": [
+        {
+          "id": 12301,
+          "concept": "caganer",
+          "query_concept": "caen",
+          "text": "query: Concepto: caganer\n  Descripción: m. Un caganer es una figura de una persona defecando que se suele colocar en los belenes, como tradición en Cataluña y en la Comunidad Valenciana. También es frecuente esta figura en los belenes de las islas Canarias\n  Sinónimos: \n  Categorías: carácter, Navidad\n  Contexto: carácter, evento, evento popular, Navidad",
+          "description": "query: Concepto: caganer\n  Descripción: m. Un caganer es una figura de una persona defecando que se suele colocar en los belenes, como tradición en Cataluña y en la Comunidad Valenciana. También es frecuente esta figura en los belenes de las islas Canarias\n  Sinónimos: \n  Categorías: carácter, Navidad\n  Contexto: carácter, evento, evento popular, Navidad",
+          "score": 0.8444389700889587
+        },
+        {
+          "id": 5941,
+          "concept": "caña",
+          "query_concept": "caen",
+          "text": "query: Concepto: caña\n  Descripción: La que sirve para pescar y lleva en el extremo más delgado una cuerda de la que pende el sedal con el anzuelo.\n  Sinónimos: \n  Categorías: herramienta de trabajo, pesca\n  Contexto: trabajo, herramienta, sector primario, pesca",
+          "description": "query: Concepto: caña\n  Descripción: La que sirve para pescar y lleva en el extremo más delgado una cuerda de la que pende el sedal con el anzuelo.\n  Sinónimos: \n  Categorías: herramienta de trabajo, pesca\n  Contexto: trabajo, herramienta, sector primario, pesca",
+          "score": 0.8433812260627747
+        },
+        {
+          "id": 12295,
+          "concept": "causa",
+          "query_concept": "caen",
+          "text": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "score": 0.8386165499687195
+        }
+      ]
+    },
+    {
+      "concept": "árboles",
+      "candidates": [
+        {
+          "id": 24537,
+          "concept": "árbol de primavera",
+          "query_concept": "árboles",
+          "text": "query: Concepto: árbol de primavera\n  Descripción: m. Aquel al que le nacen los brotes de las nuevas hojas.\n  Sinónimos: \n  Categorías: primavera, árbol\n  Contexto: primavera, planta, árbol",
+          "description": "query: Concepto: árbol de primavera\n  Descripción: m. Aquel al que le nacen los brotes de las nuevas hojas.\n  Sinónimos: \n  Categorías: primavera, árbol\n  Contexto: primavera, planta, árbol",
+          "score": 0.8878259062767029
+        },
+        {
+          "id": 5062,
+          "concept": "árbol de invierno",
+          "query_concept": "árboles",
+          "text": "query: Concepto: árbol de invierno\n  Descripción: Árbol al que se le han caído las hojas.\n  Sinónimos: \n  Categorías: invierno, árbol\n  Contexto: invierno, planta, árbol",
+          "description": "query: Concepto: árbol de invierno\n  Descripción: Árbol al que se le han caído las hojas.\n  Sinónimos: \n  Categorías: invierno, árbol\n  Contexto: invierno, planta, árbol",
+          "score": 0.8842394351959229
+        },
+        {
+          "id": 37131,
+          "concept": "olmo",
+          "query_concept": "árboles",
+          "text": "query: Concepto: olmo\n  Descripción: \n  Sinónimos: \n  Categorías: árbol\n  Contexto: planta, árbol",
+          "description": "query: Concepto: olmo\n  Descripción: \n  Sinónimos: \n  Categorías: árbol\n  Contexto: planta, árbol",
+          "score": 0.8821637630462646
+        }
+      ]
+    },
+    {
+      "concept": "viento",
+      "candidates": [
+        {
+          "id": 7259,
+          "concept": "viento",
+          "query_concept": "viento",
+          "text": "query: Concepto: viento\n  Descripción: m. corriente de aire producida en la atmósfera por el encuentro de diferentes presiones en áreas distintas\n\n\n  Sinónimos: \n  Categorías: fenómenos atmosféricos, otoño\n  Contexto: meteorología, fenómenos atmosféricos, otoño",
+          "description": "query: Concepto: viento\n  Descripción: m. corriente de aire producida en la atmósfera por el encuentro de diferentes presiones en áreas distintas\n\n\n  Sinónimos: \n  Categorías: fenómenos atmosféricos, otoño\n  Contexto: meteorología, fenómenos atmosféricos, otoño",
+          "score": 0.8837795853614807
+        },
+        {
+          "id": 34296,
+          "concept": "vendaval",
+          "query_concept": "viento",
+          "text": "query: Concepto: vendaval\n  Descripción: m. Viento fuerte que no llega a ser temporal declarado\n  Sinónimos: \n  Categorías: desastres naturales\n  Contexto: meteorología, desastres naturales",
+          "description": "query: Concepto: vendaval\n  Descripción: m. Viento fuerte que no llega a ser temporal declarado\n  Sinónimos: \n  Categorías: desastres naturales\n  Contexto: meteorología, desastres naturales",
+          "score": 0.8800034523010254
+        },
+        {
+          "id": 35107,
+          "concept": "ventoso",
+          "query_concept": "viento",
+          "text": "query: Concepto: ventoso\n  Descripción: adj. Con viento o aire: marzo ventoso y abril lluvioso hacen a mayo florido y hermoso.\n  Sinónimos: ventosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+          "description": "query: Concepto: ventoso\n  Descripción: adj. Con viento o aire: marzo ventoso y abril lluvioso hacen a mayo florido y hermoso.\n  Sinónimos: ventosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+          "score": 0.8734191656112671
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      3114,
+      9035,
+      5062,
+      7259
+    ]
+  }
+}

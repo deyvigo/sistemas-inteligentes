@@ -1,0 +1,27 @@
+{
+  "timestamp": "20260526_063957",
+  "text": "No escribir en la pared",
+  "sequence": [
+    {
+      "concept": "escribir",
+      "id": 2380,
+      "url": "https://static.arasaac.org/pictograms/2380/2380_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+      "extracted_query": "escribir"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "no",
+      "pared"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de 'negación' (No)",
+      "Agregar pictograma de 'pared'"
+    ]
+  }
+}

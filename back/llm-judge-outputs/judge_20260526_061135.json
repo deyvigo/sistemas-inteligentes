@@ -1,0 +1,25 @@
+{
+  "timestamp": "20260526_061135",
+  "text": "11 Bolsas",
+  "sequence": [
+    {
+      "concept": "bolsa",
+      "id": 23849,
+      "url": "https://static.arasaac.org/pictograms/23849/23849_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: bolsa\n  Descripción:  f. Saco o talega de diversas materias destinado a guardar todo tipo de objetos.\n  Sinónimos: bolsa de papel\n  Categorías: Contenedor, Comercio\n  Contexto: objeto, Contenedor, trabajo, sector terciario, Comercio",
+      "extracted_query": "bolsas"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [
+      "11"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma del número 11"
+    ]
+  }
+}

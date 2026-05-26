@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260526_061119",
+  "text": "11 Bolsas",
+  "concepts": [
+    "bolsas"
+  ],
+  "candidates": [
+    {
+      "concept": "bolsas",
+      "candidates": [
+        {
+          "id": 2284,
+          "concept": "bolso",
+          "query_concept": "bolsas",
+          "text": "query: Concepto: bolso\n  Descripción:  m. Bolsa de mano de piel u otros materiales para llevar objetos de uso personal, generalmente usada por las mujeres.\n  Sinónimos: \n  Categorías: accesorios, léxico-objeto básico, moda\n  Contexto: objeto, moda, accesorios, vocabulario básico",
+          "description": "query: Concepto: bolso\n  Descripción:  m. Bolsa de mano de piel u otros materiales para llevar objetos de uso personal, generalmente usada por las mujeres.\n  Sinónimos: \n  Categorías: accesorios, léxico-objeto básico, moda\n  Contexto: objeto, moda, accesorios, vocabulario básico",
+          "score": 0.8956961631774902
+        },
+        {
+          "id": 27620,
+          "concept": "bolso",
+          "query_concept": "bolsas",
+          "text": "query: Concepto: bolso\n  Descripción:  m. Bolsa de mano de piel u otros materiales para llevar objetos de uso personal, generalmente usada por las mujeres.\n  Sinónimos: \n  Categorías: accesorios, playa, verano\n  Contexto: accesorios, ocio, actividades al aire libre, playa, verano",
+          "description": "query: Concepto: bolso\n  Descripción:  m. Bolsa de mano de piel u otros materiales para llevar objetos de uso personal, generalmente usada por las mujeres.\n  Sinónimos: \n  Categorías: accesorios, playa, verano\n  Contexto: accesorios, ocio, actividades al aire libre, playa, verano",
+          "score": 0.8907542824745178
+        },
+        {
+          "id": 23849,
+          "concept": "bolsa",
+          "query_concept": "bolsas",
+          "text": "query: Concepto: bolsa\n  Descripción:  f. Saco o talega de diversas materias destinado a guardar todo tipo de objetos.\n  Sinónimos: bolsa de papel\n  Categorías: Contenedor, Comercio\n  Contexto: objeto, Contenedor, trabajo, sector terciario, Comercio",
+          "description": "query: Concepto: bolsa\n  Descripción:  f. Saco o talega de diversas materias destinado a guardar todo tipo de objetos.\n  Sinónimos: bolsa de papel\n  Categorías: Contenedor, Comercio\n  Contexto: objeto, Contenedor, trabajo, sector terciario, Comercio",
+          "score": 0.8873203992843628
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      23849
+    ]
+  }
+}

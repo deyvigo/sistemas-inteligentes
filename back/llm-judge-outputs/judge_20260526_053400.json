@@ -1,0 +1,26 @@
+{
+  "timestamp": "20260526_053400",
+  "text": "11 Bolsas",
+  "sequence": [
+    {
+      "concept": "bolso",
+      "id": 2284,
+      "url": "https://static.arasaac.org/pictograms/2284/2284_500.png",
+      "score": 0.8956961631774902,
+      "description": "query: Concepto: bolso\n  Descripción:  m. Bolsa de mano de piel u otros materiales para llevar objetos de uso personal, generalmente usada por las mujeres.\n  Sinónimos: \n  Categorías: accesorios, léxico-objeto básico, moda\n  Contexto: objeto, moda, accesorios, vocabulario básico",
+      "extracted_query": "bolsas",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "11"
+    ],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de número 11"
+    ]
+  }
+}

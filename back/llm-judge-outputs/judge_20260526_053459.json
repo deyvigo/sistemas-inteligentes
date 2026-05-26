@@ -1,0 +1,41 @@
+{
+  "timestamp": "20260526_053459",
+  "text": "Tomar conciencia",
+  "sequence": [
+    {
+      "concept": "comer",
+      "id": 28641,
+      "url": "https://static.arasaac.org/pictograms/28641/28641_500.png",
+      "score": 0.8663412928581238,
+      "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+      "extracted_query": "tomar",
+      "feedback_override": false
+    },
+    {
+      "concept": "conciencia",
+      "id": 12319,
+      "url": "https://static.arasaac.org/pictograms/12319/12319_500.png",
+      "score": 0.8995615243911743,
+      "description": "query: Concepto: conciencia\n  Descripción: f. Conocimiento que el ser humano posee sobre sí mismo, sobre su existencia y su relación con el mundo. \n  Sinónimos: \n  Categorías: valor humano\n  Contexto: psicología, valor humano",
+      "extracted_query": "conciencia",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "tomar"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "comer",
+        "reason": "El pictograma representa 'comer' (masticar alimentos), lo cual es semánticamente incorrecto para la acción de 'tomar' (adquirir, realizar, prestar atención) en el contexto de 'tomar conciencia'. Se debería usar un pictograma que represente la acción de 'coger' o 'hacer'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir comer por coger o hacer",
+      "Agregar pictograma de tomar (en el sentido de adquirir conocimiento o atención)"
+    ]
+  }
+}

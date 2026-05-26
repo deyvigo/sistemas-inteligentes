@@ -1,0 +1,136 @@
+{
+  "timestamp": "20260526_064057",
+  "text": "Los elefantes son animales muy grandes",
+  "concepts": [
+    "elefantes",
+    "animales",
+    "muy",
+    "grandes"
+  ],
+  "candidates": [
+    {
+      "concept": "elefantes",
+      "candidates": [
+        {
+          "id": 2372,
+          "concept": "elefante",
+          "query_concept": "elefantes",
+          "text": "query: Concepto: elefante\n  Descripción:  m. Mamífero del orden de los proboscidios, de gran tamaño, piel cenicienta, rugosa y gruesa, la cabeza y los ojos pequeños, las orejas grandes y colgantes, la nariz y el labio superior unidos y prolongados en una trompa que usa como mano; tiene dos dientes incisivos, llamados comúnmente colmillos, macizos y muy desarrollados. Habita en Asia y Africa, donde lo emplean como animal de carga.\n  Sinónimos: elefanta\n  Categorías: herbívoro, mamíferos, vivíparas, animales terrestres, animales silvestres, animales domésticos, núcleo vocabulario-viviendo ser\n  Contexto: animal, herbívoro, vertebrados, mamíferos, vivíparas, animales terrestres, salvaje, nacionales, vocabulario básico",
+          "description": "query: Concepto: elefante\n  Descripción:  m. Mamífero del orden de los proboscidios, de gran tamaño, piel cenicienta, rugosa y gruesa, la cabeza y los ojos pequeños, las orejas grandes y colgantes, la nariz y el labio superior unidos y prolongados en una trompa que usa como mano; tiene dos dientes incisivos, llamados comúnmente colmillos, macizos y muy desarrollados. Habita en Asia y Africa, donde lo emplean como animal de carga.\n  Sinónimos: elefanta\n  Categorías: herbívoro, mamíferos, vivíparas, animales terrestres, animales silvestres, animales domésticos, núcleo vocabulario-viviendo ser\n  Contexto: animal, herbívoro, vertebrados, mamíferos, vivíparas, animales terrestres, salvaje, nacionales, vocabulario básico",
+          "score": 0.8837522268295288
+        },
+        {
+          "id": 24256,
+          "concept": "pelo de animal",
+          "query_concept": "elefantes",
+          "text": "query: Concepto: pelo de animal\n  Descripción:  m. Filamento cilíndrico, delgado, de naturaleza córnea, que nace y crece entre los poros de la piel de casi todos los mamíferos: pelo de elefante. \n  Sinónimos: pelo, pelaje\n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "description": "query: Concepto: pelo de animal\n  Descripción:  m. Filamento cilíndrico, delgado, de naturaleza córnea, que nace y crece entre los poros de la piel de casi todos los mamíferos: pelo de elefante. \n  Sinónimos: pelo, pelaje\n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "score": 0.8597530126571655
+        },
+        {
+          "id": 29682,
+          "concept": "mamut",
+          "query_concept": "elefantes",
+          "text": "query: Concepto: mamut\n  Descripción: m. Especie de elefante fósil que vivió en las regiones de clima frío durante la época cuaternaria. Tenía la piel cubierta de pelo áspero y largo, los dientes incisivos de la mandíbula superior, curvos y tan desarrollados, que se hallan algunos de tres metros.\n  Sinónimos: \n  Categorías: extinguido\n  Contexto: extinguido, paleontología",
+          "description": "query: Concepto: mamut\n  Descripción: m. Especie de elefante fósil que vivió en las regiones de clima frío durante la época cuaternaria. Tenía la piel cubierta de pelo áspero y largo, los dientes incisivos de la mandíbula superior, curvos y tan desarrollados, que se hallan algunos de tres metros.\n  Sinónimos: \n  Categorías: extinguido\n  Contexto: extinguido, paleontología",
+          "score": 0.8558477759361267
+        }
+      ]
+    },
+    {
+      "concept": "animales",
+      "candidates": [
+        {
+          "id": 6901,
+          "concept": "animales",
+          "query_concept": "animales",
+          "text": "query: Concepto: animales\n  Descripción:  m. Seres orgánicos que viven, sienten y se mueven por propio impulso.\n  Sinónimos: animal\n  Categorías: animal, categorización, núcleo vocabulario-viviendo ser, vocabulario básico varios\n  Contexto: animal, categorización, vocabulario básico",
+          "description": "query: Concepto: animales\n  Descripción:  m. Seres orgánicos que viven, sienten y se mueven por propio impulso.\n  Sinónimos: animal\n  Categorías: animal, categorización, núcleo vocabulario-viviendo ser, vocabulario básico varios\n  Contexto: animal, categorización, vocabulario básico",
+          "score": 0.895183801651001
+        },
+        {
+          "id": 6890,
+          "concept": "ala",
+          "query_concept": "animales",
+          "text": "query: Concepto: ala\n  Descripción: f. Cada uno de los órganos o apéndices pares que utilizan algunos animales para volar.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "description": "query: Concepto: ala\n  Descripción: f. Cada uno de los órganos o apéndices pares que utilizan algunos animales para volar.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "score": 0.8911038637161255
+        },
+        {
+          "id": 5368,
+          "concept": "ala",
+          "query_concept": "animales",
+          "text": "query: Concepto: ala\n  Descripción: f. Cada uno de los órganos o apéndices pares que utilizan algunos animales para volar.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "description": "query: Concepto: ala\n  Descripción: f. Cada uno de los órganos o apéndices pares que utilizan algunos animales para volar.\n  Sinónimos: \n  Categorías: anatomía animal\n  Contexto: animal, anatomía, anatomía animal",
+          "score": 0.8911038637161255
+        }
+      ]
+    },
+    {
+      "concept": "muy",
+      "candidates": [
+        {
+          "id": 25708,
+          "concept": "muy",
+          "query_concept": "muy",
+          "text": "query: Concepto: muy\n  Descripción:  adv. Se antepone a nombres adjetivados, participios, adverbios y modos adverbiales, para denotar en ellos grado superlativo de significación.\n  Sinónimos: \n  Categorías: adverbio de la manera\n  Contexto: comunicación, idioma, adverb, adverbio de la manera",
+          "description": "query: Concepto: muy\n  Descripción:  adv. Se antepone a nombres adjetivados, participios, adverbios y modos adverbiales, para denotar en ellos grado superlativo de significación.\n  Sinónimos: \n  Categorías: adverbio de la manera\n  Contexto: comunicación, idioma, adverb, adverbio de la manera",
+          "score": 0.8739402294158936
+        },
+        {
+          "id": 12246,
+          "concept": "acceso",
+          "query_concept": "muy",
+          "text": "query: Concepto: acceso\n  Descripción: m. Acción de llegar o acercarse\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: acceso\n  Descripción: m. Acción de llegar o acercarse\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+          "score": 0.8577195405960083
+        },
+        {
+          "id": 4702,
+          "concept": "mudo",
+          "query_concept": "muy",
+          "text": "query: Concepto: mudo\n  Descripción:  adj. Privado físicamente de la facultad de hablar\n  Sinónimos: \n  Categorías: educación especial\n  Contexto: Educación, educación especial",
+          "description": "query: Concepto: mudo\n  Descripción:  adj. Privado físicamente de la facultad de hablar\n  Sinónimos: \n  Categorías: educación especial\n  Contexto: Educación, educación especial",
+          "score": 0.8570787310600281
+        }
+      ]
+    },
+    {
+      "concept": "grandes",
+      "candidates": [
+        {
+          "id": 4658,
+          "concept": "grande",
+          "query_concept": "grandes",
+          "text": "query: Concepto: grande\n  Descripción:  adj. Que supera en tamaño, importancia e intensidad a lo normal.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, Tamaño, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Tamaño, vocabulario básico, objeto",
+          "description": "query: Concepto: grande\n  Descripción:  adj. Que supera en tamaño, importancia e intensidad a lo normal.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, Tamaño, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Tamaño, vocabulario básico, objeto",
+          "score": 0.8727667331695557
+        },
+        {
+          "id": 4557,
+          "concept": "alto",
+          "query_concept": "grandes",
+          "text": "query: Concepto: alto\n  Descripción:  adj. De gran estatura.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, características físicas\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, cuerpo humano, características físicas",
+          "description": "query: Concepto: alto\n  Descripción:  adj. De gran estatura.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, características físicas\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, cuerpo humano, características físicas",
+          "score": 0.8616828322410583
+        },
+        {
+          "id": 10193,
+          "concept": "mayor",
+          "query_concept": "grandes",
+          "text": "query: Concepto: mayor\n  Descripción:  adj. comp. de grande. Que supera a una persona o cosa en cantidad, calidad, edad, intensidad, importancia.\n\n\n  Sinónimos: alta\n  Categorías: adjetivo calificativo, características físicas\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, cuerpo humano, características físicas",
+          "description": "query: Concepto: mayor\n  Descripción:  adj. comp. de grande. Que supera a una persona o cosa en cantidad, calidad, edad, intensidad, importancia.\n\n\n  Sinónimos: alta\n  Categorías: adjetivo calificativo, características físicas\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, cuerpo humano, características físicas",
+          "score": 0.8605774641036987
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      2372,
+      6901,
+      25708,
+      4658
+    ]
+  }
+}

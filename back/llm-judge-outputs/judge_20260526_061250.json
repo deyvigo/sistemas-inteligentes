@@ -1,0 +1,39 @@
+{
+  "timestamp": "20260526_061250",
+  "text": "Karen trabajaba con niños y niñas diferentes",
+  "sequence": [
+    {
+      "concept": "trabajar",
+      "id": 34393,
+      "url": "https://static.arasaac.org/pictograms/34393/34393_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbo, profesional\n  Contexto: comunicación, idioma, verbo, trabajo, profesional",
+      "extracted_query": "trabajaba"
+    },
+    {
+      "concept": "niños",
+      "id": 31462,
+      "url": "https://static.arasaac.org/pictograms/31462/31462_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+      "extracted_query": "niños"
+    },
+    {
+      "concept": "desigual",
+      "id": 4628,
+      "url": "https://static.arasaac.org/pictograms/4628/4628_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: desigual\n  Descripción:  adj. Diferente, distinto: las opciones son muy desiguales.\n  Sinónimos: diferente, distinto, distinta\n  Categorías: adjetivo calificativo, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, matemáticas, conceptos básicos, vocabulario básico",
+      "extracted_query": "diferentes"
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de 'persona' o 'nombre propio' para representar a 'Karen'"
+    ]
+  }
+}

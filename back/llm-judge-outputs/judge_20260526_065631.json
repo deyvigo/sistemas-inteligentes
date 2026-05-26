@@ -1,0 +1,86 @@
+{
+  "timestamp": "20260526_065631",
+  "text": "Pero no puedo pegar a la gente",
+  "sequence": [
+    {
+      "concept": "pero",
+      "id": 11377,
+      "url": "https://static.arasaac.org/pictograms/11377/11377_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pero\n  Descripción:  conj. advers. Enlace que une dos oraciones o sintagmas cuyos significados se contraponen, se restringen o se limitan: es guapo, pero antipático; ha ganado dinero, pero no mucho. \n  Sinónimos: sin embargo, aunque\n  Categorías: conjuntion, Conjunción adversa\n  Contexto: comunicación, idioma, conjuntion, Conjunción adversa",
+      "extracted_query": "pero",
+      "order": 1
+    },
+    {
+      "concept": "puedo?",
+      "id": 7221,
+      "url": "https://static.arasaac.org/pictograms/7221/7221_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+      "extracted_query": "puedo",
+      "order": 2
+    },
+    {
+      "concept": "pegar",
+      "id": 24749,
+      "url": "https://static.arasaac.org/pictograms/24749/24749_500.png",
+      "score": 0.8859108686447144,
+      "description": "query: Concepto: pegar\n  Descripción: Castigar o maltratar a alguien con golpes.\n  Sinónimos: maltratar\n  Categorías: verbo, comportamiento perturbador, verbos habituales, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador, verbos habituales, vocabulario básico",
+      "extracted_query": "uno de 'pegar' (golpear/agredir)",
+      "judge_replaced": true,
+      "order": 3
+    },
+    {
+      "concept": "gente",
+      "id": 7116,
+      "url": "https://static.arasaac.org/pictograms/7116/7116_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+      "extracted_query": "gente",
+      "order": 4
+    },
+    {
+      "concept": "incomprensión",
+      "id": 15333,
+      "url": "https://static.arasaac.org/pictograms/15333/15333_500.png",
+      "score": 0.7806165218353271,
+      "description": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+      "extracted_query": "no",
+      "judge_added": true,
+      "order": 5
+    },
+    {
+      "concept": "negar",
+      "id": 5525,
+      "url": "https://static.arasaac.org/pictograms/5525/5525_500.png",
+      "score": 0.8654109239578247,
+      "description": "query: Concepto: negar\n  Descripción: tr. Decir que no a lo que se pretende o se pide, o no concederlo.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "no' para negar la acción",
+      "judge_added": true,
+      "order": 6
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "puedo?",
+        "reason": "La secuencia incluye 'puedo' (con interrogación) y añade 'incomprensión' y 'negar' que desvirtúan el significado central de prohibición o incapacidad de acción."
+      },
+      {
+        "concept": "incomprensión",
+        "reason": "Este pictograma no aporta valor semántico a la frase y confunde el significado de 'no puedo'."
+      },
+      {
+        "concept": "negar",
+        "reason": "Se debe usar un pictograma de 'no' o 'prohibido' para expresar la negación, en lugar de la acción de 'negar'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'puedo?', 'incomprensión' y 'negar' por los pictogramas 'no' y 'poder' (afirmativo) para expresar 'no poder'.",
+      "Eliminar el pictograma 'pero' si el contexto es una frase aislada, ya que no aporta información semántica relevante al núcleo de la acción."
+    ]
+  }
+}

@@ -1,0 +1,2145 @@
+{
+  "metadata": {
+    "run_at": "2026-05-26T05:37:22.154365",
+    "n": 15,
+    "seed": 42,
+    "round_cuts": [
+      0,
+      3,
+      6,
+      10
+    ]
+  },
+  "per_round": [
+    {
+      "label": "Round 0 (0 fb)",
+      "feedback_sessions": 0,
+      "avg_score": 2.8,
+      "avg_errors": 1.8,
+      "avg_recall": 1.0,
+      "avg_bleu": 9.807,
+      "avg_chrf": 21.706,
+      "avg_overrides": 0.0,
+      "avg_errors_corrected_vs_round0": 0.0
+    },
+    {
+      "label": "Round 1 (3 fb)",
+      "feedback_sessions": 3,
+      "avg_score": 2.8,
+      "avg_errors": 1.6,
+      "avg_recall": 1.0,
+      "avg_bleu": 9.807,
+      "avg_chrf": 21.706,
+      "avg_overrides": 0.067,
+      "avg_errors_corrected_vs_round0": 0.2
+    },
+    {
+      "label": "Round 2 (6 fb)",
+      "feedback_sessions": 6,
+      "avg_score": 2.867,
+      "avg_errors": 1.667,
+      "avg_recall": 1.0,
+      "avg_bleu": 9.807,
+      "avg_chrf": 21.706,
+      "avg_overrides": 0.067,
+      "avg_errors_corrected_vs_round0": 0.2
+    },
+    {
+      "label": "Round 3 (10 fb)",
+      "feedback_sessions": 10,
+      "avg_score": 2.867,
+      "avg_errors": 1.6,
+      "avg_recall": 1.0,
+      "avg_bleu": 9.807,
+      "avg_chrf": 21.706,
+      "avg_overrides": 0.133,
+      "avg_errors_corrected_vs_round0": 0.267
+    }
+  ],
+  "sentence_results": [
+    {
+      "text": "primavera",
+      "concepts": [
+        "primavera"
+      ],
+      "ref_ids": [
+        5553
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            5553
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 50.0,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            5553
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 50.0,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            5553
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 50.0,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            5553
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 50.0,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "text": "El pan dentro de la caja",
+      "concepts": [
+        "pan",
+        "dentro",
+        "caja"
+      ],
+      "ref_ids": [
+        2494,
+        5439,
+        7054
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            2494,
+            5439,
+            5935
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            2494,
+            5439,
+            5935
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            2494,
+            5439,
+            5935
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            2494,
+            5439,
+            5935
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "text": "Las hojas se secan y se caen de los árboles con el viento",
+      "concepts": [
+        "hojas",
+        "secan",
+        "caen",
+        "árboles",
+        "viento"
+      ],
+      "ref_ids": [
+        28571,
+        5063,
+        5367,
+        7259
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            3114,
+            34890,
+            12301,
+            24537,
+            7259
+          ],
+          "score": 1,
+          "errors": 5,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 11.9,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "secar",
+              "caer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "haba seca",
+                "reason": "El pictograma representa una legumbre (haba) en lugar del estado de secado de la hoja. Se debe usar un pictograma de acción o estado como 'secar'."
+              },
+              {
+                "concept": "caganer",
+                "reason": "El pictograma representa una figura folclórica, lo cual no tiene relación con el significado de la frase. Debe sustituirse por una acción de movimiento descendente como 'caer'."
+              },
+              {
+                "concept": "árbol de primavera",
+                "reason": "El pictograma representa un árbol florecido, lo cual es semánticamente opuesto al proceso de caída de hojas en otoño. Se debería usar un pictograma de 'árbol' genérico o 'árbol de otoño'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'haba seca' por el verbo 'secar'",
+              "Sustituir 'caganer' por el verbo 'caer'",
+              "Sustituir 'árbol de primavera' por 'árbol'"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            3114,
+            34890,
+            12301,
+            24537,
+            7259
+          ],
+          "score": 1,
+          "errors": 5,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 11.9,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "secar",
+              "caer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "haba seca",
+                "reason": "El pictograma representa una legumbre (haba), no el proceso de desecación de las hojas. Se debe usar el pictograma de 'seco'."
+              },
+              {
+                "concept": "caganer",
+                "reason": "El pictograma representa una figura folclórica, no la acción de caer. Se debe usar el pictograma de 'caer'."
+              },
+              {
+                "concept": "árbol de primavera",
+                "reason": "El pictograma representa un árbol en su estado de floración/verde, lo cual contradice el significado de hojas secas que caen. Se debe usar un pictograma de 'árbol' neutro."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'haba seca' por 'seco'",
+              "Sustituir 'caganer' por 'caer'",
+              "Agregar pictograma de 'secar'"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            3114,
+            34890,
+            12301,
+            24537,
+            7259
+          ],
+          "score": 1,
+          "errors": 5,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 11.9,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "secar",
+              "caer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "haba seca",
+                "reason": "La descripción indica una legumbre (haba), no el proceso de secado de una hoja. Se debe usar el verbo 'secar'."
+              },
+              {
+                "concept": "caganer",
+                "reason": "Es una figura cultural irrelevante para la frase. Se debe usar el verbo 'caer'."
+              },
+              {
+                "concept": "árbol de primavera",
+                "reason": "Aunque representa un árbol, el concepto de 'primavera' es opuesto al proceso de caída de hojas en otoño. Se debe usar un pictograma de 'árbol' neutro."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'haba seca' por el verbo 'secar'",
+              "Sustituir 'caganer' por el verbo 'caer'",
+              "Sustituir 'árbol de primavera' por 'árbol'"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            3114,
+            34890,
+            12301,
+            24537,
+            7259
+          ],
+          "score": 1,
+          "errors": 5,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 11.9,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "secar",
+              "caer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "haba seca",
+                "reason": "La descripción indica una legumbre (haba), no el proceso de desecación de las hojas. Se debería usar un pictograma de 'seco' o 'marchitar'."
+              },
+              {
+                "concept": "caganer",
+                "reason": "Es un elemento cultural irrelevante y confuso. Debe sustituirse por un pictograma de acción como 'caer'."
+              },
+              {
+                "concept": "árbol de primavera",
+                "reason": "Representa una estación opuesta al proceso de caída de hojas (otoño). Debe usarse un pictograma genérico de 'árbol'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'haba seca' por el concepto 'seco' o 'marchito'",
+              "Sustituir 'caganer' por el concepto 'caer'",
+              "Sustituir 'árbol de primavera' por el concepto 'árbol'"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Hablar con gritos o mal humor no ayuda",
+      "concepts": [
+        "hablar",
+        "gritos",
+        "mal",
+        "humor",
+        "ayuda"
+      ],
+      "ref_ids": [
+        6517,
+        37924,
+        35539,
+        5526,
+        4570
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            6517,
+            37924,
+            10207,
+            24735,
+            7171
+          ],
+          "score": 2,
+          "errors": 5,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 31.62,
+          "chrf": 32.5,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "humor",
+              "no"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "mala",
+                "reason": "La descripción indica 'que carece de bondad', pero en el contexto original se requiere el concepto 'humor' para formar 'mal humor'."
+              },
+              {
+                "concept": "divertido",
+                "reason": "El pictograma es erróneo y no guarda relación con el concepto de 'mal humor' o el sentido negativo de la frase."
+              },
+              {
+                "concept": "necesito ayuda",
+                "reason": "El pictograma representa 'necesito ayuda' (acción de pedir auxilio), mientras que la frase original usa 'no ayuda' (negación del verbo ayudar/servir)."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir [mala, divertido] por [mal humor]",
+              "Sustituir [necesito ayuda] por [no ayudar]",
+              "Agregar pictograma de negación [no] antes de [ayudar]"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            6517,
+            37924,
+            10207,
+            24735,
+            7171
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 2,
+          "recall": 1.0,
+          "bleu": 31.62,
+          "chrf": 32.5,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "humor"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "divertido",
+                "reason": "El pictograma de 'divertido' altera completamente el significado original. Se debe usar un pictograma que represente 'mal humor' o 'enfado'."
+              },
+              {
+                "concept": "necesito ayuda",
+                "reason": "El pictograma representa una necesidad personal de auxilio, cuando el concepto original es que 'no ayuda' (negación de utilidad). Se debe representar 'ayuda' con una negación previa."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir [divertido] por [humor]",
+              "Agregar pictograma de [no] antes de [ayuda]"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            6517,
+            37924,
+            10207,
+            24735,
+            7171
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 2,
+          "recall": 1.0,
+          "bleu": 31.62,
+          "chrf": 32.5,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "humor"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "divertido",
+                "reason": "El pictograma 'divertido' contradice el significado original de la frase, que es negativo ('mal humor')."
+              },
+              {
+                "concept": "necesito ayuda",
+                "reason": "El pictograma representa una solicitud de ayuda ('necesito ayuda'), cuando el mensaje original es una negación ('no ayuda'). Falta el pictograma de 'no' o 'negación'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir [divertido] por [humor]",
+              "Agregar pictograma de [no / negación] antes de [ayuda]",
+              "Sustituir [necesito ayuda] por [ayudar]"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            6517,
+            37924,
+            10207,
+            24735,
+            7171
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 2,
+          "recall": 1.0,
+          "bleu": 31.62,
+          "chrf": 32.5,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "humor"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "divertido",
+                "reason": "El concepto 'divertido' es opuesto a la intención de 'mal humor' y no aporta al significado de la frase; debe ser reemplazado por un pictograma que represente estado de ánimo o mal humor."
+              },
+              {
+                "concept": "necesito ayuda",
+                "reason": "La frase dice 'no ayuda' (negación), y el pictograma actual solo muestra 'necesito ayuda'. Falta el concepto de negación."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'divertido' por 'humor'",
+              "Agregar pictograma de 'no' (negación) antes de 'ayuda'",
+              "Sustituir 'mala' por un pictograma específico de 'enfadado' o 'mal genio' para representar mejor 'mal humor'"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Limpiar y tirar la basura",
+      "concepts": [
+        "limpiar",
+        "tirar",
+        "basura"
+      ],
+      "ref_ids": [
+        3351,
+        15479
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            17269,
+            15375,
+            6065
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "tirar"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "empujar",
+                "reason": "El pictograma de 'empujar' es incorrecto para la acción de 'tirar' (desechar). Se debería usar un pictograma que represente la acción de arrojar o tirar algo a la basura."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir empujar por tirar (acción de desechar)",
+              "Agregar pictograma de tirar"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            17269,
+            15375,
+            6065
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "tirar"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "empujar",
+                "reason": "El pictograma de 'empujar' es incorrecto porque no representa la acción de 'tirar' (desechar/arrojar) necesaria para la instrucción."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir empujar por tirar"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            17269,
+            15375,
+            6065
+          ],
+          "score": 3,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "tirar"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "empujar",
+                "reason": "El pictograma de 'empujar' no transmite el concepto de 'tirar' (desechar/arrojar). Se debe usar un pictograma que represente la acción de tirar a la basura."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir empujar por tirar",
+              "Asegurar que el pictograma de tirar represente la acción de arrojar algo, no de traccionar"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            17269,
+            15375,
+            6065
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "tirar"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "empujar",
+                "reason": "El pictograma de 'empujar' es irrelevante para la acción de tirar la basura. Debe sustituirse por un pictograma que represente la acción de arrojar, tirar o desechar."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'empujar' por 'tirar' (acción de arrojar)",
+              "Agregar pictograma de 'tirar'"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Yo soy fuerte",
+      "concepts": [
+        "soy",
+        "fuerte"
+      ],
+      "ref_ids": [
+        31807,
+        4655
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            26447,
+            10204
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "soja",
+                "reason": "El pictograma de 'soja' es fonéticamente similar a 'yo' pero semánticamente incorrecto. Se debe usar un pictograma que represente la primera persona (ej. 'yo')."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir soja por yo"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            26447,
+            10204
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "soja",
+                "reason": "El pictograma de 'soja' es un error de interpretación fonética del pronombre 'Yo'. Debe eliminarse."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Eliminar pictograma de soja",
+              "Agregar pictograma de Yo (o persona señalándose a sí misma)"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            26447,
+            10204
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "soja",
+                "reason": "El pictograma de 'soja' es fonéticamente similar a 'Yo' pero semánticamente incorrecto, ya que no representa el pronombre personal ni tiene relación con la frase."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir soja por yo"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            26447,
+            10204
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "soja",
+                "reason": "El pictograma representa el alimento 'soja', que es una confusión fonética o de búsqueda para el pronombre personal 'Yo'. Debe sustituirse por un pictograma de persona señalándose a sí misma."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir soja por Yo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Me estoy poniendo la camisa",
+      "concepts": [
+        "estoy",
+        "poniendo",
+        "camisa"
+      ],
+      "ref_ids": [
+        6632,
+        6989,
+        13640
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            5466,
+            35229,
+            13640
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 16.67,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "ponerse (ropa)"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "estar",
+                "reason": "El verbo 'estar' es un verbo copulativo innecesario en AAC y no aporta significado a la acción de vestirse."
+              },
+              {
+                "concept": "poner de pie",
+                "reason": "El pictograma representa el acto de levantarse (incorporarse físicamente) y no la acción de vestirse o ponerse una prenda."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'poner de pie' por 'ponerse (ropa)'",
+              "Eliminar 'estar'"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 1,
+          "ids": [
+            5465,
+            35229,
+            13640
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 16.67,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "ponerse"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "estar",
+                "reason": "Es un verbo copulativo innecesario en AAC según las reglas establecidas; no aporta significado a la acción."
+              },
+              {
+                "concept": "poner de pie",
+                "reason": "El pictograma representa una acción física de levantarse, no la acción de vestirse o ponerse una prenda."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Eliminar pictograma de estar",
+              "Sustituir poner de pie por ponerse (acción de vestir)"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 1,
+          "ids": [
+            5465,
+            35229,
+            13640
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 16.67,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "ponerse"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "estar",
+                "reason": "Es un verbo copulativo innecesario en AAC según las instrucciones, no aporta al significado de la acción de vestirse."
+              },
+              {
+                "concept": "poner de pie",
+                "reason": "La descripción indica 'ponerse de pie' (levantarse), lo cual cambia drásticamente el significado de la acción de vestirse ('ponerse' una prenda)."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Eliminar pictograma de estar",
+              "Sustituir poner de pie por vestir"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 1,
+          "ids": [
+            5465,
+            35229,
+            13640
+          ],
+          "score": 2,
+          "errors": 3,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 16.67,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "ponerse (ropa)"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "estar",
+                "reason": "Es un verbo copulativo innecesario en AAC según las instrucciones, no aporta al significado de la acción de vestir."
+              },
+              {
+                "concept": "poner de pie",
+                "reason": "El pictograma representa la acción física de levantarse o ponerse erguido, no la acción de vestir una prenda."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Eliminar pictograma de estar",
+              "Sustituir poner de pie por vestir"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "11 Bolsas",
+      "concepts": [
+        "bolsas"
+      ],
+      "ref_ids": [
+        29260,
+        27616
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            2284
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "11"
+            ],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": [
+              "Agregar pictograma de número 11"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            2284
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "11"
+            ],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": [
+              "Agregar pictograma de número 11"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            2284
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "11"
+            ],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": [
+              "Agregar pictograma de número 11"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            2284
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "11"
+            ],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": [
+              "Agregar pictograma de número 11"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Escuchar a los pájaros cantar",
+      "concepts": [
+        "escuchar",
+        "pájaros",
+        "cantar"
+      ],
+      "ref_ids": [
+        6572,
+        2490
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            29718,
+            2490,
+            28657
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 22.73,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "escuchar música",
+                "reason": "El pictograma 'escuchar música' implica específicamente música, lo cual desvía el significado de escuchar el sonido natural de los pájaros. Se debería usar simplemente 'escuchar'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'escuchar música' por 'escuchar'"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            29718,
+            2490,
+            28657
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 22.73,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "escuchar música",
+                "reason": "El pictograma 'escuchar música' implica específicamente música, lo cual es semánticamente diferente a escuchar sonidos de la naturaleza. Debería usarse un pictograma de 'escuchar' (oído) que no esté vinculado a instrumentos musicales."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir [escuchar música] por [escuchar/oído]"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            29718,
+            2490,
+            28657
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 22.73,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "escuchar música",
+                "reason": "El pictograma 'escuchar música' implica específicamente la actividad de oír una pieza musical, lo cual es distinto a la acción general de 'escuchar' sonidos de la naturaleza."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'escuchar música' por 'escuchar'"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            29718,
+            2490,
+            28657
+          ],
+          "score": 3,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 22.73,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "escuchar música",
+                "reason": "El pictograma 'escuchar música' implica específicamente la recepción de sonidos melódicos artificiales o grabados. Debería usarse un pictograma de 'escuchar' o 'oír' que sea neutro para representar la acción de percibir sonidos de la naturaleza."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'escuchar música' por 'escuchar'"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Tomar conciencia",
+      "concepts": [
+        "tomar",
+        "conciencia"
+      ],
+      "ref_ids": [
+        12351
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            28641,
+            12319
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "tomar"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "comer",
+                "reason": "El pictograma representa 'comer' (masticar alimentos), lo cual es semánticamente incorrecto para la acción de 'tomar' (adquirir, realizar, prestar atención) en el contexto de 'tomar conciencia'. Se debería usar un pictograma que represente la acción de 'coger' o 'hacer'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir comer por coger o hacer",
+              "Agregar pictograma de tomar (en el sentido de adquirir conocimiento o atención)"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            28641,
+            12319
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 1,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "comer",
+                "reason": "El pictograma representa la acción física de 'ingerir alimentos', lo cual es semánticamente opuesto y confuso respecto al verbo 'tomar' en el sentido abstracto de 'adquirir/alcanzar conciencia'. Se debería usar un pictograma relacionado con el concepto de 'hacerse consciente' o 'entender'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir comer por un pictograma de entender, pensar o descubrir"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            28641,
+            12319
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 1,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "comer",
+                "reason": "El pictograma representa la acción física de 'ingerir alimentos', lo cual no tiene relación con el concepto abstracto 'tomar' (entendido aquí como adquirir o alcanzar un estado mental). Debería usarse un pictograma de 'adquirir', 'entender' o 'saber'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir comer por adquirir"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            28641,
+            12319
+          ],
+          "score": 2,
+          "errors": 1,
+          "errors_corrected_vs_round0": 1,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "comer",
+                "reason": "El pictograma representa la acción física de ingerir alimentos ('comer'), lo cual es semánticamente opuesto al verbo 'tomar' (entendido aquí como adquirir o adquirir conciencia). Debe sustituirse por un pictograma de acción cognitiva o el concepto específico de 'aprender' o 'comprender'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir comer por comprender",
+              "Sustituir comer por aprender"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Caperucita tiene una caperuza azul",
+      "concepts": [
+        "caperucita",
+        "caperuza",
+        "azul"
+      ],
+      "ref_ids": [
+        5942,
+        32761,
+        7050,
+        4869
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            5942,
+            7050,
+            3355
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 26.32,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            5942,
+            7050,
+            3355
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 26.32,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            5942,
+            7050,
+            3355
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 26.32,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            5942,
+            7050,
+            3355
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 26.32,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "text": "Observamos el clima lluvioso",
+      "concepts": [
+        "observamos",
+        "clima",
+        "lluvioso"
+      ],
+      "ref_ids": [
+        2474,
+        24721,
+        2936
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            31904,
+            24721,
+            2936
+          ],
+          "score": 4,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 4,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "examinar",
+                "reason": "El pictograma de 'examinar' representa una acción de investigación o análisis técnico. Para 'observar' (mirar algo), es más adecuado un pictograma de 'mirar' o 'ver' para transmitir la observación visual del clima."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir examinar por mirar"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            31904,
+            24721,
+            2936
+          ],
+          "score": 4,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 4,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "examinar",
+                "reason": "El pictograma de 'examinar' (inquirir/investigar) no representa la acción de 'observar/mirar' el clima. Se debería usar un pictograma de 'ver' u 'observar'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir examinar por ver"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            31904,
+            24721,
+            2936
+          ],
+          "score": 4,
+          "errors": 1,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 4,
+            "missing_concepts": [],
+            "incorrect_pictograms": [
+              {
+                "concept": "examinar",
+                "reason": "Aunque es un verbo de observación, el pictograma de 'examinar' implica una acción de indagación o análisis profundo, lo cual no encaja con 'observar' (mirar) el estado del tiempo. Sería más preciso usar 'ver' u 'observar'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir examinar por ver"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            31904,
+            24721,
+            2936
+          ],
+          "score": 5,
+          "errors": 0,
+          "errors_corrected_vs_round0": 1,
+          "recall": 1.0,
+          "bleu": 57.74,
+          "chrf": 58.33,
+          "judge": {
+            "score": 5,
+            "missing_concepts": [],
+            "incorrect_pictograms": [],
+            "ordering_issues": [],
+            "suggestions": []
+          }
+        }
+      ]
+    },
+    {
+      "text": "Leo el texto",
+      "concepts": [
+        "leo",
+        "texto"
+      ],
+      "ref_ids": [
+        7141,
+        37340
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            7152,
+            37340
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 25.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "leer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "mañana",
+                "reason": "El pictograma de 'mañana' no tiene relación con el significado de la frase original 'Leo el texto'. Debe sustituirse por el verbo 'leer'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'mañana' por el pictograma de acción 'leer'",
+              "Agregar pictograma de 'leer' si no se desea eliminar el de texto"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            7152,
+            37340
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 25.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "leer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "mañana",
+                "reason": "El concepto 'mañana' no tiene relación semántica con la frase 'Leo el texto'. Se debe usar un pictograma que represente la acción de leer."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir mañana por leer",
+              "Agregar pictograma de leer"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            7152,
+            37340
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 25.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "leer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "mañana",
+                "reason": "El concepto 'mañana' (tiempo) es irrelevante para la acción principal y altera el significado de la frase."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'mañana' por el pictograma de acción 'leer'",
+              "Agregar pictograma de 'leer' si se decide mantener la estructura"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            7152,
+            37340
+          ],
+          "score": 2,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 25.0,
+          "judge": {
+            "score": 2,
+            "missing_concepts": [
+              "leer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "mañana",
+                "reason": "El pictograma de 'mañana' no aporta al significado de la frase 'Leo el texto', se debe sustituir por la acción de 'leer'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir mañana por leer",
+              "Agregar pictograma de leer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Karen trabajaba con niños y niñas diferentes",
+      "concepts": [
+        "karen",
+        "trabajaba",
+        "niños",
+        "niñas",
+        "diferentes"
+      ],
+      "ref_ids": [
+        32845,
+        34393,
+        7178,
+        4628
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            35301,
+            34393,
+            31462,
+            6974,
+            4628
+          ],
+          "score": 3,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 23.81,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "Karen"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "enfermera",
+                "reason": "La frase menciona el nombre propio 'Karen', pero se ha utilizado un pictograma de 'enfermera'. Si Karen no es enfermera, este pictograma añade información incorrecta que cambia el significado."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'enfermera' por un pictograma de nombre propio o persona (o el pictograma de 'Karen' si existe)",
+              "Agregar pictograma de 'Karen'",
+              "Eliminar el pictograma de 'niñas' si ya se incluyó 'niños' como concepto general (en AAC se busca economía de lenguaje)"
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            35301,
+            34393,
+            31462,
+            6974,
+            4628
+          ],
+          "score": 3,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 23.81,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "Karen"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "enfermera",
+                "reason": "La frase menciona el nombre propio 'Karen', no su profesión. Usar 'enfermera' distorsiona el sujeto de la oración."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'enfermera' por un pictograma de 'mujer' o 'nombre propio' para representar a Karen",
+              "Eliminar el pictograma 'niñas', ya que 'niños' es un término genérico inclusivo que cubre ambos conceptos en sistemas AAC, simplificando la secuencia"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            35301,
+            34393,
+            31462,
+            6974,
+            4628
+          ],
+          "score": 3,
+          "errors": 3,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 23.81,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "Karen"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "enfermera",
+                "reason": "El pictograma representa una profesión específica ('enfermera') que no es equivalente al nombre propio 'Karen'. Se debería usar un pictograma que represente a una mujer o persona, o simplemente eliminarlo si el nombre propio no es esencial."
+              },
+              {
+                "concept": "desigual",
+                "reason": "Aunque 'desigual' puede significar diferente, en el contexto de 'niños diferentes' (referido a diversidad funcional o neurodivergencia), el pictograma de 'desigual' puede malinterpretarse como 'injusto' o 'dispar'. Sería más preciso usar 'diferente' o 'diversidad'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'enfermera' por un pictograma genérico de 'persona' o 'mujer' para representar a Karen",
+              "Sustituir 'desigual' por 'diferente' para evitar una connotación negativa",
+              "Agregar pictograma de 'nombre' o representar 'Karen' con un pictograma de persona si es necesario identificar a la sujeto"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 0,
+          "ids": [
+            35301,
+            34393,
+            31462,
+            6974,
+            4628
+          ],
+          "score": 3,
+          "errors": 3,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 23.81,
+          "judge": {
+            "score": 3,
+            "missing_concepts": [
+              "Karen"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "enfermera",
+                "reason": "La frase menciona el nombre propio 'Karen', no su profesión. El pictograma de 'enfermera' es incorrecto porque añade información errónea no solicitada."
+              },
+              {
+                "concept": "desigual",
+                "reason": "El pictograma de 'desigual' se refiere a falta de igualdad o disparidad matemática, no a la diversidad o diferencia humana requerida en el contexto de 'niños diferentes'."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir [enfermera] por [nombre propio: Karen]",
+              "Sustituir [desigual] por [diferente (variado/diverso)]",
+              "Eliminar pictograma de [niñas] si 'niños' es entendido como género neutro/inclusivo en el sistema, o mantenerlo si se prioriza la especificidad de género."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "text": "Yo quiero exponer",
+      "concepts": [
+        "quiero",
+        "exponer"
+      ],
+      "ref_ids": [
+        31807,
+        5441,
+        9870
+      ],
+      "rounds": [
+        {
+          "label": "Round 0 (0 fb)",
+          "feedback_sessions": 0,
+          "overrides_applied": 0,
+          "ids": [
+            11538,
+            3270
+          ],
+          "score": 1,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "exponer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "exprimidor",
+                "reason": "El pictograma seleccionado representa un utensilio de cocina ('exprimidor') y no el verbo de acción 'exponer' (presentar un tema, hablar en público)."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir 'exprimidor' por un pictograma de 'exponer' (ej: persona hablando frente a una audiencia o presentación)."
+            ]
+          }
+        },
+        {
+          "label": "Round 1 (3 fb)",
+          "feedback_sessions": 3,
+          "overrides_applied": 0,
+          "ids": [
+            11538,
+            3270
+          ],
+          "score": 1,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "exponer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "exponer",
+                "reason": "Se ha utilizado un pictograma de 'exprimidor', que es un objeto de cocina y no representa la acción de presentar o exponer un tema frente a una audiencia."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir exprimidor por un pictograma de exponer, presentar o hablar en público"
+            ]
+          }
+        },
+        {
+          "label": "Round 2 (6 fb)",
+          "feedback_sessions": 6,
+          "overrides_applied": 0,
+          "ids": [
+            11538,
+            3270
+          ],
+          "score": 1,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "exponer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "exprimidor",
+                "reason": "El pictograma de un 'exprimidor' no representa la acción de 'exponer' (presentar o hablar en público). Es un objeto semánticamente lejano."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir exprimidor por exponer",
+              "Agregar pictograma de hablar o presentar"
+            ]
+          }
+        },
+        {
+          "label": "Round 3 (10 fb)",
+          "feedback_sessions": 10,
+          "overrides_applied": 1,
+          "ids": [
+            31141,
+            3270
+          ],
+          "score": 1,
+          "errors": 2,
+          "errors_corrected_vs_round0": 0,
+          "recall": 1.0,
+          "bleu": 0.0,
+          "chrf": 0.0,
+          "judge": {
+            "score": 1,
+            "missing_concepts": [
+              "exponer"
+            ],
+            "incorrect_pictograms": [
+              {
+                "concept": "exprimidor",
+                "reason": "El pictograma seleccionado representa un utensilio de cocina (exprimidor), lo cual no tiene relación con el verbo 'exponer' (presentar un tema o mostrar algo ante otros)."
+              }
+            ],
+            "ordering_issues": [],
+            "suggestions": [
+              "Sustituir exprimidor por exponer"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

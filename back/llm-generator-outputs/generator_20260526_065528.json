@@ -1,0 +1,165 @@
+{
+  "timestamp": "20260526_065528",
+  "text": "Llegó un príncipe y despertó a Blancanieves con un beso",
+  "concepts": [
+    "llegó",
+    "príncipe",
+    "despertó",
+    "blancanieves",
+    "beso"
+  ],
+  "candidates": [
+    {
+      "concept": "llegó",
+      "candidates": [
+        {
+          "id": 11708,
+          "concept": "venir",
+          "query_concept": "llegó",
+          "text": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: acudir, llegar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: acudir, llegar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8831757307052612
+        },
+        {
+          "id": 13356,
+          "concept": "venir",
+          "query_concept": "llegó",
+          "text": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: acudir, llegar\n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "description": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: acudir, llegar\n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "score": 0.8803738951683044
+        },
+        {
+          "id": 32669,
+          "concept": "venir",
+          "query_concept": "llegó",
+          "text": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: llamar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: venir\n  Descripción: intr. Trasladarse o llegar hasta donde está el que habla: vino a Cádiz ayer.\n  Sinónimos: llamar\n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8780328035354614
+        }
+      ]
+    },
+    {
+      "concept": "príncipe",
+      "candidates": [
+        {
+          "id": 5555,
+          "concept": "príncipe",
+          "query_concept": "príncipe",
+          "text": "query: Concepto: príncipe\n  Descripción:  m. Hijo primogénito del rey y heredero de la corona: la muerte del príncipe dejó el trono sin sucesión. \n  Sinónimos: \n  Categorías: carácter de cuento, Carácter del libro, carácter histórico, literatura, histórico, Carácter de la película\n  Contexto: carácter, carácter histórico, histórico, Carácter del libro, carácter de cuento, literatura, Carácter de la película, cine",
+          "description": "query: Concepto: príncipe\n  Descripción:  m. Hijo primogénito del rey y heredero de la corona: la muerte del príncipe dejó el trono sin sucesión. \n  Sinónimos: \n  Categorías: carácter de cuento, Carácter del libro, carácter histórico, literatura, histórico, Carácter de la película\n  Contexto: carácter, carácter histórico, histórico, Carácter del libro, carácter de cuento, literatura, Carácter de la película, cine",
+          "score": 0.8821406960487366
+        },
+        {
+          "id": 5554,
+          "concept": "princesa",
+          "query_concept": "príncipe",
+          "text": "query: Concepto: princesa\n  Descripción: Mujer que por sí goza o posee un Estado que tiene el título de principado.\n  Sinónimos: \n  Categorías: carácter histórico, carácter de cuento, Carácter del libro, literatura, histórico\n  Contexto: carácter, carácter histórico, histórico, Carácter del libro, carácter de cuento, literatura",
+          "description": "query: Concepto: princesa\n  Descripción: Mujer que por sí goza o posee un Estado que tiene el título de principado.\n  Sinónimos: \n  Categorías: carácter histórico, carácter de cuento, Carácter del libro, literatura, histórico\n  Contexto: carácter, carácter histórico, histórico, Carácter del libro, carácter de cuento, literatura",
+          "score": 0.8626258373260498
+        },
+        {
+          "id": 17324,
+          "concept": "sultán",
+          "query_concept": "príncipe",
+          "text": "query: Concepto: sultán\n  Descripción: m. Príncipe o gobernador mahometano.\n  Sinónimos: \n  Categorías: carácter de cuento\n  Contexto: carácter, Carácter del libro, carácter de cuento, literatura",
+          "description": "query: Concepto: sultán\n  Descripción: m. Príncipe o gobernador mahometano.\n  Sinónimos: \n  Categorías: carácter de cuento\n  Contexto: carácter, Carácter del libro, carácter de cuento, literatura",
+          "score": 0.8543118834495544
+        }
+      ]
+    },
+    {
+      "concept": "despertó",
+      "candidates": [
+        {
+          "id": 31762,
+          "concept": "distraído",
+          "query_concept": "despertó",
+          "text": "query: Concepto: distraído\n  Descripción:   adj. Dicho de una persona: Que, por distraerse con facilidad, habla u obra sin darse cuenta cabal de sus palabras o de lo que pasa a su alrededor. U. t. c. s.\n  Sinónimos: despistarse\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: distraído\n  Descripción:   adj. Dicho de una persona: Que, por distraerse con facilidad, habla u obra sin darse cuenta cabal de sus palabras o de lo que pasa a su alrededor. U. t. c. s.\n  Sinónimos: despistarse\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.8664348125457764
+        },
+        {
+          "id": 32146,
+          "concept": "despistado",
+          "query_concept": "despertó",
+          "text": "query: Concepto: despistado\n  Descripción:   adj. Dicho de una persona: Que, por distraerse con facilidad, habla u obra sin darse cuenta cabal de sus palabras o de lo que pasa a su alrededor. U. t. c. s.\n  Sinónimos: \n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: despistado\n  Descripción:   adj. Dicho de una persona: Que, por distraerse con facilidad, habla u obra sin darse cuenta cabal de sus palabras o de lo que pasa a su alrededor. U. t. c. s.\n  Sinónimos: \n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.865972638130188
+        },
+        {
+          "id": 31103,
+          "concept": "despistada",
+          "query_concept": "despertó",
+          "text": "query: Concepto: despistada\n  Descripción: adj. Desorientado, distraído, que no se da cuenta de lo que ocurre a su alrededor.\n  Sinónimos: \n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: despistada\n  Descripción: adj. Desorientado, distraído, que no se da cuenta de lo que ocurre a su alrededor.\n  Sinónimos: \n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.8652405738830566
+        }
+      ]
+    },
+    {
+      "concept": "blancanieves",
+      "candidates": [
+        {
+          "id": 2662,
+          "concept": "blanco",
+          "query_concept": "blancanieves",
+          "text": "query: Concepto: blanco\n  Descripción:  adj. De color de nieve o leche. Es el color de la luz solar, no descompuesta en los colores del espectro.\n  Sinónimos: blanca\n  Categorías: color\n  Contexto: color",
+          "description": "query: Concepto: blanco\n  Descripción:  adj. De color de nieve o leche. Es el color de la luz solar, no descompuesta en los colores del espectro.\n  Sinónimos: blanca\n  Categorías: color\n  Contexto: color",
+          "score": 0.839216411113739
+        },
+        {
+          "id": 8043,
+          "concept": "blanco",
+          "query_concept": "blancanieves",
+          "text": "query: Concepto: blanco\n  Descripción:  adj. De color de nieve o leche. Es el color de la luz solar, no descompuesta en los colores del espectro.\n  Sinónimos: blanca\n  Categorías: color, léxico-objeto básico\n  Contexto: color, objeto, vocabulario básico",
+          "description": "query: Concepto: blanco\n  Descripción:  adj. De color de nieve o leche. Es el color de la luz solar, no descompuesta en los colores del espectro.\n  Sinónimos: blanca\n  Categorías: color, léxico-objeto básico\n  Contexto: color, objeto, vocabulario básico",
+          "score": 0.8337196111679077
+        },
+        {
+          "id": 2945,
+          "concept": "lechuza",
+          "query_concept": "blancanieves",
+          "text": "query: Concepto: lechuza\n  Descripción:   f. Ave rapaz nocturna, de unos 35 cm de longitud desde lo alto de la cabeza hasta la extremidad de la cola, y aproximadamente el doble de envergadura, con plumaje muy suave, amarillento, pintado de blanco, gris y negro en las partes superiores, blanco de nieve en el pecho, vientre, patas y cara; cabeza redonda, pico corto y encorvado en la punta, ojos grandes, brillantes y de iris amarillo, cara circular, cola ancha y corta y uñas negras. Es frecuente en España, resopla con fuerza cuando está parada, y da un graznido estridente y lúgubre cuando vuela. Se alimenta ordinariamente de insectos y de pequeños mamíferos roedores. \n  Sinónimos: \n  Categorías: carnívoros, ave, oviparosa, animal volador, animales silvestres\n  Contexto: animal, carnívoros, vertebrados, ave, oviparosa, animal volador, salvaje",
+          "description": "query: Concepto: lechuza\n  Descripción:   f. Ave rapaz nocturna, de unos 35 cm de longitud desde lo alto de la cabeza hasta la extremidad de la cola, y aproximadamente el doble de envergadura, con plumaje muy suave, amarillento, pintado de blanco, gris y negro en las partes superiores, blanco de nieve en el pecho, vientre, patas y cara; cabeza redonda, pico corto y encorvado en la punta, ojos grandes, brillantes y de iris amarillo, cara circular, cola ancha y corta y uñas negras. Es frecuente en España, resopla con fuerza cuando está parada, y da un graznido estridente y lúgubre cuando vuela. Se alimenta ordinariamente de insectos y de pequeños mamíferos roedores. \n  Sinónimos: \n  Categorías: carnívoros, ave, oviparosa, animal volador, animales silvestres\n  Contexto: animal, carnívoros, vertebrados, ave, oviparosa, animal volador, salvaje",
+          "score": 0.8313143849372864
+        }
+      ]
+    },
+    {
+      "concept": "beso",
+      "candidates": [
+        {
+          "id": 21437,
+          "concept": "beso",
+          "query_concept": "beso",
+          "text": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "description": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "score": 0.8835361003875732
+        },
+        {
+          "id": 21439,
+          "concept": "beso",
+          "query_concept": "beso",
+          "text": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "description": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "score": 0.8835361003875732
+        },
+        {
+          "id": 11525,
+          "concept": "beso",
+          "query_concept": "beso",
+          "text": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "description": "query: Concepto: beso\n  Descripción: m. Acción y efecto de besar.\n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "score": 0.8835361003875732
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      11708,
+      5555,
+      21437
+    ]
+  }
+}

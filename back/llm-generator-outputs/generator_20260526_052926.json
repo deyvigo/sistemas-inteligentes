@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_052926",
+  "text": "El pan dentro de la caja",
+  "concepts": [
+    "pan",
+    "dentro",
+    "caja"
+  ],
+  "candidates": [
+    {
+      "concept": "pan",
+      "candidates": [
+        {
+          "id": 2494,
+          "concept": "pan",
+          "query_concept": "pan",
+          "text": "query: Concepto: pan\n  Descripción:  m. Alimento hecho con harina, mezclada con agua y sal, que, después de amasada y fermentada por la acción de la levadura, se cuece al horno, con diversas formas y tamaños.\n  Sinónimos: barra de pan\n  Categorías: alimentos ultraprocesados, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos ultraprocesados, vocabulario básico",
+          "description": "query: Concepto: pan\n  Descripción:  m. Alimento hecho con harina, mezclada con agua y sal, que, después de amasada y fermentada por la acción de la levadura, se cuece al horno, con diversas formas y tamaños.\n  Sinónimos: barra de pan\n  Categorías: alimentos ultraprocesados, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos ultraprocesados, vocabulario básico",
+          "score": 0.8599133491516113
+        },
+        {
+          "id": 10230,
+          "concept": "pan",
+          "query_concept": "pan",
+          "text": "query: Concepto: pan\n  Descripción:  m. Alimento hecho con harina, mezclada con agua y sal, que, después de amasada y fermentada por la acción de la levadura, se cuece al horno, con diversas formas y tamaños.\n  Sinónimos: \n  Categorías: alimentos ultraprocesados\n  Contexto: alimentación, alimentos, alimentos ultraprocesados",
+          "description": "query: Concepto: pan\n  Descripción:  m. Alimento hecho con harina, mezclada con agua y sal, que, después de amasada y fermentada por la acción de la levadura, se cuece al horno, con diversas formas y tamaños.\n  Sinónimos: \n  Categorías: alimentos ultraprocesados\n  Contexto: alimentación, alimentos, alimentos ultraprocesados",
+          "score": 0.8580182790756226
+        },
+        {
+          "id": 2865,
+          "concept": "pan de molde",
+          "query_concept": "pan",
+          "text": "query: Concepto: pan de molde\n  Descripción: El que se hace en un molde de forma rectangular y después se corta en rebanadas.\n  Sinónimos: \n  Categorías: alimentos ultraprocesados\n  Contexto: alimentación, alimentos, alimentos ultraprocesados",
+          "description": "query: Concepto: pan de molde\n  Descripción: El que se hace en un molde de forma rectangular y después se corta en rebanadas.\n  Sinónimos: \n  Categorías: alimentos ultraprocesados\n  Contexto: alimentación, alimentos, alimentos ultraprocesados",
+          "score": 0.8573575615882874
+        }
+      ]
+    },
+    {
+      "concept": "dentro",
+      "candidates": [
+        {
+          "id": 5439,
+          "concept": "dentro",
+          "query_concept": "dentro",
+          "text": "query: Concepto: dentro\n  Descripción:  adv. l. En el interior: me he dejado dentro el bolso. \n  Sinónimos: contenido\n  Categorías: adverbio del lugar, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adverb, adverbio del lugar, matemáticas, conceptos básicos, vocabulario básico",
+          "description": "query: Concepto: dentro\n  Descripción:  adv. l. En el interior: me he dejado dentro el bolso. \n  Sinónimos: contenido\n  Categorías: adverbio del lugar, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adverb, adverbio del lugar, matemáticas, conceptos básicos, vocabulario básico",
+          "score": 0.881019651889801
+        },
+        {
+          "id": 27241,
+          "concept": "entrada",
+          "query_concept": "dentro",
+          "text": "query: Concepto: entrada\n  Descripción:  f. Espacio por donde se entra.\n  Sinónimos: \n  Categorías: estudiantes, Edificio educativo, rutina\n  Contexto: Educación, estudiantes, edificio, lugar, persona, rutina",
+          "description": "query: Concepto: entrada\n  Descripción:  f. Espacio por donde se entra.\n  Sinónimos: \n  Categorías: estudiantes, Edificio educativo, rutina\n  Contexto: Educación, estudiantes, edificio, lugar, persona, rutina",
+          "score": 0.8660546541213989
+        },
+        {
+          "id": 26063,
+          "concept": "entrada",
+          "query_concept": "dentro",
+          "text": "query: Concepto: entrada\n  Descripción:  f. Espacio por donde se entra.\n  Sinónimos: \n  Categorías: estudiantes, Edificio educativo, _construcción educativa\n  Contexto: Educación, estudiantes, edificio, lugar",
+          "description": "query: Concepto: entrada\n  Descripción:  f. Espacio por donde se entra.\n  Sinónimos: \n  Categorías: estudiantes, Edificio educativo, _construcción educativa\n  Contexto: Educación, estudiantes, edificio, lugar",
+          "score": 0.8626993298530579
+        }
+      ]
+    },
+    {
+      "concept": "caja",
+      "candidates": [
+        {
+          "id": 5935,
+          "concept": "caja",
+          "query_concept": "caja",
+          "text": "query: Concepto: caja\n  Descripción:  f. Recipiente de varias formas y tamaños que sirve para albergar objetos.\n  Sinónimos: \n  Categorías: Contenedor, léxico-objeto básico\n  Contexto: objeto, Contenedor, vocabulario básico",
+          "description": "query: Concepto: caja\n  Descripción:  f. Recipiente de varias formas y tamaños que sirve para albergar objetos.\n  Sinónimos: \n  Categorías: Contenedor, léxico-objeto básico\n  Contexto: objeto, Contenedor, vocabulario básico",
+          "score": 0.8775801658630371
+        },
+        {
+          "id": 4924,
+          "concept": "caja china",
+          "query_concept": "caja",
+          "text": "query: Concepto: caja china\n  Descripción: Instrumento musical de la familia de percusión.\n  Sinónimos: \n  Categorías: instrumento de percusión, vocabulario-conocimiento básico\n  Contexto: música, instrumento musical, instrumento de percusión, vocabulario básico",
+          "description": "query: Concepto: caja china\n  Descripción: Instrumento musical de la familia de percusión.\n  Sinónimos: \n  Categorías: instrumento de percusión, vocabulario-conocimiento básico\n  Contexto: música, instrumento musical, instrumento de percusión, vocabulario básico",
+          "score": 0.8705888986587524
+        },
+        {
+          "id": 2931,
+          "concept": "maleta",
+          "query_concept": "caja",
+          "text": "query: Concepto: maleta\n  Descripción: f. Especie de caja de algún material resistente y provista de un asa que sirve para guardar y transportar ropa y objetos personales cuando se viaja.\n  Sinónimos: valija\n  Categorías: accesorios, turismo\n  Contexto: objeto, moda, accesorios, trabajo, sector terciario, turismo",
+          "description": "query: Concepto: maleta\n  Descripción: f. Especie de caja de algún material resistente y provista de un asa que sirve para guardar y transportar ropa y objetos personales cuando se viaja.\n  Sinónimos: valija\n  Categorías: accesorios, turismo\n  Contexto: objeto, moda, accesorios, trabajo, sector terciario, turismo",
+          "score": 0.8652976155281067
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      2494,
+      5439,
+      5935
+    ]
+  }
+}

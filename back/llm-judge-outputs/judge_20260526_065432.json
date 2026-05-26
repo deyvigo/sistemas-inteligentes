@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260526_065432",
+  "text": "No escribir en la pared",
+  "sequence": [
+    {
+      "concept": "Unknown",
+      "id": 7486,
+      "url": "https://static.arasaac.org/pictograms/7486/7486_500.png",
+      "score": 0.0,
+      "description": "",
+      "extracted_query": ""
+    },
+    {
+      "concept": "escribir",
+      "id": 2380,
+      "url": "https://static.arasaac.org/pictograms/2380/2380_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+      "extracted_query": "escribir"
+    },
+    {
+      "concept": "Unknown",
+      "id": 5214,
+      "url": "https://static.arasaac.org/pictograms/5214/5214_500.png",
+      "score": 0.0,
+      "description": "",
+      "extracted_query": ""
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "pared"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "Unknown (pictograma 7486)",
+        "reason": "El primer pictograma corresponde a 'prohibido' o 'no', pero al no estar definido como tal y ser una señal genérica, es ambiguo. Se debe usar el pictograma de 'prohibido' explícito."
+      },
+      {
+        "concept": "Unknown (pictograma 5214)",
+        "reason": "El tercer pictograma es una imagen genérica (parece una persona) que no transmite el concepto de 'pared'. Se debe sustituir por un pictograma de 'pared'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir el primer pictograma 'Unknown' por el pictograma de 'prohibido'",
+      "Sustituir el último pictograma 'Unknown' por el pictograma de 'pared'",
+      "Agregar pictograma de 'pared'"
+    ]
+  }
+}

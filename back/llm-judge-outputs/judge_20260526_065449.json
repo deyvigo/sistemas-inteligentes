@@ -1,0 +1,79 @@
+{
+  "timestamp": "20260526_065449",
+  "text": "No escribir en la pared",
+  "sequence": [
+    {
+      "concept": "invisible",
+      "id": 32755,
+      "url": "https://static.arasaac.org/pictograms/32755/32755_500.png",
+      "score": 0.839898943901062,
+      "description": "query: Concepto: invisible\n  Descripción: adj. Que no puede ser visto.\n  Sinónimos: \n  Categorías: adjetivo calificativo, Carácter de la película, Carácter del libro, física\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, carácter, Carácter de la película, cine, Carácter del libro, literatura, física",
+      "extracted_query": "Unknown (pictograma 7486)",
+      "judge_replaced": true,
+      "order": 1
+    },
+    {
+      "concept": "escribir",
+      "id": 2380,
+      "url": "https://static.arasaac.org/pictograms/2380/2380_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+      "extracted_query": "escribir",
+      "order": 2
+    },
+    {
+      "concept": "prohibido",
+      "id": 32366,
+      "url": "https://static.arasaac.org/pictograms/32366/32366_500.png",
+      "score": 0.8536218404769897,
+      "description": "query: Concepto: prohibido\n  Descripción: Participio adjetivo de Prohibir\n  Sinónimos: \n  Categorías: señal de tráfico\n  Contexto: Movimiento, tráfico, seguridad vial, señal de tráfico",
+      "extracted_query": "el pictograma de 'prohibido",
+      "judge_replaced": true,
+      "order": 3
+    },
+    {
+      "concept": "pádel",
+      "id": 28609,
+      "url": "https://static.arasaac.org/pictograms/28609/28609_500.png",
+      "score": 0.848670482635498,
+      "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+      "extracted_query": "pared",
+      "judge_added": true,
+      "order": 4
+    },
+    {
+      "concept": "pádel",
+      "id": 35242,
+      "url": "https://static.arasaac.org/pictograms/35242/35242_500.png",
+      "score": 0.848670482635498,
+      "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+      "extracted_query": "pared",
+      "judge_added": true,
+      "order": 5
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "pared"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "invisible",
+        "reason": "El pictograma 'invisible' no transmite la negación ni la prohibición de la acción, que es el significado central."
+      },
+      {
+        "concept": "pádel",
+        "reason": "El concepto 'pádel' (deporte) es un error semántico grave, se debería usar un pictograma de 'pared' (superficie de construcción)."
+      }
+    ],
+    "ordering_issues": [
+      "El orden actual es confuso. Para una instrucción de prohibición, el pictograma de 'prohibido' debería ir al principio o al final de la secuencia para marcar toda la acción."
+    ],
+    "suggestions": [
+      "Sustituir invisible por prohibido al inicio de la frase.",
+      "Sustituir pádel por pared.",
+      "Eliminar la repetición del pictograma de pádel."
+    ]
+  }
+}

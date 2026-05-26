@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_063059",
+  "text": "los pollitos dicen pio",
+  "sequence": [
+    {
+      "order": 1,
+      "concept": "pollito",
+      "id": 34076,
+      "url": "https://static.arasaac.org/pictograms/34076/34076_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pollito\n  Descripción: m. Cría de las aves y particularmente de las gallinas.\n  Sinónimos: \n  Categorías: herbívoro, ave, oviparosa, animales terrestres, Ganadería\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animales terrestres, trabajo, sector primario, Ganadería",
+      "extracted_query": "pollitos"
+    },
+    {
+      "order": 2,
+      "concept": "decir",
+      "id": 9693,
+      "url": "https://static.arasaac.org/pictograms/9693/9693_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: decir\n  Descripción: tr. Expresar verbalmente el pensamiento\n  Sinónimos: expresar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+      "extracted_query": "dicen"
+    },
+    {
+      "order": 3,
+      "concept": "piar",
+      "id": 8262,
+      "url": "https://static.arasaac.org/pictograms/8262/8262_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: piar\n  Descripción: intr. Producir las aves el sonido que se representa onomatopéyicamente por \"pío, pío\".\n  Sinónimos: \n  Categorías: verbo, onomatopeya, comportamiento de los animales\n  Contexto: comunicación, idioma, verbo, interjección, onomatopeya, animal, comportamiento de los animales",
+      "extracted_query": "pio"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

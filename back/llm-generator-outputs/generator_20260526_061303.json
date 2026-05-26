@@ -1,0 +1,74 @@
+{
+  "timestamp": "20260526_061303",
+  "text": "Yo quiero exponer",
+  "concepts": [
+    "quiero",
+    "exponer"
+  ],
+  "candidates": [
+    {
+      "concept": "quiero",
+      "candidates": [
+        {
+          "id": 31141,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+          "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 11538,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875735998153687
+        },
+        {
+          "id": 11536,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875735998153687
+        }
+      ]
+    },
+    {
+      "concept": "exponer",
+      "candidates": [
+        {
+          "id": 3270,
+          "concept": "exprimidor",
+          "query_concept": "exponer",
+          "text": "query: Concepto: exprimidor\n  Descripción: Instrumento usado para estrujar la materia cuyo zumo se quiere extraer.\n  Sinónimos: \n  Categorías: Aparatos eléctricos, cocina\n  Contexto: objeto, aparato, Aparatos eléctricos, Inicio, alimentación, cocina",
+          "description": "query: Concepto: exprimidor\n  Descripción: Instrumento usado para estrujar la materia cuyo zumo se quiere extraer.\n  Sinónimos: \n  Categorías: Aparatos eléctricos, cocina\n  Contexto: objeto, aparato, Aparatos eléctricos, Inicio, alimentación, cocina",
+          "score": 0.8659263253211975
+        },
+        {
+          "id": 8119,
+          "concept": "experimento",
+          "query_concept": "exponer",
+          "text": "query: Concepto: experimento\n  Descripción: m. Operación consistente en provocar cierto fenómeno para estudiarlo o estudiar sus efectos.\n  Sinónimos: \n  Categorías: química\n  Contexto: química",
+          "description": "query: Concepto: experimento\n  Descripción: m. Operación consistente en provocar cierto fenómeno para estudiarlo o estudiar sus efectos.\n  Sinónimos: \n  Categorías: química\n  Contexto: química",
+          "score": 0.865418016910553
+        },
+        {
+          "id": 5994,
+          "concept": "exprimir",
+          "query_concept": "exponer",
+          "text": "query: Concepto: exprimir\n  Descripción:  tr. Extraer el zumo o líquido de una cosa.\n  Sinónimos: \n  Categorías: verbo, Aparatos eléctricos, cocina\n  Contexto: comunicación, idioma, verbo, objeto, aparato, Aparatos eléctricos, Inicio, alimentación, cocina",
+          "description": "query: Concepto: exprimir\n  Descripción:  tr. Extraer el zumo o líquido de una cosa.\n  Sinónimos: \n  Categorías: verbo, Aparatos eléctricos, cocina\n  Contexto: comunicación, idioma, verbo, objeto, aparato, Aparatos eléctricos, Inicio, alimentación, cocina",
+          "score": 0.8622863292694092
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31141
+    ]
+  }
+}

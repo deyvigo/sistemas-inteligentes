@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260526_053600",
+  "text": "Observamos el clima lluvioso",
+  "sequence": [
+    {
+      "concept": "examinar",
+      "id": 31904,
+      "url": "https://static.arasaac.org/pictograms/31904/31904_500.png",
+      "score": 0.8631324768066406,
+      "description": "query: Concepto: examinar\n  Descripción: tr. Inquirir, investigar, escudriñar con diligencia y cuidado algo.\n  Sinónimos: reconocer, auscultar, explorar\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+      "extracted_query": "observamos",
+      "feedback_override": false
+    },
+    {
+      "concept": "clima",
+      "id": 24721,
+      "url": "https://static.arasaac.org/pictograms/24721/24721_500.png",
+      "score": 0.8878926634788513,
+      "description": "query: Concepto: clima\n  Descripción:  m. Conjunto de condiciones atmosféricas propias de una zona geográfica: clima lluvioso, tropical. \n  Sinónimos: \n  Categorías: meteorología, categorización\n  Contexto: meteorología, categorización",
+      "extracted_query": "clima",
+      "feedback_override": false
+    },
+    {
+      "concept": "lluvioso",
+      "id": 2936,
+      "url": "https://static.arasaac.org/pictograms/2936/2936_500.png",
+      "score": 0.9016338586807251,
+      "description": "query: Concepto: lluvioso\n  Descripción:  adj. Se dice del tiempo o del lugar en que son frecuentes las lluvias\n  Sinónimos: lluviosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+      "extracted_query": "lluvioso",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "examinar",
+        "reason": "El pictograma de 'examinar' representa una acción de investigación o análisis técnico. Para 'observar' (mirar algo), es más adecuado un pictograma de 'mirar' o 'ver' para transmitir la observación visual del clima."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir examinar por mirar"
+    ]
+  }
+}

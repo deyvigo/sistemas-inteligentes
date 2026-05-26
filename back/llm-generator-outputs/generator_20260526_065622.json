@@ -1,0 +1,136 @@
+{
+  "timestamp": "20260526_065622",
+  "text": "Pero no puedo pegar a la gente",
+  "concepts": [
+    "pero",
+    "puedo",
+    "pegar",
+    "gente"
+  ],
+  "candidates": [
+    {
+      "concept": "pero",
+      "candidates": [
+        {
+          "id": 11377,
+          "concept": "pero",
+          "query_concept": "pero",
+          "text": "query: Concepto: pero\n  Descripción:  conj. advers. Enlace que une dos oraciones o sintagmas cuyos significados se contraponen, se restringen o se limitan: es guapo, pero antipático; ha ganado dinero, pero no mucho. \n  Sinónimos: sin embargo, aunque\n  Categorías: conjuntion, Conjunción adversa\n  Contexto: comunicación, idioma, conjuntion, Conjunción adversa",
+          "description": "query: Concepto: pero\n  Descripción:  conj. advers. Enlace que une dos oraciones o sintagmas cuyos significados se contraponen, se restringen o se limitan: es guapo, pero antipático; ha ganado dinero, pero no mucho. \n  Sinónimos: sin embargo, aunque\n  Categorías: conjuntion, Conjunción adversa\n  Contexto: comunicación, idioma, conjuntion, Conjunción adversa",
+          "score": 0.8873755931854248
+        },
+        {
+          "id": 16159,
+          "concept": "objetos perdidos",
+          "query_concept": "pero",
+          "text": "query: Concepto: objetos perdidos\n  Descripción: m. pl. Aquellos que se poseían, pero que, ahora, no se tienen, o no se hallan,  sea por culpa o descuido del que los poseía, sea por contingencia o desgracia.\n  Sinónimos: objeto perdido\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: objetos perdidos\n  Descripción: m. pl. Aquellos que se poseían, pero que, ahora, no se tienen, o no se hallan,  sea por culpa o descuido del que los poseía, sea por contingencia o desgracia.\n  Sinónimos: objeto perdido\n  Categorías: varios\n  Contexto:",
+          "score": 0.8630591034889221
+        },
+        {
+          "id": 31959,
+          "concept": "parir",
+          "query_concept": "pero",
+          "text": "query: Concepto: parir\n  Descripción: intr. Dicho de una hembra de cualquier especie vivípara: Expeler en tiempo oportuno el feto que tenía concebido.\n  Sinónimos: \n  Categorías: verbo, obstetricia\n  Contexto: comunicación, idioma, verbo, Salud, medicamentos, ginecología, obstetricia",
+          "description": "query: Concepto: parir\n  Descripción: intr. Dicho de una hembra de cualquier especie vivípara: Expeler en tiempo oportuno el feto que tenía concebido.\n  Sinónimos: \n  Categorías: verbo, obstetricia\n  Contexto: comunicación, idioma, verbo, Salud, medicamentos, ginecología, obstetricia",
+          "score": 0.8629101514816284
+        }
+      ]
+    },
+    {
+      "concept": "puedo",
+      "candidates": [
+        {
+          "id": 7221,
+          "concept": "puedo?",
+          "query_concept": "puedo",
+          "text": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+          "description": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+          "score": 0.8804953694343567
+        },
+        {
+          "id": 13630,
+          "concept": "estoy bien",
+          "query_concept": "puedo",
+          "text": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "description": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "score": 0.860572099685669
+        },
+        {
+          "id": 7310,
+          "concept": "yo",
+          "query_concept": "puedo",
+          "text": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "score": 0.858991265296936
+        }
+      ]
+    },
+    {
+      "concept": "pegar",
+      "candidates": [
+        {
+          "id": 24757,
+          "concept": "pegar",
+          "query_concept": "pegar",
+          "text": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: \n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+          "description": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: \n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+          "score": 0.9033973813056946
+        },
+        {
+          "id": 24828,
+          "concept": "pegar",
+          "query_concept": "pegar",
+          "text": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: adherir\n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+          "description": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: adherir\n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+          "score": 0.9029812812805176
+        },
+        {
+          "id": 2511,
+          "concept": "pegar",
+          "query_concept": "pegar",
+          "text": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: \n  Categorías: verbo, tarea educativa, verbos habituales, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: \n  Categorías: verbo, tarea educativa, verbos habituales, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa, verbos habituales, vocabulario básico",
+          "score": 0.9017385840415955
+        }
+      ]
+    },
+    {
+      "concept": "gente",
+      "candidates": [
+        {
+          "id": 7116,
+          "concept": "gente",
+          "query_concept": "gente",
+          "text": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "score": 0.8819648027420044
+        },
+        {
+          "id": 7203,
+          "concept": "gente",
+          "query_concept": "gente",
+          "text": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "score": 0.8819648027420044
+        },
+        {
+          "id": 7117,
+          "concept": "gente",
+          "query_concept": "gente",
+          "text": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "score": 0.8819648027420044
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      11377,
+      7221,
+      2511,
+      7116
+    ]
+  }
+}

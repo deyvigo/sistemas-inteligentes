@@ -1,0 +1,106 @@
+{
+  "timestamp": "20260526_061058",
+  "text": "Me estoy poniendo la camisa",
+  "concepts": [
+    "estoy",
+    "poniendo",
+    "camisa"
+  ],
+  "candidates": [
+    {
+      "concept": "estoy",
+      "candidates": [
+        {
+          "id": 5465,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 31807,
+          "concept": "yo",
+          "query_concept": "estoy",
+          "text": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+          "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal, documento",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "estoy",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8651782274246216
+        }
+      ]
+    },
+    {
+      "concept": "poniendo",
+      "candidates": [
+        {
+          "id": 35229,
+          "concept": "poner de pie",
+          "query_concept": "poniendo",
+          "text": "query: Concepto: poner de pie\n  Descripción: prnl. Estando sentada la persona, levantarse en posición vertical y erguida.\n  Sinónimos: \n  Categorías: verbo, instalaciones recreativas, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, lugar, instalación, instalaciones recreativas, ocio, psicología, comportamiento perturbador",
+          "description": "query: Concepto: poner de pie\n  Descripción: prnl. Estando sentada la persona, levantarse en posición vertical y erguida.\n  Sinónimos: \n  Categorías: verbo, instalaciones recreativas, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, lugar, instalación, instalaciones recreativas, ocio, psicología, comportamiento perturbador",
+          "score": 0.868201494216919
+        },
+        {
+          "id": 27899,
+          "concept": "montar en tándem",
+          "query_concept": "poniendo",
+          "text": "query: Concepto: montar en tándem\n  Descripción: Ponerse o subirse encima de una tándem.\n  Sinónimos: \n  Categorías: verbo, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+          "description": "query: Concepto: montar en tándem\n  Descripción: Ponerse o subirse encima de una tándem.\n  Sinónimos: \n  Categorías: verbo, Transporte terrestre\n  Contexto: comunicación, idioma, verbo, Movimiento, tráfico, modo de transporte, Transporte terrestre",
+          "score": 0.867548942565918
+        },
+        {
+          "id": 27900,
+          "concept": "montar en tándem",
+          "query_concept": "poniendo",
+          "text": "query: Concepto: montar en tándem\n  Descripción: Ponerse o subirse encima de una tándem.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: montar en tándem\n  Descripción: Ponerse o subirse encima de una tándem.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8671719431877136
+        }
+      ]
+    },
+    {
+      "concept": "camisa",
+      "candidates": [
+        {
+          "id": 13640,
+          "concept": "camisa",
+          "query_concept": "camisa",
+          "text": "query: Concepto: camisa\n  Descripción:  f. Prenda de vestir con cuello, botones y puños, que cubre el torso.\n  Sinónimos: \n  Categorías: ropa, léxico-objeto básico\n  Contexto: objeto, moda, ropa, vocabulario básico",
+          "description": "query: Concepto: camisa\n  Descripción:  f. Prenda de vestir con cuello, botones y puños, que cubre el torso.\n  Sinónimos: \n  Categorías: ropa, léxico-objeto básico\n  Contexto: objeto, moda, ropa, vocabulario básico",
+          "score": 0.8902420997619629
+        },
+        {
+          "id": 2308,
+          "concept": "camisa",
+          "query_concept": "camisa",
+          "text": "query: Concepto: camisa\n  Descripción:  f. Prenda de vestir con cuello, botones y puños, que cubre el torso.\n  Sinónimos: \n  Categorías: ropa\n  Contexto: objeto, moda, ropa",
+          "description": "query: Concepto: camisa\n  Descripción:  f. Prenda de vestir con cuello, botones y puños, que cubre el torso.\n  Sinónimos: \n  Categorías: ropa\n  Contexto: objeto, moda, ropa",
+          "score": 0.8876966238021851
+        },
+        {
+          "id": 2309,
+          "concept": "camiseta",
+          "query_concept": "camisa",
+          "text": "query: Concepto: camiseta\n  Descripción:  La misma prenda más ancha y de colores variados que se lleva externamente.\n  Sinónimos: remera\n  Categorías: ropa, léxico-objeto básico\n  Contexto: objeto, moda, ropa, vocabulario básico",
+          "description": "query: Concepto: camiseta\n  Descripción:  La misma prenda más ancha y de colores variados que se lleva externamente.\n  Sinónimos: remera\n  Categorías: ropa, léxico-objeto básico\n  Contexto: objeto, moda, ropa, vocabulario básico",
+          "score": 0.8799849152565002
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31807,
+      13640
+    ]
+  }
+}

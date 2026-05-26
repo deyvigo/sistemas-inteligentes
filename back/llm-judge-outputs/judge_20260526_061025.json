@@ -1,0 +1,55 @@
+{
+  "timestamp": "20260526_061025",
+  "text": "Las hojas se secan y se caen de los árboles con el viento",
+  "sequence": [
+    {
+      "concept": "hoja",
+      "id": 3114,
+      "url": "https://static.arasaac.org/pictograms/3114/3114_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: hoja\n  Descripción:  f. Cada una de las partes, generalmente verdes, planas y delgadas, que nacen en la extremidad de las ramas o en los tallos de las plantas.\n  Sinónimos: \n  Categorías: anatomía de las plantas\n  Contexto: planta, anatomía de las plantas, anatomía",
+      "extracted_query": "hojas"
+    },
+    {
+      "concept": "secar",
+      "id": 9035,
+      "url": "https://static.arasaac.org/pictograms/9035/9035_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: secar\n  Descripción:  tr. Hacer que algo o alguien quede sin humedad o seco.\n  Sinónimos: secar la mesa\n  Categorías: verbo, producto de limpieza\n  Contexto: comunicación, idioma, verbo, objeto, producto de limpieza",
+      "extracted_query": "secan"
+    },
+    {
+      "concept": "árbol de invierno",
+      "id": 5062,
+      "url": "https://static.arasaac.org/pictograms/5062/5062_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: árbol de invierno\n  Descripción: Árbol al que se le han caído las hojas.\n  Sinónimos: \n  Categorías: invierno, árbol\n  Contexto: invierno, planta, árbol",
+      "extracted_query": "árboles"
+    },
+    {
+      "concept": "viento",
+      "id": 7259,
+      "url": "https://static.arasaac.org/pictograms/7259/7259_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: viento\n  Descripción: m. corriente de aire producida en la atmósfera por el encuentro de diferentes presiones en áreas distintas\n\n\n  Sinónimos: \n  Categorías: fenómenos atmosféricos, otoño\n  Contexto: meteorología, fenómenos atmosféricos, otoño",
+      "extracted_query": "viento"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "caer"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "árbol de invierno",
+        "reason": "Aunque representa un árbol, el pictograma especifica 'árbol de invierno', lo cual es redundante y menos claro que un pictograma genérico de 'árbol' para expresar la relación con las hojas."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de 'caer' para completar la acción principal de las hojas.",
+      "Sustituir 'árbol de invierno' por 'árbol'."
+    ]
+  }
+}

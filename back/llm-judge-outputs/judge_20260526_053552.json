@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_053552",
+  "text": "Caperucita tiene una caperuza azul",
+  "sequence": [
+    {
+      "concept": "Caperucita Roja",
+      "id": 5942,
+      "url": "https://static.arasaac.org/pictograms/5942/5942_500.png",
+      "score": 0.8770244121551514,
+      "description": "query: Concepto: Caperucita Roja\n  Descripción: La Caperucita Roja es una fábula transmitida de manera oral en gran parte de Europa y luego en escritos. El relato marca un claro contraste entre el pueblo seguro y el peligroso bosque, normal antítesis del mundo medieval.\n  Sinónimos: Caperucita\n  Categorías: carácter de cuento\n  Contexto: carácter, Carácter del libro, carácter de cuento, literatura",
+      "extracted_query": "caperucita",
+      "feedback_override": false
+    },
+    {
+      "concept": "capucha",
+      "id": 7050,
+      "url": "https://static.arasaac.org/pictograms/7050/7050_500.png",
+      "score": 0.8736043572425842,
+      "description": "query: Concepto: capucha\n  Descripción:   f. Pieza de una prenda de vestir que sirve para cubrir la cabeza y se puede echar a la espalda.\n  Sinónimos: caperuza\n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+      "extracted_query": "caperuza",
+      "feedback_override": false
+    },
+    {
+      "concept": "azul",
+      "id": 3355,
+      "url": "https://static.arasaac.org/pictograms/3355/3355_500.png",
+      "score": 0.8971217274665833,
+      "description": "query: Concepto: azul\n  Descripción: adj. Del color del cielo sin nubes. Es el quinto color del espectro solar.\n  Sinónimos: \n  Categorías: color\n  Contexto: color",
+      "extracted_query": "azul",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

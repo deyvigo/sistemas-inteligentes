@@ -1,0 +1,37 @@
+{
+  "timestamp": "20260526_064149",
+  "text": "Júpiter es el más grande",
+  "sequence": [
+    {
+      "concept": "Júpiter",
+      "id": 10293,
+      "url": "https://static.arasaac.org/pictograms/10293/10293_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: Júpiter\n  Descripción: Es el quinto planeta del Sistema Solar. Forma parte de los denominados planetas exteriores o gaseosos. Recibe su nombre del dios romano Júpiter (Zeus en la mitología griega).\n  Sinónimos: \n  Categorías: planeta\n  Contexto: astronomía, planeta",
+      "extracted_query": "júpiter"
+    },
+    {
+      "concept": "más",
+      "id": 26913,
+      "url": "https://static.arasaac.org/pictograms/26913/26913_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado\n  Contexto: comunicación, idioma, adverb, adverbio de grado",
+      "extracted_query": "más"
+    },
+    {
+      "concept": "grande",
+      "id": 4658,
+      "url": "https://static.arasaac.org/pictograms/4658/4658_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: grande\n  Descripción:  adj. Que supera en tamaño, importancia e intensidad a lo normal.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, Tamaño, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Tamaño, vocabulario básico, objeto",
+      "extracted_query": "grande"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "timestamp": "20260526_064010",
+  "text": "No escribir en la pared",
+  "sequence": [
+    {
+      "concept": "escribir",
+      "id": 2380,
+      "url": "https://static.arasaac.org/pictograms/2380/2380_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+      "extracted_query": "escribir",
+      "order": 1
+    },
+    {
+      "concept": "incomprensión",
+      "id": 15333,
+      "url": "https://static.arasaac.org/pictograms/15333/15333_500.png",
+      "score": 0.7806165218353271,
+      "description": "query: Concepto: incomprensión\n  Descripción: f. Falta de comprensión.\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+      "extracted_query": "no",
+      "judge_added": true,
+      "order": 2
+    },
+    {
+      "concept": "pádel",
+      "id": 28609,
+      "url": "https://static.arasaac.org/pictograms/28609/28609_500.png",
+      "score": 0.848670482635498,
+      "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+      "extracted_query": "pared",
+      "judge_added": true,
+      "order": 3
+    },
+    {
+      "concept": "no",
+      "id": 39149,
+      "url": "https://static.arasaac.org/pictograms/39149/39149_500.png",
+      "score": 0.8859294056892395,
+      "description": "query: Concepto: no\n  Descripción: \n  Sinónimos: negar\n  Categorías: adverb\n  Contexto: comunicación, idioma, adverb, adverbio de la negación",
+      "extracted_query": "negación",
+      "judge_added": true,
+      "order": 4
+    },
+    {
+      "concept": "pádel",
+      "id": 35242,
+      "url": "https://static.arasaac.org/pictograms/35242/35242_500.png",
+      "score": 0.848670482635498,
+      "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+      "extracted_query": "pared",
+      "judge_added": true,
+      "order": 5
+    }
+  ],
+  "result": {
+    "score": 1,
+    "missing_concepts": [
+      "pared"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "incomprensión",
+        "reason": "El pictograma de 'incomprensión' no representa la negación de la acción, debería usarse el pictograma de 'prohibido' o 'no'."
+      },
+      {
+        "concept": "pádel",
+        "reason": "El pictograma de 'pádel' es un error semántico grave, ya que la frase original requiere el concepto de 'pared'."
+      }
+    ],
+    "ordering_issues": [
+      "La secuencia actual es incoherente. En AAC, el pictograma de negación (o prohibición) debe ir al inicio de la frase para marcar la instrucción."
+    ],
+    "suggestions": [
+      "Sustituir 'incomprensión' por 'prohibido'",
+      "Sustituir 'pádel' por 'pared'",
+      "Mover 'no' al principio de la secuencia"
+    ]
+  }
+}

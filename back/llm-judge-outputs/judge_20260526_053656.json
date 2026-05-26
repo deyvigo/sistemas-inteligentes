@@ -1,0 +1,68 @@
+{
+  "timestamp": "20260526_053656",
+  "text": "Karen trabajaba con niños y niñas diferentes",
+  "sequence": [
+    {
+      "concept": "enfermera",
+      "id": 35301,
+      "url": "https://static.arasaac.org/pictograms/35301/35301_500.png",
+      "score": 0.8343480825424194,
+      "description": "query: Concepto: enfermera\n  Descripción: m. y f. Persona que cuida a los enfermos y asiste a los médicos.\n  Sinónimos: \n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+      "extracted_query": "karen",
+      "feedback_override": false
+    },
+    {
+      "concept": "trabajar",
+      "id": 34393,
+      "url": "https://static.arasaac.org/pictograms/34393/34393_500.png",
+      "score": 0.8848317861557007,
+      "description": "query: Concepto: trabajar\n  Descripción: intr. Realizar cualquier actividad, física o intelectual.\n  Sinónimos: \n  Categorías: verbo, profesional\n  Contexto: comunicación, idioma, verbo, trabajo, profesional",
+      "extracted_query": "trabajaba",
+      "feedback_override": false
+    },
+    {
+      "concept": "niños",
+      "id": 31462,
+      "url": "https://static.arasaac.org/pictograms/31462/31462_500.png",
+      "score": 0.8984776735305786,
+      "description": "query: Concepto: niños\n  Descripción: Que se hallan en la niñez.\n  Sinónimos: chicos\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+      "extracted_query": "niños",
+      "feedback_override": false
+    },
+    {
+      "concept": "niñas",
+      "id": 6974,
+      "url": "https://static.arasaac.org/pictograms/6974/6974_500.png",
+      "score": 0.8859729766845703,
+      "description": "query: Concepto: niñas\n  Descripción: adj. Que están en la niñez. U. t. c. s\n  Sinónimos: crías, chicas\n  Categorías: grupo, niño\n  Contexto: persona, grupo, niño",
+      "extracted_query": "niñas",
+      "feedback_override": false
+    },
+    {
+      "concept": "desigual",
+      "id": 4628,
+      "url": "https://static.arasaac.org/pictograms/4628/4628_500.png",
+      "score": 0.8651942014694214,
+      "description": "query: Concepto: desigual\n  Descripción:  adj. Diferente, distinto: las opciones son muy desiguales.\n  Sinónimos: diferente, distinto, distinta\n  Categorías: adjetivo calificativo, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, matemáticas, conceptos básicos, vocabulario básico",
+      "extracted_query": "diferentes",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [
+      "Karen"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "enfermera",
+        "reason": "La frase menciona el nombre propio 'Karen', no su profesión. Usar 'enfermera' distorsiona el sujeto de la oración."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'enfermera' por un pictograma de 'mujer' o 'nombre propio' para representar a Karen",
+      "Eliminar el pictograma 'niñas', ya que 'niños' es un término genérico inclusivo que cubre ambos conceptos en sistemas AAC, simplificando la secuencia"
+    ]
+  }
+}

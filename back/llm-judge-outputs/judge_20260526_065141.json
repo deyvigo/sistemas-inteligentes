@@ -1,0 +1,57 @@
+{
+  "timestamp": "20260526_065141",
+  "text": "Yo puedo pedir dar un paseo",
+  "sequence": [
+    {
+      "concept": "puedo?",
+      "id": 7221,
+      "text": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+      "score": 0.8804953694343567,
+      "feedback_override": false,
+      "extracted_query": "puedo",
+      "description": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+      "url": "https://static.arasaac.org/pictograms/7221/7221_500.png"
+    },
+    {
+      "concept": "pedir",
+      "id": 11251,
+      "text": "query: Concepto: pedir\n  Descripción: tr. Rogar o demandar a alguien que dé o haga algo, de gracia o de justicia.\n  Sinónimos: encargo, encargar, mandar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "score": 0.8935610055923462,
+      "feedback_override": false,
+      "extracted_query": "pedir",
+      "description": "query: Concepto: pedir\n  Descripción: tr. Rogar o demandar a alguien que dé o haga algo, de gracia o de justicia.\n  Sinónimos: encargo, encargar, mandar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "url": "https://static.arasaac.org/pictograms/11251/11251_500.png"
+    },
+    {
+      "concept": "dar",
+      "id": 17038,
+      "text": "query: Concepto: dar\n  Descripción: Verb. Ofrecer.\n  Sinónimos: ofrecer, entregar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "score": 0.8595744371414185,
+      "feedback_override": false,
+      "extracted_query": "dar",
+      "description": "query: Concepto: dar\n  Descripción: Verb. Ofrecer.\n  Sinónimos: ofrecer, entregar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "url": "https://static.arasaac.org/pictograms/17038/17038_500.png"
+    },
+    {
+      "concept": "pasar",
+      "id": 6581,
+      "text": "query: Concepto: pasar\n  Descripción: tr. Transferir o trasladar algo de una persona a otra.\n  Sinónimos: \n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+      "score": 0.8844568729400635,
+      "feedback_override": false,
+      "extracted_query": "paseo",
+      "description": "query: Concepto: pasar\n  Descripción: tr. Transferir o trasladar algo de una persona a otra.\n  Sinónimos: \n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+      "url": "https://static.arasaac.org/pictograms/6581/6581_500.png"
+    }
+  ],
+  "result": {
+    "score": 0,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [],
+    "error": true,
+    "error_type": "api_error",
+    "message": "El LLM-Judge no pudo evaluar la secuencia por un error técnico.",
+    "details": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  }
+}

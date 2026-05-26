@@ -1,0 +1,37 @@
+{
+  "timestamp": "20260526_065416",
+  "text": "Yo puedo pedir dar un paseo",
+  "sequence": [
+    {
+      "concept": "yo",
+      "id": 7310,
+      "url": "https://static.arasaac.org/pictograms/7310/7310_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+      "extracted_query": "puedo"
+    },
+    {
+      "concept": "pedir",
+      "id": 11251,
+      "url": "https://static.arasaac.org/pictograms/11251/11251_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pedir\n  Descripción: tr. Rogar o demandar a alguien que dé o haga algo, de gracia o de justicia.\n  Sinónimos: encargo, encargar, mandar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "pedir"
+    },
+    {
+      "concept": "pasear",
+      "id": 8651,
+      "url": "https://static.arasaac.org/pictograms/8651/8651_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pasear\n  Descripción: intr. Ir andando o en un vehículo por un lugar como distracción, ejercicio, etc.\n\n\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "paseo"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

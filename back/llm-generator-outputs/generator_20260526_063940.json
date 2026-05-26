@@ -1,0 +1,135 @@
+{
+  "timestamp": "20260526_063940",
+  "text": "Yo puedo pedir dar un paseo",
+  "concepts": [
+    "puedo",
+    "pedir",
+    "dar",
+    "paseo"
+  ],
+  "candidates": [
+    {
+      "concept": "puedo",
+      "candidates": [
+        {
+          "id": 7221,
+          "concept": "puedo?",
+          "query_concept": "puedo",
+          "text": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+          "description": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+          "score": 0.8804953694343567
+        },
+        {
+          "id": 13630,
+          "concept": "estoy bien",
+          "query_concept": "puedo",
+          "text": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "description": "query: Concepto: estoy bien\n  Descripción: cop. e intr. Sentirse bien\n  Sinónimos: ¡estoy bien!, bueno, buena\n  Categorías: expresión, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, expresión, psicología, sensación, emoción, vocabulario básico",
+          "score": 0.860572099685669
+        },
+        {
+          "id": 7310,
+          "concept": "yo",
+          "query_concept": "puedo",
+          "text": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "description": "query: Concepto: yo\n  Descripción:  pron. Forma del pron. pers. com. de primera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: me, mí, yo me\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "score": 0.858991265296936
+        }
+      ]
+    },
+    {
+      "concept": "pedir",
+      "candidates": [
+        {
+          "id": 11251,
+          "concept": "pedir",
+          "query_concept": "pedir",
+          "text": "query: Concepto: pedir\n  Descripción: tr. Rogar o demandar a alguien que dé o haga algo, de gracia o de justicia.\n  Sinónimos: encargo, encargar, mandar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: pedir\n  Descripción: tr. Rogar o demandar a alguien que dé o haga algo, de gracia o de justicia.\n  Sinónimos: encargo, encargar, mandar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8935610055923462
+        },
+        {
+          "id": 34286,
+          "concept": "pedir la mano",
+          "query_concept": "pedir",
+          "text": "query: Concepto: pedir la mano\n  Descripción: loc. verb. Solicitarla de su familia en matrimonio\n  Sinónimos: \n  Categorías: verbo, boda\n  Contexto: comunicación, idioma, verbo, evento, evento social, boda",
+          "description": "query: Concepto: pedir la mano\n  Descripción: loc. verb. Solicitarla de su familia en matrimonio\n  Sinónimos: \n  Categorías: verbo, boda\n  Contexto: comunicación, idioma, verbo, evento, evento social, boda",
+          "score": 0.881746232509613
+        },
+        {
+          "id": 25603,
+          "concept": "pederse",
+          "query_concept": "pedir",
+          "text": "query: Concepto: pederse\n  Descripción: intr. Arrojar o expeler la ventosidad del vientre por el ano.\n  Sinónimos: ventosear, peder\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+          "description": "query: Concepto: pederse\n  Descripción: intr. Arrojar o expeler la ventosidad del vientre por el ano.\n  Sinónimos: ventosear, peder\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+          "score": 0.8738961815834045
+        }
+      ]
+    },
+    {
+      "concept": "dar",
+      "candidates": [
+        {
+          "id": 17038,
+          "concept": "dar",
+          "query_concept": "dar",
+          "text": "query: Concepto: dar\n  Descripción: Verb. Ofrecer.\n  Sinónimos: ofrecer, entregar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: dar\n  Descripción: Verb. Ofrecer.\n  Sinónimos: ofrecer, entregar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8595744371414185
+        },
+        {
+          "id": 17040,
+          "concept": "dar",
+          "query_concept": "dar",
+          "text": "query: Concepto: dar\n  Descripción: Verb. Ofrecer.\n  Sinónimos: ofrecer, entregar\n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "description": "query: Concepto: dar\n  Descripción: Verb. Ofrecer.\n  Sinónimos: ofrecer, entregar\n  Categorías: verbos habituales\n  Contexto: comunicación, idioma, verbo, verbos habituales",
+          "score": 0.8587513566017151
+        },
+        {
+          "id": 28727,
+          "concept": "lanzar un dardo",
+          "query_concept": "dar",
+          "text": "query: Concepto: lanzar un dardo\n  Descripción: tr. Impeler con violencia un dardo, de modo que recorra una distancia, movida del impulso que ha recibido\n  Sinónimos: \n  Categorías: verbo, material deportivo\n  Contexto: comunicación, idioma, verbo, ocio, deporte, material deportivo",
+          "description": "query: Concepto: lanzar un dardo\n  Descripción: tr. Impeler con violencia un dardo, de modo que recorra una distancia, movida del impulso que ha recibido\n  Sinónimos: \n  Categorías: verbo, material deportivo\n  Contexto: comunicación, idioma, verbo, ocio, deporte, material deportivo",
+          "score": 0.8523609042167664
+        }
+      ]
+    },
+    {
+      "concept": "paseo",
+      "candidates": [
+        {
+          "id": 6581,
+          "concept": "pasar",
+          "query_concept": "paseo",
+          "text": "query: Concepto: pasar\n  Descripción: tr. Transferir o trasladar algo de una persona a otra.\n  Sinónimos: \n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+          "description": "query: Concepto: pasar\n  Descripción: tr. Transferir o trasladar algo de una persona a otra.\n  Sinónimos: \n  Categorías: verbo, ejercicio físico\n  Contexto: comunicación, idioma, verbo, ocio, deporte, ejercicio físico",
+          "score": 0.8844568729400635
+        },
+        {
+          "id": 8651,
+          "concept": "pasear",
+          "query_concept": "paseo",
+          "text": "query: Concepto: pasear\n  Descripción: intr. Ir andando o en un vehículo por un lugar como distracción, ejercicio, etc.\n\n\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: pasear\n  Descripción: intr. Ir andando o en un vehículo por un lugar como distracción, ejercicio, etc.\n\n\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.88385009765625
+        },
+        {
+          "id": 31839,
+          "concept": "pasear",
+          "query_concept": "paseo",
+          "text": "query: Concepto: pasear\n  Descripción: intr. Ir andando o en un vehículo por un lugar como distracción, ejercicio, etc.\n\n\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: pasear\n  Descripción: intr. Ir andando o en un vehículo por un lugar como distracción, ejercicio, etc.\n\n\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.88385009765625
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      7310,
+      11251,
+      8651
+    ]
+  }
+}

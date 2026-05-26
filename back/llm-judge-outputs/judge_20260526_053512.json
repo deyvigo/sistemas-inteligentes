@@ -1,0 +1,39 @@
+{
+  "timestamp": "20260526_053512",
+  "text": "Tomar conciencia",
+  "sequence": [
+    {
+      "concept": "comer",
+      "id": 28641,
+      "url": "https://static.arasaac.org/pictograms/28641/28641_500.png",
+      "score": 0.8663412928581238,
+      "description": "query: Concepto: comer\n  Descripción:  intr. Masticar y desmenuzar el alimento en la boca y pasarlo al estómago. \n  Sinónimos: tomar\n  Categorías: verbo, alimentos, necesidades básicas\n  Contexto: comunicación, idioma, verbo, alimentación, alimentos, persona, necesidades básicas",
+      "extracted_query": "tomar",
+      "feedback_override": false
+    },
+    {
+      "concept": "conciencia",
+      "id": 12319,
+      "url": "https://static.arasaac.org/pictograms/12319/12319_500.png",
+      "score": 0.8995615243911743,
+      "description": "query: Concepto: conciencia\n  Descripción: f. Conocimiento que el ser humano posee sobre sí mismo, sobre su existencia y su relación con el mundo. \n  Sinónimos: \n  Categorías: valor humano\n  Contexto: psicología, valor humano",
+      "extracted_query": "conciencia",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "comer",
+        "reason": "El pictograma representa la acción física de ingerir alimentos ('comer'), lo cual es semánticamente opuesto al verbo 'tomar' (entendido aquí como adquirir o adquirir conciencia). Debe sustituirse por un pictograma de acción cognitiva o el concepto específico de 'aprender' o 'comprender'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir comer por comprender",
+      "Sustituir comer por aprender"
+    ]
+  }
+}

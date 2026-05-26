@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_061053",
+  "text": "Yo soy fuerte",
+  "sequence": [
+    {
+      "concept": "soja",
+      "id": 26447,
+      "text": "query: Concepto: soja\n  Descripción: f. Fruto de esta planta, comestible y muy nutritivo.\n  Sinónimos: semillas de soja\n  Categorías: Legumbre\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Legumbre",
+      "score": 0.8563693761825562,
+      "feedback_override": false,
+      "extracted_query": "soy",
+      "description": "query: Concepto: soja\n  Descripción: f. Fruto de esta planta, comestible y muy nutritivo.\n  Sinónimos: semillas de soja\n  Categorías: Legumbre\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Legumbre",
+      "url": "https://static.arasaac.org/pictograms/26447/26447_500.png"
+    },
+    {
+      "concept": "fuerte",
+      "id": 10204,
+      "text": "query: Concepto: fuerte\n  Descripción: adj.  Robusto, corpulento.\n  Sinónimos: \n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+      "score": 0.9029937982559204,
+      "feedback_override": false,
+      "extracted_query": "fuerte",
+      "description": "query: Concepto: fuerte\n  Descripción: adj.  Robusto, corpulento.\n  Sinónimos: \n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+      "url": "https://static.arasaac.org/pictograms/10204/10204_500.png"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "Yo",
+        "reason": "Se ha seleccionado el pictograma de 'soja' (legumbre) en lugar de un pronombre personal de primera persona (Yo)."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir soja por Yo"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260526_053005",
+  "text": "primavera",
+  "sequence": [
+    {
+      "concept": "primavera",
+      "id": 5553,
+      "url": "https://static.arasaac.org/pictograms/5553/5553_500.png",
+      "score": 0.890027642250061,
+      "description": "query: Concepto: primavera\n  Descripción:  f. Una de las cuatro estaciones del año, que transcurre entre el invierno y el verano; en el hemisferio norte comienza el 21 de marzo y termina el 21 de junio, y en el hemisferio sur comienza el 21 de septiembre y termina el 21 de diciembre.\n  Sinónimos: \n  Categorías: estación, primavera, core vocablo-time, vocabulario básico varios\n  Contexto: hora, calendario, estación, primavera, vocabulario básico",
+      "extracted_query": "primavera",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

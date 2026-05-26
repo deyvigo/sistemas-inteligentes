@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260526_053301",
+  "text": "Limpiar y tirar la basura",
+  "sequence": [
+    {
+      "concept": "limpiar",
+      "id": 17269,
+      "url": "https://static.arasaac.org/pictograms/17269/17269_500.png",
+      "score": 0.906368613243103,
+      "description": "query: Concepto: limpiar\n  Descripción:  tr. Quitar la suciedad de algo.\n  Sinónimos: \n  Categorías: verbo, utensilio\n  Contexto: comunicación, idioma, verbo, objeto, hogar, utensilio, Inicio",
+      "extracted_query": "limpiar",
+      "feedback_override": false
+    },
+    {
+      "concept": "empujar",
+      "id": 15375,
+      "url": "https://static.arasaac.org/pictograms/15375/15375_500.png",
+      "score": 0.8855874538421631,
+      "description": "query: Concepto: empujar\n  Descripción: tr. Hacer fuerza contra alguien o algo para moverlo, sostenerlo o rechazarlo.\n  Sinónimos: tirar\n  Categorías: verbo, comportamiento perturbador\n  Contexto: comunicación, idioma, verbo, psicología, comportamiento perturbador",
+      "extracted_query": "tirar",
+      "feedback_override": false
+    },
+    {
+      "concept": "bolsa de basura",
+      "id": 6065,
+      "url": "https://static.arasaac.org/pictograms/6065/6065_500.png",
+      "score": 0.8938820362091064,
+      "description": "query: Concepto: bolsa de basura\n  Descripción: f. Saco o talega de plástico destinado a guardar basura.\n  Sinónimos: \n  Categorías: reciclaje, vocabulario-conocimiento básico\n  Contexto: ciencias del medio ambiente, reciclaje, vocabulario básico",
+      "extracted_query": "basura",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "tirar"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "empujar",
+        "reason": "El pictograma de 'empujar' es irrelevante para la acción de tirar la basura. Debe sustituirse por un pictograma que represente la acción de arrojar, tirar o desechar."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'empujar' por 'tirar' (acción de arrojar)",
+      "Agregar pictograma de 'tirar'"
+    ]
+  }
+}

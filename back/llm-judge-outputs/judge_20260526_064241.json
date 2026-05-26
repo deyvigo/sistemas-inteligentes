@@ -1,0 +1,37 @@
+{
+  "timestamp": "20260526_064241",
+  "text": "Intercambia tu texto con los compañeros",
+  "sequence": [
+    {
+      "concept": "cambiar",
+      "id": 31953,
+      "url": "https://static.arasaac.org/pictograms/31953/31953_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: cambiar\n  Descripción:  tr. Dar o recibir una cosa por otra que la sustituya.\n  Sinónimos: intercambiar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+      "extracted_query": "intercambia"
+    },
+    {
+      "concept": "texto",
+      "id": 37340,
+      "url": "https://static.arasaac.org/pictograms/37340/37340_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+      "extracted_query": "texto"
+    },
+    {
+      "concept": "compañeros",
+      "id": 37658,
+      "url": "https://static.arasaac.org/pictograms/37658/37658_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: compañeros\n  Descripción: \n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+      "extracted_query": "compañeros"
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

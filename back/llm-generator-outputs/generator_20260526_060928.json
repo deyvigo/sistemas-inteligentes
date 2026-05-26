@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260526_060928",
+  "text": "primavera",
+  "concepts": [
+    "primavera"
+  ],
+  "candidates": [
+    {
+      "concept": "primavera",
+      "candidates": [
+        {
+          "id": 5553,
+          "concept": "primavera",
+          "query_concept": "primavera",
+          "text": "query: Concepto: primavera\n  Descripción:  f. Una de las cuatro estaciones del año, que transcurre entre el invierno y el verano; en el hemisferio norte comienza el 21 de marzo y termina el 21 de junio, y en el hemisferio sur comienza el 21 de septiembre y termina el 21 de diciembre.\n  Sinónimos: \n  Categorías: estación, primavera, core vocablo-time, vocabulario básico varios\n  Contexto: hora, calendario, estación, primavera, vocabulario básico",
+          "description": "query: Concepto: primavera\n  Descripción:  f. Una de las cuatro estaciones del año, que transcurre entre el invierno y el verano; en el hemisferio norte comienza el 21 de marzo y termina el 21 de junio, y en el hemisferio sur comienza el 21 de septiembre y termina el 21 de diciembre.\n  Sinónimos: \n  Categorías: estación, primavera, core vocablo-time, vocabulario básico varios\n  Contexto: hora, calendario, estación, primavera, vocabulario básico",
+          "score": 0.890027642250061
+        },
+        {
+          "id": 3123,
+          "concept": "lluvia",
+          "query_concept": "primavera",
+          "text": "query: Concepto: lluvia\n  Descripción:  f. Precipitación de agua de la atmósfera que cae de las nubes en forma de gotas.\n  Sinónimos: \n  Categorías: fenómenos atmosféricos, primavera\n  Contexto: meteorología, fenómenos atmosféricos, primavera",
+          "description": "query: Concepto: lluvia\n  Descripción:  f. Precipitación de agua de la atmósfera que cae de las nubes en forma de gotas.\n  Sinónimos: \n  Categorías: fenómenos atmosféricos, primavera\n  Contexto: meteorología, fenómenos atmosféricos, primavera",
+          "score": 0.8853908777236938
+        },
+        {
+          "id": 24537,
+          "concept": "árbol de primavera",
+          "query_concept": "primavera",
+          "text": "query: Concepto: árbol de primavera\n  Descripción: m. Aquel al que le nacen los brotes de las nuevas hojas.\n  Sinónimos: \n  Categorías: primavera, árbol\n  Contexto: primavera, planta, árbol",
+          "description": "query: Concepto: árbol de primavera\n  Descripción: m. Aquel al que le nacen los brotes de las nuevas hojas.\n  Sinónimos: \n  Categorías: primavera, árbol\n  Contexto: primavera, planta, árbol",
+          "score": 0.8834888935089111
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      5553
+    ]
+  }
+}

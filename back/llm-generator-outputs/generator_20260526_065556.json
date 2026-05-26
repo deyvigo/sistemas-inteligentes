@@ -1,0 +1,135 @@
+{
+  "timestamp": "20260526_065556",
+  "text": "La doctora habla con los padres. Escucho",
+  "concepts": [
+    "doctora",
+    "habla",
+    "padres",
+    "escucho"
+  ],
+  "candidates": [
+    {
+      "concept": "doctora",
+      "candidates": [
+        {
+          "id": 8263,
+          "concept": "médica",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8842349052429199
+        },
+        {
+          "id": 38857,
+          "concept": "médico",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médico\n  Descripción: \n  Sinónimos: médica, doctor, doctora\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "description": "query: Concepto: médico\n  Descripción: \n  Sinónimos: médica, doctor, doctora\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "score": 0.8697194457054138
+        },
+        {
+          "id": 2467,
+          "concept": "médico",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médico\n  Descripción: n. Persona que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctor\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médico\n  Descripción: n. Persona que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctor\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8694305419921875
+        }
+      ]
+    },
+    {
+      "concept": "habla",
+      "candidates": [
+        {
+          "id": 6517,
+          "concept": "hablar",
+          "query_concept": "habla",
+          "text": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+          "description": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+          "score": 0.8724130392074585
+        },
+        {
+          "id": 3345,
+          "concept": "hablar",
+          "query_concept": "habla",
+          "text": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8707716464996338
+        },
+        {
+          "id": 36544,
+          "concept": "hablar",
+          "query_concept": "habla",
+          "text": "query: Concepto: hablar\n  Descripción: \n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: hablar\n  Descripción: \n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8685078620910645
+        }
+      ]
+    },
+    {
+      "concept": "padres",
+      "candidates": [
+        {
+          "id": 35201,
+          "concept": "padres",
+          "query_concept": "padres",
+          "text": "query: Concepto: padres\n  Descripción: pl. El padre y la madre en familias heterosexuales o la pareja de hombres que ejercen de progenitores en una familia homoparental.\n  Sinónimos: padres adoptivos\n  Categorías: familia\n  Contexto: persona, familia",
+          "description": "query: Concepto: padres\n  Descripción: pl. El padre y la madre en familias heterosexuales o la pareja de hombres que ejercen de progenitores en una familia homoparental.\n  Sinónimos: padres adoptivos\n  Categorías: familia\n  Contexto: persona, familia",
+          "score": 0.8787901997566223
+        },
+        {
+          "id": 35062,
+          "concept": "padres",
+          "query_concept": "padres",
+          "text": "query: Concepto: padres\n  Descripción: pl. El padre y la madre en familias heterosexuales o la pareja de hombres que ejercen de progenitores en una familia homoparental.\n  Sinónimos: \n  Categorías: familia\n  Contexto: persona, familia",
+          "description": "query: Concepto: padres\n  Descripción: pl. El padre y la madre en familias heterosexuales o la pareja de hombres que ejercen de progenitores en una familia homoparental.\n  Sinónimos: \n  Categorías: familia\n  Contexto: persona, familia",
+          "score": 0.8751960396766663
+        },
+        {
+          "id": 35059,
+          "concept": "padres",
+          "query_concept": "padres",
+          "text": "query: Concepto: padres\n  Descripción: pl. El padre y la madre en familias heterosexuales o la pareja de hombres que ejercen de progenitores en una familia homoparental.\n  Sinónimos: \n  Categorías: familia\n  Contexto: persona, familia",
+          "description": "query: Concepto: padres\n  Descripción: pl. El padre y la madre en familias heterosexuales o la pareja de hombres que ejercen de progenitores en una familia homoparental.\n  Sinónimos: \n  Categorías: familia\n  Contexto: persona, familia",
+          "score": 0.8751960396766663
+        }
+      ]
+    },
+    {
+      "concept": "escucho",
+      "candidates": [
+        {
+          "id": 2745,
+          "concept": "escoba",
+          "query_concept": "escucho",
+          "text": "query: Concepto: escoba\n  Descripción:  f. Utensilio para barrer el suelo, compuesto por un manojo o penacho de ramas, hilos, o fibras flexibles sujetas a un mango.\n  Sinónimos: \n  Categorías: producto de limpieza, halloween\n  Contexto: objeto, producto de limpieza, evento, evento popular, halloween",
+          "description": "query: Concepto: escoba\n  Descripción:  f. Utensilio para barrer el suelo, compuesto por un manojo o penacho de ramas, hilos, o fibras flexibles sujetas a un mango.\n  Sinónimos: \n  Categorías: producto de limpieza, halloween\n  Contexto: objeto, producto de limpieza, evento, evento popular, halloween",
+          "score": 0.863613486289978
+        },
+        {
+          "id": 8563,
+          "concept": "escoba",
+          "query_concept": "escucho",
+          "text": "query: Concepto: escoba\n  Descripción:  f. Utensilio para barrer el suelo, compuesto por un manojo o penacho de ramas, hilos, o fibras flexibles sujetas a un mango.\n  Sinónimos: \n  Categorías: producto de limpieza\n  Contexto: objeto, producto de limpieza",
+          "description": "query: Concepto: escoba\n  Descripción:  f. Utensilio para barrer el suelo, compuesto por un manojo o penacho de ramas, hilos, o fibras flexibles sujetas a un mango.\n  Sinónimos: \n  Categorías: producto de limpieza\n  Contexto: objeto, producto de limpieza",
+          "score": 0.8609812259674072
+        },
+        {
+          "id": 7088,
+          "concept": "escuadra",
+          "query_concept": "escucho",
+          "text": "query: Concepto: escuadra\n  Descripción:  f. Instrumento de figura de triángulo rectángulo, o compuesto solamente de dos reglas que forman ángulo recto que se usa para dibujar.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+          "description": "query: Concepto: escuadra\n  Descripción:  f. Instrumento de figura de triángulo rectángulo, o compuesto solamente de dos reglas que forman ángulo recto que se usa para dibujar.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+          "score": 0.8591914176940918
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      8263,
+      6517,
+      35201
+    ]
+  }
+}

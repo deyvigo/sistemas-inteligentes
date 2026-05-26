@@ -1,0 +1,75 @@
+{
+  "timestamp": "20260526_065429",
+  "text": "No escribir en la pared",
+  "concepts": [
+    "escribir",
+    "pared"
+  ],
+  "candidates": [
+    {
+      "concept": "escribir",
+      "candidates": [
+        {
+          "id": 2380,
+          "concept": "escribir",
+          "query_concept": "escribir",
+          "text": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+          "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbos habituales, tarea educativa, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, tarea educativa, vocabulario básico",
+          "score": 0.8957452774047852
+        },
+        {
+          "id": 8107,
+          "concept": "escribir",
+          "query_concept": "escribir",
+          "text": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+          "description": "query: Concepto: escribir\n  Descripción:  tr. e intr. Representar conceptos o ideas mediante letras o signos convencionales.\n  Sinónimos: escritura\n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+          "score": 0.8936043977737427
+        },
+        {
+          "id": 34792,
+          "concept": "reescribir",
+          "query_concept": "escribir",
+          "text": "query: Concepto: reescribir\n  Descripción: tr. Volver a escribir lo ya escrito introduciendo cambios.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: reescribir\n  Descripción: tr. Volver a escribir lo ya escrito introduciendo cambios.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.889543890953064
+        }
+      ]
+    },
+    {
+      "concept": "pared",
+      "candidates": [
+        {
+          "id": 28609,
+          "concept": "pádel",
+          "query_concept": "pared",
+          "text": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+          "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+          "score": 0.848670482635498
+        },
+        {
+          "id": 35242,
+          "concept": "pádel",
+          "query_concept": "pared",
+          "text": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+          "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+          "score": 0.848670482635498
+        },
+        {
+          "id": 35241,
+          "concept": "pádel",
+          "query_concept": "pared",
+          "text": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+          "description": "query: Concepto: pádel\n  Descripción: m. Juego entre dos parejas, muy parecido al tenis, pero que se juega entre cuatro paredes y en el que la pelota se golpea con una pala de mango corto.\n  Sinónimos: jugar al pádel\n  Categorías: modalidad deportiva\n  Contexto: ocio, deporte, modalidad deportiva",
+          "score": 0.848670482635498
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      7486,
+      2380,
+      5214
+    ]
+  }
+}

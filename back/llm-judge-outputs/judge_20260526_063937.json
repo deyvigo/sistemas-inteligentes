@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_063937",
+  "text": "Qué me gusta de ella",
+  "sequence": [
+    {
+      "concept": "qué",
+      "id": 22620,
+      "url": "https://static.arasaac.org/pictograms/22620/22620_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+      "extracted_query": "qué",
+      "order": 1
+    },
+    {
+      "concept": "gustar",
+      "id": 31861,
+      "url": "https://static.arasaac.org/pictograms/31861/31861_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+      "extracted_query": "gusta",
+      "order": 2
+    },
+    {
+      "concept": "ella",
+      "id": 7028,
+      "url": "https://static.arasaac.org/pictograms/7028/7028_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: ella se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+      "extracted_query": "ella",
+      "order": 3
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_065701",
+  "text": "Intercambia tu texto con los compañeros",
+  "concepts": [
+    "intercambia",
+    "texto",
+    "compañeros"
+  ],
+  "candidates": [
+    {
+      "concept": "intercambia",
+      "candidates": [
+        {
+          "id": 31953,
+          "concept": "cambiar",
+          "query_concept": "intercambia",
+          "text": "query: Concepto: cambiar\n  Descripción:  tr. Dar o recibir una cosa por otra que la sustituya.\n  Sinónimos: intercambiar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: cambiar\n  Descripción:  tr. Dar o recibir una cosa por otra que la sustituya.\n  Sinónimos: intercambiar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.9002022743225098
+        },
+        {
+          "id": 8053,
+          "concept": "cambiar",
+          "query_concept": "intercambia",
+          "text": "query: Concepto: cambiar\n  Descripción:  tr. Dar o recibir una cosa por otra que la sustituya.\n  Sinónimos: intercambiar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: cambiar\n  Descripción:  tr. Dar o recibir una cosa por otra que la sustituya.\n  Sinónimos: intercambiar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.9002022743225098
+        },
+        {
+          "id": 31955,
+          "concept": "cambio",
+          "query_concept": "intercambia",
+          "text": "query: Concepto: cambio\n  Descripción: m. Acción y resultado de cambiar:\n  Sinónimos: intercambio\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: cambio\n  Descripción: m. Acción y resultado de cambiar:\n  Sinónimos: intercambio\n  Categorías: varios\n  Contexto:",
+          "score": 0.887108564376831
+        }
+      ]
+    },
+    {
+      "concept": "texto",
+      "candidates": [
+        {
+          "id": 37340,
+          "concept": "texto",
+          "query_concept": "texto",
+          "text": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+          "description": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+          "score": 0.8993562459945679
+        },
+        {
+          "id": 24017,
+          "concept": "elástico",
+          "query_concept": "texto",
+          "text": "query: Concepto: elástico\n  Descripción: adj. Dicho de un cuerpo: Que puede recobrar más o menos completamente su forma y extensión tan pronto como cesa la acción que las alteraba.\n  Sinónimos: \n  Categorías: textura\n  Contexto: textura",
+          "description": "query: Concepto: elástico\n  Descripción: adj. Dicho de un cuerpo: Que puede recobrar más o menos completamente su forma y extensión tan pronto como cesa la acción que las alteraba.\n  Sinónimos: \n  Categorías: textura\n  Contexto: textura",
+          "score": 0.8696725368499756
+        },
+        {
+          "id": 7187,
+          "concept": "nota",
+          "query_concept": "texto",
+          "text": "query: Concepto: nota\n  Descripción:  f. Escrito breve que recuerda o avisa de algo\n  Sinónimos: \n  Categorías: documento de información\n  Contexto: documento, documento de información",
+          "description": "query: Concepto: nota\n  Descripción:  f. Escrito breve que recuerda o avisa de algo\n  Sinónimos: \n  Categorías: documento de información\n  Contexto: documento, documento de información",
+          "score": 0.865280270576477
+        }
+      ]
+    },
+    {
+      "concept": "compañeros",
+      "candidates": [
+        {
+          "id": 37658,
+          "concept": "compañeros",
+          "query_concept": "compañeros",
+          "text": "query: Concepto: compañeros\n  Descripción: \n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+          "description": "query: Concepto: compañeros\n  Descripción: \n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+          "score": 0.9067169427871704
+        },
+        {
+          "id": 39421,
+          "concept": "compañero",
+          "query_concept": "compañeros",
+          "text": "query: Concepto: compañero\n  Descripción: \n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+          "description": "query: Concepto: compañero\n  Descripción: \n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+          "score": 0.9032150506973267
+        },
+        {
+          "id": 7063,
+          "concept": "compañeros",
+          "query_concept": "compañeros",
+          "text": "query: Concepto: compañeros\n  Descripción:  m. y f. Cada uno de los individuos de que se compone un cuerpo o una comunidad, como un cabildo, un colegio, etc.\n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+          "description": "query: Concepto: compañeros\n  Descripción:  m. y f. Cada uno de los individuos de que se compone un cuerpo o una comunidad, como un cabildo, un colegio, etc.\n  Sinónimos: \n  Categorías: estudiantes\n  Contexto: Educación, estudiantes",
+          "score": 0.9015923738479614
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31953,
+      37340,
+      37658
+    ]
+  }
+}

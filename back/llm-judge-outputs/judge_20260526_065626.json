@@ -1,0 +1,55 @@
+{
+  "timestamp": "20260526_065626",
+  "text": "Pero no puedo pegar a la gente",
+  "sequence": [
+    {
+      "concept": "pero",
+      "id": 11377,
+      "url": "https://static.arasaac.org/pictograms/11377/11377_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pero\n  Descripción:  conj. advers. Enlace que une dos oraciones o sintagmas cuyos significados se contraponen, se restringen o se limitan: es guapo, pero antipático; ha ganado dinero, pero no mucho. \n  Sinónimos: sin embargo, aunque\n  Categorías: conjuntion, Conjunción adversa\n  Contexto: comunicación, idioma, conjuntion, Conjunción adversa",
+      "extracted_query": "pero"
+    },
+    {
+      "concept": "puedo?",
+      "id": 7221,
+      "url": "https://static.arasaac.org/pictograms/7221/7221_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: puedo?\n  Descripción: Expresión utilizada cuando se quiere pedir permiso para realizar algo: ¿puedo jugar?\n  Sinónimos: ¿puedo jugar?\n  Categorías: expresión, juego tradicional\n  Contexto: comunicación, idioma, expresión, ocio, deporte, juego tradicional",
+      "extracted_query": "puedo"
+    },
+    {
+      "concept": "pegar",
+      "id": 2511,
+      "url": "https://static.arasaac.org/pictograms/2511/2511_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pegar\n  Descripción:  tr. Unir una cosa a otra con una sustancia adherente.\n  Sinónimos: \n  Categorías: verbo, tarea educativa, verbos habituales, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa, verbos habituales, vocabulario básico",
+      "extracted_query": "pegar"
+    },
+    {
+      "concept": "gente",
+      "id": 7116,
+      "url": "https://static.arasaac.org/pictograms/7116/7116_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+      "extracted_query": "gente"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "no"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "pegar",
+        "reason": "El pictograma seleccionado representa 'pegar' en el sentido de unir o adherir con pegamento, no en el sentido de agredir físicamente. Se debe usar un pictograma de 'pegar' (agredir/golpear)."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Agregar pictograma de 'no' para negar la acción",
+      "Sustituir el pictograma de 'pegar' (adherir) por uno de 'pegar' (golpear/agredir)"
+    ]
+  }
+}

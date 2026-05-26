@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_065547",
+  "text": "Yo quiero encender la luz",
+  "concepts": [
+    "quiero",
+    "encender",
+    "luz"
+  ],
+  "candidates": [
+    {
+      "concept": "quiero",
+      "candidates": [
+        {
+          "id": 31141,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+          "description": "query: Concepto: querer\n  Descripción: tr. Desear, apetecer.\n  Sinónimos: desear, pedir\n  Categorías: verbos habituales, respuesta humana\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana",
+          "score": 1.0,
+          "feedback_override": true
+        },
+        {
+          "id": 11538,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875735998153687
+        },
+        {
+          "id": 11536,
+          "concept": "querer",
+          "query_concept": "quiero",
+          "text": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "description": "query: Concepto: querer\n  Descripción: tr. Amar, tener cariño, voluntad o inclinación a una persona o cosa.\n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, persona según su edad\n  Contexto: comunicación, idioma, verbo, vocabulario básico, persona",
+          "score": 0.8875735998153687
+        }
+      ]
+    },
+    {
+      "concept": "encender",
+      "candidates": [
+        {
+          "id": 21818,
+          "concept": "encender",
+          "query_concept": "encender",
+          "text": "query: Concepto: encender\n  Descripción:  tr. Conectar un circuito eléctrico. Encender la luz, la radio.\n  Sinónimos: \n  Categorías: verbo, aparato\n  Contexto: comunicación, idioma, verbo, objeto, aparato",
+          "description": "query: Concepto: encender\n  Descripción:  tr. Conectar un circuito eléctrico. Encender la luz, la radio.\n  Sinónimos: \n  Categorías: verbo, aparato\n  Contexto: comunicación, idioma, verbo, objeto, aparato",
+          "score": 0.8683539032936096
+        },
+        {
+          "id": 4692,
+          "concept": "encendedor",
+          "query_concept": "encender",
+          "text": "query: Concepto: encendedor\n  Descripción:  m. Aparato que sirve para encender o prender; mechero.\n  Sinónimos: mechero\n  Categorías: fumar, utensilio\n  Contexto: Salud, estilo de vida, hábito poco saludable, adicción, drogas, fumar, objeto, hogar, utensilio, Inicio",
+          "description": "query: Concepto: encendedor\n  Descripción:  m. Aparato que sirve para encender o prender; mechero.\n  Sinónimos: mechero\n  Categorías: fumar, utensilio\n  Contexto: Salud, estilo de vida, hábito poco saludable, adicción, drogas, fumar, objeto, hogar, utensilio, Inicio",
+          "score": 0.8636175990104675
+        },
+        {
+          "id": 8103,
+          "concept": "encender la luz",
+          "query_concept": "encender",
+          "text": "query: Concepto: encender la luz\n  Descripción: tr. Conectar un circuito eléctrico, en este caso la luz.\n  Sinónimos: \n  Categorías: verbo, Aparatos de iluminación\n  Contexto: comunicación, idioma, verbo, objeto, aparato, Aparatos de iluminación, Inicio",
+          "description": "query: Concepto: encender la luz\n  Descripción: tr. Conectar un circuito eléctrico, en este caso la luz.\n  Sinónimos: \n  Categorías: verbo, Aparatos de iluminación\n  Contexto: comunicación, idioma, verbo, objeto, aparato, Aparatos de iluminación, Inicio",
+          "score": 0.8605075478553772
+        }
+      ]
+    },
+    {
+      "concept": "luz",
+      "candidates": [
+        {
+          "id": 8619,
+          "concept": "luz",
+          "query_concept": "luz",
+          "text": "query: Concepto: luz\n  Descripción:  Corriente eléctrica: han cortado la luz. \n  Sinónimos: \n  Categorías: varios, vocabulario básico varios\n  Contexto: vocabulario básico",
+          "description": "query: Concepto: luz\n  Descripción:  Corriente eléctrica: han cortado la luz. \n  Sinónimos: \n  Categorías: varios, vocabulario básico varios\n  Contexto: vocabulario básico",
+          "score": 0.8550761938095093
+        },
+        {
+          "id": 30243,
+          "concept": "rayo",
+          "query_concept": "luz",
+          "text": "query: Concepto: rayo\n  Descripción:  m. Línea de luz que procede de un cuerpo luminoso: rayo de sol. \n  Sinónimos: rayo de sol\n  Categorías: fenómenos atmosféricos\n  Contexto: meteorología, fenómenos atmosféricos",
+          "description": "query: Concepto: rayo\n  Descripción:  m. Línea de luz que procede de un cuerpo luminoso: rayo de sol. \n  Sinónimos: rayo de sol\n  Categorías: fenómenos atmosféricos\n  Contexto: meteorología, fenómenos atmosféricos",
+          "score": 0.8545669317245483
+        },
+        {
+          "id": 8376,
+          "concept": "luz de color",
+          "query_concept": "luz",
+          "text": "query: Concepto: luz de color\n  Descripción: f. bombilla de color.\n  Sinónimos: \n  Categorías: material de estimulación sensorial\n  Contexto: objeto, estimulación sensorial",
+          "description": "query: Concepto: luz de color\n  Descripción: f. bombilla de color.\n  Sinónimos: \n  Categorías: material de estimulación sensorial\n  Contexto: objeto, estimulación sensorial",
+          "score": 0.8541849255561829
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31141,
+      8103
+    ]
+  }
+}

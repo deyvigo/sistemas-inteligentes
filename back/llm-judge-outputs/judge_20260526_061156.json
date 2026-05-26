@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260526_061156",
+  "text": "Escuchar a los pájaros cantar",
+  "sequence": [
+    {
+      "concept": "escuchar música",
+      "id": 29718,
+      "url": "https://static.arasaac.org/pictograms/29718/29718_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: escuchar música\n  Descripción: tr. Prestar atención a la música que se oye\n  Sinónimos: oír música\n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+      "extracted_query": "escuchar"
+    },
+    {
+      "concept": "pájaro",
+      "id": 2490,
+      "url": "https://static.arasaac.org/pictograms/2490/2490_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pájaro\n  Descripción:  m. y f. Cualquiera de las aves terrestres, voladoras, con pico recto no muy fuerte y tamaño generalmente pequeño.\n  Sinónimos: pájara\n  Categorías: herbívoro, ave, oviparosa, animal volador, núcleo vocabulario-viviendo ser\n  Contexto: animal, herbívoro, vertebrados, ave, oviparosa, animal volador, vocabulario básico",
+      "extracted_query": "pájaros"
+    },
+    {
+      "concept": "cantar",
+      "id": 28657,
+      "url": "https://static.arasaac.org/pictograms/28657/28657_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: cantar\n  Descripción:  intr. Dicho de una persona: Producir con la voz sonidos melodiosos, formando palabras o sin formarlas. \n  Sinónimos: \n  Categorías: verbo, arte musical\n  Contexto: comunicación, idioma, verbo, música",
+      "extracted_query": "cantar"
+    }
+  ],
+  "result": {
+    "score": 3,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "escuchar música",
+        "reason": "El pictograma 'escuchar música' implica específicamente música (instrumentos/auriculares), lo cual es engañoso cuando el contexto es la naturaleza. Se debería usar un pictograma genérico de 'oír' o 'escuchar'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir 'escuchar música' por 'escuchar (genérico)'"
+    ]
+  }
+}

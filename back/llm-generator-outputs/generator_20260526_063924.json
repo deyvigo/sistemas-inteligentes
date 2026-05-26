@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_063924",
+  "text": "Qué me gusta de ella",
+  "concepts": [
+    "qué",
+    "gusta",
+    "ella"
+  ],
+  "candidates": [
+    {
+      "concept": "qué",
+      "candidates": [
+        {
+          "id": 22620,
+          "concept": "qué",
+          "query_concept": "qué",
+          "text": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+          "description": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+          "score": 0.8798749446868896
+        },
+        {
+          "id": 26022,
+          "concept": "¿cuál?",
+          "query_concept": "qué",
+          "text": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "description": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "score": 0.8793555498123169
+        },
+        {
+          "id": 32743,
+          "concept": "¿de quién es?",
+          "query_concept": "qué",
+          "text": "query: Concepto: ¿de quién es?\n  Descripción: Se usa para preguntar quién es el propietario de algo\n  Sinónimos: de quién es?\n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+          "description": "query: Concepto: ¿de quién es?\n  Descripción: Se usa para preguntar quién es el propietario de algo\n  Sinónimos: de quién es?\n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+          "score": 0.8753646612167358
+        }
+      ]
+    },
+    {
+      "concept": "gusta",
+      "candidates": [
+        {
+          "id": 31861,
+          "concept": "gustar",
+          "query_concept": "gusta",
+          "text": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+          "description": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+          "score": 0.8537014722824097
+        },
+        {
+          "id": 2418,
+          "concept": "gustar",
+          "query_concept": "gusta",
+          "text": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+          "description": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+          "score": 0.8537014722824097
+        },
+        {
+          "id": 37721,
+          "concept": "gustar",
+          "query_concept": "gusta",
+          "text": "query: Concepto: gustar\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, objeto, lugar, deporte, evento, modo de transporte, verbos habituales, Educación, Juguete, juego tradicional, juego, Mostrar, actividades al aire libre, instalaciones de entretenimiento\n  Contexto: comunicación, idioma, verbo, vocabulario básico, objeto, lugar, ocio, deporte, evento, Movimiento, tráfico, modo de transporte, verbos habituales, Educación, Juguete, juego tradicional, juego, Mostrar, trabajo, actividades al aire libre, instalación, instalaciones recreativas",
+          "description": "query: Concepto: gustar\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, vocabulario básico-comunicación, objeto, lugar, deporte, evento, modo de transporte, verbos habituales, Educación, Juguete, juego tradicional, juego, Mostrar, actividades al aire libre, instalaciones de entretenimiento\n  Contexto: comunicación, idioma, verbo, vocabulario básico, objeto, lugar, ocio, deporte, evento, Movimiento, tráfico, modo de transporte, verbos habituales, Educación, Juguete, juego tradicional, juego, Mostrar, trabajo, actividades al aire libre, instalación, instalaciones recreativas",
+          "score": 0.8535352349281311
+        }
+      ]
+    },
+    {
+      "concept": "ella",
+      "candidates": [
+        {
+          "id": 7028,
+          "concept": "ella",
+          "query_concept": "ella",
+          "text": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: ella se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "description": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: ella se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "score": 0.8676719665527344
+        },
+        {
+          "id": 7029,
+          "concept": "ella",
+          "query_concept": "ella",
+          "text": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: la, lo, sí, se, ella se\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "description": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: la, lo, sí, se, ella se\n  Categorías: pronombre, pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "score": 0.8637418746948242
+        },
+        {
+          "id": 7030,
+          "concept": "ellas",
+          "query_concept": "ella",
+          "text": "query: Concepto: ellas\n  Descripción: pron. Forma del pron. pers. f. de tercera persona plural, que en la oración desempeña la función de sujeto.\n  Sinónimos: ellas se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "description": "query: Concepto: ellas\n  Descripción: pron. Forma del pron. pers. f. de tercera persona plural, que en la oración desempeña la función de sujeto.\n  Sinónimos: ellas se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+          "score": 0.8454761505126953
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      22620,
+      31861,
+      7028
+    ]
+  }
+}

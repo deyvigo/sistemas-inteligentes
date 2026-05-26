@@ -1,0 +1,38 @@
+{
+  "timestamp": "20260526_061244",
+  "text": "Leo el texto",
+  "sequence": [
+    {
+      "concept": "Unknown",
+      "id": 7486,
+      "url": "https://static.arasaac.org/pictograms/7486/7486_500.png",
+      "score": 0.0,
+      "description": "",
+      "extracted_query": ""
+    },
+    {
+      "concept": "texto",
+      "id": 37340,
+      "url": "https://static.arasaac.org/pictograms/37340/37340_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: texto\n  Descripción: \n  Sinónimos: mensaje escrito\n  Categorías: documento\n  Contexto: documento",
+      "extracted_query": "texto"
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [
+      "leer"
+    ],
+    "incorrect_pictograms": [
+      {
+        "concept": "Unknown",
+        "reason": "El primer pictograma no tiene concepto asociado y no representa la acción de 'leer'."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir el pictograma 'Unknown' por el pictograma de acción 'leer'"
+    ]
+  }
+}

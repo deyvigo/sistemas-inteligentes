@@ -1,0 +1,38 @@
+{
+  "timestamp": "20260526_053306",
+  "text": "Yo soy fuerte",
+  "sequence": [
+    {
+      "concept": "soja",
+      "id": 26447,
+      "url": "https://static.arasaac.org/pictograms/26447/26447_500.png",
+      "score": 0.8563693761825562,
+      "description": "query: Concepto: soja\n  Descripción: f. Fruto de esta planta, comestible y muy nutritivo.\n  Sinónimos: semillas de soja\n  Categorías: Legumbre\n  Contexto: alimentación, alimentos, alimentos a base de plantas, Legumbre",
+      "extracted_query": "soy",
+      "feedback_override": false
+    },
+    {
+      "concept": "fuerte",
+      "id": 10204,
+      "url": "https://static.arasaac.org/pictograms/10204/10204_500.png",
+      "score": 0.9029937982559204,
+      "description": "query: Concepto: fuerte\n  Descripción: adj.  Robusto, corpulento.\n  Sinónimos: \n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+      "extracted_query": "fuerte",
+      "feedback_override": false
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "soja",
+        "reason": "El pictograma de 'soja' es fonéticamente similar a 'yo' pero semánticamente incorrecto. Se debe usar un pictograma que represente la primera persona (ej. 'yo')."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Sustituir soja por yo"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260526_052933",
+  "text": "El pan dentro de la caja",
+  "sequence": [
+    {
+      "concept": "pan",
+      "id": 2494,
+      "url": "https://static.arasaac.org/pictograms/2494/2494_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pan\n  Descripción:  m. Alimento hecho con harina, mezclada con agua y sal, que, después de amasada y fermentada por la acción de la levadura, se cuece al horno, con diversas formas y tamaños.\n  Sinónimos: barra de pan\n  Categorías: alimentos ultraprocesados, core vocabulario-lactancia\n  Contexto: alimentación, alimentos, alimentos ultraprocesados, vocabulario básico",
+      "extracted_query": "pan",
+      "order": 1
+    },
+    {
+      "concept": "dentro",
+      "id": 5439,
+      "url": "https://static.arasaac.org/pictograms/5439/5439_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: dentro\n  Descripción:  adv. l. En el interior: me he dejado dentro el bolso. \n  Sinónimos: contenido\n  Categorías: adverbio del lugar, conceptos básicos, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adverb, adverbio del lugar, matemáticas, conceptos básicos, vocabulario básico",
+      "extracted_query": "dentro",
+      "order": 2
+    },
+    {
+      "concept": "caja",
+      "id": 5935,
+      "url": "https://static.arasaac.org/pictograms/5935/5935_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: caja\n  Descripción:  f. Recipiente de varias formas y tamaños que sirve para albergar objetos.\n  Sinónimos: \n  Categorías: Contenedor, léxico-objeto básico\n  Contexto: objeto, Contenedor, vocabulario básico",
+      "extracted_query": "caja",
+      "order": 3
+    }
+  ],
+  "result": {
+    "score": 5,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": []
+  }
+}

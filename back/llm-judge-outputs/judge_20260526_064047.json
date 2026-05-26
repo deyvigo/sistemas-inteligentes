@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260526_064047",
+  "text": "Me van a hacer un electrocardiograma",
+  "sequence": [
+    {
+      "concept": "reconocimiento médico",
+      "id": 27143,
+      "url": "https://static.arasaac.org/pictograms/27143/27143_500.png",
+      "score": 0.9016609191894531,
+      "description": "query: Concepto: reconocimiento médico\n  Descripción: m. Examen de una persona para averiguar su estado de salud o para diagnosticar una presunta enfermedad.\n  Sinónimos: revisión médica, examen médico\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+      "extracted_query": "médico' o 'revisión' para dar contexto clínico a la prueba",
+      "judge_replaced": true,
+      "order": 1
+    },
+    {
+      "concept": "electrocardiograma",
+      "id": 8100,
+      "url": "https://static.arasaac.org/pictograms/8100/8100_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: electrocardiograma\n  Descripción: m. Med. Gráfico en el que se registran las oscilaciones eléctricas que se producen en el corazón. Electro, ECG.\n  Sinónimos: electro\n  Categorías: prueba médica\n  Contexto: Salud, medicamentos, procedimiento médico, prueba médica",
+      "extracted_query": "electrocardiograma",
+      "order": 2
+    },
+    {
+      "concept": "hospital",
+      "id": 36209,
+      "url": "https://static.arasaac.org/pictograms/36209/36209_500.png",
+      "score": 0.8830364942550659,
+      "description": "query: Concepto: hospital\n  Descripción:  m. Establecimiento en que se atienden y curan enfermos.\n  Sinónimos: \n  Categorías: centro médico, centro médico\n  Contexto: Salud, medicamentos, centro médico, lugar, edificio",
+      "extracted_query": "hospital' o 'doctor' para precisar el entorno de la acción",
+      "judge_added": true,
+      "order": 3
+    }
+  ],
+  "result": {
+    "score": 4,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [
+      "Eliminar el pictograma de 'hospital' si la intención es solo informar sobre la prueba médica específica",
+      "El pictograma de 'reconocimiento médico' es redundante si se utiliza 'electrocardiograma'; se podría simplificar usando solo el pictograma de 'electrocardiograma' para mayor claridad"
+    ]
+  }
+}

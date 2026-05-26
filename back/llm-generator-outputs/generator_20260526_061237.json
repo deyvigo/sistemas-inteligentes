@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_061237",
+  "text": "Observamos el clima lluvioso",
+  "concepts": [
+    "observamos",
+    "clima",
+    "lluvioso"
+  ],
+  "candidates": [
+    {
+      "concept": "observamos",
+      "candidates": [
+        {
+          "id": 31904,
+          "concept": "examinar",
+          "query_concept": "observamos",
+          "text": "query: Concepto: examinar\n  Descripción: tr. Inquirir, investigar, escudriñar con diligencia y cuidado algo.\n  Sinónimos: reconocer, auscultar, explorar\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+          "description": "query: Concepto: examinar\n  Descripción: tr. Inquirir, investigar, escudriñar con diligencia y cuidado algo.\n  Sinónimos: reconocer, auscultar, explorar\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+          "score": 0.8631324768066406
+        },
+        {
+          "id": 15477,
+          "concept": "telescopio",
+          "query_concept": "observamos",
+          "text": "query: Concepto: telescopio\n  Descripción: m. Aparato óptico en forma de tubo que permite ver objetos muy lejanos, particularmente cuerpos celestes\n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: telescopio\n  Descripción: m. Aparato óptico en forma de tubo que permite ver objetos muy lejanos, particularmente cuerpos celestes\n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.8626465201377869
+        },
+        {
+          "id": 20095,
+          "concept": "examinar",
+          "query_concept": "observamos",
+          "text": "query: Concepto: examinar\n  Descripción: tr. Inquirir, investigar, escudriñar con diligencia y cuidado algo.\n  Sinónimos: reconocer, auscultar\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+          "description": "query: Concepto: examinar\n  Descripción: tr. Inquirir, investigar, escudriñar con diligencia y cuidado algo.\n  Sinónimos: reconocer, auscultar\n  Categorías: procedimiento médico, covid-19\n  Contexto: Salud, medicamentos, procedimiento médico, covid-19",
+          "score": 0.8625915050506592
+        }
+      ]
+    },
+    {
+      "concept": "clima",
+      "candidates": [
+        {
+          "id": 24721,
+          "concept": "clima",
+          "query_concept": "clima",
+          "text": "query: Concepto: clima\n  Descripción:  m. Conjunto de condiciones atmosféricas propias de una zona geográfica: clima lluvioso, tropical. \n  Sinónimos: \n  Categorías: meteorología, categorización\n  Contexto: meteorología, categorización",
+          "description": "query: Concepto: clima\n  Descripción:  m. Conjunto de condiciones atmosféricas propias de una zona geográfica: clima lluvioso, tropical. \n  Sinónimos: \n  Categorías: meteorología, categorización\n  Contexto: meteorología, categorización",
+          "score": 0.8878926634788513
+        },
+        {
+          "id": 39081,
+          "concept": "cambio climático",
+          "query_concept": "clima",
+          "text": "query: Concepto: cambio climático\n  Descripción: \n  Sinónimos: \n  Categorías: ciencias del medio ambiente, meteorología\n  Contexto: meteorología, ciencias del medio ambiente",
+          "description": "query: Concepto: cambio climático\n  Descripción: \n  Sinónimos: \n  Categorías: ciencias del medio ambiente, meteorología\n  Contexto: meteorología, ciencias del medio ambiente",
+          "score": 0.8856438398361206
+        },
+        {
+          "id": 32600,
+          "concept": "tiempo y clima",
+          "query_concept": "clima",
+          "text": "query: Concepto: tiempo y clima\n  Descripción: Duración de las cosas sujetas a cambio o de los seres que tienen una existencia finita y conjunto de condiciones atmosféricas que caracterizan una región\n  Sinónimos: \n  Categorías: \n  Contexto:",
+          "description": "query: Concepto: tiempo y clima\n  Descripción: Duración de las cosas sujetas a cambio o de los seres que tienen una existencia finita y conjunto de condiciones atmosféricas que caracterizan una región\n  Sinónimos: \n  Categorías: \n  Contexto:",
+          "score": 0.8815840482711792
+        }
+      ]
+    },
+    {
+      "concept": "lluvioso",
+      "candidates": [
+        {
+          "id": 2936,
+          "concept": "lluvioso",
+          "query_concept": "lluvioso",
+          "text": "query: Concepto: lluvioso\n  Descripción:  adj. Se dice del tiempo o del lugar en que son frecuentes las lluvias\n  Sinónimos: lluviosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+          "description": "query: Concepto: lluvioso\n  Descripción:  adj. Se dice del tiempo o del lugar en que son frecuentes las lluvias\n  Sinónimos: lluviosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+          "score": 0.9016338586807251
+        },
+        {
+          "id": 10722,
+          "concept": "¿llueve?",
+          "query_concept": "lluvioso",
+          "text": "query: Concepto: ¿llueve?\n  Descripción: Expresión utilizada por un interlocutor para saber si está lloviendo\n  Sinónimos: ¿está lloviendo?\n  Categorías: expresión, fenómenos atmosféricos\n  Contexto: comunicación, idioma, expresión, meteorología, fenómenos atmosféricos",
+          "description": "query: Concepto: ¿llueve?\n  Descripción: Expresión utilizada por un interlocutor para saber si está lloviendo\n  Sinónimos: ¿está lloviendo?\n  Categorías: expresión, fenómenos atmosféricos\n  Contexto: comunicación, idioma, expresión, meteorología, fenómenos atmosféricos",
+          "score": 0.8668402433395386
+        },
+        {
+          "id": 36165,
+          "concept": "ruidoso",
+          "query_concept": "lluvioso",
+          "text": "query: Concepto: ruidoso\n  Descripción: adj. Que causa mucho ruido: es una lavadora muy ruidosa.\n  Sinónimos: ruidosa\n  Categorías: adjetivo calificativo, sensación corporal\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, cuerpo humano, sensación corporal",
+          "description": "query: Concepto: ruidoso\n  Descripción: adj. Que causa mucho ruido: es una lavadora muy ruidosa.\n  Sinónimos: ruidosa\n  Categorías: adjetivo calificativo, sensación corporal\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, cuerpo humano, sensación corporal",
+          "score": 0.8663350343704224
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      31904,
+      24721,
+      2936
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260526_065136",
+  "text": "Qué me gusta de ella",
+  "sequence": [
+    {
+      "concept": "qué",
+      "id": 22620,
+      "text": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+      "score": 0.8798749446868896,
+      "feedback_override": false,
+      "extracted_query": "qué",
+      "description": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+      "url": "https://static.arasaac.org/pictograms/22620/22620_500.png"
+    },
+    {
+      "concept": "gustar",
+      "id": 31861,
+      "text": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+      "score": 0.8537014722824097,
+      "feedback_override": false,
+      "extracted_query": "gusta",
+      "description": "query: Concepto: gustar\n  Descripción:   tr. Sentir y percibir el sabor de las cosas.\n  Sinónimos: \n  Categorías: verbo, sentidos, alimentos\n  Contexto: comunicación, idioma, verbo, cuerpo humano, fisiología, fisiología humana, sentidos, alimentación, alimentos",
+      "url": "https://static.arasaac.org/pictograms/31861/31861_500.png"
+    },
+    {
+      "concept": "ella",
+      "id": 7028,
+      "text": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: ella se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+      "score": 0.8676719665527344,
+      "feedback_override": false,
+      "extracted_query": "ella",
+      "description": "query: Concepto: ella\n  Descripción: pron. Forma del pron. pers. f. de tercera persona singular, que en la oración desempeña la función de sujeto.\n  Sinónimos: ella se\n  Categorías: pronombre personal\n  Contexto: comunicación, idioma, pronombre, pronombre personal",
+      "url": "https://static.arasaac.org/pictograms/7028/7028_500.png"
+    }
+  ],
+  "result": {
+    "score": 0,
+    "missing_concepts": [],
+    "incorrect_pictograms": [],
+    "ordering_issues": [],
+    "suggestions": [],
+    "error": true,
+    "error_type": "api_error",
+    "message": "El LLM-Judge no pudo evaluar la secuencia por un error técnico.",
+    "details": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}"
+  }
+}

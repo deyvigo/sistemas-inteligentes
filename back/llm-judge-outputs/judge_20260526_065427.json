@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260526_065427",
+  "text": "Esto uno con el pegamento",
+  "sequence": [
+    {
+      "concept": "acceso",
+      "id": 12246,
+      "url": "https://static.arasaac.org/pictograms/12246/12246_500.png",
+      "score": 0.8592997789382935,
+      "description": "query: Concepto: acceso\n  Descripción: m. Acción de llegar o acercarse\n  Sinónimos: \n  Categorías: varios\n  Contexto:",
+      "extracted_query": "el pictograma de acción 'unir",
+      "judge_replaced": true,
+      "order": 1
+    },
+    {
+      "concept": "uno",
+      "id": 35677,
+      "url": "https://static.arasaac.org/pictograms/35677/35677_500.png",
+      "score": 0.8639597296714783,
+      "description": "query: Concepto: uno\n  Descripción:  m. Signo con que se representa este número: 1. \n  Sinónimos: 1\n  Categorías: número, adjetivo numeral\n  Contexto: comunicación, idioma, alfabeto, número, matemáticas, adjetivo, adjetivo numeral",
+      "extracted_query": "uno",
+      "judge_replaced": true,
+      "order": 2
+    },
+    {
+      "concept": "pegamento",
+      "id": 2510,
+      "url": "https://static.arasaac.org/pictograms/2510/2510_500.png",
+      "score": 0.0,
+      "description": "query: Concepto: pegamento\n  Descripción: m. Sustancia química de propiedades aglutinantes que se utiliza para pegar: pegamento de barra.\n  Sinónimos: \n  Categorías: material didáctico\n  Contexto: Educación, material didáctico",
+      "extracted_query": "pegamento",
+      "order": 3
+    },
+    {
+      "concept": "unir",
+      "id": 8243,
+      "url": "https://static.arasaac.org/pictograms/8243/8243_500.png",
+      "score": 0.8522995710372925,
+      "description": "query: Concepto: unir\n  Descripción:   tr. Juntar dos o más cosas entre sí, haciendo de ellas un todo: uniendo las dos mitades, se forma un escudo.\n  Sinónimos: \n  Categorías: verbo, tarea educativa\n  Contexto: comunicación, idioma, verbo, Educación, tarea educativa",
+      "extracted_query": "unir",
+      "judge_added": true,
+      "order": 4
+    }
+  ],
+  "result": {
+    "score": 2,
+    "missing_concepts": [],
+    "incorrect_pictograms": [
+      {
+        "concept": "acceso",
+        "reason": "El pictograma de 'acceso' no tiene relación con el significado de la frase; debe eliminarse."
+      },
+      {
+        "concept": "uno",
+        "reason": "El pictograma del número 'uno' es irrelevante para el contexto de la acción; debe eliminarse."
+      }
+    ],
+    "ordering_issues": [],
+    "suggestions": [
+      "Eliminar pictograma de 'acceso'",
+      "Eliminar pictograma de 'uno'",
+      "Mantener solamente los pictogramas de 'unir' y 'pegamento'"
+    ]
+  }
+}

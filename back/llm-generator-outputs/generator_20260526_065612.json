@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_065612",
+  "text": "Júpiter es el más grande",
+  "concepts": [
+    "júpiter",
+    "más",
+    "grande"
+  ],
+  "candidates": [
+    {
+      "concept": "júpiter",
+      "candidates": [
+        {
+          "id": 10293,
+          "concept": "Júpiter",
+          "query_concept": "júpiter",
+          "text": "query: Concepto: Júpiter\n  Descripción: Es el quinto planeta del Sistema Solar. Forma parte de los denominados planetas exteriores o gaseosos. Recibe su nombre del dios romano Júpiter (Zeus en la mitología griega).\n  Sinónimos: \n  Categorías: planeta\n  Contexto: astronomía, planeta",
+          "description": "query: Concepto: Júpiter\n  Descripción: Es el quinto planeta del Sistema Solar. Forma parte de los denominados planetas exteriores o gaseosos. Recibe su nombre del dios romano Júpiter (Zeus en la mitología griega).\n  Sinónimos: \n  Categorías: planeta\n  Contexto: astronomía, planeta",
+          "score": 0.8612669706344604
+        },
+        {
+          "id": 15477,
+          "concept": "telescopio",
+          "query_concept": "júpiter",
+          "text": "query: Concepto: telescopio\n  Descripción: m. Aparato óptico en forma de tubo que permite ver objetos muy lejanos, particularmente cuerpos celestes\n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: telescopio\n  Descripción: m. Aparato óptico en forma de tubo que permite ver objetos muy lejanos, particularmente cuerpos celestes\n  Sinónimos: \n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.8420825004577637
+        },
+        {
+          "id": 8097,
+          "concept": "eclipse",
+          "query_concept": "júpiter",
+          "text": "query: Concepto: eclipse\n  Descripción:  m. ASTRON. Ocultación transitoria, total o parcial, de un astro por interposición de otro. \n  Sinónimos: eclipse de sol\n  Categorías: astronomía\n  Contexto: astronomía",
+          "description": "query: Concepto: eclipse\n  Descripción:  m. ASTRON. Ocultación transitoria, total o parcial, de un astro por interposición de otro. \n  Sinónimos: eclipse de sol\n  Categorías: astronomía\n  Contexto: astronomía",
+          "score": 0.839925229549408
+        }
+      ]
+    },
+    {
+      "concept": "más",
+      "candidates": [
+        {
+          "id": 3220,
+          "concept": "más",
+          "query_concept": "más",
+          "text": "query: Concepto: más\n  Descripción: m. Signo (+) de la suma o adición.\n  Sinónimos: +\n  Categorías: Signo ortográfico, matemáticas\n  Contexto: comunicación, idioma, alfabeto, Signo ortográfico, matemáticas",
+          "description": "query: Concepto: más\n  Descripción: m. Signo (+) de la suma o adición.\n  Sinónimos: +\n  Categorías: Signo ortográfico, matemáticas\n  Contexto: comunicación, idioma, alfabeto, Signo ortográfico, matemáticas",
+          "score": 0.8896265625953674
+        },
+        {
+          "id": 26913,
+          "concept": "más",
+          "query_concept": "más",
+          "text": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado\n  Contexto: comunicación, idioma, adverb, adverbio de grado",
+          "description": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado\n  Contexto: comunicación, idioma, adverb, adverbio de grado",
+          "score": 0.8772943019866943
+        },
+        {
+          "id": 5508,
+          "concept": "más",
+          "query_concept": "más",
+          "text": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado, conceptos básicos, vocabulario básico-comunicación, adverb, adverbio de la adición\n  Contexto: comunicación, idioma, adverb, adverbio de grado, matemáticas, conceptos básicos, vocabulario básico, adverbio de la adición",
+          "description": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado, conceptos básicos, vocabulario básico-comunicación, adverb, adverbio de la adición\n  Contexto: comunicación, idioma, adverb, adverbio de grado, matemáticas, conceptos básicos, vocabulario básico, adverbio de la adición",
+          "score": 0.8761483430862427
+        }
+      ]
+    },
+    {
+      "concept": "grande",
+      "candidates": [
+        {
+          "id": 4658,
+          "concept": "grande",
+          "query_concept": "grande",
+          "text": "query: Concepto: grande\n  Descripción:  adj. Que supera en tamaño, importancia e intensidad a lo normal.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, Tamaño, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Tamaño, vocabulario básico, objeto",
+          "description": "query: Concepto: grande\n  Descripción:  adj. Que supera en tamaño, importancia e intensidad a lo normal.\n  Sinónimos: mayor\n  Categorías: adjetivo calificativo, Tamaño, vocabulario básico-comunicación, léxico-objeto básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Tamaño, vocabulario básico, objeto",
+          "score": 0.8666024208068848
+        },
+        {
+          "id": 28201,
+          "concept": "adulta",
+          "query_concept": "grande",
+          "text": "query: Concepto: adulta\n  Descripción: adj. Llegado a su mayor crecimiento o desarrollo.\n  Sinónimos: grande\n  Categorías: adjetivo calificativo, adulto, persona según su edad\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, persona, adulto",
+          "description": "query: Concepto: adulta\n  Descripción: adj. Llegado a su mayor crecimiento o desarrollo.\n  Sinónimos: grande\n  Categorías: adjetivo calificativo, adulto, persona según su edad\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, persona, adulto",
+          "score": 0.8565220832824707
+        },
+        {
+          "id": 6886,
+          "concept": "adulto",
+          "query_concept": "grande",
+          "text": "query: Concepto: adulto\n  Descripción:  adj. Llegado a su mayor crecimiento o desarrollo.\n  Sinónimos: grande\n  Categorías: adjetivo calificativo, adulto, persona según su edad\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, persona, adulto",
+          "description": "query: Concepto: adulto\n  Descripción:  adj. Llegado a su mayor crecimiento o desarrollo.\n  Sinónimos: grande\n  Categorías: adjetivo calificativo, adulto, persona según su edad\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, persona, adulto",
+          "score": 0.8552787899971008
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      10293,
+      26913,
+      4658
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "timestamp": "20260526_061028",
+  "text": "Hablar con gritos o mal humor no ayuda",
+  "concepts": [
+    "hablar",
+    "gritos",
+    "mal",
+    "humor",
+    "ayuda"
+  ],
+  "candidates": [
+    {
+      "concept": "hablar",
+      "candidates": [
+        {
+          "id": 6517,
+          "concept": "hablar",
+          "query_concept": "hablar",
+          "text": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+          "description": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar\n  Categorías: verbos habituales, respuesta humana, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, verbo, verbos habituales, psicología, respuesta humana, vocabulario básico",
+          "score": 0.898945152759552
+        },
+        {
+          "id": 3345,
+          "concept": "hablar",
+          "query_concept": "hablar",
+          "text": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: hablar\n  Descripción:  intr. Articular, proferir palabras para darse a entender.\n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.898902416229248
+        },
+        {
+          "id": 36544,
+          "concept": "hablar",
+          "query_concept": "hablar",
+          "text": "query: Concepto: hablar\n  Descripción: \n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: hablar\n  Descripción: \n  Sinónimos: conversar, charlar, dialogar, comunicar\n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8957802653312683
+        }
+      ]
+    },
+    {
+      "concept": "gritos",
+      "candidates": [
+        {
+          "id": 37924,
+          "concept": "grito",
+          "query_concept": "gritos",
+          "text": "query: Concepto: grito\n  Descripción: \n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "description": "query: Concepto: grito\n  Descripción: \n  Sinónimos: \n  Categorías: respuesta humana\n  Contexto: psicología, respuesta humana",
+          "score": 0.8778345584869385
+        },
+        {
+          "id": 32284,
+          "concept": "grietas en el pezón",
+          "query_concept": "gritos",
+          "text": "query: Concepto: grietas en el pezón\n  Descripción: f. pl. Hendiduras poco profundas que se forma en la piel del pezón de las mujeres en los primeros días de la lactancia materna.\n  Sinónimos: \n  Categorías: Síntomas, obstetricia\n  Contexto: Salud, medicamentos, Síntomas, ginecología, obstetricia",
+          "description": "query: Concepto: grietas en el pezón\n  Descripción: f. pl. Hendiduras poco profundas que se forma en la piel del pezón de las mujeres en los primeros días de la lactancia materna.\n  Sinónimos: \n  Categorías: Síntomas, obstetricia\n  Contexto: Salud, medicamentos, Síntomas, ginecología, obstetricia",
+          "score": 0.85880446434021
+        },
+        {
+          "id": 9085,
+          "concept": "tocadiscos",
+          "query_concept": "gritos",
+          "text": "query: Concepto: tocadiscos\n  Descripción: m. Aparato que, con un plato giratorio, puede reproducir el sonido grabado en un disco\n  Sinónimos: \n  Categorías: Aparatos eléctricos, dispositivo de música\n  Contexto: objeto, aparato, Aparatos eléctricos, Inicio, dispositivo de música",
+          "description": "query: Concepto: tocadiscos\n  Descripción: m. Aparato que, con un plato giratorio, puede reproducir el sonido grabado en un disco\n  Sinónimos: \n  Categorías: Aparatos eléctricos, dispositivo de música\n  Contexto: objeto, aparato, Aparatos eléctricos, Inicio, dispositivo de música",
+          "score": 0.8477877378463745
+        }
+      ]
+    },
+    {
+      "concept": "mal",
+      "candidates": [
+        {
+          "id": 10207,
+          "concept": "mala",
+          "query_concept": "mal",
+          "text": "query: Concepto: mala\n  Descripción:  adj. Que carece de bondad y de otras cualidades positivas.\n  Sinónimos: malvada, maligna\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "description": "query: Concepto: mala\n  Descripción:  adj. Que carece de bondad y de otras cualidades positivas.\n  Sinónimos: malvada, maligna\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "score": 0.8652541041374207
+        },
+        {
+          "id": 5504,
+          "concept": "mal",
+          "query_concept": "mal",
+          "text": "query: Concepto: mal\n  Descripción:  m. Lo contrario al bien, lo malo: el triunfo del mal. \n  Sinónimos: \n  Categorías: adverbio de la manera, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio de la manera, vocabulario básico",
+          "description": "query: Concepto: mal\n  Descripción:  m. Lo contrario al bien, lo malo: el triunfo del mal. \n  Sinónimos: \n  Categorías: adverbio de la manera, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, adverb, adverbio de la manera, vocabulario básico",
+          "score": 0.8640635013580322
+        },
+        {
+          "id": 32192,
+          "concept": "malo",
+          "query_concept": "mal",
+          "text": "query: Concepto: malo\n  Descripción: adj. Que carece de bondad y de otras cualidades positivas.\n  Sinónimos: malvado, maligno\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "description": "query: Concepto: malo\n  Descripción: adj. Que carece de bondad y de otras cualidades positivas.\n  Sinónimos: malvado, maligno\n  Categorías: adjetivo calificativo\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo",
+          "score": 0.862201452255249
+        }
+      ]
+    },
+    {
+      "concept": "humor",
+      "candidates": [
+        {
+          "id": 24735,
+          "concept": "divertido",
+          "query_concept": "humor",
+          "text": "query: Concepto: divertido\n  Descripción:  adj. Alegre, festivo.\n  Sinónimos: divertida\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "description": "query: Concepto: divertido\n  Descripción:  adj. Alegre, festivo.\n  Sinónimos: divertida\n  Categorías: adjetivo calificativo, sensación\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción",
+          "score": 0.853344202041626
+        },
+        {
+          "id": 25249,
+          "concept": "moco",
+          "query_concept": "humor",
+          "text": "query: Concepto: moco\n  Descripción: m. Humor espeso y pegajoso que segregan las membranas mucosas, y especialmente el que fluye por las ventanas de la nariz.\n  Sinónimos: \n  Categorías: fisiología, Síntomas\n  Contexto: cuerpo humano, fisiología, fisiología humana, Salud, medicamentos, Síntomas",
+          "description": "query: Concepto: moco\n  Descripción: m. Humor espeso y pegajoso que segregan las membranas mucosas, y especialmente el que fluye por las ventanas de la nariz.\n  Sinónimos: \n  Categorías: fisiología, Síntomas\n  Contexto: cuerpo humano, fisiología, fisiología humana, Salud, medicamentos, Síntomas",
+          "score": 0.8521295785903931
+        },
+        {
+          "id": 24733,
+          "concept": "divertido",
+          "query_concept": "humor",
+          "text": "query: Concepto: divertido\n  Descripción:  adj. Alegre, festivo.\n  Sinónimos: divertida\n  Categorías: adjetivo calificativo, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción, vocabulario básico",
+          "description": "query: Concepto: divertido\n  Descripción:  adj. Alegre, festivo.\n  Sinónimos: divertida\n  Categorías: adjetivo calificativo, sensación, vocabulario básico-comunicación, vocabulario-conocimiento básico\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, psicología, sensación, emoción, vocabulario básico",
+          "score": 0.8509514331817627
+        }
+      ]
+    },
+    {
+      "concept": "ayuda",
+      "candidates": [
+        {
+          "id": 7171,
+          "concept": "necesito ayuda",
+          "query_concept": "ayuda",
+          "text": "query: Concepto: necesito ayuda\n  Descripción: intr. y tr. Tener necesidad de una persona o cosa.\n  Sinónimos: \n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+          "description": "query: Concepto: necesito ayuda\n  Descripción: intr. y tr. Tener necesidad de una persona o cosa.\n  Sinónimos: \n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+          "score": 0.8867309093475342
+        },
+        {
+          "id": 16125,
+          "concept": "¿puedo ayudarte?",
+          "query_concept": "ayuda",
+          "text": "query: Concepto: ¿puedo ayudarte?\n  Descripción: Expresión utilizada para preguntar a la otra persona si necesita ayuda, apoyo o auxilio\n  Sinónimos: ¿necesitas ayuda?\n  Categorías: expresión de conjunto cortés\n  Contexto: comunicación, idioma, expresión, expresión de conjunto cortés",
+          "description": "query: Concepto: ¿puedo ayudarte?\n  Descripción: Expresión utilizada para preguntar a la otra persona si necesita ayuda, apoyo o auxilio\n  Sinónimos: ¿necesitas ayuda?\n  Categorías: expresión de conjunto cortés\n  Contexto: comunicación, idioma, expresión, expresión de conjunto cortés",
+          "score": 0.8848564624786377
+        },
+        {
+          "id": 19524,
+          "concept": "ayuda",
+          "query_concept": "ayuda",
+          "text": "query: Concepto: ayuda\n  Descripción: f. Acción y efecto de ayudar.\n  Sinónimos: colaboración, cooperación\n  Categorías: respuesta humana, vocabulario-conocimiento básico, educación especial, necesidades básicas\n  Contexto: psicología, respuesta humana, vocabulario básico, Educación, educación especial, persona, necesidades básicas",
+          "description": "query: Concepto: ayuda\n  Descripción: f. Acción y efecto de ayudar.\n  Sinónimos: colaboración, cooperación\n  Categorías: respuesta humana, vocabulario-conocimiento básico, educación especial, necesidades básicas\n  Contexto: psicología, respuesta humana, vocabulario básico, Educación, educación especial, persona, necesidades básicas",
+          "score": 0.8821151256561279
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      6517,
+      37924,
+      5504,
+      24735,
+      19524
+    ]
+  }
+}

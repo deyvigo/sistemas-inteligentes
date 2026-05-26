@@ -1,0 +1,134 @@
+{
+  "timestamp": "20260526_065633",
+  "text": "La doctora mira la garganta con el bajalenguas",
+  "concepts": [
+    "doctora",
+    "mira",
+    "garganta",
+    "bajalenguas"
+  ],
+  "candidates": [
+    {
+      "concept": "doctora",
+      "candidates": [
+        {
+          "id": 8263,
+          "concept": "médica",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médica\n  Descripción: f. Mujer que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctora\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8842349052429199
+        },
+        {
+          "id": 38857,
+          "concept": "médico",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médico\n  Descripción: \n  Sinónimos: médica, doctor, doctora\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "description": "query: Concepto: médico\n  Descripción: \n  Sinónimos: médica, doctor, doctora\n  Categorías: personal de salud, profesional sanitario\n  Contexto: Salud, medicamentos, profesional, trabajo",
+          "score": 0.8697194457054138
+        },
+        {
+          "id": 2467,
+          "concept": "médico",
+          "query_concept": "doctora",
+          "text": "query: Concepto: médico\n  Descripción: n. Persona que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctor\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "description": "query: Concepto: médico\n  Descripción: n. Persona que tiene título oficial para curar las enfermedades.\n  Sinónimos: doctor\n  Categorías: personal de salud, profesional sanitario, covid-19\n  Contexto: Salud, medicamentos, profesional, trabajo, covid-19",
+          "score": 0.8694305419921875
+        }
+      ]
+    },
+    {
+      "concept": "mira",
+      "candidates": [
+        {
+          "id": 7801,
+          "concept": "¿qué miras?",
+          "query_concept": "mira",
+          "text": "query: Concepto: ¿qué miras?\n  Descripción: Pregunta que realiza una persona a otra cuando desea saber lo que está viendo la otra persona\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "description": "query: Concepto: ¿qué miras?\n  Descripción: Pregunta que realiza una persona a otra cuando desea saber lo que está viendo la otra persona\n  Sinónimos: \n  Categorías: expresión\n  Contexto: comunicación, idioma, expresión",
+          "score": 0.8464536666870117
+        },
+        {
+          "id": 27889,
+          "concept": "mirador",
+          "query_concept": "mira",
+          "text": "query: Concepto: mirador\n  Descripción: m. Lugar bien situado para contemplar un paisaje o un acontecimiento.\n  Sinónimos: \n  Categorías: Zona rural, mar y océanos\n  Contexto: lugar, Zona rural, geografía, geografía física, forma de tierra, mar, océano",
+          "description": "query: Concepto: mirador\n  Descripción: m. Lugar bien situado para contemplar un paisaje o un acontecimiento.\n  Sinónimos: \n  Categorías: Zona rural, mar y océanos\n  Contexto: lugar, Zona rural, geografía, geografía física, forma de tierra, mar, océano",
+          "score": 0.8432589769363403
+        },
+        {
+          "id": 38995,
+          "concept": "brida",
+          "query_concept": "mira",
+          "text": "query: Concepto: brida\n  Descripción: \n  Sinónimos: \n  Categorías: herramienta de trabajo\n  Contexto: trabajo, herramienta",
+          "description": "query: Concepto: brida\n  Descripción: \n  Sinónimos: \n  Categorías: herramienta de trabajo\n  Contexto: trabajo, herramienta",
+          "score": 0.8405144214630127
+        }
+      ]
+    },
+    {
+      "concept": "garganta",
+      "candidates": [
+        {
+          "id": 3332,
+          "concept": "garganta",
+          "query_concept": "garganta",
+          "text": "query: Concepto: garganta\n  Descripción:  Conducto interno entre el paladar y la entrada del esófago.\n  Sinónimos: \n  Categorías: anatomía humana, sistema digestivo\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología humana, fisiología, sistema digestivo",
+          "description": "query: Concepto: garganta\n  Descripción:  Conducto interno entre el paladar y la entrada del esófago.\n  Sinónimos: \n  Categorías: anatomía humana, sistema digestivo\n  Contexto: cuerpo humano, anatomía, anatomía humana, fisiología humana, fisiología, sistema digestivo",
+          "score": 0.864830493927002
+        },
+        {
+          "id": 27784,
+          "concept": "gárgaras",
+          "query_concept": "garganta",
+          "text": "query: Concepto: gárgaras\n  Descripción: U. m. en pl. f. Acción de mantener un líquido en la garganta, con la boca hacia arriba, sin tragarlo y expulsando el aire, lo cual produce un ruido semejante al del agua en ebullición. \n  Sinónimos: hacer gárgaras\n  Categorías: verbo, higiene corporal, producto de higiene, rutina\n  Contexto: comunicación, idioma, verbo, cuerpo humano, higiene, higiene corporal, objeto, producto de higiene, persona, rutina",
+          "description": "query: Concepto: gárgaras\n  Descripción: U. m. en pl. f. Acción de mantener un líquido en la garganta, con la boca hacia arriba, sin tragarlo y expulsando el aire, lo cual produce un ruido semejante al del agua en ebullición. \n  Sinónimos: hacer gárgaras\n  Categorías: verbo, higiene corporal, producto de higiene, rutina\n  Contexto: comunicación, idioma, verbo, cuerpo humano, higiene, higiene corporal, objeto, producto de higiene, persona, rutina",
+          "score": 0.8539422154426575
+        },
+        {
+          "id": 30039,
+          "concept": "gárgaras",
+          "query_concept": "garganta",
+          "text": "query: Concepto: gárgaras\n  Descripción: U. m. en pl. f. Acción de mantener un líquido en la garganta, con la boca hacia arriba, sin tragarlo y expulsando el aire, lo cual produce un ruido semejante al del agua en ebullición. \n  Sinónimos: hacer gárgaras\n  Categorías: verbo, higiene corporal, producto de higiene, rutina\n  Contexto: comunicación, idioma, verbo, cuerpo humano, higiene, higiene corporal, objeto, producto de higiene, persona, rutina",
+          "description": "query: Concepto: gárgaras\n  Descripción: U. m. en pl. f. Acción de mantener un líquido en la garganta, con la boca hacia arriba, sin tragarlo y expulsando el aire, lo cual produce un ruido semejante al del agua en ebullición. \n  Sinónimos: hacer gárgaras\n  Categorías: verbo, higiene corporal, producto de higiene, rutina\n  Contexto: comunicación, idioma, verbo, cuerpo humano, higiene, higiene corporal, objeto, producto de higiene, persona, rutina",
+          "score": 0.8539422154426575
+        }
+      ]
+    },
+    {
+      "concept": "bajalenguas",
+      "candidates": [
+        {
+          "id": 8036,
+          "concept": "Baleares",
+          "query_concept": "bajalenguas",
+          "text": "query: Concepto: Baleares\n  Descripción: Son una comunidad autónoma española compuesta por las islas del archipiélago balear, situado en el Mar Mediterráneo junto a la costa oriental de la Península Ibérica.\n\n\n  Sinónimos: \n  Categorías: bandera, región de las españas\n  Contexto: geografía, geografía política, bandera, región de las españas",
+          "description": "query: Concepto: Baleares\n  Descripción: Son una comunidad autónoma española compuesta por las islas del archipiélago balear, situado en el Mar Mediterráneo junto a la costa oriental de la Península Ibérica.\n\n\n  Sinónimos: \n  Categorías: bandera, región de las españas\n  Contexto: geografía, geografía política, bandera, región de las españas",
+          "score": 0.8512074947357178
+        },
+        {
+          "id": 2885,
+          "concept": "neblinoso",
+          "query_concept": "bajalenguas",
+          "text": "query: Concepto: neblinoso\n  Descripción: adj. Dicho del día o de la atmósfera: En que abunda y es baja la niebla.\n  Sinónimos: neblinosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+          "description": "query: Concepto: neblinoso\n  Descripción: adj. Dicho del día o de la atmósfera: En que abunda y es baja la niebla.\n  Sinónimos: neblinosa\n  Categorías: adjetivo calificativo, fenómenos atmosféricos\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, meteorología, fenómenos atmosféricos",
+          "score": 0.850207507610321
+        },
+        {
+          "id": 8498,
+          "concept": "Baleares",
+          "query_concept": "bajalenguas",
+          "text": "query: Concepto: Baleares\n  Descripción: Son una comunidad autónoma española compuesta por las islas del archipiélago balear, situado en el Mar Mediterráneo junto a la costa oriental de la Península Ibérica.\n\n\n  Sinónimos: \n  Categorías: región de las españas\n  Contexto: geografía, geografía política, región de las españas",
+          "description": "query: Concepto: Baleares\n  Descripción: Son una comunidad autónoma española compuesta por las islas del archipiélago balear, situado en el Mar Mediterráneo junto a la costa oriental de la Península Ibérica.\n\n\n  Sinónimos: \n  Categorías: región de las españas\n  Contexto: geografía, geografía política, región de las españas",
+          "score": 0.8470739126205444
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      8263,
+      3332
+    ]
+  }
+}

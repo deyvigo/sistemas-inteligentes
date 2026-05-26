@@ -33,11 +33,14 @@ os.chdir(Path(__file__).parent)
 from dotenv import load_dotenv
 load_dotenv()
 
-OUT_DIR    = Path("experimentos")
+OUT_DIR          = Path("experimentos")
 OUT_DIR.mkdir(exist_ok=True)
-LATEST     = OUT_DIR / "exp1_latest.json"
-TEST_FILE  = Path("train-prev/test (2).json")
-FEEDBACK_DIR = Path("feedback_logs")
+LATEST           = OUT_DIR / "exp1_latest.json"
+INCREMENTAL_FILE = OUT_DIR / "exp1_incremental.json"
+TEST_FILE        = Path("train-prev/test (2).json")
+FEEDBACK_DIR     = Path("feedback_logs")
+
+_id_concept_cache: dict | None = None
 
 
 # ── Métricas ──────────────────────────────────────────────────────────────────
@@ -193,9 +196,9 @@ def _add_concept_from_search(refined: list, current_ids: set, concept: str, acti
         if not search_term:
             continue
         try:
-            results = list(search(search_term, top_k=8))
+            results, _ = search(search_term, top_k=8)
             if results:
-                for cand, score in results:
+                for cand in results:
                     if cand["id"] not in current_ids:
                         refined.append(_candidate_to_item(cand, search_term, judge_added=True))
                         current_ids.add(cand["id"])
@@ -206,7 +209,7 @@ def _add_concept_from_search(refined: list, current_ids: set, concept: str, acti
                             "new_id": int(cand["id"]),
                             "source": source,
                             "strategy": strategy_name,
-                            "match_score": float(score) if hasattr(score, '__float__') else 0.0,
+                            "match_score": float(cand.get("score", 0.0)),
                         })
                         return True
         except Exception as e:
@@ -230,7 +233,8 @@ def _replace_concept_from_search(refined: list, current_ids: set, old_concept: s
         return False
 
     old_item = refined[idx]
-    for cand, _ in search(new_query, top_k=8):
+    candidates, _ = search(new_query, top_k=8)
+    for cand in candidates:
         if cand["id"] != old_item["id"] and cand["id"] not in current_ids:
             current_ids.discard(old_item["id"])
             refined[idx] = _candidate_to_item(cand, new_query, judge_replaced=True)
@@ -490,10 +494,20 @@ def generate_sequence_for_experiment(text: str, concepts: list, api_key: str,
 
 # ── Utilidades de carga ────────────────────────────────────────────────────────
 
-def load_test_sentences(n: int = 30, seed: int = 42) -> list:
+def load_test_sentences(n: int = 15, seed: int = 42,
+                        min_words: int = 5, min_pict_refs: int = 3) -> list:
+    """
+    Carga oraciones de prueba filtrando por complejidad para que el experimento
+    muestre diferencias reales entre cond_A (solo generador) y cond_B (+ juez).
+    Oraciones simples de 1-2 palabras producen puntajes idénticos en ambas condiciones.
+    """
     with open(TEST_FILE, encoding="utf-8") as f:
         data = json.load(f)
-    valid = [e for e in data if extract_ref_ids(e.get("traduccion", ""))]
+    valid = [
+        e for e in data
+        if len(extract_ref_ids(e.get("traduccion", ""))) >= min_pict_refs
+        and len(e.get("oracion", "").split()) >= min_words
+    ]
     random.seed(seed)
     return random.sample(valid, min(n, len(valid)))
 
@@ -507,6 +521,13 @@ def build_id_concept_map() -> dict:
                 result[int(pid)] = line.split("Concepto:")[-1].strip()
                 break
     return result
+
+
+def _get_id_concept() -> dict:
+    global _id_concept_cache
+    if _id_concept_cache is None:
+        _id_concept_cache = build_id_concept_map()
+    return _id_concept_cache
 
 
 def get_human_choice_stats() -> dict:
@@ -551,11 +572,45 @@ def get_human_choice_stats() -> dict:
 
 # ── Ejecución principal ────────────────────────────────────────────────────────
 
-def run(n: int = 30, seed: int = 42, api_key: str = "", delay: float = 1.0,
+def _build_summary(results: list, include_human_stats: bool = False) -> dict:
+    """Calcula el resumen sobre los resultados disponibles (parcial o completo)."""
+    valid = [r for r in results if "error" not in r]
+
+    def _avg(key, cond):
+        vals = [r[cond][key] for r in valid]
+        return round(sum(vals) / len(vals), 3) if vals else 0.0
+
+    summary = {
+        "cond_A": {k: _avg(k, "cond_A") for k in ("score", "errors", "recall", "bleu", "chrf", "seq_length")},
+        "cond_B": {k: _avg(k, "cond_B") for k in ("score", "errors", "recall", "bleu", "chrf", "seq_length")},
+        "improvements": {
+            "score_improved": sum(1 for r in valid if r["cond_B"]["score"] > r["cond_A"]["score"]),
+            "score_same":     sum(1 for r in valid if r["cond_B"]["score"] == r["cond_A"]["score"]),
+            "score_worse":    sum(1 for r in valid if r["cond_B"]["score"] < r["cond_A"]["score"]),
+            "errors_reduced": sum(1 for r in valid if r["cond_B"]["errors"] < r["cond_A"]["errors"]),
+            "avg_errors_corrected": round(
+                sum(r["cond_B"]["errors_corrected"] for r in valid) / len(valid), 3
+            ) if valid else 0.0,
+            "total_postprocessing_actions": sum(
+                len(r["cond_B"]["postprocessing_actions"]) for r in valid
+            ),
+            "refined_count": sum(
+                1 for r in valid if r["cond_A"]["ids"] != r["cond_B"]["ids"]
+            ),
+            "skipped_errors": len(results) - len(valid),
+        },
+    }
+    if include_human_stats:
+        summary["human_choice_stats"] = get_human_choice_stats()
+    return summary
+
+
+def run(n: int = 15, seed: int = 42, api_key: str = "", delay: float = 0.3,
         use_llm_generator: bool | None = None) -> dict:
     """
     Ejecuta el análisis de impacto del LLM-Judge.
-    Devuelve el dict de resultados y lo guarda en experimentos/exp1_latest.json.
+    Guarda resultados parciales tras cada oración (status='running') y
+    el resultado final con status='complete'.
     """
     from five_llm_judge import judge as llm_judge
 
@@ -571,94 +626,112 @@ def run(n: int = 30, seed: int = 42, api_key: str = "", delay: float = 1.0,
     id_concept = build_id_concept_map()
     results    = []
     generator_modes = Counter()
+    started_at = datetime.now().isoformat()
 
     for idx, entry in enumerate(test_set, 1):
-        text     = entry["oracion"]
-        ref_ids  = extract_ref_ids(entry.get("traduccion", ""))
-        from four_extract_concepts import process_text
-        concepts = process_text(text)["concepts"]
+        text = entry["oracion"]
+        try:
+            ref_ids  = extract_ref_ids(entry.get("traduccion", ""))
+            from four_extract_concepts import process_text
+            concepts = process_text(text)["concepts"]
 
-        print(f"[{idx:02d}/{len(test_set)}] {text!r}")
+            print(f"[{idx:02d}/{len(test_set)}] {text!r}", flush=True)
 
-        # Condición A: solo generador del proyecto
-        seq_A, generator_meta = generate_sequence_for_experiment(
-            text,
-            concepts,
-            api_key=generator_api_key,
-            top_k=3,
-            use_llm_generator=use_llm_generator,
-        )
-        generator_modes[generator_meta["mode"]] += 1
-        ids_A = [x["id"] for x in seq_A]
-        time.sleep(delay)
-        jout_A  = llm_judge(text, seq_A, api_key)
+            # Condición A: solo generador del proyecto
+            seq_A, generator_meta = generate_sequence_for_experiment(
+                text,
+                concepts,
+                api_key=generator_api_key,
+                top_k=3,
+                use_llm_generator=use_llm_generator,
+            )
+            generator_modes[generator_meta["mode"]] += 1
+            ids_A = [x["id"] for x in seq_A]
+            time.sleep(delay)
+            jout_A  = llm_judge(text, seq_A, api_key)
 
-        # Condición B: generador + juez (post-procesado)
-        seq_B, actions = refine_with_judge(seq_A, jout_A)
-        ids_B   = [x["id"] for x in seq_B]
-        time.sleep(delay)
-        jout_B  = llm_judge(text, seq_B, api_key)
-        errors_A = error_count(jout_A)
-        errors_B = error_count(jout_B)
+            # Condición B: generador + juez (post-procesado)
+            seq_B, actions = refine_with_judge(seq_A, jout_A)
+            ids_B   = [x["id"] for x in seq_B]
+            time.sleep(delay)
+            jout_B  = llm_judge(text, seq_B, api_key)
+            errors_A = error_count(jout_A)
+            errors_B = error_count(jout_B)
 
-        results.append({
-            "text":     text,
-            "concepts": concepts,
-            "ref_ids":  ref_ids,
-            "generator": generator_meta,
-            "cond_A": {
-                "ids":    ids_A,
-                "score":  clamp_score(jout_A.get("score", 0)),
-                "errors": errors_A,
-                "recall": concept_recall(ids_A, concepts, id_concept),
-                "bleu":   compute_bleu(ref_ids, ids_A),
-                "chrf":   compute_chrf(ref_ids, ids_A),
-                "judge":  jout_A,
+            results.append({
+                "text":     text,
+                "concepts": concepts,
+                "ref_ids":  ref_ids,
+                "generator": generator_meta,
+                "cond_A": {
+                    "ids":        ids_A,
+                    "score":      clamp_score(jout_A.get("score", 0)),
+                    "errors":     errors_A,
+                    "recall":     concept_recall(ids_A, concepts, id_concept),
+                    "bleu":       compute_bleu(ref_ids, ids_A),
+                    "chrf":       compute_chrf(ref_ids, ids_A),
+                    "seq_length": len(ids_A),
+                    "judge":      jout_A,
+                },
+                "cond_B": {
+                    "ids":        ids_B,
+                    "score":      clamp_score(jout_B.get("score", 0)),
+                    "errors":     errors_B,
+                    "recall":     concept_recall(ids_B, concepts, id_concept),
+                    "bleu":       compute_bleu(ref_ids, ids_B),
+                    "chrf":       compute_chrf(ref_ids, ids_B),
+                    "seq_length": len(ids_B),
+                    "judge":      jout_B,
+                    "added":      [x["id"] for x in seq_B if x.get("judge_added")],
+                    "replaced":   [x["id"] for x in seq_B if x.get("judge_replaced")],
+                    "postprocessing_actions": actions,
+                    "errors_corrected": max(0, errors_A - errors_B),
+                },
+            })
+
+        except Exception as exc:
+            import traceback
+            print(f"[EXP1] ERROR en oración {idx}/{len(test_set)} ({text!r}): {exc}", flush=True)
+            traceback.print_exc()
+            results.append({
+                "text":     text,
+                "error":    str(exc),
+                "concepts": [],
+                "ref_ids":  [],
+                "generator": {"mode": "error", "llm_generator_used": False, "fallback": True},
+                "cond_A": {"ids": [], "score": 0, "errors": 0, "recall": 0.0, "bleu": 0.0, "chrf": 0.0, "judge": {}},
+                "cond_B": {"ids": [], "score": 0, "errors": 0, "recall": 0.0, "bleu": 0.0, "chrf": 0.0,
+                           "judge": {}, "added": [], "replaced": [], "postprocessing_actions": [], "errors_corrected": 0},
+            })
+
+        # Guardado incremental tras cada oración (siempre, incluso si hubo error)
+        partial = {
+            "metadata": {
+                "run_at":            started_at,
+                "n":                 len(test_set),
+                "seed":              seed,
+                "status":            "running",
+                "processed":         idx,
+                "generator_requested": "llm_generator" if use_llm_generator else "embedding",
+                "generator_modes":   dict(generator_modes),
             },
-            "cond_B": {
-                "ids":      ids_B,
-                "score":    clamp_score(jout_B.get("score", 0)),
-                "errors":   errors_B,
-                "recall":   concept_recall(ids_B, concepts, id_concept),
-                "bleu":     compute_bleu(ref_ids, ids_B),
-                "chrf":     compute_chrf(ref_ids, ids_B),
-                "judge":    jout_B,
-                "added":    [x["id"] for x in seq_B if x.get("judge_added")],
-                "replaced": [x["id"] for x in seq_B if x.get("judge_replaced")],
-                "postprocessing_actions": actions,
-                "errors_corrected": max(0, errors_A - errors_B),
-            },
-        })
-
-    def _avg(key, cond):
-        vals = [r[cond][key] for r in results]
-        return round(sum(vals) / len(vals), 3) if vals else 0.0
+            "summary": _build_summary(results, include_human_stats=False),
+            "results": results,
+        }
+        with open(LATEST, "w", encoding="utf-8") as f:
+            json.dump(partial, f, indent=2, ensure_ascii=False)
 
     payload = {
         "metadata": {
-            "run_at": datetime.now().isoformat(),
-            "n": len(results),
-            "seed": seed,
+            "run_at":            started_at,
+            "n":                 len(results),
+            "seed":              seed,
+            "status":            "complete",
+            "processed":         len(results),
             "generator_requested": "llm_generator" if use_llm_generator else "embedding",
-            "generator_modes": dict(generator_modes),
+            "generator_modes":   dict(generator_modes),
         },
-        "summary": {
-            "cond_A": {k: _avg(k, "cond_A") for k in ("score", "errors", "recall", "bleu", "chrf")},
-            "cond_B": {k: _avg(k, "cond_B") for k in ("score", "errors", "recall", "bleu", "chrf")},
-            "improvements": {
-                "score_improved": sum(1 for r in results if r["cond_B"]["score"] > r["cond_A"]["score"]),
-                "score_same":     sum(1 for r in results if r["cond_B"]["score"] == r["cond_A"]["score"]),
-                "score_worse":    sum(1 for r in results if r["cond_B"]["score"] < r["cond_A"]["score"]),
-                "errors_reduced": sum(1 for r in results if r["cond_B"]["errors"] < r["cond_A"]["errors"]),
-                "avg_errors_corrected": round(
-                    sum(r["cond_B"]["errors_corrected"] for r in results) / len(results), 3
-                ) if results else 0.0,
-                "total_postprocessing_actions": sum(
-                    len(r["cond_B"]["postprocessing_actions"]) for r in results
-                ),
-            },
-            "human_choice_stats": get_human_choice_stats(),
-        },
+        "summary": _build_summary(results, include_human_stats=True),
         "results": results,
     }
 
@@ -668,11 +741,87 @@ def run(n: int = 30, seed: int = 42, api_key: str = "", delay: float = 1.0,
     return payload
 
 
+def record_online_session(
+    text: str,
+    concepts: list,
+    seq_A: list,
+    jout_A: dict,
+    seq_B: list,
+    actions: list,
+) -> None:
+    """
+    Registra las estadísticas de una sesión real de usuario en el archivo incremental.
+    Llamado desde /query-and-judge sin llamadas LLM adicionales.
+    Las estadísticas acumuladas se ponderan junto con los resultados del experimento batch.
+    """
+    if jout_A.get("error"):
+        return
+    try:
+        id_concept = _get_id_concept()
+        ids_A = [x["id"] for x in seq_A]
+        ids_B = [x["id"] for x in seq_B]
+        entry = {
+            "ts":        datetime.now().isoformat(),
+            "text":      text,
+            "score_A":   clamp_score(jout_A.get("score", 0)),
+            "errors_A":  error_count(jout_A),
+            "recall_A":  concept_recall(ids_A, concepts, id_concept),
+            "length_A":  len(ids_A),
+            "length_B":  len(ids_B),
+            "actions":   len(actions),
+            "refined":   ids_A != ids_B,
+        }
+        sessions: list = []
+        if INCREMENTAL_FILE.exists():
+            with open(INCREMENTAL_FILE, encoding="utf-8") as f:
+                sessions = json.load(f)
+        sessions.append(entry)
+        with open(INCREMENTAL_FILE, "w", encoding="utf-8") as f:
+            json.dump(sessions, f, indent=2, ensure_ascii=False)
+    except Exception:
+        pass
+
+
+def get_incremental_stats() -> dict | None:
+    """Agrega las estadísticas de todas las sesiones online registradas."""
+    if not INCREMENTAL_FILE.exists():
+        return None
+    try:
+        with open(INCREMENTAL_FILE, encoding="utf-8") as f:
+            sessions = json.load(f)
+    except Exception:
+        return None
+    if not sessions:
+        return None
+
+    def _avg(key: str) -> float:
+        vals = [s[key] for s in sessions if key in s and s[key] is not None]
+        return round(sum(vals) / len(vals), 3) if vals else 0.0
+
+    n = len(sessions)
+    return {
+        "total_sessions": n,
+        "avg_score_A":    _avg("score_A"),
+        "avg_errors_A":   _avg("errors_A"),
+        "avg_recall_A":   _avg("recall_A"),
+        "avg_length_A":   _avg("length_A"),
+        "avg_length_B":   _avg("length_B"),
+        "avg_actions":    _avg("actions"),
+        "refined_pct":    round(sum(1 for s in sessions if s.get("refined")) / n, 3),
+        "last_updated":   sessions[-1]["ts"],
+    }
+
+
 def get_latest() -> dict | None:
-    """Devuelve los últimos resultados almacenados, o None si no existen."""
+    """Devuelve los últimos resultados batch más estadísticas online acumuladas."""
+    online = get_incremental_stats()
     if LATEST.exists():
         with open(LATEST, encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+        data["online_stats"] = online
+        return data
+    if online:
+        return {"online_only": True, "online_stats": online}
     return None
 
 

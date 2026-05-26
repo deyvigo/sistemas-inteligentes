@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_061210",
+  "text": "Caperucita tiene una caperuza azul",
+  "concepts": [
+    "caperucita",
+    "caperuza",
+    "azul"
+  ],
+  "candidates": [
+    {
+      "concept": "caperucita",
+      "candidates": [
+        {
+          "id": 5942,
+          "concept": "Caperucita Roja",
+          "query_concept": "caperucita",
+          "text": "query: Concepto: Caperucita Roja\n  Descripción: La Caperucita Roja es una fábula transmitida de manera oral en gran parte de Europa y luego en escritos. El relato marca un claro contraste entre el pueblo seguro y el peligroso bosque, normal antítesis del mundo medieval.\n  Sinónimos: Caperucita\n  Categorías: carácter de cuento\n  Contexto: carácter, Carácter del libro, carácter de cuento, literatura",
+          "description": "query: Concepto: Caperucita Roja\n  Descripción: La Caperucita Roja es una fábula transmitida de manera oral en gran parte de Europa y luego en escritos. El relato marca un claro contraste entre el pueblo seguro y el peligroso bosque, normal antítesis del mundo medieval.\n  Sinónimos: Caperucita\n  Categorías: carácter de cuento\n  Contexto: carácter, Carácter del libro, carácter de cuento, literatura",
+          "score": 0.8770244121551514
+        },
+        {
+          "id": 6450,
+          "concept": "carpa de circo",
+          "query_concept": "caperucita",
+          "text": "query: Concepto: carpa de circo\n  Descripción: f. Cubierta de lona que se extiende sobre el circo para darle techo.    \n  Sinónimos: circo\n  Categorías: instalaciones recreativas, instalaciones de entretenimiento, circo, léxico básico-lugar, léxico básico-leisure, vocabulario-conocimiento básico\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, arte escénico, circo, Mostrar, vocabulario básico",
+          "description": "query: Concepto: carpa de circo\n  Descripción: f. Cubierta de lona que se extiende sobre el circo para darle techo.    \n  Sinónimos: circo\n  Categorías: instalaciones recreativas, instalaciones de entretenimiento, circo, léxico básico-lugar, léxico básico-leisure, vocabulario-conocimiento básico\n  Contexto: lugar, instalación, instalaciones recreativas, ocio, arte escénico, circo, Mostrar, vocabulario básico",
+          "score": 0.8638184070587158
+        },
+        {
+          "id": 11202,
+          "concept": "capullo",
+          "query_concept": "caperucita",
+          "text": "query: Concepto: capullo\n  Descripción:  Flor que no ha acabado de abrirse\n  Sinónimos: \n  Categorías: anatomía de las plantas, flor\n  Contexto: planta, anatomía de las plantas, anatomía, flor",
+          "description": "query: Concepto: capullo\n  Descripción:  Flor que no ha acabado de abrirse\n  Sinónimos: \n  Categorías: anatomía de las plantas, flor\n  Contexto: planta, anatomía de las plantas, anatomía, flor",
+          "score": 0.8630132675170898
+        }
+      ]
+    },
+    {
+      "concept": "caperuza",
+      "candidates": [
+        {
+          "id": 7050,
+          "concept": "capucha",
+          "query_concept": "caperuza",
+          "text": "query: Concepto: capucha\n  Descripción:   f. Pieza de una prenda de vestir que sirve para cubrir la cabeza y se puede echar a la espalda.\n  Sinónimos: caperuza\n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+          "description": "query: Concepto: capucha\n  Descripción:   f. Pieza de una prenda de vestir que sirve para cubrir la cabeza y se puede echar a la espalda.\n  Sinónimos: caperuza\n  Categorías: accesorios\n  Contexto: objeto, moda, accesorios",
+          "score": 0.8736043572425842
+        },
+        {
+          "id": 26712,
+          "concept": "caballeriza",
+          "query_concept": "caperuza",
+          "text": "query: Concepto: caballeriza\n  Descripción: f. Sitio o lugar cubierto destinado para estancia de los caballos y bestias de carga.\n  Sinónimos: \n  Categorías: Carcasa de animales\n  Contexto: animal, Carcasa de animales",
+          "description": "query: Concepto: caballeriza\n  Descripción: f. Sitio o lugar cubierto destinado para estancia de los caballos y bestias de carga.\n  Sinónimos: \n  Categorías: Carcasa de animales\n  Contexto: animal, Carcasa de animales",
+          "score": 0.8543630838394165
+        },
+        {
+          "id": 3109,
+          "concept": "gorro de papá noel",
+          "query_concept": "caperuza",
+          "text": "query: Concepto: gorro de papá noel\n  Descripción: Especie de caperuza roja, de forma aproximadamente cónica pero con la punta curvada y un pompón blanco en ella, confeccionado habitualmente con lana o fieltro.\n\n\n  Sinónimos: \n  Categorías: traje, Navidad\n  Contexto: objeto, moda, ropa, traje, evento, evento popular, Navidad",
+          "description": "query: Concepto: gorro de papá noel\n  Descripción: Especie de caperuza roja, de forma aproximadamente cónica pero con la punta curvada y un pompón blanco en ella, confeccionado habitualmente con lana o fieltro.\n\n\n  Sinónimos: \n  Categorías: traje, Navidad\n  Contexto: objeto, moda, ropa, traje, evento, evento popular, Navidad",
+          "score": 0.8532301783561707
+        }
+      ]
+    },
+    {
+      "concept": "azul",
+      "candidates": [
+        {
+          "id": 3355,
+          "concept": "azul",
+          "query_concept": "azul",
+          "text": "query: Concepto: azul\n  Descripción: adj. Del color del cielo sin nubes. Es el quinto color del espectro solar.\n  Sinónimos: \n  Categorías: color\n  Contexto: color",
+          "description": "query: Concepto: azul\n  Descripción: adj. Del color del cielo sin nubes. Es el quinto color del espectro solar.\n  Sinónimos: \n  Categorías: color\n  Contexto: color",
+          "score": 0.8971217274665833
+        },
+        {
+          "id": 4869,
+          "concept": "azul",
+          "query_concept": "azul",
+          "text": "query: Concepto: azul\n  Descripción: adj. Del color del cielo sin nubes. Es el quinto color del espectro solar.\n  Sinónimos: \n  Categorías: color, léxico-objeto básico\n  Contexto: color, objeto, vocabulario básico",
+          "description": "query: Concepto: azul\n  Descripción: adj. Del color del cielo sin nubes. Es el quinto color del espectro solar.\n  Sinónimos: \n  Categorías: color, léxico-objeto básico\n  Contexto: color, objeto, vocabulario básico",
+          "score": 0.8922516703605652
+        },
+        {
+          "id": 26266,
+          "concept": "oscuro",
+          "query_concept": "azul",
+          "text": "query: Concepto: oscuro\n  Descripción:  Se dice del color que casi llega a ser negro, y del que se contrapone a otro más claro de su misma gama: azul oscuro. \n  Sinónimos: \n  Categorías: \n  Contexto:",
+          "description": "query: Concepto: oscuro\n  Descripción:  Se dice del color que casi llega a ser negro, y del que se contrapone a otro más claro de su misma gama: azul oscuro. \n  Sinónimos: \n  Categorías: \n  Contexto:",
+          "score": 0.873366117477417
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      5942,
+      7050,
+      3355
+    ]
+  }
+}

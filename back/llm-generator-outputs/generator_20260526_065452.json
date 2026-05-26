@@ -1,0 +1,318 @@
+{
+  "timestamp": "20260526_065452",
+  "text": "Como no sabían qué hacer, pensaron que lo mejor sería contárselo a más gente",
+  "concepts": [
+    "como",
+    "sabían",
+    "qué",
+    "hacer",
+    "pensaron",
+    "mejor",
+    "sería",
+    "contárselo",
+    "más",
+    "gente"
+  ],
+  "candidates": [
+    {
+      "concept": "como",
+      "candidates": [
+        {
+          "id": 22619,
+          "concept": "cómo",
+          "query_concept": "como",
+          "text": "query: Concepto: cómo\n  Descripción: adv. m. interrog. De qué modo, de qué manera.\n  Sinónimos: ¿cómo?\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, adverb\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico, adverb",
+          "description": "query: Concepto: cómo\n  Descripción: adv. m. interrog. De qué modo, de qué manera.\n  Sinónimos: ¿cómo?\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, adverb\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico, adverb",
+          "score": 0.8917174339294434
+        },
+        {
+          "id": 12313,
+          "concept": "como",
+          "query_concept": "como",
+          "text": "query: Concepto: como\n  Descripción: adv. m. Del modo o la manera que. Hazlo como te digo. Sal de apuros como puedas.\n  Sinónimos: \n  Categorías: conjuntion, conjunción comparativa, adverb, adverbio de la manera\n  Contexto: comunicación, idioma, adverb, adverbio de la manera, conjuntion, conjunción comparativa",
+          "description": "query: Concepto: como\n  Descripción: adv. m. Del modo o la manera que. Hazlo como te digo. Sal de apuros como puedas.\n  Sinónimos: \n  Categorías: conjuntion, conjunción comparativa, adverb, adverbio de la manera\n  Contexto: comunicación, idioma, adverb, adverbio de la manera, conjuntion, conjunción comparativa",
+          "score": 0.8828213214874268
+        },
+        {
+          "id": 26022,
+          "concept": "¿cuál?",
+          "query_concept": "como",
+          "text": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "description": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "score": 0.8811359405517578
+        }
+      ]
+    },
+    {
+      "concept": "sabían",
+      "candidates": [
+        {
+          "id": 16885,
+          "concept": "saber",
+          "query_concept": "sabían",
+          "text": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbos habituales, estudiantes, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, estudiantes, vocabulario básico",
+          "description": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbos habituales, estudiantes, vocabulario básico-comunicación, vocabulario básico-educación\n  Contexto: comunicación, idioma, verbo, verbos habituales, Educación, estudiantes, vocabulario básico",
+          "score": 0.868409276008606
+        },
+        {
+          "id": 26405,
+          "concept": "saber",
+          "query_concept": "sabían",
+          "text": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+          "description": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+          "score": 0.8673986792564392
+        },
+        {
+          "id": 9034,
+          "concept": "saber",
+          "query_concept": "sabían",
+          "text": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+          "description": "query: Concepto: saber\n  Descripción: tr. Conocer, tener noticia de algo\n  Sinónimos: levantar la mano\n  Categorías: verbo, estudiantes\n  Contexto: comunicación, idioma, verbo, Educación, estudiantes",
+          "score": 0.8673986792564392
+        }
+      ]
+    },
+    {
+      "concept": "qué",
+      "candidates": [
+        {
+          "id": 22620,
+          "concept": "qué",
+          "query_concept": "qué",
+          "text": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+          "description": "query: Concepto: qué\n  Descripción:  Pron., adj. y adv. interrog. y excl. Introduce oraciones interrogativas y exclamativas, preguntando o ponderando la naturaleza, la cantidad o la intensidad de alguna cosa; cuando funciona como pron., pregunta por cosas: ¿qué castillos son aquellos?; cuando funciona como adj., pregunta por personas o cosas: ¿qué amigos has invitado a la fiesta?; cuando funciona como adv. de cant., se usa como exclamativo: ¡qué lejos vivís!\n  Sinónimos: ¿qué?, ¿qué\n  Categorías: pronombre interrogativo, vocabulario básico-comunicación, pronombre\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, vocabulario básico",
+          "score": 0.8798749446868896
+        },
+        {
+          "id": 26022,
+          "concept": "¿cuál?",
+          "query_concept": "qué",
+          "text": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "description": "query: Concepto: ¿cuál?\n  Descripción: pron. relat. Forma con el artículo el pronombre relativo compuesto el cual, la cual, los cuales, las cuales, lo cual, con variación de género y número, señalada por el artículo. Esa era su opinión, de lo cual no disiento\n  Sinónimos: cuál\n  Categorías: pronombre, pronombre interrogativo, adjetivo\n  Contexto: comunicación, idioma, pronombre, pronombre interrogativo, adverb, adjetivo",
+          "score": 0.8793555498123169
+        },
+        {
+          "id": 32743,
+          "concept": "¿de quién es?",
+          "query_concept": "qué",
+          "text": "query: Concepto: ¿de quién es?\n  Descripción: Se usa para preguntar quién es el propietario de algo\n  Sinónimos: de quién es?\n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+          "description": "query: Concepto: ¿de quién es?\n  Descripción: Se usa para preguntar quién es el propietario de algo\n  Sinónimos: de quién es?\n  Categorías: expresión, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, expresión, vocabulario básico",
+          "score": 0.8753646612167358
+        }
+      ]
+    },
+    {
+      "concept": "hacer",
+      "candidates": [
+        {
+          "id": 11749,
+          "concept": "hacer",
+          "query_concept": "hacer",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8894239664077759
+        },
+        {
+          "id": 32751,
+          "concept": "hacer",
+          "query_concept": "hacer",
+          "text": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: hacer\n  Descripción: tr. Fabricar, componer: hizo varias comedias.\n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8894239664077759
+        },
+        {
+          "id": 21466,
+          "concept": "buscar",
+          "query_concept": "hacer",
+          "text": "query: Concepto: buscar\n  Descripción:  tr. Hacer algo para hallar a alguien o algo.\n  Sinónimos: rebuscar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: buscar\n  Descripción:  tr. Hacer algo para hallar a alguien o algo.\n  Sinónimos: rebuscar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8700453042984009
+        }
+      ]
+    },
+    {
+      "concept": "pensaron",
+      "candidates": [
+        {
+          "id": 31847,
+          "concept": "pensar",
+          "query_concept": "pensaron",
+          "text": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8808679580688477
+        },
+        {
+          "id": 34403,
+          "concept": "pensar",
+          "query_concept": "pensaron",
+          "text": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8808679580688477
+        },
+        {
+          "id": 8662,
+          "concept": "pensar",
+          "query_concept": "pensaron",
+          "text": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "description": "query: Concepto: pensar\n  Descripción: tr. Examinar algo en la mente antes de tomar una decisión o darle una solución: tengo que pensarme si acepto o no. \n  Sinónimos: \n  Categorías: verbo, respuesta humana\n  Contexto: comunicación, idioma, verbo, psicología, respuesta humana",
+          "score": 0.8808679580688477
+        }
+      ]
+    },
+    {
+      "concept": "mejor",
+      "candidates": [
+        {
+          "id": 11470,
+          "concept": "mejor",
+          "query_concept": "mejor",
+          "text": "query: Concepto: mejor\n  Descripción:  adj. comp. de bueno. Superior a otra cosa en bondad y que la excede en una cualidad natural o moral.\n  Sinónimos: importante, admirar\n  Categorías: verbo, sensación, carácter, persona según su edad\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción, carácter, persona",
+          "description": "query: Concepto: mejor\n  Descripción:  adj. comp. de bueno. Superior a otra cosa en bondad y que la excede en una cualidad natural o moral.\n  Sinónimos: importante, admirar\n  Categorías: verbo, sensación, carácter, persona según su edad\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción, carácter, persona",
+          "score": 0.884222149848938
+        },
+        {
+          "id": 22627,
+          "concept": "mejor",
+          "query_concept": "mejor",
+          "text": "query: Concepto: mejor\n  Descripción:  adj. comp. de bueno. Superior a otra cosa en bondad y que la excede en una cualidad natural o moral.\n  Sinónimos: importante, admirar\n  Categorías: verbo, sensación, objeto\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción, objeto",
+          "description": "query: Concepto: mejor\n  Descripción:  adj. comp. de bueno. Superior a otra cosa en bondad y que la excede en una cualidad natural o moral.\n  Sinónimos: importante, admirar\n  Categorías: verbo, sensación, objeto\n  Contexto: comunicación, idioma, verbo, psicología, sensación, emoción, objeto",
+          "score": 0.8836379051208496
+        },
+        {
+          "id": 39515,
+          "concept": "sano",
+          "query_concept": "mejor",
+          "text": "query: Concepto: sano\n  Descripción: \n  Sinónimos: sana, mejor\n  Categorías: adjetivo calificativo, enfermedad, paciente\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Salud, medicamentos, enfermedad, persona, paciente",
+          "description": "query: Concepto: sano\n  Descripción: \n  Sinónimos: sana, mejor\n  Categorías: adjetivo calificativo, enfermedad, paciente\n  Contexto: comunicación, idioma, adjetivo, adjetivo calificativo, Salud, medicamentos, enfermedad, persona, paciente",
+          "score": 0.8696026802062988
+        }
+      ]
+    },
+    {
+      "concept": "sería",
+      "candidates": [
+        {
+          "id": 12295,
+          "concept": "causa",
+          "query_concept": "sería",
+          "text": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: causa\n  Descripción: f. Aquello que se considera como fundamento u origen de algo.\n  Sinónimos: origen\n  Categorías: varios\n  Contexto:",
+          "score": 0.8600879311561584
+        },
+        {
+          "id": 14670,
+          "concept": "decisión",
+          "query_concept": "sería",
+          "text": "query: Concepto: decisión\n  Descripción: f. Determinación, resolución que se toma o se da en una cosa dudosa.\n  Sinónimos: elección, selección, preferencia\n  Categorías: varios\n  Contexto:",
+          "description": "query: Concepto: decisión\n  Descripción: f. Determinación, resolución que se toma o se da en una cosa dudosa.\n  Sinónimos: elección, selección, preferencia\n  Categorías: varios\n  Contexto:",
+          "score": 0.8588701486587524
+        },
+        {
+          "id": 6452,
+          "concept": "coger",
+          "query_concept": "sería",
+          "text": "query: Concepto: coger\n  Descripción: tr. Asir, agarrar o tomar.\n  Sinónimos: tomar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: coger\n  Descripción: tr. Asir, agarrar o tomar.\n  Sinónimos: tomar\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8575217723846436
+        }
+      ]
+    },
+    {
+      "concept": "contárselo",
+      "candidates": [
+        {
+          "id": 24998,
+          "concept": "continuar",
+          "query_concept": "contárselo",
+          "text": "query: Concepto: continuar\n  Descripción: tr. Proseguir lo comenzado.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: continuar\n  Descripción: tr. Proseguir lo comenzado.\n  Sinónimos: \n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.8765068054199219
+        },
+        {
+          "id": 5583,
+          "concept": "afirmar",
+          "query_concept": "contárselo",
+          "text": "query: Concepto: afirmar\n  Descripción: tr. Asegurar o dar por cierto algo.\n  Sinónimos: asentir\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "description": "query: Concepto: afirmar\n  Descripción: tr. Asegurar o dar por cierto algo.\n  Sinónimos: asentir\n  Categorías: verbo\n  Contexto: comunicación, idioma, verbo",
+          "score": 0.872194766998291
+        },
+        {
+          "id": 16000,
+          "concept": "oponerse",
+          "query_concept": "contárselo",
+          "text": "query: Concepto: oponerse\n  Descripción: prnl. Impugnar, estorbar, contradecir un designio.\n  Sinónimos: \n  Categorías: \n  Contexto:",
+          "description": "query: Concepto: oponerse\n  Descripción: prnl. Impugnar, estorbar, contradecir un designio.\n  Sinónimos: \n  Categorías: \n  Contexto:",
+          "score": 0.8721100091934204
+        }
+      ]
+    },
+    {
+      "concept": "más",
+      "candidates": [
+        {
+          "id": 3220,
+          "concept": "más",
+          "query_concept": "más",
+          "text": "query: Concepto: más\n  Descripción: m. Signo (+) de la suma o adición.\n  Sinónimos: +\n  Categorías: Signo ortográfico, matemáticas\n  Contexto: comunicación, idioma, alfabeto, Signo ortográfico, matemáticas",
+          "description": "query: Concepto: más\n  Descripción: m. Signo (+) de la suma o adición.\n  Sinónimos: +\n  Categorías: Signo ortográfico, matemáticas\n  Contexto: comunicación, idioma, alfabeto, Signo ortográfico, matemáticas",
+          "score": 0.8896265625953674
+        },
+        {
+          "id": 26913,
+          "concept": "más",
+          "query_concept": "más",
+          "text": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado\n  Contexto: comunicación, idioma, adverb, adverbio de grado",
+          "description": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado\n  Contexto: comunicación, idioma, adverb, adverbio de grado",
+          "score": 0.8772943019866943
+        },
+        {
+          "id": 5508,
+          "concept": "más",
+          "query_concept": "más",
+          "text": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado, conceptos básicos, vocabulario básico-comunicación, adverb, adverbio de la adición\n  Contexto: comunicación, idioma, adverb, adverbio de grado, matemáticas, conceptos básicos, vocabulario básico, adverbio de la adición",
+          "description": "query: Concepto: más\n  Descripción: Denota exceso indeterminado con relación a una cantidad expresa. En esta batalla murieron más de dos mil hombres. Son más de las diez.\n  Sinónimos: \n  Categorías: adverbio de grado, conceptos básicos, vocabulario básico-comunicación, adverb, adverbio de la adición\n  Contexto: comunicación, idioma, adverb, adverbio de grado, matemáticas, conceptos básicos, vocabulario básico, adverbio de la adición",
+          "score": 0.8761483430862427
+        }
+      ]
+    },
+    {
+      "concept": "gente",
+      "candidates": [
+        {
+          "id": 7116,
+          "concept": "gente",
+          "query_concept": "gente",
+          "text": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "score": 0.8819648027420044
+        },
+        {
+          "id": 7203,
+          "concept": "gente",
+          "query_concept": "gente",
+          "text": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "score": 0.8819648027420044
+        },
+        {
+          "id": 7117,
+          "concept": "gente",
+          "query_concept": "gente",
+          "text": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "description": "query: Concepto: gente\n  Descripción:  f. Conjunto de personas.\n  Sinónimos: personas\n  Categorías: grupo\n  Contexto: persona, grupo",
+          "score": 0.8819648027420044
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      16885,
+      11749,
+      31847,
+      11470,
+      26913,
+      7116
+    ]
+  }
+}

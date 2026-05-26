@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260526_052900",
+  "text": "la gata está durmiendo.",
+  "concepts": [
+    "gata",
+    "está",
+    "durmiendo"
+  ],
+  "candidates": [
+    {
+      "concept": "gata",
+      "candidates": [
+        {
+          "id": 6512,
+          "concept": "gatear",
+          "query_concept": "gata",
+          "text": "query: Concepto: gatear\n  Descripción:  intr. Andar a gatas.\n  Sinónimos: \n  Categorías: verbo, cuidado de los niños\n  Contexto: comunicación, idioma, verbo, cuidado del bebé",
+          "description": "query: Concepto: gatear\n  Descripción:  intr. Andar a gatas.\n  Sinónimos: \n  Categorías: verbo, cuidado de los niños\n  Contexto: comunicación, idioma, verbo, cuidado del bebé",
+          "score": 0.8495877981185913
+        },
+        {
+          "id": 6511,
+          "concept": "gatear",
+          "query_concept": "gata",
+          "text": "query: Concepto: gatear\n  Descripción:  intr. Andar a gatas.\n  Sinónimos: \n  Categorías: verbo, cuidado de los niños\n  Contexto: comunicación, idioma, verbo, cuidado del bebé",
+          "description": "query: Concepto: gatear\n  Descripción:  intr. Andar a gatas.\n  Sinónimos: \n  Categorías: verbo, cuidado de los niños\n  Contexto: comunicación, idioma, verbo, cuidado del bebé",
+          "score": 0.8495877981185913
+        },
+        {
+          "id": 9879,
+          "concept": "gato",
+          "query_concept": "gata",
+          "text": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "description": "query: Concepto: gato\n  Descripción:  m. y f. Mamífero carnívoro doméstico de cabeza redonda, lengua muy áspera, patas cortas armadas de uñas fuertes, agudas y retráctiles, pelaje espeso y suave, de diversos colores, y ojos cuya pupila se dilata para ver en la oscuridad.\n  Sinónimos: gato negro, gata, gata negra\n  Categorías: carnívoros, mamíferos, vivíparas, animales terrestres, mascota, animales domésticos\n  Contexto: animal, carnívoros, vertebrados, mamíferos, vivíparas, animales terrestres, mascota, nacionales",
+          "score": 0.8443996906280518
+        }
+      ]
+    },
+    {
+      "concept": "está",
+      "candidates": [
+        {
+          "id": 5466,
+          "concept": "estar",
+          "query_concept": "está",
+          "text": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "description": "query: Concepto: estar\n  Descripción:  Permanecer cierto tiempo en un lugar, en una situación, etc. También prnl.: se estuvo aquí toda la tarde; se estuvo callado dos horas. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, objeto, alimentos, modo de transporte, material didáctico, material deportivo, equipo médico\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, objeto, alimentación, alimentos, Movimiento, tráfico, modo de transporte, Educación, material didáctico, ocio, deporte, material deportivo, Salud, medicamentos, equipo médico",
+          "score": 0.8715915679931641
+        },
+        {
+          "id": 5465,
+          "concept": "estar",
+          "query_concept": "está",
+          "text": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "description": "query: Concepto: estar\n  Descripción:  cop. e intr. Existir, hallarse una persona o cosa en un lugar, situación, condición, etc.: estar en la ciudad; estar cansado; estar viudo. \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico",
+          "score": 0.8673487901687622
+        },
+        {
+          "id": 36392,
+          "concept": "estar",
+          "query_concept": "está",
+          "text": "query: Concepto: estar\n  Descripción: \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, carácter, Carácter del libro, personal de salud, persona religiosa, carácter religioso, líder, persona según su edad, profesional, pronombre personal\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, carácter, Carácter del libro, literatura, Salud, medicamentos, profesional, religión, persona, líder, trabajo, pronombre, pronombre personal",
+          "description": "query: Concepto: estar\n  Descripción: \n  Sinónimos: \n  Categorías: verbos habituales, vocabulario básico-comunicación, carácter, Carácter del libro, personal de salud, persona religiosa, carácter religioso, líder, persona según su edad, profesional, pronombre personal\n  Contexto: comunicación, idioma, verbo, verbos habituales, vocabulario básico, carácter, Carácter del libro, literatura, Salud, medicamentos, profesional, religión, persona, líder, trabajo, pronombre, pronombre personal",
+          "score": 0.8642560243606567
+        }
+      ]
+    },
+    {
+      "concept": "durmiendo",
+      "candidates": [
+        {
+          "id": 31857,
+          "concept": "despertar",
+          "query_concept": "durmiendo",
+          "text": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "description": "query: Concepto: despertar\n  Descripción: tr. Interrumpir el sueño del que duerme.\n  Sinónimos: despertarse, desperezarse\n  Categorías: verbo, rutina\n  Contexto: comunicación, idioma, verbo, persona, rutina",
+          "score": 0.8671930432319641
+        },
+        {
+          "id": 37203,
+          "concept": "dormir bien",
+          "query_concept": "durmiendo",
+          "text": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+          "description": "query: Concepto: dormir bien\n  Descripción: \n  Sinónimos: \n  Categorías: verbo, hábitos saludables\n  Contexto: comunicación, idioma, verbo, Salud, estilo de vida, hábitos saludables",
+          "score": 0.8671693801879883
+        },
+        {
+          "id": 32218,
+          "concept": "prohibido dormir bocabajo",
+          "query_concept": "durmiendo",
+          "text": "query: Concepto: prohibido dormir bocabajo\n  Descripción: No está permitido que el bebé o el niño duerma con la cara hacia la almohada\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "description": "query: Concepto: prohibido dormir bocabajo\n  Descripción: No está permitido que el bebé o el niño duerma con la cara hacia la almohada\n  Sinónimos: \n  Categorías: cuidado de los niños\n  Contexto: Salud, medicamentos, cuidado del bebé",
+          "score": 0.8665692210197449
+        }
+      ]
+    }
+  ],
+  "result": {
+    "selected_ids": [
+      9879,
+      5465,
+      37203
+    ]
+  }
+}

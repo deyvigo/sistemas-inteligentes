@@ -1,0 +1,1561 @@
+{
+  "metadata": {
+    "run_at": "2026-05-26T06:54:00.633695",
+    "n": 15,
+    "seed": 42,
+    "status": "complete",
+    "processed": 15,
+    "generator_requested": "llm_generator",
+    "generator_modes": {
+      "llm_generator": 15
+    }
+  },
+  "summary": {
+    "cond_A": {
+      "score": 3.467,
+      "errors": 1.267,
+      "recall": 0.688,
+      "bleu": 14.087,
+      "chrf": 26.89,
+      "seq_length": 3.133
+    },
+    "cond_B": {
+      "score": 3.2,
+      "errors": 1.4,
+      "recall": 0.662,
+      "bleu": 12.107,
+      "chrf": 27.386,
+      "seq_length": 4.533
+    },
+    "improvements": {
+      "score_improved": 0,
+      "score_same": 11,
+      "score_worse": 4,
+      "errors_reduced": 2,
+      "avg_errors_corrected": 0.133,
+      "total_postprocessing_actions": 31,
+      "refined_count": 9,
+      "skipped_errors": 0
+    },
+    "human_choice_stats": {
+      "total_feedback_with_choice": 10,
+      "accepted_original": 0,
+      "accepted_judge_refined": 0,
+      "human_edited_after_choice": 0,
+      "unknown": 10,
+      "judge_refined_acceptance_rate": 0.0,
+      "changed_refinements": 0,
+      "total_refinement_actions": 0
+    }
+  },
+  "results": [
+    {
+      "text": "Qué me gusta de ella",
+      "concepts": [
+        "qué",
+        "gusta",
+        "ella"
+      ],
+      "ref_ids": [
+        22620,
+        37721,
+        7074,
+        7028
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          22620,
+          31861,
+          7028
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 1.0,
+        "bleu": 0.0,
+        "chrf": 26.32,
+        "seq_length": 3,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        }
+      },
+      "cond_B": {
+        "ids": [
+          22620,
+          31861,
+          7028
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 1.0,
+        "bleu": 0.0,
+        "chrf": 26.32,
+        "seq_length": 3,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        },
+        "added": [],
+        "replaced": [],
+        "postprocessing_actions": [],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Yo puedo pedir dar un paseo",
+      "concepts": [
+        "puedo",
+        "pedir",
+        "dar",
+        "paseo"
+      ],
+      "ref_ids": [
+        6632,
+        5441,
+        31839
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          7310,
+          11251,
+          8651
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 0.25,
+        "bleu": 0.0,
+        "chrf": 0.0,
+        "seq_length": 3,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        }
+      },
+      "cond_B": {
+        "ids": [
+          7310,
+          11251,
+          8651
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 0.25,
+        "bleu": 0.0,
+        "chrf": 0.0,
+        "seq_length": 3,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        },
+        "added": [],
+        "replaced": [],
+        "postprocessing_actions": [],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Esto uno con el pegamento",
+      "concepts": [
+        "esto",
+        "uno",
+        "pegamento"
+      ],
+      "ref_ids": [
+        7095,
+        8243,
+        7064,
+        2510
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          7095,
+          2627,
+          2510
+        ],
+        "score": 2,
+        "errors": 3,
+        "recall": 0.6667,
+        "bleu": 0.0,
+        "chrf": 26.32,
+        "seq_length": 3,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [
+            "unir"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "este",
+              "reason": "El pictograma de 'este' (pronombre demostrativo) no aporta significado funcional en este contexto. Se requiere un verbo de acción para representar la intención de 'unir' o 'pegar'."
+            },
+            {
+              "concept": "uno",
+              "reason": "El pictograma representa el número '1'. En el contexto de la frase, 'uno' funciona como pronombre o parte de la acción de unir, por lo que es redundante o confuso."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir 'este' por el pictograma de acción 'unir'",
+            "Eliminar el pictograma 'uno' ya que carece de valor semántico en la instrucción"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          12246,
+          35677,
+          2510,
+          8243
+        ],
+        "score": 2,
+        "errors": 2,
+        "recall": 0.6667,
+        "bleu": 0.0,
+        "chrf": 25.0,
+        "seq_length": 4,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "acceso",
+              "reason": "El pictograma de 'acceso' no tiene relación con el significado de la frase; debe eliminarse."
+            },
+            {
+              "concept": "uno",
+              "reason": "El pictograma del número 'uno' es irrelevante para el contexto de la acción; debe eliminarse."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Eliminar pictograma de 'acceso'",
+            "Eliminar pictograma de 'uno'",
+            "Mantener solamente los pictogramas de 'unir' y 'pegamento'"
+          ]
+        },
+        "added": [
+          8243
+        ],
+        "replaced": [
+          12246,
+          35677
+        ],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "unir",
+            "search_term": "unir",
+            "new_id": 8243,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8522995710372925
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "este",
+            "replacement_query": "el pictograma de acción 'unir",
+            "old_id": 7095,
+            "new_id": 12246,
+            "source": "incorrect_pictograms"
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "uno",
+            "replacement_query": "uno",
+            "old_id": 2627,
+            "new_id": 35677,
+            "source": "incorrect_pictograms"
+          }
+        ],
+        "errors_corrected": 1
+      }
+    },
+    {
+      "text": "No escribir en la pared",
+      "concepts": [
+        "escribir",
+        "pared"
+      ],
+      "ref_ids": [
+        34341,
+        8107,
+        2860
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          7486,
+          2380,
+          5214
+        ],
+        "score": 2,
+        "errors": 3,
+        "recall": 1.0,
+        "bleu": 0.0,
+        "chrf": 0.0,
+        "seq_length": 3,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [
+            "pared"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "Unknown (pictograma 7486)",
+              "reason": "El primer pictograma corresponde a 'prohibido' o 'no', pero al no estar definido como tal y ser una señal genérica, es ambiguo. Se debe usar el pictograma de 'prohibido' explícito."
+            },
+            {
+              "concept": "Unknown (pictograma 5214)",
+              "reason": "El tercer pictograma es una imagen genérica (parece una persona) que no transmite el concepto de 'pared'. Se debe sustituir por un pictograma de 'pared'."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir el primer pictograma 'Unknown' por el pictograma de 'prohibido'",
+            "Sustituir el último pictograma 'Unknown' por el pictograma de 'pared'",
+            "Agregar pictograma de 'pared'"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          32755,
+          2380,
+          32366,
+          28609,
+          35242
+        ],
+        "score": 1,
+        "errors": 3,
+        "recall": 0.5,
+        "bleu": 0.0,
+        "chrf": 0.0,
+        "seq_length": 5,
+        "judge": {
+          "score": 1,
+          "missing_concepts": [
+            "pared"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "invisible",
+              "reason": "El pictograma 'invisible' no transmite la negación ni la prohibición de la acción, que es el significado central."
+            },
+            {
+              "concept": "pádel",
+              "reason": "El concepto 'pádel' (deporte) es un error semántico grave, se debería usar un pictograma de 'pared' (superficie de construcción)."
+            }
+          ],
+          "ordering_issues": [
+            "El orden actual es confuso. Para una instrucción de prohibición, el pictograma de 'prohibido' debería ir al principio o al final de la secuencia para marcar toda la acción."
+          ],
+          "suggestions": [
+            "Sustituir invisible por prohibido al inicio de la frase.",
+            "Sustituir pádel por pared.",
+            "Eliminar la repetición del pictograma de pádel."
+          ]
+        },
+        "added": [
+          28609,
+          35242
+        ],
+        "replaced": [
+          32755,
+          32366
+        ],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "pared",
+            "search_term": "pared",
+            "new_id": 28609,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.848670482635498
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "Unknown (pictograma 7486)",
+            "replacement_query": "Unknown (pictograma 7486)",
+            "old_id": 7486,
+            "new_id": 9036,
+            "source": "incorrect_pictograms"
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "Unknown (pictograma 5214)",
+            "replacement_query": "Unknown (pictograma 7486)",
+            "old_id": 9036,
+            "new_id": 32755,
+            "source": "incorrect_pictograms"
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "primer pictograma 'Unknown",
+            "replacement_query": "el pictograma de 'prohibido",
+            "old_id": 5214,
+            "new_id": 32366,
+            "source": "suggestions"
+          },
+          {
+            "type": "add_missing",
+            "concept": "pared",
+            "search_term": "pared",
+            "new_id": 35242,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.848670482635498
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Como no sabían qué hacer, pensaron que lo mejor sería contárselo a más gente",
+      "concepts": [
+        "como",
+        "sabían",
+        "qué",
+        "hacer",
+        "pensaron",
+        "mejor",
+        "sería",
+        "contárselo",
+        "más",
+        "gente"
+      ],
+      "ref_ids": [
+        5526,
+        9034,
+        8662,
+        5397,
+        5973,
+        7116
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          16885,
+          11749,
+          31847,
+          11470,
+          26913,
+          7116
+        ],
+        "score": 3,
+        "errors": 3,
+        "recall": 0.5,
+        "bleu": 0.0,
+        "chrf": 8.33,
+        "seq_length": 6,
+        "judge": {
+          "score": 3,
+          "missing_concepts": [
+            "decir",
+            "contar"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "saber",
+              "reason": "La secuencia representa 'saber hacer' como una afirmación de capacidad, cuando el contexto original implica 'no saber qué hacer' (incertidumbre/confusión)."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Agregar pictograma de 'no' antes de 'saber'",
+            "Agregar pictograma de 'decir' o 'contar' antes de 'gente'"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          26405,
+          11749,
+          31847,
+          11470,
+          26913,
+          7116,
+          9693,
+          2714,
+          25718,
+          7077
+        ],
+        "score": 2,
+        "errors": 3,
+        "recall": 0.5,
+        "bleu": 0.0,
+        "chrf": 7.35,
+        "seq_length": 10,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "contar",
+              "reason": "El pictograma de 'contar' seleccionado hace referencia a enumerar o calcular (aritmética), no a relatar o comunicar una información. Se debe usar un pictograma de 'comunicar' o 'explicar'."
+            },
+            {
+              "concept": "prohibido molestar",
+              "reason": "Este concepto es totalmente irrelevante para la frase y confunde el significado central."
+            },
+            {
+              "concept": "desde",
+              "reason": "Esta preposición no aporta significado a la acción de contar algo a la gente."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Eliminar pictograma de 'prohibido molestar'",
+            "Eliminar pictograma de 'desde'",
+            "Sustituir 'contar' por un pictograma de 'explicar' o 'informar'"
+          ]
+        },
+        "added": [
+          9693,
+          2714,
+          25718,
+          7077
+        ],
+        "replaced": [
+          26405
+        ],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "decir",
+            "search_term": "decir",
+            "new_id": 9693,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8984920978546143
+          },
+          {
+            "type": "add_missing",
+            "concept": "contar",
+            "search_term": "contar",
+            "new_id": 2714,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.9029914140701294
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "saber",
+            "replacement_query": "sabían",
+            "old_id": 16885,
+            "new_id": 26405,
+            "source": "incorrect_pictograms"
+          },
+          {
+            "type": "add_missing",
+            "concept": "no' antes de 'saber",
+            "search_term": "no' antes de 'saber",
+            "new_id": 25718,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8466824293136597
+          },
+          {
+            "type": "add_missing",
+            "concept": "decir' o 'contar' antes de 'gente",
+            "search_term": "decir' o 'contar' antes de 'gente",
+            "new_id": 7077,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8726862072944641
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Me van a hacer un electrocardiograma",
+      "concepts": [
+        "van",
+        "hacer",
+        "electrocardiograma"
+      ],
+      "ref_ids": [
+        6632,
+        11749,
+        8100
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          11749,
+          8100
+        ],
+        "score": 3,
+        "errors": 1,
+        "recall": 0.6667,
+        "bleu": 60.65,
+        "chrf": 63.49,
+        "seq_length": 2,
+        "judge": {
+          "score": 3,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "hacer",
+              "reason": "El pictograma de 'hacer' (fabricar/componer) es demasiado abstracto y sugiere una acción de construcción manual, lo cual es semánticamente incorrecto para un procedimiento médico. Se requiere un pictograma relacionado con 'médico', 'revisar' o 'examen'."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir 'hacer' por 'médico' o 'revisar'"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          9024,
+          8100
+        ],
+        "score": 2,
+        "errors": 2,
+        "recall": 0.3333,
+        "bleu": 0.0,
+        "chrf": 17.86,
+        "seq_length": 2,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [
+            "hacer/examen/prueba"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "reanimar",
+              "reason": "El pictograma de 'reanimar' (RCP) sugiere una emergencia médica o maniobra de salvamento, lo cual altera drásticamente el significado de la frase original, que se refiere a una prueba médica diagnóstica."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir reanimar por examen médico o prueba médica",
+            "Agregar pictograma de médico o enfermero si se desea clarificar el agente"
+          ]
+        },
+        "added": [],
+        "replaced": [
+          9024
+        ],
+        "postprocessing_actions": [
+          {
+            "type": "replace_incorrect",
+            "concept": "hacer",
+            "replacement_query": "médico' o 'revisar",
+            "old_id": 11749,
+            "new_id": 9024,
+            "source": "incorrect_pictograms"
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Los elefantes son animales muy grandes",
+      "concepts": [
+        "elefantes",
+        "animales",
+        "muy",
+        "grandes"
+      ],
+      "ref_ids": [
+        2372,
+        25708,
+        4658
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          2372,
+          6901,
+          25708,
+          4658
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 1.0,
+        "bleu": 50.0,
+        "chrf": 69.6,
+        "seq_length": 4,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        }
+      },
+      "cond_B": {
+        "ids": [
+          2372,
+          6901,
+          25708,
+          4658
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 1.0,
+        "bleu": 50.0,
+        "chrf": 69.6,
+        "seq_length": 4,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        },
+        "added": [],
+        "replaced": [],
+        "postprocessing_actions": [],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Llegó un príncipe y despertó a Blancanieves con un beso",
+      "concepts": [
+        "llegó",
+        "príncipe",
+        "despertó",
+        "blancanieves",
+        "beso"
+      ],
+      "ref_ids": [
+        16807,
+        5555,
+        28625,
+        32886
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          11708,
+          5555,
+          21437
+        ],
+        "score": 2,
+        "errors": 3,
+        "recall": 0.4,
+        "bleu": 0.0,
+        "chrf": 13.16,
+        "seq_length": 3,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [
+            "despertar",
+            "Blancanieves"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "venir",
+              "reason": "El concepto 'llegar' implica el final de un trayecto, mientras que 'venir' es el movimiento. Aunque son cercanos, falta la acción principal de 'despertar' que es fundamental para el significado de la frase."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Agregar pictograma de 'despertar'",
+            "Agregar pictograma de 'Blancanieves'"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          13356,
+          5555,
+          21437,
+          31857,
+          21447,
+          28625,
+          2662
+        ],
+        "score": 2,
+        "errors": 2,
+        "recall": 0.6,
+        "bleu": 0.0,
+        "chrf": 21.74,
+        "seq_length": 7,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "venir",
+              "reason": "Aunque la frase usa 'llegó', el pictograma 'venir' es redundante si se entiende la llegada, pero aquí el problema es que la secuencia es confusa al repetir verbos y añadir conceptos innecesarios como 'blanco'."
+            },
+            {
+              "concept": "blanco",
+              "reason": "El pictograma de 'blanco' (color) es innecesario y confuso, ya que 'Blancanieves' es un sustantivo propio que ya está representado por su pictograma específico."
+            }
+          ],
+          "ordering_issues": [
+            "La secuencia lógica debería ser: Príncipe -> Besar -> Despertar -> Blancanieves. El orden actual es confuso y repite conceptos."
+          ],
+          "suggestions": [
+            "Eliminar pictograma de 'venir' y 'blanco' para reducir carga cognitiva.",
+            "Reordenar la secuencia a: [Príncipe] [Beso] [Despertar] [Blancanieves].",
+            "Eliminar la duplicación del pictograma 'despertar'."
+          ]
+        },
+        "added": [
+          31857,
+          21447,
+          28625,
+          2662
+        ],
+        "replaced": [
+          13356
+        ],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "despertar",
+            "search_term": "despertar",
+            "new_id": 31857,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8807227611541748
+          },
+          {
+            "type": "add_missing",
+            "concept": "Blancanieves",
+            "search_term": "Blancanieves",
+            "new_id": 21447,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8583489060401917
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "venir",
+            "replacement_query": "llegó",
+            "old_id": 11708,
+            "new_id": 13356,
+            "source": "incorrect_pictograms"
+          },
+          {
+            "type": "add_missing",
+            "concept": "despertar",
+            "search_term": "despertar",
+            "new_id": 28625,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8786112666130066
+          },
+          {
+            "type": "add_missing",
+            "concept": "Blancanieves",
+            "search_term": "Blancanieves",
+            "new_id": 2662,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8341258764266968
+          }
+        ],
+        "errors_corrected": 1
+      }
+    },
+    {
+      "text": "¿Qué animales viven en el océano?",
+      "concepts": [
+        "qué",
+        "animales",
+        "viven",
+        "océano"
+      ],
+      "ref_ids": [
+        22620,
+        6901,
+        11605,
+        2925
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          22620,
+          6901,
+          32699
+        ],
+        "score": 4,
+        "errors": 1,
+        "recall": 0.75,
+        "bleu": 41.37,
+        "chrf": 44.17,
+        "seq_length": 3,
+        "judge": {
+          "score": 4,
+          "missing_concepts": [
+            "vivir"
+          ],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": [
+            "Agregar pictograma de vivir"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          22620,
+          6901,
+          32699,
+          11605,
+          35103
+        ],
+        "score": 4,
+        "errors": 1,
+        "recall": 0.75,
+        "bleu": 38.73,
+        "chrf": 51.34,
+        "seq_length": 5,
+        "judge": {
+          "score": 4,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "vivir",
+              "reason": "La secuencia incluye el concepto 'vivir' dos veces, lo cual es redundante y confunde la lectura. Se debe eliminar una de las dos repeticiones."
+            }
+          ],
+          "ordering_issues": [
+            "El orden actual es 'Qué animales océano vivir'. Aunque es comprensible, en AAC el orden lógico para una pregunta sobre ubicación suele ser 'Qué animales vivir océano' (sujeto + verbo + lugar)."
+          ],
+          "suggestions": [
+            "Eliminar el pictograma duplicado de 'vivir'",
+            "Mover el pictograma de 'vivir' antes de 'océano' para mejorar la coherencia de la pregunta"
+          ]
+        },
+        "added": [
+          11605,
+          35103
+        ],
+        "replaced": [],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "vivir",
+            "search_term": "vivir",
+            "new_id": 11605,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8789341449737549
+          },
+          {
+            "type": "add_missing",
+            "concept": "vivir",
+            "search_term": "vivir",
+            "new_id": 35103,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.877976655960083
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Yo quiero encender la luz",
+      "concepts": [
+        "quiero",
+        "encender",
+        "luz"
+      ],
+      "ref_ids": [
+        31807,
+        5441,
+        8103
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          31141,
+          8103
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 0.6667,
+        "bleu": 0.0,
+        "chrf": 17.86,
+        "seq_length": 2,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        }
+      },
+      "cond_B": {
+        "ids": [
+          31141,
+          8103
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 0.6667,
+        "bleu": 0.0,
+        "chrf": 17.86,
+        "seq_length": 2,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        },
+        "added": [],
+        "replaced": [],
+        "postprocessing_actions": [],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "La doctora habla con los padres. Escucho",
+      "concepts": [
+        "doctora",
+        "habla",
+        "padres",
+        "escucho"
+      ],
+      "ref_ids": [
+        8263,
+        6517,
+        35060,
+        6632,
+        6572
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          8263,
+          6517,
+          35201
+        ],
+        "score": 3,
+        "errors": 1,
+        "recall": 0.5,
+        "bleu": 29.64,
+        "chrf": 35.63,
+        "seq_length": 3,
+        "judge": {
+          "score": 3,
+          "missing_concepts": [
+            "escuchar"
+          ],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": [
+            "Agregar pictograma de escuchar"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          8263,
+          6517,
+          35201,
+          29718,
+          29719
+        ],
+        "score": 3,
+        "errors": 1,
+        "recall": 0.5,
+        "bleu": 31.62,
+        "chrf": 32.5,
+        "seq_length": 5,
+        "judge": {
+          "score": 3,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "escuchar música",
+              "reason": "El concepto requerido es la acción de 'escuchar' (o prestar atención/oír), no 'escuchar música', ya que altera el significado al añadir un objeto innecesario."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir 'escuchar música' por un pictograma de 'escuchar' (oído/atención)."
+          ]
+        },
+        "added": [
+          29718,
+          29719
+        ],
+        "replaced": [],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "escuchar",
+            "search_term": "escuchar",
+            "new_id": 29718,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8912622332572937
+          },
+          {
+            "type": "add_missing",
+            "concept": "escuchar",
+            "search_term": "escuchar",
+            "new_id": 29719,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8912622332572937
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Júpiter es el más grande",
+      "concepts": [
+        "júpiter",
+        "más",
+        "grande"
+      ],
+      "ref_ids": [
+        10293,
+        3220,
+        4658
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          10293,
+          26913,
+          4658
+        ],
+        "score": 4,
+        "errors": 0,
+        "recall": 1.0,
+        "bleu": 0.0,
+        "chrf": 33.33,
+        "seq_length": 3,
+        "judge": {
+          "score": 4,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        }
+      },
+      "cond_B": {
+        "ids": [
+          10293,
+          26913,
+          4658
+        ],
+        "score": 4,
+        "errors": 0,
+        "recall": 1.0,
+        "bleu": 0.0,
+        "chrf": 33.33,
+        "seq_length": 3,
+        "judge": {
+          "score": 4,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        },
+        "added": [],
+        "replaced": [],
+        "postprocessing_actions": [],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Pero no puedo pegar a la gente",
+      "concepts": [
+        "pero",
+        "puedo",
+        "pegar",
+        "gente"
+      ],
+      "ref_ids": [
+        5525,
+        24749,
+        7116
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          11377,
+          7221,
+          2511,
+          7116
+        ],
+        "score": 2,
+        "errors": 2,
+        "recall": 1.0,
+        "bleu": 0.0,
+        "chrf": 15.62,
+        "seq_length": 4,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [
+            "no"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "pegar",
+              "reason": "El pictograma seleccionado representa 'pegar' en el sentido de unir o adherir con pegamento, no en el sentido de agredir físicamente. Se debe usar un pictograma de 'pegar' (agredir/golpear)."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Agregar pictograma de 'no' para negar la acción",
+            "Sustituir el pictograma de 'pegar' (adherir) por uno de 'pegar' (golpear/agredir)"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          11377,
+          7221,
+          24749,
+          7116,
+          15333,
+          5525
+        ],
+        "score": 2,
+        "errors": 3,
+        "recall": 1.0,
+        "bleu": 31.62,
+        "chrf": 60.9,
+        "seq_length": 6,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [],
+          "incorrect_pictograms": [
+            {
+              "concept": "puedo?",
+              "reason": "La secuencia incluye 'puedo' (con interrogación) y añade 'incomprensión' y 'negar' que desvirtúan el significado central de prohibición o incapacidad de acción."
+            },
+            {
+              "concept": "incomprensión",
+              "reason": "Este pictograma no aporta valor semántico a la frase y confunde el significado de 'no puedo'."
+            },
+            {
+              "concept": "negar",
+              "reason": "Se debe usar un pictograma de 'no' o 'prohibido' para expresar la negación, en lugar de la acción de 'negar'."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir 'puedo?', 'incomprensión' y 'negar' por los pictogramas 'no' y 'poder' (afirmativo) para expresar 'no poder'.",
+            "Eliminar el pictograma 'pero' si el contexto es una frase aislada, ya que no aporta información semántica relevante al núcleo de la acción."
+          ]
+        },
+        "added": [
+          15333,
+          5525
+        ],
+        "replaced": [
+          24749
+        ],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "no",
+            "search_term": "no",
+            "new_id": 15333,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.7806165218353271
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "pegar",
+            "replacement_query": "pegar",
+            "old_id": 2511,
+            "new_id": 24757,
+            "source": "incorrect_pictograms"
+          },
+          {
+            "type": "add_missing",
+            "concept": "no' para negar la acción",
+            "search_term": "no' para negar la acción",
+            "new_id": 5525,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8654109239578247
+          },
+          {
+            "type": "replace_incorrect",
+            "concept": "pegar' (adherir)",
+            "replacement_query": "uno de 'pegar' (golpear/agredir)",
+            "old_id": 24757,
+            "new_id": 24749,
+            "source": "suggestions"
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "La doctora mira la garganta con el bajalenguas",
+      "concepts": [
+        "doctora",
+        "mira",
+        "garganta",
+        "bajalenguas"
+      ],
+      "ref_ids": [
+        8263,
+        28673,
+        2663,
+        27719
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          8263,
+          3332
+        ],
+        "score": 2,
+        "errors": 2,
+        "recall": 0.25,
+        "bleu": 0.0,
+        "chrf": 13.89,
+        "seq_length": 2,
+        "judge": {
+          "score": 2,
+          "missing_concepts": [
+            "mirar",
+            "bajalenguas"
+          ],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": [
+            "Agregar pictograma de mirar",
+            "Agregar pictograma de bajalenguas"
+          ]
+        }
+      },
+      "cond_B": {
+        "ids": [
+          8263,
+          3332,
+          7801,
+          8036,
+          6564,
+          2885
+        ],
+        "score": 1,
+        "errors": 4,
+        "recall": 0.5,
+        "bleu": 0.0,
+        "chrf": 11.36,
+        "seq_length": 6,
+        "judge": {
+          "score": 1,
+          "missing_concepts": [
+            "bajalenguas"
+          ],
+          "incorrect_pictograms": [
+            {
+              "concept": "¿qué miras?",
+              "reason": "Es un pictograma de pregunta que no representa la acción de 'mirar' o 'examinar' de forma declarativa."
+            },
+            {
+              "concept": "Baleares",
+              "reason": "La descripción indica que es una comunidad autónoma, no tiene relación con el concepto de herramienta médica 'bajalenguas'."
+            },
+            {
+              "concept": "neblinoso",
+              "reason": "Es un adjetivo meteorológico irrelevante para el contexto médico de la frase."
+            }
+          ],
+          "ordering_issues": [],
+          "suggestions": [
+            "Sustituir ¿qué miras? por mirar (o examinar)",
+            "Sustituir Baleares por bajalenguas",
+            "Eliminar neblinoso"
+          ]
+        },
+        "added": [
+          7801,
+          8036,
+          6564,
+          2885
+        ],
+        "replaced": [],
+        "postprocessing_actions": [
+          {
+            "type": "add_missing",
+            "concept": "mirar",
+            "search_term": "mirar",
+            "new_id": 7801,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8685663342475891
+          },
+          {
+            "type": "add_missing",
+            "concept": "bajalenguas",
+            "search_term": "bajalenguas",
+            "new_id": 8036,
+            "source": "missing_concepts",
+            "strategy": "cleaned concept",
+            "match_score": 0.8512074947357178
+          },
+          {
+            "type": "add_missing",
+            "concept": "mirar",
+            "search_term": "mirar",
+            "new_id": 6564,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.8677037954330444
+          },
+          {
+            "type": "add_missing",
+            "concept": "bajalenguas",
+            "search_term": "bajalenguas",
+            "new_id": 2885,
+            "source": "suggestions",
+            "strategy": "cleaned concept",
+            "match_score": 0.850207507610321
+          }
+        ],
+        "errors_corrected": 0
+      }
+    },
+    {
+      "text": "Intercambia tu texto con los compañeros",
+      "concepts": [
+        "intercambia",
+        "texto",
+        "compañeros"
+      ],
+      "ref_ids": [
+        31953,
+        37340,
+        7064,
+        8477,
+        7062
+      ],
+      "generator": {
+        "mode": "llm_generator",
+        "llm_generator_used": true,
+        "fallback": false
+      },
+      "cond_A": {
+        "ids": [
+          31953,
+          37340,
+          37658
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 0.6667,
+        "bleu": 29.64,
+        "chrf": 35.63,
+        "seq_length": 3,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        }
+      },
+      "cond_B": {
+        "ids": [
+          31953,
+          37340,
+          37658
+        ],
+        "score": 5,
+        "errors": 0,
+        "recall": 0.6667,
+        "bleu": 29.64,
+        "chrf": 35.63,
+        "seq_length": 3,
+        "judge": {
+          "score": 5,
+          "missing_concepts": [],
+          "incorrect_pictograms": [],
+          "ordering_issues": [],
+          "suggestions": []
+        },
+        "added": [],
+        "replaced": [],
+        "postprocessing_actions": [],
+        "errors_corrected": 0
+      }
+    }
+  ]
+}
